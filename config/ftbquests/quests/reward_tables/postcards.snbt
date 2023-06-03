@@ -1,0 +1,143 @@
+{
+	id: "607906C19492D41B"
+	loot_size: 2
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:winter_day"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:crock_pot"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:touhou_little_maid"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:meikai"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:icarus_wings"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:summer_night"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:klee_island"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:autumn_dusk"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:tea_sorcerer"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:water_source"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:spring_day"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:iyoranotsu"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:stripes"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:creeper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "contact:postcard"
+				tag: {
+					CardID: "contact:moonlit_night"
+				}
+			}
+		}
+	]
+	title: "Postcards"
+}

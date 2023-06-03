@@ -1,0 +1,21 @@
+{
+	id: "0319AB71DBC9C144"
+	loot_size: 4
+	order_index: 7
+	rewards: [
+		{ item: "minecraft:skeleton_skull" }
+		{ item: "minecraft:wither_skeleton_skull", only_one: true }
+		{ item: "minecraft:zombie_head" }
+		{ item: "minecraft:creeper_head" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:sombrero"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Heads"
+}
