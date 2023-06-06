@@ -239,14 +239,6 @@ craftingTable.addShapeless("pearl2", <item:crittersandcompanions:pearl_necklace_
 
 craftingTable.addShapeless("pearl3", <item:crittersandcompanions:pearl_necklace_3>, [<item:crittersandcompanions:pearl_necklace_2>, <item:mermod:glowing_pearl_modifier>]);
 
-var awk = <item:minecraft:potion>.withTag({Potion: "minecraft:awkward" as string});
-
-// Brewing.addRecipe(output as IItemStack, reagent as IIngredient, input as IIngredient)
-
-brewing.addRecipe(poi, <item:minecraft:poisonous_potato>, awk);
-
-brewing.addRecipe(lpoi, <item:minecraft:redstone>, poi);
-
 // Burger recipes
 
 var burgers = [
@@ -433,10 +425,6 @@ craftingTable.addShaped("ringofenderchest", <item:ring_of_enderchest:ring_of_end
     <item:domesticationinnovation:pet_bed_red>,
     <item:domesticationinnovation:pet_bed_black>
 );
-
-//Craft Water Lettuce
-
-craftingTable.addShapeless("waterlettuce", <item:babyfat:water_lettuce> * 2, [<item:farmersdelight:cabbage>, <item:farmersdelight:rice_panicle>]);
 
 // egg carton to eggs
 
@@ -1060,19 +1048,6 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
 );
 
 
-<tag:items:minecraft:fishes>.add(
-    <item:bigfish:mantaray>,
-    <item:bigfish:cooked_mantaray>,
-    <item:bigfish:shark>,
-    <item:bigfish:cooked_shark>,
-    <item:bigfish:anglerfish>,
-    <item:bigfish:cooked_anglerfish>,
-    <item:bigfish:monkfish>,
-    <item:bigfish:cooked_monkfish>,
-    <item:bigfish:swordfish>,
-    <item:bigfish:cooked_swordfish>
-);
-
 <tag:items:forge:seafood>.add(
     <item:quark:crab_leg>,
     <item:quark:cooked_crab_leg>,
@@ -1081,13 +1056,7 @@ craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
     <item:culturaldelights:raw_calamari>,
     <item:culturaldelights:glow_squid>,
     <item:ends_delight:shulker_meat_slice>,
-    <item:ends_delight:shulker_meat>,
-    <item:bigfish:lobster>,
-    <item:bigfish:cooked_lobster>,
-    <item:bigfish:slimy_eel>,
-    <item:bigfish:cooked_slimy_eel>,
-    <item:bigfish:dark_crab>,
-    <item:bigfish:cooked_dark_crab>
+    <item:ends_delight:shulker_meat>
 );
 
 <tag:items:forge:meats>.add(
