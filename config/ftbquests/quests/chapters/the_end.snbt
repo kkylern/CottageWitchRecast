@@ -643,11 +643,9 @@
 		{
 			id: "43C892891BB4B5BF"
 			invisible: true
-			secret: true
 			tasks: [{
-				id: "14F09431DF984480"
-				item: "minecraft:calcite"
-				only_from_crafting: true
+				id: "3E8070012B9B91FA"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d
@@ -657,7 +655,6 @@
 			dependencies: ["09ED0DFEB72DFD71"]
 			description: ["Swimming in &bEggs&r? That sounds unpleasant. You can &atrade in a &bDragon Egg&r to receive a &bDragon Head&r."]
 			id: "26E52D95C9C75019"
-			repeatable: true
 			rewards: [{
 				id: "06C611660703EF32"
 				item: "minecraft:dragon_head"

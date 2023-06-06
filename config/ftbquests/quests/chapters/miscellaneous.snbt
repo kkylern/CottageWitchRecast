@@ -1157,11 +1157,9 @@
 		{
 			id: "2BE44A5A7C52C52D"
 			invisible: true
-			secret: true
 			tasks: [{
-				id: "6A7905E5CEF82F05"
-				item: "minecraft:calcite"
-				only_from_crafting: true
+				id: "0FEED3BDD00222CD"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1222,10 +1220,9 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				days: 999
 				icon: "minecraft:clock"
 				id: "229B2B3EC65918C9"
-				type: "questsadditions:days"
+				type: "custom"
 			}]
 			x: -3.0d
 			y: 7.5d

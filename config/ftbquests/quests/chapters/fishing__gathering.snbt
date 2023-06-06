@@ -468,76 +468,44 @@
 			size: 2.0d
 			tasks: [
 				{
-					block: "farmersdelight:wild_cabbages"
-					block_type: 0
-					checkItem: false
 					icon: "farmersdelight:wild_cabbages"
 					id: "6EDA315759D3800F"
-					type: "questsadditions:break"
-					value: 1L
+					type: "custom"
 				}
 				{
-					block: "farmersdelight:wild_potatoes"
-					block_type: 0
-					checkItem: false
 					icon: "farmersdelight:wild_potatoes"
 					id: "2A2B8DA40D8637A9"
-					type: "questsadditions:break"
-					value: 1L
+					type: "custom"
 				}
 				{
-					block: "farmersdelight:wild_carrots"
-					block_type: 0
-					checkItem: false
 					icon: "farmersdelight:wild_carrots"
 					id: "608A8CD9B92FE737"
-					type: "questsadditions:break"
-					value: 1L
+					type: "custom"
 				}
 				{
-					block: "farmersdelight:wild_rice"
-					block_type: 0
-					checkItem: false
 					icon: "farmersdelight:wild_rice"
 					id: "1F855CF180E60103"
-					type: "questsadditions:break"
-					value: 1L
+					type: "custom"
 				}
 				{
-					block: "farmersdelight:wild_onions"
-					block_type: 0
-					checkItem: false
 					icon: "farmersdelight:wild_onions"
 					id: "1A6CF9C2538C64F9"
-					type: "questsadditions:break"
-					value: 1L
+					type: "custom"
 				}
 				{
-					block: "culturaldelights:wild_cucumbers"
-					block_type: 0
-					checkItem: false
 					icon: "culturaldelights:wild_cucumbers"
 					id: "44DB742314C20457"
-					type: "questsadditions:break"
-					value: 1L
+					type: "custom"
 				}
 				{
-					block: "culturaldelights:wild_corn"
-					block_type: 0
-					checkItem: false
 					icon: "culturaldelights:wild_corn"
 					id: "44BBC1579C173631"
-					type: "questsadditions:break"
-					value: 1L
+					type: "custom"
 				}
 				{
-					block: "culturaldelights:wild_eggplants"
-					block_type: 0
-					checkItem: false
 					icon: "culturaldelights:wild_eggplants"
 					id: "1B2A4C08C5746E55"
-					type: "questsadditions:break"
-					value: 1L
+					type: "custom"
 				}
 			]
 			title: "Forage Wild Crops"
@@ -547,11 +515,9 @@
 		{
 			id: "60BA7A551EC7DC60"
 			invisible: true
-			secret: true
 			tasks: [{
-				id: "7ECEF384E4BC434F"
-				item: "minecraft:calcite"
-				only_from_crafting: true
+				id: "79656BAE3323C2C9"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d

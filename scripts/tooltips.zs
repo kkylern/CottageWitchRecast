@@ -854,7 +854,16 @@ var flowers = [
     <item:environmental:purple_delphinium>,
     <item:environmental:white_delphinium>,
     <item:environmental:bird_of_paradise>,
-    <item:environmental:bluebell>
+    <item:environmental:bluebell>,
+    <item:twilightforest:huge_water_lily>,
+    <item:biomemakeover:moth_blossom>,
+    <item:upgrade_aquatic:flowering_rush>,
+    <item:upgrade_aquatic:pink_searocket>,
+    <item:upgrade_aquatic:white_searocket>,
+    <item:biomemakeover:black_thistle>,
+    <item:biomemakeover:marigold>,
+    <item:biomemakeover:swamp_azalea>,
+    <item:biomemakeover:foxglove>
 ] as IItemStack[];
 
 for flower in flowers{
@@ -880,11 +889,241 @@ var plants = [
     <item:environmental:purple_hanging_wisteria_leaves>,
     <item:environmental:white_hanging_wisteria_leaves>,
     <item:environmental:tall_cattail>,
-    <item:environmental:cattail>
+    <item:environmental:cattail>,
+    <item:upgrade_aquatic:beachgrass>,
+    <item:biomemakeover:reed>,
+    <item:biomemakeover:cattail>,
+    <item:environmental:giant_tall_grass>,
+    <item:environmental:mycelium_sprouts>,
+    <item:upgrade_aquatic:tall_beachgrass>,
+    <item:twilightforest:fiddlehead>,
+    <item:swampier_swamps:cattail>,
+    <item:twilightforest:moss_patch>,
+    <item:twilightforest:clover_patch>,
+    <item:twilightforest:mayapple>
 ] as IItemStack[];
 
 for plant in plants{
 plant.addTooltip("Plants!");
+}
+
+var mushrooms = [
+    <item:chipped:red_mushroom_bushel>,
+    <item:chipped:red_mushroom_cluster>,
+    <item:chipped:red_mushroom_trio>,
+    <item:chipped:wicked_red_mushroom>,
+    <item:chipped:franken_red_mushroom>,
+    <item:chipped:hooded_red_mushroom>,
+    <item:chipped:micro_red_mushroom>,
+    <item:chipped:mini_red_mushroom>,
+    <item:chipped:red_mushroom_bulb>,
+    <item:twilightforest:mushgloom>,
+    <item:biomemakeover:orange_glowshroom>,
+    <item:biomemakeover:green_glowshroom>,
+    <item:biomemakeover:purple_glowshroom>,
+    <item:biomemakeover:tall_red_mushroom>,
+    <item:biomemakeover:tall_brown_mushroom>,
+    <item:biomemakeover:mycelium_roots>,
+    <item:biomemakeover:mycelium_sprouts>,
+    <item:collectorsreap:portobello>,
+    <item:chipped:brown_mushroom_cluster>,
+    <item:chipped:mini_brown_mushroom>,
+    <item:chipped:micro_brown_mushroom>,
+    <item:chipped:hooded_brown_mushroom>,
+    <item:chipped:franken_brown_mushroom>,
+    <item:chipped:double_brown_mushroom>,
+    <item:chipped:clustered_brown_mushroom>,
+    <item:chipped:button_brown_mushroom>,
+    <item:chipped:bulbed_brown_mushroom>,
+    <item:chipped:brown_mushroom_bulb>,
+    <item:chipped:umbrella_red_mushroom>,
+    <item:chipped:double_red_mushroom>,
+    <item:chipped:clustered_red_mushroom>,
+    <item:chipped:button_red_mushroom>,
+    <item:chipped:bulbed_red_mushroom>,
+    <item:chipped:wicked_brown_mushroom>,
+    <item:chipped:umbrella_brown_mushroom>,
+    <item:chipped:brown_mushroom_trio>,
+    <item:biomemakeover:wild_mushrooms>,
+    <item:chipped:warped_fungus_trio>,
+    <item:chipped:umbrella_warped_fungus>,
+    <item:chipped:bulbed_warped_fungus>,
+    <item:chipped:button_warped_fungus>,
+    <item:chipped:double_warped_fungus>,
+    <item:chipped:wicked_warped_fungus>,
+    <item:chipped:franken_warped_fungus>,
+    <item:chipped:hooded_warped_fungus>,
+    <item:chipped:micro_warped_fungus>,
+    <item:chipped:double_crimson_fungus>,
+    <item:chipped:franken_crimson_fungus>,
+    <item:chipped:hooded_crimson_fungus>,
+    <item:chipped:micro_crimson_fungus>,
+    <item:chipped:mini_crimson_fungus>,
+    <item:chipped:bulbed_crimson_fungus>,
+    <item:chipped:button_crimson_fungus>,
+    <item:chipped:clustered_crimson_fungus>,
+    <item:chipped:crimson_fungus_bulb>,
+    <item:chipped:warped_fungus_cluster>,
+    <item:chipped:warped_fungus_bushel>,
+    <item:chipped:warped_fungus_bulb>,
+    <item:chipped:mini_warped_fungus>,
+    <item:chipped:crimson_fungus_cluster>,
+    <item:chipped:crimson_fungus_trio>,
+    <item:chipped:wicked_crimson_fungus>,
+    <item:chipped:umbrella_crimson_fungus>,
+    <item:chipped:crimson_fungus_bushel>,
+    <item:chipped:brown_mushroom_bushel>
+] as IItemStack[];
+
+for mush in mushrooms{
+mush.addTooltip("Mushrooms!");
+}
+
+var netherplants = [
+    <item:chipped:crusted_nether_sprouts>,
+    <item:chipped:creeping_nether_sprouts>,
+    <item:chipped:young_warped_roots>,
+    <item:chipped:wilted_crimson_roots_bud>,
+    <item:chipped:wilted_crimson_roots_bulb>,
+    <item:chipped:budding_crimson_roots_bulb>,
+    <item:chipped:budding_crimson_roots>,
+    <item:chipped:corny_nether_sprouts>,
+    <item:chipped:wiggly_warped_roots>,
+    <item:chipped:crimson_roots_bramble>,
+    <item:chipped:corrupted_nether_sprouts>,
+    <item:chipped:bloomed_warped_roots>,
+    <item:chipped:flowering_warped_roots>,
+    <item:chipped:half_grown_warped_roots>,
+    <item:chipped:lily_warped_roots>,
+    <item:chipped:mangled_warped_roots>,
+    <item:chipped:overgrown_warped_roots>,
+    <item:chipped:stem_warped_roots>,
+    <item:chipped:crimson_roots_bloom>,
+    <item:chipped:large_nether_sprouts>,
+    <item:chipped:wide_nether_sprouts>,
+    <item:chipped:nether_sprouts_weeds>,
+    <item:chipped:seeded_nether_sprouts>,
+    <item:chipped:short_nether_sprouts>,
+    <item:chipped:shroomy_nether_sprouts>,
+    <item:chipped:tall_shroomy_nether_sprouts>,
+    <item:chipped:thin_nether_sprouts>,
+    <item:chipped:tubed_nether_sprouts>,
+    <item:chipped:bolby_nether_sprouts>,
+    <item:chipped:bushy_nether_sprouts>,
+    <item:chipped:warty_nether_sprouts>,
+    <item:chipped:high_nether_sprouts>,
+    <item:chipped:grizly_nether_sprouts>,
+    <item:chipped:flimsy_nether_sprouts>,
+    <item:chipped:fired_nether_sprouts>,
+    <item:chipped:sprouting_crimson_roots_bulb>,
+    <item:chipped:small_crimson_roots_bud>,
+    <item:chipped:flowered_crimson_roots>,
+    <item:chipped:flowered_crimson_roots_bulb>,
+    <item:chipped:crimson_roots_floret>,
+    <item:chipped:crimson_roots_bulb>,
+    <item:chipped:crimson_roots_bud>,
+    <item:chipped:sprouting_crimson_roots>
+] as IItemStack[];
+
+for nplant in netherplants{
+nplant.addTooltip("Nether Plants!");
+}
+
+var lilypads = [
+    <item:chipped:dark_paddle_lily_pad>,
+    <item:chipped:dark_micro_lily_pads>,
+    <item:chipped:light_leaf_lily_pad>,
+    <item:chipped:micro_lily_pads>,
+    <item:twilightforest:huge_lily_pad>,
+    <item:environmental:giant_lily_pad>,
+    <item:swampier_swamps:big_lily_pad>,
+    <item:swampier_swamps:small_lily_pad>,
+    <item:environmental:large_lily_pad>,
+    <item:chipped:dark_leaf_lily_pad>,
+    <item:chipped:light_rough_lily_pad>,
+    <item:chipped:pacman_lily_pad>,
+    <item:chipped:paddle_lily_pad>,
+    <item:chipped:rough_lily_pad>,
+    <item:chipped:smol_lily_pad>,
+    <item:chipped:smooth_lily_pad>,
+    <item:biomemakeover:small_lily_pad>,
+    <item:biomemakeover:water_lily>,
+    <item:chipped:large_lily_pad>,
+    <item:chipped:flowering_lily_pad>,
+    <item:chipped:dark_smooth_lily_pad>,
+    <item:chipped:dark_smol_lily_pad>,
+    <item:chipped:dark_rough_lily_pad>
+] as IItemStack[];
+
+for lily in lilypads{
+lily.addTooltip("Lilypads!");
+}
+
+var hangingplants = [
+    <item:chipped:leafy_vine>,
+    <item:chipped:ivy_vine>,
+    <item:chipped:flowery_vine>,
+    <item:chipped:droopy_vine>,
+    <item:chipped:warped_vine>,
+    <item:chipped:thin_vine>,
+    <item:chipped:thicc_vine>,
+    <item:chipped:poisonous_vine>,
+    <item:biomemakeover:itching_ivy>,
+    <item:colorfulazaleas:purple_drooping_azalea_leaves>,
+    <item:colorfulazaleas:white_drooping_azalea_leaves>,
+    <item:environmental:pink_hanging_wisteria_leaves>,
+    <item:environmental:blue_hanging_wisteria_leaves>,
+    <item:environmental:purple_hanging_wisteria_leaves>,
+    <item:environmental:white_hanging_wisteria_leaves>,
+    <item:environmental:hanging_willow_leaves>,
+    <item:hexerei:willow_vines>,
+    <item:swampier_swamps:swamp_vine>,
+    <item:colorfulazaleas:pink_drooping_azalea_leaves>,
+    <item:colorfulazaleas:blue_drooping_azalea_leaves>,
+    <item:colorfulazaleas:red_drooping_azalea_leaves>,
+    <item:colorfulazaleas:yellow_drooping_azalea_leaves>,
+    <item:colorfulazaleas:orange_drooping_azalea_leaves>,
+    <item:colorfulazaleas:drooping_azalea_leaves>,
+    <item:chipped:long_vine>,
+    <item:chipped:lush_vine>,
+    <item:chipped:nether_vine>,
+    <item:biomemakeover:ivy>
+] as IItemStack[];
+
+for hang in hangingplants{
+hang.addTooltip("Hanging Plants!");
+}
+
+var plantcarpet = [
+    <item:twilightforest:fallen_leaves>,
+    <item:quark:dark_oak_leaf_carpet>,
+    <item:environmental:purple_wisteria_leaf_carpet>,
+    <item:environmental:white_wisteria_leaf_carpet>,
+    <item:environmental:willow_leaf_carpet>,
+    <item:environmental:cherry_leaf_carpet>,
+    <item:environmental:pink_wisteria_leaf_carpet>,
+    <item:environmental:blue_wisteria_leaf_carpet>,
+    <item:environmental:duckweed>,
+    <item:quark:acacia_leaf_carpet>,
+    <item:quark:jungle_leaf_carpet>,
+    <item:quark:birch_leaf_carpet>,
+    <item:quark:spruce_leaf_carpet>,
+    <item:quark:oak_leaf_carpet>,
+    <item:quark:mangrove_leaf_carpet>,
+    <item:quark:azalea_leaf_carpet>,
+    <item:quark:flowering_azalea_leaf_carpet>,
+    <item:sprout:water_lentil>,
+    <item:quark:ancient_leaf_carpet>,
+    <item:quark:yellow_blossom_leaf_carpet>,
+    <item:quark:orange_blossom_leaf_carpet>,
+    <item:quark:lavender_blossom_leaf_carpet>,
+    <item:quark:red_blossom_leaf_carpet>,
+    <item:quark:blue_blossom_leaf_carpet>,
+    <item:quark:pink_blossom_leaf_carpet>
+] as IItemStack[];
+
+for carpet in plantcarpet{
+carpet.addTooltip("Carpet Plants!");
 }
 
 var jobBlocks = [

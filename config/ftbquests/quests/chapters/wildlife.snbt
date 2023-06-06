@@ -1348,11 +1348,9 @@
 		{
 			id: "61F03A15727266F2"
 			invisible: true
-			secret: true
 			tasks: [{
-				id: "6C0A846BE4DF580F"
-				item: "minecraft:calcite"
-				only_from_crafting: true
+				id: "17716842171DA01E"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1928,7 +1926,6 @@
 			dependencies: ["43B3A6804B59565E"]
 			description: ["This quest is repeatable."]
 			id: "3057155A3A2B5F47"
-			repeatable: true
 			rewards: [
 				{
 					id: "57AEF83E18326ED4"
@@ -1996,7 +1993,6 @@
 		{
 			dependencies: ["43B3A6804B59565E"]
 			id: "22628C8DC1BB807F"
-			repeatable: true
 			rewards: [
 				{
 					id: "5FAF5E951EEF853D"
@@ -2388,7 +2384,6 @@
 			dependencies: ["43B3A6804B59565E"]
 			description: ["This quest is repeatable."]
 			id: "376F0C3219E696C9"
-			repeatable: true
 			rewards: [{
 				count: 4
 				id: "06F77BA8B0FA6B73"

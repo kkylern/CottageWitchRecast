@@ -324,12 +324,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				block: "deeperdarker:ancient_vase"
-				block_type: 0
-				checkItem: false
 				id: "72F3473498B917FB"
-				type: "questsadditions:break"
-				value: 1L
+				type: "custom"
 			}]
 			x: -2.5d
 			y: -2.0d
@@ -342,12 +338,8 @@
 			]
 			id: "77C585EDABB88B3E"
 			tasks: [{
-				block: "minecraft:sculk_vein"
-				block_type: 0
-				checkItem: false
 				id: "25C516803865C303"
-				type: "questsadditions:break"
-				value: 1L
+				type: "custom"
 			}]
 			title: "Clear Away the Sculk"
 			x: 1.5d
@@ -555,11 +547,9 @@
 		{
 			id: "36715B16A3C5082F"
 			invisible: true
-			secret: true
 			tasks: [{
-				id: "7B18F6197773ECE8"
-				item: "minecraft:calcite"
-				only_from_crafting: true
+				id: "1DFD74AC184CA748"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d

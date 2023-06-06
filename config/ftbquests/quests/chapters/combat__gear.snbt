@@ -98,15 +98,15 @@
 			shape: "pentagon"
 			subtitle: "Gild your loins! Or head, or chest, or..."
 			tasks: [{
-				id: "3F88FFA9EE040D4B"
+				id: "79690DA041641246"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "gildednetherite:gilded_netherite_items"
+						value: "gildedarmor:gilded_armor"
 					}
 				}
-				title: "Any #gildednetherite:gilded_netherite_items"
+				title: "Any #gildedarmor:gilded_armor"
 				type: "item"
 			}]
 			title: "Gild Your Netherite Gear"
@@ -385,74 +385,6 @@
 		}
 		{
 			description: [
-				"The &aGiant Squid&r is the natural prey of the &eCachelot Whale&r. When attacked by this predator, there is a chance it will drop one of its &bTentacles&r, which can be used to craft the &bGrappling Squok&r."
-				"By firing the Squok like a bow, the player can &6grapple to high places&r or even &6suspend themselves in midair&r with up to 4 tentacles. &6Pressing shift&r will dismount the player from the Squok, and retract the tentacles."
-			]
-			id: "3446350A572822BD"
-			rewards: [
-				{
-					id: "51413044596B1213"
-					item: {
-						Count: 1b
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_slow_falling"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3C8F537B8F3773B3"
-					item: {
-						Count: 1b
-						id: "mcsa:harpers_headset_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "5F1543D4A5A1E017"
-				item: {
-					Count: 1b
-					id: "alexsmobs:squid_grapple"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: -4.0d
-		}
-		{
-			description: ["Made from parts from &eFlying Fish&r, these boots allow you to leap out the water and glide just like a fish."]
-			id: "2DEB453D0D763837"
-			rewards: [{
-				id: "24319E394A4695FC"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "461FBDC5C7F60A0D"
-				item: {
-					Count: 1b
-					id: "alexsmobs:flying_fish_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.0d
-		}
-		{
-			description: [
 				"&bSpawners&r can now be collected with Silk Touch! The &bSpawner Key&r will allow you to right click a &bSpawner&r and alter its functionality to &aincrease range or spawns&r, etc."
 				"By default, any &bSpawners&r you pick up &awill be empty&r. You'll need to &6right click them with a spawn egg&r to assign them a mob. However, spawners collected via the &lCreate&r &bCart Assembler&r will keep their target."
 			]
@@ -552,112 +484,6 @@
 			}]
 			x: -7.0d
 			y: 3.0d
-		}
-		{
-			description: ["You managed to get enough &bWarden Carapaces&r to upgrade a &afull set of Netherite armor&r to the stylish and powerful &bWarden Armor&r. Nicely done, enjoy your reward!"]
-			id: "105A64813A4BA847"
-			rewards: [
-				{
-					id: "130E35D4FE0C4F2E"
-					item: {
-						Count: 1b
-						id: "mcsa:prismarine_soldier_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "72003DC25FAB23D4"
-					item: {
-						Count: 1b
-						id: "mcsa:prismarine_soldier_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3D9165D1E2027B66"
-					item: {
-						Count: 1b
-						id: "mcsa:prismarine_soldier_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7CFC9A8E3A1A7542"
-					item: {
-						Count: 1b
-						id: "mcsa:prismarine_soldier_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5F0E393288BFFE4B"
-					table_id: 5161092699925703455L
-					type: "loot"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "4BF9840656988012"
-					item: {
-						Count: 1b
-						id: "deeperdarker:warden_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "55B43328CD1EEB18"
-					item: {
-						Count: 1b
-						id: "deeperdarker:warden_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "74804B91154AF65D"
-					item: {
-						Count: 1b
-						id: "deeperdarker:warden_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "29C593996336859D"
-					item: {
-						Count: 1b
-						id: "deeperdarker:warden_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "The Full Set: Warden Armor"
-			x: -2.5d
-			y: 1.0d
 		}
 		{
 			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
@@ -903,30 +729,6 @@
 			title: "The Full Set: Netherite Tools"
 			x: 4.5d
 			y: -5.0d
-		}
-		{
-			description: ["The &bVine Lasso&r is crafted with the shed skins of well-fed &eAnacondas&r. It functions similarly to a &bLead&r, except it can be used even on hostile mobs - and it cannot be tied to a fence post."]
-			id: "3FFC3D4F00661CA9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "68F0DB3E444E7A5B"
-				table_id: 7049021818423122779L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7385F6D78E988F5F"
-				item: {
-					Count: 1b
-					id: "alexsmobs:vine_lasso"
-					tag: {
-						Swinging: 0b
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -6.5d
 		}
 		{
 			description: [
@@ -1851,32 +1653,6 @@
 			y: 3.0d
 		}
 		{
-			description: ["Ever wished you could &ashield yourself from thrown Potions&r? Well, you can. Just bring your trusty &bUmbrella!&r."]
-			id: "14BCF2740DE93BD2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D753C0CE2A197A6"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0EE77DD9D1FEA3A8"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "crafttweaker:umbrellas"
-					}
-				}
-				title: "Any #crafttweaker:umbrellas"
-				type: "item"
-			}]
-			title: "Protect Yourself from Potions"
-			x: 4.0d
-			y: -4.0d
-		}
-		{
 			description: [
 				"One of the treasured items you can find in loot chests are &bTarot Cards&r. Each grants a &astrong buff while held&r in your inventory."
 				"Can you find the whole Arcana?"
@@ -1945,39 +1721,13 @@
 		{
 			id: "5161948053596F24"
 			invisible: true
-			secret: true
 			tasks: [{
-				id: "10E8EC7751F2D54D"
-				item: "minecraft:calcite"
-				only_from_crafting: false
+				id: "54821332A8389623"
+				item: "ftbquests:barrier"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			description: ["The &bStink Ray&r can be used to create a disturbance among creatures. While passive mobs will flee the scent, &aneutral or hostile mobs will begin attacking the offending target&r."]
-			id: "64B6E2E1C384286C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "19D0A1A4EECDFEDD"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "61A399A8C9C36074"
-				item: {
-					Count: 1b
-					id: "alexsmobs:stink_ray"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: -6.5d
 		}
 		{
 			can_repeat: true
@@ -2470,85 +2220,6 @@
 			title: "Oh my GOD a BACKPACK"
 			x: 1.5d
 			y: 2.5d
-		}
-		{
-			description: [
-				"This &bMirror&r is no ordinary piece of glass or silver. In addition to reflecting the nearest player to it, you can modify what it shows."
-				"If you &6right click it&r with an &bArmor Stand&r, you can use it to &aview sets of armor&r."
-				"Add armor by &6right clicking&r the mirror while holding a piece of armor that the &dreflection is not already wearing&r. If it's wearing a helmet, and you add a helmet, it will &aequip the reflection's gear to you&r and add the second helmet to the reflection."
-				"{image:cottagewitch:textures/magicmirror.png width:100 height:100 align:1 fit:true}"
-				"&6Right click with empty hand&r to switch armor sets. If you accidentally store more than one set of armor, you can &6cycle through these by shift-clicking&r."
-				"You can also &6right click the mirror&r with a &bBanner&r to apply the banner pattern to the &abackground&r."
-				"And, if you'd like a more spooky option, &6right click it&r with a &bSkull&r to change the preview to a &eSkeleton!&r."
-				"All the upgrades &acan be combined&r."
-			]
-			id: "4D9EA3886EB6F73A"
-			rewards: [
-				{
-					id: "40AF41A07D7A7188"
-					item: "domesticationinnovation:rotten_apple"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2B6408B18ECCA86F"
-					table_id: 8035711958862449784L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "mirror, mirror, on the wall"
-			tasks: [{
-				id: "189F1468E948737D"
-				item: "magic_mirror:magic_mirror"
-				type: "item"
-			}]
-			title: "Obtain a Magic Mirror"
-			x: -5.5d
-			y: -5.5d
-		}
-		{
-			description: [
-				"Are you tired of the basic Luna Moth &bElytra&r and want to add some more &apizazz&r? &6Place it in a crafting grid&r and you'll get two separate wings from it."
-				"Each &bWing&r can be crafted with &bDye&r or &bBanners&r to take on their appearance."
-				"Be aware that &dModded banner patterns do not work&r!"
-			]
-			id: "14D43F04E15174D2"
-			rewards: [
-				{
-					id: "79673075EEE6BE59"
-					item: "fantasyfurniture:decorations/brewing_cauldron"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "05ABBF562A1DA539"
-					item: "minecraft:white_banner"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "61A1D752FA2618EC"
-					table_id: 987967038148964353L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "55616BD9A6537339"
-				item: {
-					Count: 1b
-					id: "customizableelytra:elytra_wing"
-					tag: {
-						Damage: 0
-						RepairCost: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Customize Your Elytra"
-			x: -3.5d
-			y: -3.5d
 		}
 		{
 			description: ["Increases &amovement speed&r. Level up by &6traveling on foot!&r"]
