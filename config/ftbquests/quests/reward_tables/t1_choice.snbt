@@ -12,10 +12,11 @@
 		{ count: 5, item: "minecraft:feather" }
 		{ count: 8, item: "minecraft:ink_sac" }
 		{ count: 10, item: "minecraft:string" }
-		{ item: "alexsdelight:bison_burger" }
 		{ count: 5, item: "ars_nouveau:source_berry" }
-		{ count: 2, item: "functionalstorage:copper_upgrade" }
 		{ item: "pipez:basic_upgrade" }
+		{ count: 4, item: "sophisticatedstorage:upgrade_base" }
+		{ count: 5, item: "minecraft:firework_rocket" }
+		{ count: 5, item: "quark:torch_arrow" }
 	]
 	title: "T1 Choice"
 }

@@ -89,7 +89,7 @@
 	field_salad = true
 	glow_jelly_bottle = true
 	green_apple_pie_slice = true
-	green_tea_leaf = true
+	green_tea_leaf = false
 	honey_glazed_walnut = true
 	jelly_bottle = true
 	lavender_tea = true
@@ -118,7 +118,7 @@
 	sinigang = true
 	smore = true
 	source_berry_pie_slice = true
-	venison_chops = true
+	venison_chops = false
 	#Force the replacement of forge:cheese item tag in recipes with forge:milk
 	use_milk_tag = false
 	#Allow cooking milk from nuts

@@ -1,7 +1,7 @@
 {
 	id: "62041FD930838288"
 	loot_size: 3
-	order_index: 20
+	order_index: 18
 	rewards: [
 		{ count: 4, item: "minecraft:echo_shard", weight: 10.0f }
 		{ count: 4, item: "minecraft:sculk", weight: 4.0f }

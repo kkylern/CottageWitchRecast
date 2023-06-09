@@ -110,10 +110,9 @@ Jei.addIngredient(agadget);
 }
 
 // Akashic Tome Stuff
-//var aTomeFull = <item:akashictome:tome>.withTag({"akashictome:data": {sculktransporting: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "sculktransporting:guide"}}, byg: {Count: 1, id: "byg:biomepedia"}, create_central_kitchen: {ForgeCaps: {Parent: {}}, id: "create_central_kitchen:cooking_guide", Count: 1}, ars_nouveau: {Count: 1, id: "ars_nouveau:worn_notebook"}, babyfat: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "babyfat:the_book_of_baby_fat"}}, ftbquests: {Count: 1, id: "ftbquests:book"}, alexsmobs: {Count: 1, id: "alexsmobs:animal_dictionary"}, solsweetpotato: {Count: 1, id: "solsweetpotato:food_book"}, deeperdarker: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "deeperdarker:wanderers_notebook"}}, caupona: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "caupona:book"}}}});
-// TODO - redo akashic tome
+var aTomeFull = <item:akashictome:tome>.withTag({"akashictome:data": {ftbquests: {id: "ftbquests:book", Count: 1}, ars_nouveau: {id: "ars_nouveau:worn_notebook", Count: 1}, create_central_kitchen: {id: "create_central_kitchen:cooking_guide", Count: 1, ForgeCaps: {Parent: {}}}, extradelight: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "extradelight:cookbook"}}, hexerei: {id: "hexerei:book_of_shadows", Count: 1, tag: {chapter: 0, page: 0, opened: 0, bookmarks: {}}}, lexicon: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "lexicon:lexicon"}}, create_central_kitchen_0: {id: "create_central_kitchen:brewing_guide", Count: 1, tag: {"akashictome:definedMod": "create_central_kitchen_0"}, ForgeCaps: {Parent: {NeedWater: 0}}}}, ingredients: {item0: "block.minecraft.air", item1: "item.akashictome.tome", item2: "item.patchouli.guide_book", length: 3}});
 
-//craftingTable.addShapeless("akashicfull", aTomeFull, [<item:minecraft:book>, <item:minecraft:stick>]);
+craftingTable.addShapeless("akashicfull", aTomeFull, [<item:minecraft:book>, <item:minecraft:stick>]);
 
 // Remove Smelting Recipes
 
@@ -193,7 +192,7 @@ var removeNope = [
     <item:hexerei:milk_bottle>,
     <item:delightful:animal_fat>,
     <item:delightful:animal_oil_bottle>,
-    <item:pipez:fluid_pipe>,
+    //<item:pipez:fluid_pipe>,
     <item:pipez:energy_pipe>,
     <item:pipez:gas_pipe>,
     <item:pipez:universal_pipe>,
@@ -205,7 +204,31 @@ var removeNope = [
     <item:artifacts:eternal_steak>,
     <item:artifacts:snorkel>,
     <item:artifacts:umbrella>,
-    <item:quark:feeding_trough>
+    <item:quark:feeding_trough>,
+    <item:neapolitan:milk_bottle>,
+    <item:finsandtails:armored_gopjet_jetpack>,
+    <item:finsandtails:gopjet_jetpack>,
+    <item:prefab:item_carton_of_eggs>,
+    <item:sophisticatedstorage:feeding_upgrade>,
+    <item:sophisticatedstorage:advanced_feeding_upgrade>,
+    <item:toms_storage:ts.polymorphic_item_filter>,
+    <item:sophisticatedstorage:pump_upgrade>,
+    <item:sophisticatedstorage:advanced_pump_upgrade>,
+    <item:sophisticatedstorage:xp_pump_upgrade>,
+    <item:structure_gel:red_gel>,
+    <item:structure_gel:blue_gel>,
+    <item:structure_gel:green_gel>,
+    <item:structure_gel:cyan_gel>,
+    <item:structure_gel:orange_gel>,
+    <item:structure_gel:yellow_gel>,
+    <item:structure_gel:data_handler>,
+    <item:structure_gel:dynamic_spawner>,
+    <item:structure_gel:building_tool>,
+    <item:crittersandcompanions:diamond_dragonfly_armor>,
+    <item:crittersandcompanions:gold_dragonfly_armor>,
+    <item:crittersandcompanions:iron_dragonfly_armor>,
+    <item:sophisticatedstorage:jukebox_upgrade>,
+    <item:sophisticatedstorage:debug_tool>
 ] as IItemStack[];
 
 for item in removeNope {
@@ -224,13 +247,6 @@ craftingTable.addShaped("novicebook", <item:ars_nouveau:novice_spell_book>,
 [[air, <item:minecraft:gold_ingot>, air],
 [<item:minecraft:gold_ingot>, <item:ars_nouveau:worn_notebook>, <item:minecraft:gold_ingot>],
 [air, <item:minecraft:gold_ingot>, air]]);
-
-
-// Eggs Carton
-
-craftingTable.remove(<item:prefab:item_carton_of_eggs>);
-
-craftingTable.addShapeless("eggcarton", <item:prefab:item_carton_of_eggs>, [<item:minecraft:egg>, <item:minecraft:egg>, <item:minecraft:egg>, <item:minecraft:egg>, <item:minecraft:egg>, <item:minecraft:egg>, <item:minecraft:egg>, <item:minecraft:egg>, <item:minecraft:egg>]);
 
 // Pearl Necklace Balancing
 
@@ -364,7 +380,7 @@ craftingTable.addShapeless("endeyestopearl", <item:minecraft:ender_pearl> * 4, [
 
 // Add uses for Selenite
 
-brewing.addRecipe(<item:farmersdelight:milk_bottle>, <item:hexerei:selenite_shard>, <item:minecraft:glass_bottle>);
+brewing.addRecipe(<item:hexerei:milk_bottle>, <item:hexerei:selenite_shard>, <item:minecraft:glass_bottle>);
 
 craftingTable.addShaped("seleniteglass", <item:minecraft:glass> * 8, [[<tag:items:forge:stained_glass>, <tag:items:forge:stained_glass>, <tag:items:forge:stained_glass>], [<tag:items:forge:stained_glass>, <item:hexerei:selenite_shard>, <tag:items:forge:stained_glass>], [<tag:items:forge:stained_glass>, <tag:items:forge:stained_glass>, <tag:items:forge:stained_glass>]]);
 
@@ -559,23 +575,6 @@ craftingTable.addShaped("itempipe", <item:pipez:item_pipe> * 16, [
 //Sculk crafting
 craftingTable.addShaped("sculkcatalyst", <item:minecraft:sculk_catalyst>, [[<item:minecraft:echo_shard>, <item:minecraft:echo_shard>, <item:minecraft:echo_shard>],[<item:minecraft:echo_shard>, <item:minecraft:end_stone>, <item:minecraft:echo_shard>], [<item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:end_stone>]]);
 
-// Adding tag to glass casings
-var glassCasings =
-[
-    <item:create_crystal_clear:andesite_glass_casing>,
-    <item:create_crystal_clear:brass_glass_casing>,
-    <item:create_crystal_clear:copper_glass_casing>,
-    <item:create_crystal_clear:train_glass_casing>,
-    <item:create_crystal_clear:andesite_clear_glass_casing>,
-    <item:create_crystal_clear:brass_clear_glass_casing>,
-    <item:create_crystal_clear:copper_clear_glass_casing>,
-    <item:create_crystal_clear:train_clear_glass_casing>
-] as IItemStack[];
-
-for casing in glassCasings{
-<tag:items:crafttweaker:glasscasings>.add(casing);
-}
-
 // balance tarot deck curio
 craftingTable.remove(<item:tarotcards:tarot_deck>);
 
@@ -692,13 +691,12 @@ craftingTable.addShapeless("seacrystal", <item:mermod:sea_crystal> * 4, [<item:e
 <tag:items:forge:dough>.add(<item:culturaldelights:corn_dough>, <item:vinery:dough>);
 
 // Rustic Dough Recipe
-//TODO - fix this lol
 craftingTable.remove(<item:vinery:dough>);
 craftingTable.addShapeless("rusticdough", <item:vinery:dough> * 2, 
-[<item:create:wheat_flour>,
-<item:create:wheat_flour>, 
-<item:supplementaries:ash>, 
-<item:minecraft:water_bucket>]);
+    [<item:create:wheat_flour>,
+    <item:create:wheat_flour>, 
+    <item:minecraft:sugar>, 
+    <item:minecraft:water_bucket>]);
 
 // Grape tags
 
@@ -708,10 +706,11 @@ craftingTable.addShapeless("rusticdough", <item:vinery:dough> * 2,
 // Jelly Tags
 
 var jams = [
-<item:vinery:cherry_jam>,
-<item:vinery:apple_jam>,
-<item:vinery:sweetberry_jam>,
-<item:vinery:grape_jam>
+    <item:vinery:cherry_jam>,
+    <item:vinery:apple_jam>,
+    <item:vinery:sweetberry_jam>,
+    <item:vinery:grape_jam>,
+    <item:upgrade_aquatic:mulberry_jam_bottle>
 ] as IItemStack[];
 
 for jam in jams{
@@ -1159,3 +1158,20 @@ craftingTable.addShaped("blackstoneblastfurnace", <item:nethersdelight:blackston
     [<item:minecraft:iron_ingot>, <tag:items:crafttweaker:blackstonefurnaces>, <item:minecraft:iron_ingot>],
     [<item:minecraft:polished_blackstone>, <item:minecraft:polished_blackstone>, <item:minecraft:polished_blackstone>]
 ]);
+
+// Milk stuff.
+
+craftingTable.remove(<item:minecraft:milk_bucket>);
+craftingTable.addShapeless("milk2fd", <item:farmersdelight:milk_bottle> * 3, [
+    <item:minecraft:milk_bucket>,
+    <item:minecraft:glass_bottle>,
+    <item:minecraft:glass_bottle>,
+    <item:minecraft:glass_bottle>
+]);
+
+// Interchangeable Cherries
+
+craftingTable.addShapeless("vin2envcherry", <item:environmental:cherries>, [<item:vinery:cherry>]);
+craftingTable.addShapeless("env2vincherry", <item:vinery:cherry>, [<item:environmental:cherries>]);
+
+// TODO - Venison

@@ -42,6 +42,17 @@
 		{ item: "idas:music_disc_calidum" }
 		{ item: "environmental:music_disc_slabrave" }
 		{ item: "environmental:music_disc_leaving_home" }
+		{ item: "neapolitan:music_disc_hullabaloo" }
+		{ item: "integrated_stronghold:music_disc_forlorn" }
+		{ item: "integrated_stronghold:music_disc_sight" }
+		{ item: "environmental:music_disc_slabrave" }
+		{ item: "environmental:music_disc_leaving_home" }
+		{ item: "finsandtails:music_disc_crashing_tides" }
+		{ item: "ars_nouveau:music_disc_aria_biblio" }
+		{ item: "biomemakeover:button_mushrooms_music_disk" }
+		{ item: "biomemakeover:ghost_town_music_disk" }
+		{ item: "biomemakeover:swamp_jives_music_disk" }
+		{ item: "biomemakeover:red_rose_music_disk" }
 	]
 	title: "Music Disc Reward"
 }

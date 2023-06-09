@@ -6,8 +6,8 @@ cf:
 */
 {
 	"enable_wine_maker_set_bonus": true,
-	"recipe_book_open": false,
-	"craftable_toggle": true,
+	"recipe_book_open": true,
+	"craftable_toggle": false,
 	/* Chance
 	   idk
 	   help.

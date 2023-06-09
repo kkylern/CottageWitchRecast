@@ -1,0 +1,26 @@
+{
+	id: "705B95C0FA754FCA"
+	loot_size: 6
+	order_index: 27
+	rewards: [
+		{ item: "vinery:crusty_bread" }
+		{ item: "vinery:dough" }
+		{ item: "vinery:cherry" }
+		{ item: "upgrade_aquatic:mulberry" }
+		{ item: "upgrade_aquatic:mulberry_bread" }
+		{ item: "sprout:peanut" }
+		{ item: "neapolitan:strawberry_scones" }
+		{ item: "overweight_farming:melon_juice" }
+		{ item: "neapolitan:adzuki_bun" }
+		{ item: "neapolitan:strawberries" }
+		{ item: "farmersdelight:pie_crust" }
+		{ item: "ecologics:cooked_prickly_pear" }
+		{ item: "culturaldelights:pickle" }
+		{ item: "collectorsreap:strawberry_gummy" }
+		{ item: "brewinandchewin:flaxen_cheese_wedge" }
+		{ item: "minecraft:sweet_berries" }
+		{ item: "collectorsreap:candied_lime" }
+		{ item: "minecraft:mushroom_stew" }
+	]
+	title: "Food"
+}

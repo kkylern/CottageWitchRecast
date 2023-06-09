@@ -13,6 +13,7 @@
 		{ item: "quark:dragon_scale", only_one: true, weight: 25.0f }
 		{ item: "twilightforest:time_sapling", weight: 30.0f }
 		{ item: "twilightforest:mining_sapling", weight: 30.0f }
+		{ item: "biomesinjars:empty_biome_jar" }
 	]
 	title: "Random Tier 3"
 }

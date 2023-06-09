@@ -27,12 +27,20 @@
 				"It will &aperiodically grant a growth boost&r to crops (when it's provided with water) and it &acannot be trampled&r. It &acan also be used to grow &bMushroom Colonies&r in complete darkness."
 			]
 			id: "4930ECD60EA9ED8D"
-			rewards: [{
-				count: 4
-				id: "2CB2953E77DF6618"
-				item: "farmersdelight:rich_soil"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2CB2953E77DF6618"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5631EAEE8EC7A5F0"
+					table_id: 6518300475828805418L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "A Bit Seedy..."
@@ -65,6 +73,11 @@
 				{
 					id: "13B21F12709E46BD"
 					item: "farmersdelight:red_mushroom_colony"
+					type: "item"
+				}
+				{
+					id: "33295FE47D1BEA22"
+					item: "collectorsreap:portobello_colony"
 					type: "item"
 				}
 			]
@@ -207,7 +220,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "674A15B3EAEEC114"
-					table_id: 8035711958862449784L
 					type: "random"
 				}
 				{
@@ -294,11 +306,6 @@
 					type: "item"
 				}
 				{
-					id: "0AD2B7503C564CC6"
-					item: "prefab:item_carton_of_eggs"
-					type: "item"
-				}
-				{
 					id: "2C5CCAFE25DA5291"
 					item: "collectorsreap:lime_crate"
 					type: "item"
@@ -342,11 +349,19 @@
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: ["Farmer's Delight adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
 			id: "2CA80140F624D0AE"
-			rewards: [{
-				id: "69ACEF4AC35DF65C"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "69ACEF4AC35DF65C"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E1001E2D420EF81"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "More, give me more"
 			tasks: [
@@ -391,9 +406,10 @@
 					type: "item"
 				}
 				{
-					id: "6051CF1F7C421946"
-					table_id: 6941837675484043489L
-					type: "loot"
+					exclude_from_claim_all: true
+					id: "0862AAB995B4CC60"
+					table_id: 6518300475828805418L
+					type: "random"
 				}
 			]
 			subtitle: "Everyone loves a chubby carrot"
@@ -433,9 +449,10 @@
 					type: "item"
 				}
 				{
-					id: "12DAC34A241B1F8E"
-					table_id: 6941837675484043489L
-					type: "loot"
+					exclude_from_claim_all: true
+					id: "00E055531ADCA57E"
+					table_id: 6518300475828805418L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -547,6 +564,12 @@
 					id: "679B96B27A170259"
 					table_id: 8808494820591225409L
 					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "084D4358FE8322BB"
+					table_id: 6518300475828805418L
+					type: "choice"
 				}
 			]
 			shape: "octagon"
@@ -771,12 +794,20 @@
 			dependencies: ["2CA80140F624D0AE"]
 			description: ["Similar to &bCrates&r, many crops can be compacted into &bSacks&r. These can be used decoratively, or &aused to free up storage space&r!"]
 			id: "2973338AB622C5D6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "380BDD48693BCD8F"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "380BDD48693BCD8F"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64720E736EC3511D"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+			]
 			tasks: [
 				{
 					id: "1B1F3AA7E0786E0D"
@@ -823,6 +854,11 @@
 					item: "quark:glowberry_sack"
 					type: "item"
 				}
+				{
+					id: "2FB7FAE58ACE779B"
+					item: "farmersrespite:coffee_beans_sack"
+					type: "item"
+				}
 			]
 			title: "Sack Up"
 			x: 7.0d
@@ -863,12 +899,20 @@
 				"You'll also want it if you're planning on growing any &bMushroom Colonies&r."
 			]
 			id: "02F91E51E86F71F6"
-			rewards: [{
-				count: 5
-				id: "01F30CBF19893E1D"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "01F30CBF19893E1D"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "108F30F089CFBB86"
+					table_id: 6518300475828805418L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "727B56ABB96944F2"
@@ -891,12 +935,20 @@
 				"You can use it to grow &bNether Crops&r more quickly!"
 			]
 			id: "60445E736AE3B5B4"
-			rewards: [{
-				count: 5
-				id: "4DBD2CF2969F8A46"
-				item: "nethersdelight:soul_compost"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "4DBD2CF2969F8A46"
+					item: "nethersdelight:soul_compost"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "531F31FD79A7344A"
+					table_id: 6518300475828805418L
+					type: "choice"
+				}
+			]
 			tasks: [
 				{
 					id: "04C5336A8E4F2D84"
@@ -985,43 +1037,114 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4930ECD60EA9ED8D"]
-			description: [
-				"These &bCarts&r are useful for transporting &aitems and entities&r. &6Press \"r\"&r by default when either mounted or on foot to &ahaul the cart&r. Press R again to set it down."
-				"The &bSupply Cart&r is fairly self-explanatory. &6Shift right click the cart&r to access its inventory, and &aload it up with items&r! You can then transport those items over land. However, &abreaking the cart&r will drop its inventory."
-				"The &bAnimal Cart&r will help you &atransport entities&r! &6Right click the cart item&r onto the creature you want to move. Then, haul as normal. &aBreak the cart&r to free the animal."
-				"{image:cottagewitch:textures/cart.png width:100 height:100 align:1 fit:true}"
-			]
-			id: "04BD2724E24B4125"
-			rewards: [
-				{
-					id: "78C0D516B0CB0241"
-					item: "minecraft:horse_spawn_egg"
-					type: "item"
-				}
-				{
-					id: "73CBD7FB040007FD"
-					item: "farmersdelight:horse_feed"
-					type: "item"
-				}
-			]
+			dependencies: ["0545DF70043D964A"]
+			id: "77E1FEDE586A487C"
 			shape: "hexagon"
-			subtitle: "item and animal transport"
-			tasks: [{
-				id: "57567AFD23A55AC8"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "crafttweaker:carts"
-					}
+			tasks: [
+				{
+					id: "1C7625FF703A08C5"
+					item: "neapolitan:vanilla_pod_block"
+					type: "item"
 				}
-				title: "Any #crafttweaker:carts"
-				type: "item"
-			}]
-			title: "Craft a Cart"
-			x: 0.0d
-			y: 3.0d
+				{
+					id: "16E544095CA59090"
+					item: "neapolitan:dried_vanilla_pod_block"
+					type: "item"
+				}
+				{
+					id: "728789276F787B8E"
+					item: "neapolitan:banana_bundle"
+					type: "item"
+				}
+				{
+					id: "56FFC49DC13E368C"
+					item: "neapolitan:strawberry_basket"
+					type: "item"
+				}
+				{
+					id: "77E2E6D16268124B"
+					item: "neapolitan:white_strawberry_basket"
+					type: "item"
+				}
+				{
+					id: "4DCE2C44EE55C438"
+					item: "neapolitan:banana_crate"
+					type: "item"
+				}
+				{
+					id: "2C15E9E0BB8B4BB5"
+					item: "neapolitan:mint_basket"
+					type: "item"
+				}
+				{
+					id: "39385FB83E50595A"
+					item: "neapolitan:adzuki_crate"
+					type: "item"
+				}
+				{
+					id: "5D8C94C6DA24F06C"
+					item: "neapolitan:roasted_adzuki_crate"
+					type: "item"
+				}
+				{
+					id: "2448DF8EF88B5AFD"
+					item: "collectorsreap:lime_crate"
+					type: "item"
+				}
+				{
+					id: "1F5E1C48DDEC8B63"
+					item: "collectorsreap:pomegranate_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops 2"
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0545DF70043D964A"]
+			id: "008A62D8E70B51F9"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "00D79767E3148101"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "54A081FFA1C847D7"
+					item: "quark:golden_carrot_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your (Golden) Crops"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0545DF70043D964A"]
+			id: "22F72EB92786EEF7"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "44120CB9F7F88C84"
+					item: "environmental:duck_egg_crate"
+					type: "item"
+				}
+				{
+					id: "55FB0A951F321653"
+					item: "incubation:turtle_egg_crate"
+					type: "item"
+				}
+				{
+					id: "4610BF6CBB1013F6"
+					item: "incubation:chicken_egg_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Eggs (Gently)"
+			x: 7.5d
+			y: -5.5d
 		}
 	]
 	title: "Farming \\& Gardening"

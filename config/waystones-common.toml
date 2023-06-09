@@ -13,22 +13,22 @@
 	maximumBaseXpCost = 3.0
 	#How much xp is needed per leashed animal to travel with you
 	#Range: > -2147483648
-	xpCostPerLeashed = 1
+	xpCostPerLeashed = 0
 	#The base xp level cost when travelling between dimensions. Ignores block distance.
 	#Range: > -2147483648
-	dimensionalWarpXpCost = 3
+	dimensionalWarpXpCost = 1
 	#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	globalWaystoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	warpStoneXpCostMultiplier = 0.0
+	warpStoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	waystoneXpCostMultiplier = 1.0
+	waystoneXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	sharestoneXpCostMultiplier = 1.0
+	sharestoneXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting from a portstone.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	portstoneXpCostMultiplier = 0.0
@@ -37,7 +37,7 @@
 	warpPlateXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting via the inventory button.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	inventoryButtonXpCostMultiplier = 0.0
+	inventoryButtonXpCostMultiplier = 1.0
 
 [restrictions]
 	#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
@@ -86,19 +86,19 @@
 
 [inventoryButton]
 	#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
-	inventoryButton = ""
+	inventoryButton = "NEAREST"
 	#The x position of the warp button in the inventory.
 	#Range: > -2147483648
 	warpButtonX = 58
 	#The y position of the warp button in the inventory.
 	#Range: > -2147483648
-	warpButtonY = 60
+	warpButtonY = 7
 	#The y position of the warp button in the creative menu.
 	#Range: > -2147483648
 	creativeWarpButtonX = 88
 	#The y position of the warp button in the creative menu.
 	#Range: > -2147483648
-	creativeWarpButtonY = 33
+	creativeWarpButtonY = 7
 
 [worldGen]
 	#Set to 'DEFAULT' to only generate the normally textured waystones. Set to 'MOSSY' or 'SANDY' to generate all as that variant. Set to 'BIOME' to make the style depend on the biome it is generated in.

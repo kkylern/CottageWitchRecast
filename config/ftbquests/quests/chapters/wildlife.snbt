@@ -71,137 +71,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"The &eCosmaw&r is a being which, when tamed, will &arescue its owner from falling into the void&r. It does not defend the player in other ways, however."
-				"It can be &6tamed with Cosmic Cod&r, its natural prey."
-			]
-			id: "51E1C10CB6348CB6"
-			rewards: [{
-				count: 4
-				id: "1CE1B21780C9397B"
-				item: "alexsmobs:cosmic_cod"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "So very Cosmaw-politan, don't you think?"
-			tasks: [{
-				icon: "alexsmobs:cosmic_cod"
-				id: "27C5967E071B7CFA"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:cosmaw"
-				type: "observation"
-			}]
-			title: "Meet the Cosmaw"
-			x: -8.5d
-			y: -7.0d
-		}
-		{
-			description: [
-				"The &eMungus&r can be found in Mushroom biomes and is a living meme. It drops &bMungal Spores&r periodically every few days, and this item can be used to breed it."
-				"&bMushrooms&r can be placed upon it, at which point it will target that same type of mushroom and attempt to spawn more of it, or turn it to its giant variant."
-				"A &eMungus&r which has 5 mushrooms on its back will explode when slain, changing the small nearby area to a Mushroom Fields."
-			]
-			id: "2B24CC677B5015E5"
-			rewards: [
-				{
-					count: 3
-					id: "5C724813067FBA62"
-					item: "minecraft:red_mushroom"
-					type: "item"
-				}
-				{
-					id: "4F420CB69B639B6C"
-					item: {
-						Count: 1b
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Id: [I;
-									1212509325
-									442452322
-									-1679553384
-									-1344749062
-								]
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY5MzM3ZWQ4YmIwMTg5NzRkZWQwOThhMTE0N2E2ZTkxMGE5NmExZTIyZTAzMDkzN2VjZGZmMWNkM2ViNTBkIn19fQ=="
-									}]
-								}
-							}
-							display: {
-								Name: "{\"text\":\"Mushroom with Eye\"}"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "heart"
-			subtitle: "Pretty sus ngl"
-			tasks: [{
-				icon: "alexsmobs:mungal_spores"
-				id: "1451AB7F0C9B563D"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:mungus"
-				type: "observation"
-			}]
-			title: "Meet a Mungus"
-			x: 10.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["2B24CC677B5015E5"]
-			description: ["Feed a &eRabbit&r some &bMungal Spores&r to create a &eBunfungus&r, a rather large and disturbing neutral creature which will defend the nearby area. They can be healed with &bCarrots&r, and drop &bBunfungus&r meat, which can be used in cooking."]
-			id: "6674937B885ABAE6"
-			rewards: [{
-				id: "0F87224E04B1FC4B"
-				table_id: 7049021818423122779L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "3478529CED933FC7"
-				item: "alexsmobs:mungal_spores"
-				type: "item"
-			}]
-			title: "Create a Bunfungus"
-			x: 9.0d
-			y: -7.5d
-		}
-		{
-			description: [
-				"The &eMimicube&r is a defender of End Cities, and is capable of mimicking its attacker by developing armor, shields, and even weapons to match those of the player. When defeated, they drop &bMimicream&r, which can be used in crafting, or to &aduplicate almost any item, including enchantments&r!"
-				"Simply &6surround the desired item&r with 8 Mimicream, and ta-da! The result will have no durability, but it's a powerful tool nevertheless."
-			]
-			id: "7D1423F1D27CCF45"
-			rewards: [
-				{
-					id: "607721ABD5BDBB6F"
-					table_id: 7049021818423122779L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1E3EF42EE4B0FDE9"
-					table_id: 1279979498352596350L
-					type: "random"
-				}
-			]
-			shape: "heart"
-			tasks: [{
-				icon: "alexsmobs:mimicream"
-				id: "422CC9A5A99269FD"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:mimicube"
-				type: "observation"
-			}]
-			title: "Meet the Mimicube"
-			x: 4.5d
-			y: 4.5d
-		}
-		{
 			description: ["The &eSnuffle&r is a passive creature with a permanent blep. It can be found in snowy biomes, and &atamed with potatoes&r."]
 			id: "33F3FB13A3EAEF94"
 			rewards: [
@@ -230,662 +99,6 @@
 			title: "Meet a Snuffle!"
 			x: 6.0d
 			y: -4.0d
-		}
-		{
-			description: ["Quacklings are bizarre, yet friendly creatures that primarily live in Swamps. They can be traded with, just like human villagers!"]
-			id: "3D478BC0385C3BE1"
-			rewards: [
-				{
-					id: "2527740DC852B5EB"
-					table_id: 8808494820591225409L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "64C74820CE6A155B"
-					table_id: 1279979498352596350L
-					type: "choice"
-				}
-			]
-			shape: "heart"
-			subtitle: "queck"
-			tasks: [{
-				icon: "duckling:duck_egg"
-				id: "4830B18A34ECF464"
-				observe_type: 5
-				timer: 0L
-				to_observe: "duckling:quackling"
-				type: "observation"
-			}]
-			title: "Meet the Quacklings"
-			x: 10.0d
-			y: -4.5d
-		}
-		{
-			description: [
-				"The &eGuster&r is an elemental spirit which can appear during storms. It will throw nearby entities or items up into the air, and are &aresistant to arrows&r."
-				"Once defeated, they can drop their &bEyes&r, which can be used either to make a &bPocket of Sand&r, to throw in the face of your enemies - or the &bGustmaker&r, a block which acts as a fan when provided with a Redstone signal."
-			]
-			id: "213FB54168FC881F"
-			rewards: [{
-				count: 3
-				id: "626F4446B1B4CF1E"
-				item: "alexsmobs:guster_eye"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "49B0422C0FFB7629"
-				item: "alexsmobs:guster_eye"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3B900109B67CF812"]
-			description: ["Earn this by successfully &abreeding two Froststalkers&r."]
-			id: "2815581E43C11DFC"
-			rewards: [{
-				id: "6DB9DD2B05EA6CE6"
-				table_id: 7049021818423122779L
-				type: "choice"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/breed_froststalker"
-				criterion: ""
-				id: "52C91B46CDFEC1C4"
-				type: "advancement"
-			}]
-			x: 8.5d
-			y: 6.0d
-		}
-		{
-			description: [
-				"The &bFroststalker&r helmet is worn to convince &eFroststalkers&r that the player is one of them."
-				"It must be crafted from one of their horns. Once it is worn, you can &6breed them with beef&r - but be warned, taking off the helmet will &dmake the babies hostile as well&r."
-			]
-			id: "3B900109B67CF812"
-			rewards: [{
-				id: "053961692B00BB79"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2B526564C7D69BD8"
-				item: {
-					Count: 1b
-					id: "alexsmobs:froststalker_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["76AE2C92FF896611"]
-			description: ["These can be obtained by &abartering with Piglin&r, and are used to &afully tame a &eTusklin&r."]
-			id: "1278F8ABB539E261"
-			rewards: [{
-				id: "4F976B6DE5EA26A4"
-				table_id: 7049021818423122779L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7790DBE27A938195"
-				item: "alexsmobs:pigshoes"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -7.5d
-		}
-		{
-			description: ["The &eTusklin&r, found in snowy biomes, can be saddled and ridden wild, but will buck the player off after a while. They can be bred with &bBrown Mushrooms&r, but their young will still be mostly feral."]
-			id: "76AE2C92FF896611"
-			rewards: [{
-				count: 5
-				id: "67E304D3549A329B"
-				item: "minecraft:brown_mushroom"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "A neutral but defensive beast"
-			tasks: [{
-				icon: "alexsmobs:spawn_egg_tusklin"
-				id: "58B242B28A3B9D69"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:tusklin"
-				type: "observation"
-			}]
-			title: "Meet the Tusklin"
-			x: 6.5d
-			y: -6.0d
-		}
-		{
-			description: [
-				"The &eStraddler&r is a bizarre and hostile creature who will throw their young at you to do damage. For the most part, defeating them yields &bBasalt&r, however they can rarely drop &bStraddlite&r."
-				"&bStraddlite&r is a material which can be crafted into a Straddleboard, an enchantable board which can &asurf quickly across lava&r. This is an improvement over the &bObsidian Boat&r due to its speed, enchantability, and ability to jump!"
-				"And, as a side note, the &eStradpoles&r can be nabbed in a bucket and also &asurvive in water&r."
-			]
-			id: "0CED4D17E7F90678"
-			rewards: [
-				{
-					id: "7B2F741EEEC1E014"
-					item: "minecraft:bucket"
-					type: "item"
-				}
-				{
-					id: "26128A92629C6155"
-					item: "alexsmobs:straddlite"
-					type: "item"
-				}
-			]
-			shape: "heart"
-			subtitle: "Just gonna throw my baby at you real quick"
-			tasks: [{
-				icon: "alexsmobs:straddlite"
-				id: "25B8F751CD0ACDE8"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:straddler"
-				type: "observation"
-			}]
-			title: "Meet the Straddler"
-			x: 7.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"The &eVoid Worm&r is a boss fight which can be summoned by throwing a &bMysterious Worm&r into the void in &dThe End&r. He summons crystalline projectiles, has a devastating bite, and is capable of opening portals."
-				"When defeated, it drops its &bEyes&r and &bBeak&r. These can be crafted into a &bDimensional Carver&r: a pickaxe which can mine a temporary portal through space and to the player's spawn point, and the &bVoid Worm Effigy&r: a trophy that, when provided with redstone signal, chomps down on whatever is in front of it."
-			]
-			id: "0BC5E9E08677AFC5"
-			rewards: [
-				{
-					id: "2A516B0108716AD5"
-					table_id: 5161092699925703455L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6C1412DFA9F03CFE"
-					table_id: 1279979498352596350L
-					type: "choice"
-				}
-			]
-			shape: "diamond"
-			subtitle: "A multi-phase boss fight"
-			tasks: [{
-				id: "058D3FB324B36853"
-				item: "alexsmobs:mysterious_worm"
-				type: "item"
-			}]
-			title: "Summon the Void Worm"
-			x: 3.5d
-			y: 7.5d
-		}
-		{
-			description: [
-				"The &eRocky Roller&r dwells in Dripstone Caves and will roll at its prey to crush them. It is weak but the strong armor on its back will protect it from most blows."
-				"If it drops its &bRocky Hide&r, this can be crafted into a chestplate which allows the player to &aroll into mobs&r and damage them while sprinting. It will also cause the player to &asink in water&r."
-			]
-			id: "17CAEDD5E243511D"
-			rewards: [{
-				count: 4
-				id: "2D59D055CD930E61"
-				item: "alexsmobs:rocky_shell"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "I don't give a damn about my reputation"
-			tasks: [{
-				icon: "alexsmobs:rocky_shell"
-				id: "2A2249DE6B3D9F4C"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:rocky_roller"
-				type: "observation"
-			}]
-			title: "Meet the Rocky Roller"
-			x: 7.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["29BC7591898DB337"]
-			description: ["This item seeks out the rarest creature in the world: the &eDevil's Hole Pupfish&r, a creature which spawns only in a single chunk, ever, in a given world."]
-			id: "6A74504CDF6CECE2"
-			rewards: [
-				{
-					id: "7135EB9C0ED3EA48"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0089411AE895120B"
-					table_id: 1279979498352596350L
-					type: "choice"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Based on a true story"
-			tasks: [{
-				id: "26A11CB956E62F77"
-				item: {
-					Count: 1b
-					id: "alexsmobs:pupfish_locator"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			description: [
-				"The &eSkelewag&r is a common mount for &eDrowned&r, and lives near Shipwrecks. It is a fearsome foe, but is worth defeating, as it can drop &bFish Bones&r, which allow the player to craft the &bStrange Fish Finder&r."
-				"The &aSkelewag&r also has an exceptionally small chance at dropping the &bNovelty Hat&r."
-			]
-			id: "29BC7591898DB337"
-			rewards: [
-				{
-					id: "4C30375D62E31976"
-					item: "alexsmobs:fish_bones"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6EAD625A64319917"
-					table_id: 1279979498352596350L
-					type: "random"
-				}
-			]
-			shape: "heart"
-			subtitle: "Yarrr, something' be fishy"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "alexsmobs:skelewag_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "3420B408D8FDF245"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:skelewag"
-				type: "observation"
-			}]
-			title: "Meet the Skelewag"
-			x: 4.5d
-			y: 6.0d
-		}
-		{
-			description: [
-				"Should one happen upon an &eEndergrade&r - an extremophile living in the void of The End - they can place a saddle on its back. However, in order to control its extremely slow flight, a &bChorus Fruit on a Stick&r is needed."
-				"They can be lured and bred with &bChorus Fruit&r."
-			]
-			id: "76666E9309B6892C"
-			rewards: [{
-				id: "431CD6A5C66FD121"
-				item: "delightful:ender_nectar"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Don't be tardi"
-			tasks: [{
-				id: "3AEC2EE87BFD35FD"
-				item: "alexsmobs:chorus_on_a_stick"
-				type: "item"
-			}]
-			x: -10.0d
-			y: -6.0d
-		}
-		{
-			description: [
-				"The &eCapuchin Monkey&r is a friendly beast which can be tamed with &bBananas&r, which drop from Jungle Tree Leaves. They can be bred with &bMaggots&r, which drop from &eFlies&r, and healed with &bEggs&r."
-				"These monkeys can also be told to &aperch on your shoulder&r, where they will throw items at your enemies. If you find a rare &bAncient Dart&r, you may give it to them to grant them extra damage."
-			]
-			id: "1ABF76C09E35ED92"
-			rewards: [{
-				count: 5
-				id: "5010EEAD150AF239"
-				item: "alexsmobs:banana"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "Not to be confused with the delicious cappuchino monkey"
-			tasks: [{
-				icon: "alexsmobs:banana"
-				id: "0F1079B5635B918B"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:capuchin_monkey"
-				type: "observation"
-			}]
-			title: "Meet the Capuchin Monkey"
-			x: -11.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["0CED4D17E7F90678"]
-			description: ["A saddle which allows the player to ride a &eLavathian&r."]
-			id: "295D2FB1A88B8928"
-			rewards: [{
-				id: "3D372FE8BCBD4EED"
-				table_id: 7049021818423122779L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			subtitle: "oh whoa, straddlite of love"
-			tasks: [{
-				id: "7F7A7A4D6B6CB303"
-				item: "alexsmobs:straddle_saddle"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 3.0d
-		}
-		{
-			description: [
-				"The &eMimic Octopus&r is an incredible being that is found in &aWarm Oceans&r. They can be tamed with &bLobster Tails&r, at which point they will follow you and transform to try to scare off any enemies you may encounter."
-				"Give your Octopus an &bInk Sac&r to toggle whether it can randomly change color."
-				"Give it some &bPrismarine Shards&r to give it a Guardian-like appearance."
-				"Give it a &bPufferfish&r if you'd like it to look like one of those, and hmm. I wonder what happens if you give one &bGunpowder&r?"
-				"Feed it some &bMimicream&r to teach it the abilities of whatever creature you've given it!"
-			]
-			id: "7BF9EE9AB6D63EE4"
-			rewards: [{
-				count: 10
-				id: "3ECE1939AB180C0B"
-				item: "alexsmobs:lobster_tail"
-				type: "item"
-			}]
-			shape: "heart"
-			subtitle: "Much nicer than the other kind of mimic"
-			tasks: [{
-				icon: "alexsmobs:mimic_octopus_bucket"
-				id: "6D9989ED41065321"
-				observe_type: 5
-				timer: 0L
-				title: "Meet the Mimic Octopus"
-				to_observe: "alexsmobs:mimic_octopus"
-				type: "observation"
-			}]
-			x: -6.5d
-			y: -6.5d
-		}
-		{
-			description: [
-				"These beasts cannot be tamed, but they can be ridden."
-				"Place a &bStraddlite Saddle&r and &bStraddlite Pack&r on their backs, and up to 4 players can ride these massive creatures."
-				"They can be placed in water to &aharden into an obsidian variant&r, and can be &ahealed&r with &bMagma Cream&r."
-			]
-			id: "6ECD3400B5F0FFD5"
-			rewards: [{
-				id: "4B3E987450B9C0C6"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "heart"
-			subtitle: "Not to be confused with lavasioth"
-			tasks: [{
-				icon: "alexsmobs:spawn_egg_laviathan"
-				id: "0A39E56B919E2646"
-				observe_type: 5
-				timer: 0L
-				title: "Meet the Laviathan"
-				to_observe: "alexsmobs:laviathan"
-				type: "observation"
-			}]
-			x: 11.5d
-			y: -6.0d
-		}
-		{
-			description: ["The &eSpectre&r is a ghostly creature that dwells in The End. It can be lured in with a &bSoul Heart&r (obtained from Vultures in the Nether), and leashed with a Lead, then ridden like a balloon."]
-			id: "10508E0CE1018A5C"
-			rewards: [{
-				id: "197C3F8CBB49B141"
-				table_id: 5161092699925703455L
-				type: "random"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "alexsmobs:spawn_egg_spectre"
-				id: "29B332C8E6DA929A"
-				observe_type: 5
-				timer: 0L
-				title: "Meet the Spectre"
-				to_observe: "alexsmobs:spectre"
-				type: "observation"
-			}]
-			x: 8.5d
-			y: -5.5d
-		}
-		{
-			description: [
-				"The &eFlutter&r is a passive mob which loves flowers."
-				"It can be tamed if given some, but &deach flower must be a different type&r or it won't accept them."
-				"It will defend its owner if told to follow - and can be given a &bFlower Pot&r to rest in. &6Shift click the potted Flutter&r to pick it up for transport."
-			]
-			id: "583AB2FDE4821349"
-			rewards: [{
-				id: "6E750D2EB109A0EB"
-				item: "minecraft:flower_pot"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "alexsmobs:potted_flutter"
-				id: "67DCC7D3E6337E5A"
-				observe_type: 5
-				timer: 0L
-				title: "Meet the Flutter"
-				to_observe: "alexsmobs:flutter"
-				type: "observation"
-			}]
-			x: -11.5d
-			y: -5.0d
-		}
-		{
-			description: [
-				"Defeat a &eRainbow Jelly&r to obtain a drop which can craft &bRainbow Glass&r. You can also &6right click it onto an entity&r to paint that entity rainbow. Wipe them clean with a sponge, if you wish."
-				"I wonder what would happen if you ate it?"
-			]
-			id: "48B03DF69BB3222E"
-			rewards: [
-				{
-					id: "63382909319D732F"
-					item: "alexsmobs:rainbow_jelly"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6E4FB43FB5542CC2"
-					table_id: 1279979498352596350L
-					type: "choice"
-				}
-			]
-			shape: "octagon"
-			subtitle: "Jellyfish in the sky~ I can go twice as high~"
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/rainbow_jelly"
-				criterion: ""
-				id: "15E17BA6B7FB4D8F"
-				type: "advancement"
-			}]
-			x: 8.5d
-			y: -3.5d
-		}
-		{
-			description: [
-				"The &aDevil's Hole Pupfish&r is the rarest being in the world, spawning in only a single chunk - EVER - in any given world."
-				"Find one with a &bStrange Fish Locator&r. Or, you know, get extremely lucky."
-				"The ponds they spawn in are usually underground. These fish love to nibble on &bMoss Blocks&r, and will sometimes breed after doing so!"
-			]
-			icon: "alexsmobs:devils_hole_pupfish_bucket"
-			id: "389061C8D24B16F2"
-			rewards: [
-				{
-					id: "0312D00ABF86015A"
-					table_id: 7049021818423122779L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "50D044AC9D6FE106"
-					table_id: 1279979498352596350L
-					type: "choice"
-				}
-			]
-			shape: "heart"
-			subtitle: "Speak of the devil..."
-			tasks: [{
-				icon: "alexsmobs:devils_hole_pupfish_bucket"
-				id: "77A7379367418045"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:devils_hole_pupfish"
-				type: "observation"
-			}]
-			title: "The Rarest Fish in the World"
-			x: -6.5d
-			y: -4.5d
-		}
-		{
-			description: [
-				"&eCatfish&r, which come in three different size categories, will habitually &aswallow up dropped items or smaller entities&r they come across."
-				"However, if they take any damage - or encounter a sea pickle, which they loathe - &athey will eject the contents of their stomachs&r."
-				"One can &6lure them in&r with a &bSea Lantern&r, and grab them with a &bBucket&r."
-			]
-			id: "2827322063C5003E"
-			rewards: [
-				{
-					id: "049E9FC1B54415AF"
-					item: "minecraft:water_bucket"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6DB58B10B5C458B0"
-					table_id: 1279979498352596350L
-					type: "random"
-				}
-			]
-			shape: "heart"
-			subtitle: "A hungry fellow"
-			tasks: [{
-				icon: "alexsmobs:medium_catfish_bucket"
-				id: "0D8C18FBCF491F0B"
-				observe_type: 5
-				timer: 0L
-				title: "Meet the Catfish"
-				to_observe: "alexsmobs:catfish"
-				type: "observation"
-			}]
-			x: -9.5d
-			y: -4.0d
-		}
-		{
-			description: [
-				"The &aCachalot whale&r, more commonly called Sperm whale, is a massive creature that dwells in &aLukewarm, Cold, or Deep Oceans&r."
-				"Sometimes they &abecome beached&r during storms, and if you were to &6push one back out to sea&r it may thank you with a gift of &bAmbergris&r."
-				"It likes to prey on &eGiant Squid&r, and will sometimes drop one of its teeth during a hunt."
-			]
-			id: "050B9B4BC881142A"
-			rewards: [
-				{
-					id: "53D5D7E59B8FF14F"
-					item: "alexsmobs:ambergris"
-					type: "item"
-				}
-				{
-					id: "6DAFDA012BF23C5F"
-					item: "alexsmobs:cachalot_whale_tooth"
-					type: "item"
-				}
-			]
-			subtitle: "You have an appointment with Moby Dick"
-			tasks: [{
-				icon: "alexsmobs:ambergris"
-				id: "756671951869041B"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:cachalot_whale"
-				type: "observation"
-			}]
-			title: "Meet a Cachalot Whale"
-			x: 7.0d
-			y: -2.5d
-		}
-		{
-			description: [
-				"&eRanchu Goldfish&r are a chubby fish that love to eat &bWater Lettuce&r, which can be used to breed them."
-				"There are &aover 300 variants&r of the Ranchu Goldfish!"
-			]
-			id: "2CF2C4C4E1554205"
-			rewards: [{
-				count: 2
-				id: "77970400A5DB10A7"
-				item: "babyfat:water_lettuce"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4C666C81B222649A"
-				item: "babyfat:ranchu_bucket"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["17CAEDD5E243511D"]
-			description: ["Defeat a &eRocky Roller&r and obtain its shell, plus get this little bonus!"]
-			id: "017F8C83795453E3"
-			rewards: [{
-				id: "0924385ACDEB9CDE"
-				item: {
-					Count: 1b
-					id: "minecraft:player_head"
-					tag: {
-						SkullOwner: {
-							Id: [I;
-								900590232
-								-571061945
-								-1211914510
-								1791760120
-							]
-							Properties: {
-								textures: [{
-									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRmODlmYmQxMmMyMDlmN2YyNmMxZjM0YTFiZDdmNDc2MzU4MTQ3NTljMDk2ODhkZDIxMmIyMDVjNzNhOGMwMiJ9fX0="
-								}]
-							}
-						}
-						display: {
-							Name: "{\"text\":\"Derpy Rock\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/rocky_shell"
-				criterion: ""
-				id: "7AAC55D83C5EDC7A"
-				type: "advancement"
-			}]
-			x: 8.5d
-			y: 4.5d
 		}
 		{
 			description: [
@@ -940,28 +153,6 @@
 			title: "Obtain a Feeding Trough"
 			x: -2.5d
 			y: -6.5d
-		}
-		{
-			description: [
-				"&eHummingbirds&r are tiny birds which pollinate nearby plants."
-				"You can attract them using a &bHummingbird Feeder&r filled with &bWater&r and &bSugar&r,"
-			]
-			id: "4916C2ED6C71E696"
-			rewards: [{
-				count: 3
-				id: "3B3FFA9D9B739DD2"
-				item: "minecraft:sugar"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Hummingbirds are the sharks of the sky"
-			tasks: [{
-				id: "36CFF9FD493FDAB5"
-				item: "alexsmobs:hummingbird_feeder"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.5d
 		}
 		{
 			description: [
@@ -1082,93 +273,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["79630C442EB1C589"]
-			description: ["&eStraw Golems&r get hungy! If they don't get a delicious apple-y snack every day or so, they slow down to a snail's pace, and eventually &asit and pout until fed&r. They adore bright, shiny, red &bApples&r, and will follow you if you are holding one!"]
-			id: "48BA2D702EE5E79A"
-			rewards: [{
-				id: "7EF6146DFC383A62"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			subtitle: "An apple a day..."
-			tasks: [{
-				id: "2B166DD2285C8B03"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			title: "Get an Apple for your Straw Golem"
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			description: [
-				"Would you like some help harvesting your crops? Well, you're in luck, as your magic is capable of creating life! Tiny &eStraw Golems&r will help you harvest your crops."
-				"Despite the name, Straw Golems are made with Hay, not Straw. So obtain a &bBale of Hay&r and a &bCarved Pumpkin&r to create your new friends! &6Place down the Hay, and then the Pumpkin on top&r, and watch it spring to life."
-				"The hat accentuates the cuteness of the golem."
-			]
-			id: "79630C442EB1C589"
-			rewards: [{
-				id: "2F1AFA383DDF2D2C"
-				item: "strawgolem:straw_hat"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			subtitle: "Wheat is friends, not food!"
-			tasks: [{
-				id: "5410614320F255E3"
-				item: "minecraft:hay_block"
-				type: "item"
-			}]
-			title: "Straw Golems: Rebaled"
-			x: 0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["79630C442EB1C589"]
-			description: ["The hat is purely decorative. But boy, is it ever cute."]
-			id: "000D647AEFF79D8D"
-			rewards: [{
-				id: "305D73FEDBF74D2F"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "Workin' the fields all day"
-			tasks: [{
-				id: "3B2803CEF4CED0F0"
-				item: "strawgolem:straw_hat"
-				type: "item"
-			}]
-			title: "Get your Straw Golem a Hat"
-			x: 2.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["79630C442EB1C589"]
-			description: [
-				"&eStraw Golems&r are fragile little things and require both healing and feeding."
-				"They will degrade over time, and will also take damage from other sources such as &ahungry livestock&r and &arain&r. &6Right click on them with wheat&r to heal them."
-				"By default, the Straw Golem will live only 7 (ingame) days. You can &aextend their lifespan with wheat&r."
-			]
-			id: "6AB1FDC1FF5E81BA"
-			rewards: [{
-				count: 5
-				id: "2731BA89A6C3451B"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "Care and Feeding of your Golem"
-			tasks: [{
-				id: "22B3AE4B3D416FC2"
-				item: "minecraft:wheat"
-				type: "item"
-			}]
-			title: "Get some Wheat to Heal your Straw Golem"
-			x: 2.5d
-			y: -4.0d
-		}
-		{
 			description: ["The &bCommand Drum&r is an item which allows you to command multiple tamed creatures at one time."]
 			id: "1661059D340835FC"
 			rewards: [{
@@ -1285,67 +389,6 @@
 			y: -6.5d
 		}
 		{
-			description: [
-				"The &bRascal&r is a lonely creature who dwells in &cMineshafts below y 0&r! What it spends its days doing is a mystery, but one thing is clear: it wants to play!"
-				"If you can &6find the same &eRascal&6 3 times within 15 minutes&r, it will give you a small reward as thanks."
-			]
-			id: "0C7029D3D91202D8"
-			invisible: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3C1775E08B8E135B"
-					table_id: 3965165831041023950L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "03D0804CDF60B878"
-					table_id: 6951594928314176539L
-					type: "loot"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "whatareyouvotingfor:adventure/win_hide_and_seek"
-				criterion: ""
-				icon: {
-					Count: 1b
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "3AC7E8D48402FA59"
-				type: "advancement"
-			}]
-			title: "Win a Game of Hide and Seek"
-			x: 11.5d
-			y: -4.5d
-		}
-		{
-			description: ["The lil &eKiwi Bois&r love to &adance to music&r, and can be bred with &bKiwicake!&r"]
-			id: "1B2AEA187AB3D0C9"
-			rewards: [{
-				count: 2
-				id: "6136E9C32B70A641"
-				item: "kiwiboi:kiwicake"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "kiwiboi:kiwicake"
-				id: "3BE5E89A1E467365"
-				observe_type: 5
-				timer: 0L
-				to_observe: "kiwiboi:kiwi"
-				type: "observation"
-			}]
-			title: "Meet the Kiwi"
-			x: 11.0d
-			y: -7.5d
-		}
-		{
 			id: "61F03A15727266F2"
 			invisible: true
 			tasks: [{
@@ -1361,9 +404,9 @@
 			description: ["Find an &eIceologer&r during a raid or in his secluded home. And then murder him. Because frankly, he deserves it."]
 			id: "23D702F268464D8E"
 			rewards: [{
-				count: 10
-				id: "3EE5A3331616DACC"
-				item: "byg:packed_black_ice"
+				count: 5
+				id: "4FD84074975C4353"
+				item: "twilightforest:ice_bomb"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1571,7 +614,7 @@
 		{
 			dependencies: ["7E36FAC9107093C2"]
 			dependency_requirement: "all_started"
-			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bInfinite Dirt Block&r and a &bCreeper Spawn Egg&r. &dDo not craft with the Infinite Dirt block or it will be consumed&r."]
+			description: ["If you can manage to slay 500 &eCreepers&r, then you shall have earned this &bCreeper Spawn Egg&r."]
 			icon: {
 				Count: 1b
 				id: "twilightforest:creeper_skull_candle"
@@ -1665,50 +708,6 @@
 			icon: "supplementaries:enderman_head"
 			id: "3EBAD94D079ACDD8"
 			rewards: [
-				{
-					id: "530E0BE7D446EA79"
-					item: {
-						Count: 1b
-						id: "mcsa:enderman_soren_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3DEC2490E1C1DB62"
-					item: {
-						Count: 1b
-						id: "mcsa:enderman_soren_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5D1C406CAE3A7B86"
-					item: {
-						Count: 1b
-						id: "mcsa:enderman_soren_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4AC1AC011F560920"
-					item: {
-						Count: 1b
-						id: "mcsa:enderman_soren_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "5CF1D8687CF1180D"
 					item: "minecraft:enderman_spawn_egg"
@@ -1849,8 +848,8 @@
 					type: "item"
 				}
 				{
-					id: "4EEA3A9E253B7412"
-					item: "bettertridents:trident_fragment"
+					id: "7A6F0CBC359755FC"
+					item: "upgrade_aquatic:thrasher_tooth"
 					type: "item"
 				}
 			]
@@ -1995,19 +994,16 @@
 			id: "22628C8DC1BB807F"
 			rewards: [
 				{
-					id: "5FAF5E951EEF853D"
-					item: "alexsmobs:centipede_leg"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5DAF095C74889CDE"
+					table_id: 8096229411196850122L
+					type: "loot"
 				}
 				{
-					id: "330B95DA0BDA0267"
-					item: "alexsmobs:mosquito_larva"
-					type: "item"
-				}
-				{
-					id: "788934F4168FA21E"
-					item: "alexsmobs:tarantula_hawk_wing_fragment"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "582FB1CD7EEA24F4"
+					table_id: 8808494820591225409L
+					type: "random"
 				}
 			]
 			shape: "square"
@@ -2019,33 +1015,7 @@
 				value: 100L
 			}]
 			x: -6.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"Raccoons are adorable but mischeivous nocturnal creatures which will &abeg you for food&r if you happen to be holding some."
-				"They can also &asteal food out of your storage&r, so be careful when building in the wilds!"
-				"They can be &atamed by giving it an &bEgg&r and letting it wash it."
-			]
-			id: "60F070208CAD2886"
-			rewards: [{
-				count: 2
-				id: "4B61840933BBC775"
-				item: "alexsmobs:raccoon_tail"
-				type: "item"
-			}]
-			shape: "heart"
-			tasks: [{
-				icon: "alexsmobs:raccoon_tail"
-				id: "58E7C57CA3A8E8DC"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:raccoon"
-				type: "observation"
-			}]
-			title: "Meet the Raccoon"
-			x: -10.0d
-			y: -7.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -2224,163 +1194,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["0BC5E9E08677AFC5"]
-			description: ["The &bDimensional Carver&r is an item which can &atear through space&r to teleport you to &cyour spawn point&r. Aim it at the air and &6hold right click&r to use. Be aware that this is &dsomewhat unstable&r."]
-			id: "2B67ECD4F68DD10B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "707AAE80F37CF965"
-					table_id: 7707783220386620668L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "03B9150888515BEB"
-					table_id: 4747620395501175375L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "31488AB7F012F95E"
-				item: {
-					Count: 1b
-					id: "alexsmobs:dimensional_carver"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["2B67ECD4F68DD10B"]
-			description: [
-				"You can obtain the &bShattered Dimensional Carver&r by &aplacing a Dimensional Carver inside a &bCapsid block&r."
-				"It will then slowly break down the Carver without untethering its pieces from one another. This is &astrange, very old magic&r."
-				"The &bShattered Dimensional Carver&r can be used to teleport 1 million blocks in whichever direction you're facing. &aNormally one must do this 30 times&r to access the Farseers."
-				"However, this is &dboth buggy and very hard on servers&r, so we recommend &dnot using the Carver as intended&r."
-				"Instead, use it to craft a &bFarseer Gate Pearl&r, an item which brings all the luxury and delight of fighting &eFarseers&r, right to your doorstep!"
-			]
-			id: "00B06CAECE143947"
-			rewards: [
-				{
-					count: 4
-					id: "36BEC5618B463D5A"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6D507D2855C3E52D"
-					table_id: 5161092699925703455L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4A06DA36E1A4F514"
-					table_id: 5036677739913042344L
-					type: "choice"
-				}
-			]
-			tasks: [{
-				id: "6E9B22E55A864DE8"
-				item: {
-					Count: 1b
-					id: "alexsmobs:shattered_dimensional_carver"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["34C790E76C15E41B"]
-			description: [
-				"The &bTransmutation Table&r is an item which will drain your &aexperience&r in exchange for &atransforming your items&r."
-				"You can &afeed the Table items&r for a chance at getting them back in exchange for something else."
-			]
-			id: "21DBD16B44D5452E"
-			rewards: [
-				{
-					id: "5258376A20A81A8B"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3ED8C9C002E35D79"
-					table_id: 5161092699925703455L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "43CEF2BA9F0960D0"
-				item: "alexsmobs:transmutation_table"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["00B06CAECE143947"]
-			description: [
-				"A &bGate Pearl&r is a contained ritual which will &asummon waves of enemies&r, and grant &brewards&r for completing each wave, and for defeating the challenge."
-				"This item &asummons &eFarseers&r, a long-forgotten race of multidimensional spirits which inhabit metallic bodies. These entities &aare very powerful&r and can easily kill even the most powerful witch with a single &adeadly stare&r."
-				"&6Press shift&r while hovering over the Pearl in your inventory to view information about the &acombat challenge&r. Good luck!"
-			]
-			id: "34C790E76C15E41B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5495D64F8DC8B823"
-				table_id: 5525848455660196930L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "2ACE498822AD2B56"
-				item: {
-					Count: 1b
-					id: "gateways:gate_pearl"
-					tag: {
-						gateway: "gateways:farseer_gate"
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 7.0d
-			y: 7.5d
-		}
-		{
-			description: [
-				"Approach this quest with caution, dear witches. &eDucks&r may seem cute and innocent, &dbut they are not&r."
-				"In the early days of the world, &eDucks&r swarmed the world, roving over rivers and quacking incessantly. It led to the &aGreat Duck War&r, in which witches wished wistfully for success against their foes. And killed a lot of ducks."
-				"Now, you may &6trade in 16 chicken eggs&r in order to receive &aa single Duck&r. But beware of causing another &aDuck War&r!!"
-			]
-			id: "09DB43154746CE4F"
-			rewards: [{
-				id: "73657EACEE0FFB13"
-				item: "duckling:duck_spawn_egg"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "309E15AE217D71E6"
-				item: "minecraft:egg"
-				type: "item"
-			}]
-			title: "Hatching the Duck"
-			x: -1.0d
-			y: -5.5d
-		}
-		{
 			dependencies: ["43B3A6804B59565E"]
 			description: ["This quest is repeatable."]
 			id: "376F0C3219E696C9"
@@ -2400,6 +1213,123 @@
 			}]
 			x: -3.0d
 			y: 6.0d
+		}
+		{
+			description: [
+				"&eSnails&r are some of the most delightful creatures."
+				"They're quite fond of terracotta, so you can easily &ascoop them up&r in a &bFlower Pot&r! Catch one of each to be rewarded with more of the same!"
+			]
+			id: "55CAFBB909F98ED8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BEB488E750283FD"
+					table_id: 7605316060591977074L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361AB2E20ED1793D"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+			]
+			subtitle: "it's far too perilous"
+			tasks: [
+				{
+					id: "56D54ABE011FE588"
+					item: "finsandtails:flatback_leaf_snail_pot"
+					type: "item"
+				}
+				{
+					id: "5E956C8B3E380B66"
+					item: "finsandtails:river_pebble_snail_pot"
+					type: "item"
+				}
+				{
+					id: "59A385070126BB28"
+					item: "finsandtails:siderol_whiskered_snail_pot"
+					type: "item"
+				}
+			]
+			title: "The Search for the Holy Snail"
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Ooh look, a nice &ajuicy loot chest&r! Wonder what's inside?"
+				"&lGOTCHA&r, it's a &eMimic&r! Mimics are creatures which resemble chests, but will turn hostile should you try to open them."
+				"Once defeated, &athey drop &bArtifacts&r."
+			]
+			id: "7FB79E375B154A0E"
+			rewards: [{
+				count: 10
+				id: "1B9AF3CC1116662F"
+				item: "nethersdelight:mimicarnation"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "artifacts:mimic_spawn_egg"
+				id: "3E845198C4BE9909"
+				observe_type: 5
+				timer: 0L
+				to_observe: "artifacts:mimic"
+				type: "observation"
+			}]
+			title: "Fall Prey to the Mimic"
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&eYaks&r are cowlike beasts with long fur. They can be &asheared for their wool&r, which is used in a number of recipes. They can also &abe milked&r!"
+				"They are bred with &aWheat&r, and will try to follow the player around once interacted with."
+			]
+			id: "382FEE92206B1F49"
+			rewards: [{
+				count: 5
+				id: "5BCE90C27F72D1F9"
+				item: "environmental:yak_hair"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "environmental:yak_hair"
+				id: "0AD39E253DAC2DDE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "environmental:yak"
+				type: "observation"
+			}]
+			title: "Meet the Yak"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&eStonelings&r are very timid creatures! They can be found &cin caves underground&r, and will often be carrying &asomething shiny they found&r."
+				"Most times, they will &aimmediately flee&r the player and poof into their home dimension. However, if they are killed, they can drop the very valuable &bHeart of Diamond&r, used to make a &bPickarang&r."
+				"To obtain this, you'll need to &6sneak up on the &eStoneling&r, or &atempt it with a &bGlowshroom&r."
+			]
+			id: "1D8DD63F836302C8"
+			rewards: [{
+				id: "4A85FD0801EB0478"
+				item: "quark:glow_shroom"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "quark:diamond_heart"
+				id: "0C8FFD1E7B985EA1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:stoneling"
+				type: "observation"
+			}]
+			title: "Meet the Stoneling"
+			x: 6.5d
+			y: -6.0d
 		}
 	]
 	title: "Wildlife"

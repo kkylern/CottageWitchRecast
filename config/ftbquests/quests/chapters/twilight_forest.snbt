@@ -764,9 +764,8 @@
 		{
 			dependencies: ["2A52CFAE2D88AC1D"]
 			description: [
-				"In the heart of the &cThorns&r lies a castle which holds the final boss - a &epowerful Kobold&r strong enough to &abreak the back of the Warden with ease&r."
-				"However, whether or not to defeat this being is up to you. &aThere is no reward for doing so&r. No accolades. This quest grants you the only thanks you will get."
-				"With that in mind, will you still challenge them?"
+				"In the heart of the &cThorns&r lies a castle which holds...nothing. The ruler which once lived there is now long gone - vanished to who knows where."
+				"Anticlimactic? Undoubtedly. &aBut such is life - sometimes things are never truly finished&r. Take this reward as thanks for restoring peace to the forest."
 			]
 			id: "2B8E1553C1487EBA"
 			rewards: [
@@ -1049,8 +1048,8 @@
 				type: "advancement"
 			}]
 			title: "Complete the Twilight Forest"
-			x: 7.5d
-			y: 4.5d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			id: "723D12B934CAB46C"

@@ -20,7 +20,6 @@
 			weight: 2.0f
 		}
 		{ item: "delightful:cheeseburger", weight: 15.0f }
-		{ item: "quark:diamond_heart", only_one: true, weight: 5.0f }
 		{ item: "minecraft:quartz", weight: 15.0f }
 		{ item: "minecraft:amethyst_shard", weight: 8.0f }
 		{ item: "minecraft:nautilus_shell", weight: 5.0f }
@@ -28,7 +27,27 @@
 		{ item: "quark:crab_shell" }
 		{ count: 16, item: "quark:moss_paste" }
 		{ item: "crittersandcompanions:pearl" }
-		{ item: "snailmail:stamp" }
+		{ count: 4, item: "snailmail:stamp", weight: 5.0f }
+		{ count: 5, item: "minecraft:firework_rocket" }
+		{ count: 5, item: "quark:torch_arrow" }
+		{ item: "biomemakeover:lightning_bug_bottle" }
+		{ item: "upgrade_aquatic:green_jelly_torch" }
+		{ item: "twilightforest:charm_of_life_2" }
+		{ count: 4, item: "sophisticatedstorage:upgrade_base" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 28
+					}
+				}
+				id: "snailmail:envelope_open"
+			}
+		}
+		{ item: "infernalexp:soul_salt_clump" }
+		{ count: 3, item: "infernalexp:moth_dust" }
 	]
 	title: "Random Tier 1"
 }

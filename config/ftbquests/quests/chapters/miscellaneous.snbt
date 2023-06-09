@@ -48,18 +48,6 @@
 			dev: false
 			height: 9.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcaves.png"
-			rotation: 0.0d
-			width: 9.0d
-			x: -8.5d
-			y: -4.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 9.0d
-			hover: [ ]
 			image: "cottagewitch:textures/bgpotions.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -99,13 +87,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "69BEF756828B0744"
-					table_id: 6951594928314176539L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6DF75DBC530692D7"
-					table_id: 6951594928314176539L
 					type: "random"
 				}
 				{
@@ -160,61 +146,6 @@
 			}]
 			x: 2.5d
 			y: 6.5d
-		}
-		{
-			description: [
-				"A piece of &bCarved Nephrite&r allows you to store your Experience in a network, to prevent it being lost or reduced on death. Connect multiple &bCarved Nephrite&r together to store even more."
-				"It also allows you to &ashare experience with others&r!"
-				"Additionally, you can store up to 30 levels in a &bNephrite Ring&r."
-				"Stand on the &bSiphon&r to drain your EXP, and activate the &bFountain&r to shower yourself in it."
-			]
-			icon: "spelunkery:carved_nephrite"
-			id: "4FA002CF34586849"
-			rewards: [
-				{
-					id: "61FBF6F5B8DEAB11"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "47786C82C733A877"
-					table_id: 6951594928314176539L
-					type: "random"
-				}
-				{
-					id: "50AAE3AE17E51263"
-					item: {
-						Count: 1b
-						id: "spelunkery:nephrite_charm"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "Unfortunately not the experience you can put on your resume"
-			tasks: [
-				{
-					id: "3976A5AEC45B2235"
-					item: "spelunkery:carved_nephrite"
-					type: "item"
-				}
-				{
-					id: "225EF7CF0E054D0C"
-					item: "spelunkery:nephrite_siphon"
-					type: "item"
-				}
-				{
-					id: "0FFBEF5A58FD1F68"
-					item: "spelunkery:nephrite_spout"
-					type: "item"
-				}
-			]
-			title: "Save your EXP"
-			x: -7.5d
-			y: -3.75d
 		}
 		{
 			description: ["The &bIron Grate&r works to keep animals inside, as they are afraid to walk over it, although you can lead them across by attaching a &bLead&r to them. &aItems will fall through it&r."]
@@ -322,7 +253,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7A14064FBA3DA69F"
-					table_id: 8035711958862449784L
 					type: "random"
 				}
 			]
@@ -425,10 +355,7 @@
 			y: 3.5d
 		}
 		{
-			description: [
-				"The &bSleeping Bag&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to use it."
-				"You can &6shift right click&r in order to place it without sleeping."
-			]
+			description: ["The &bBedroll&r is an item which will allow you to &apass the night without setting spawn&r. Simply carry it with you and &6right click it on the ground&r to place it."]
 			id: "34E82F6EBE6762A3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -439,88 +366,20 @@
 			shape: "hexagon"
 			subtitle: "Sleep under the stars!"
 			tasks: [{
-				id: "38FDE24FC2D7BDCF"
+				id: "0531D8B2000AAB12"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "comforts:sleeping_bags"
+						value: "upgrade_aquatic:bedrolls"
 					}
 				}
-				title: "Any #comforts:sleeping_bags"
+				title: "Any #upgrade_aquatic:bedrolls"
 				type: "item"
 			}]
 			title: "Roughing It"
 			x: 3.0d
 			y: 5.5d
-		}
-		{
-			description: ["Make a &bHammock&r to &asleep through the day&r, making it night easily. Then, get up to shenanigans!"]
-			id: "4BCAADA647D7D85A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6FE21F260C828FA7"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "7A9AA65B0CA055E0"
-					item: "comforts:hammock_white"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "028E1A666D288A52"
-					item: "comforts:rope_and_nail"
-					type: "item"
-				}
-			]
-			title: "Daytime naptime!"
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			description: [
-				"The &bHeartstone&r allows you and another player to &6link hearts&r. &bHeartstones&r come in pairs, or you can &6pair them by crafting them together&r."
-				"Giving a friend a linked &bHeartstone&r allows you to locate them by &6holding the stone and right clicking&r. It will send a particle effect towards its mate. When you get closer to your friend, &athey will glow pink&r."
-			]
-			id: "5A071E27CF114D29"
-			rewards: [
-				{
-					id: "1E5935EC39987275"
-					item: {
-						Count: 1b
-						id: "cnb:flower_crown"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3BEA77BE37B3E3C8"
-					table_id: 6951594928314176539L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1C8A7DC747C04C76"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "1C20D9FDDAEC04A8"
-				item: "heartstone:heartstone"
-				type: "item"
-			}]
-			title: "Stay Connected"
-			x: -2.0d
-			y: 3.0d
 		}
 		{
 			description: [
@@ -1181,35 +1040,6 @@
 			y: -6.5d
 		}
 		{
-			description: [
-				"&bPostcards&r and &bParcels&r are from the mod &lContact&r. Unfortunately, this mod's &bMailboxes&r have a &dbad habit of coming unclaimed&r, so that &dno one can receive mail&r. However, they can still be sent via &lSnail Mail&r, an idea come up with by a very smart witch."
-				"Postcards can be &aobtained from the Wandering Trader&r or earned through quest rewards. You can &6right click&r while holding them to write on them."
-				"You can wrap gifts up in &bWrapping Paper&r. Each parcel can hold 4 items. There is no functional difference between the regular and Ender versions when using them with &lSnail Mail&r."
-			]
-			id: "190B6687A0C04CEF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C4AF27FCD738A75"
-				table_id: 6951594928314176539L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2365DCB3A2913DAD"
-				item: {
-					Count: 1b
-					id: "contact:postcard"
-					tag: {
-						CardID: "contact:crock_pot"
-					}
-				}
-				type: "item"
-			}]
-			title: "Keeping in \"Contact\" via Snail Mail"
-			x: -2.5d
-			y: 5.5d
-		}
-		{
 			description: ["Playing a fun game is its own reward, but here's an extra bonus for spending so much time with us! "]
 			id: "1DB7D51E15454923"
 			rewards: [{
@@ -1494,347 +1324,6 @@
 		}
 		{
 			description: [
-				"&bDimensional Tears&r, pronounced like \"scares,\" are a fluid which &ateleports an entity&r to its point of origin. If a &eplayer&r has a &arespawn point&r set, it will bring them there. If they don't, and for &eall other entities&r, it will transport them to &cworld spawn&r."
-				"You can obtain this item from &acertain chests&r, or by &6right clicking a bottle&r onto &bCrying Obsidian&r or an activated &bRespawn Anchor&r."
-				"To use the item, either &6drink it from the bottle&r or &6place it in a cauldron&r and jump into it."
-			]
-			id: "7D8A8CE389AE21D1"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "066FFA50F7238763"
-					table_id: 8035711958862449784L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2B1B545261760FE5"
-					table_id: 8808494820591225409L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "4C826373E785268A"
-				item: {
-					Count: 1b
-					id: "spelunkery:portal_fluid_bottle"
-					tag: {
-						bool: 0b
-					}
-				}
-				type: "item"
-			}]
-			x: -10.5d
-			y: -2.5d
-		}
-		{
-			description: [
-				"&bGlow Sticks&r are a light source that can be &aplaced on any surface&r or &athrown like a snowball&r (placing itself wherever it lands)."
-				"They can be &athrown and placed underwater&r, making them ideal for subnautical exploration."
-				"Glow sticks also come in all 16 colors as well as the glow ink hue, making them ideal for &amarking out pathways&r to different locations."
-			]
-			id: "0697B419AB22174A"
-			rewards: [{
-				count: 5
-				id: "32FD7C8B72D3DFF5"
-				item: "minecraft:glow_ink_sac"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "59BDD56EDDDACA8F"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "spelunkery:glowsticks"
-					}
-				}
-				title: "Any #spelunkery:glowsticks"
-				type: "item"
-			}]
-			title: "Obtain a Glow Stick"
-			x: -8.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["43C76F7F1994F0E0"]
-			description: [
-				"&bMagnetite&r generates in small clusters deep underground, and are surrounded by &bLava&r and &bDeepslate Iron&r, encased in a shell of &bObsidian&r. These geodes are somewhat rare to come across."
-				"You'll need &aSilk Touch&r or a &bHammer and Chisel&r to obtain the blocks, otherwise you will get &bMagnetite Chunks&r instead, which can be used in crafting."
-			]
-			id: "77EAB36408ACB7A1"
-			rewards: [{
-				id: "61F6B69365B178D4"
-				item: "spelunkery:magnetite"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6A933BFEFDAA3A5F"
-				item: "spelunkery:magnetite_chunk"
-				type: "item"
-			}]
-			title: "Obtain Magnetite"
-			x: -10.5d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"77EAB36408ACB7A1"
-				"48E170D061AE51F6"
-			]
-			description: [
-				"Crafted with &bCinnabar&r and &bMagnetite&r, this incredibly useful tool will &adraw items on the ground to you&r for pickup! "
-				"Simply &6right click while holding it&r to activate it, and then &akeep it in your inventory&r. You can turn it off the same way."
-			]
-			id: "1B8AFC09F97B6D48"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C1250D1F75FA025"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7540ABAB50BABF7E"
-				item: {
-					Count: 1b
-					id: "spelunkery:item_magnet"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -11.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["43C76F7F1994F0E0"]
-			description: ["&bRough Cinnabar&r is dropped from &bRedstone Ore&r. To gain the refined version, &6polish it on a Grindstone&r."]
-			id: "48E170D061AE51F6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "695C1FDC2A4B4EEB"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "380C4AC342D0DC3A"
-				item: "spelunkery:cinnabar"
-				type: "item"
-			}]
-			title: "Obtain Cinnabar"
-			x: -9.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1F496C3BE6AA3F4D"]
-			description: ["The &bDiamond Grindstone&r gives a finer polish and thus is suitable for &ararer gems&r such as &bDiamonds&r or &bEmeralds&r. "]
-			id: "5F76FC5927EDF85F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "225806DDE6229D54"
-				table_id: 4747620395501175375L
-				type: "random"
-			}]
-			tasks: [{
-				id: "34A48890D5131340"
-				item: "spelunkery:diamond_grindstone"
-				type: "item"
-			}]
-			title: "Polishing Rough Gems, Pt 2"
-			x: -6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5892F99033AB929C"]
-			id: "1F496C3BE6AA3F4D"
-			rewards: [{
-				id: "7DCE14A76CFAB27D"
-				item: "spelunkery:rough_emerald"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "77E630447BEE5971"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "spelunkery:diamond_grindable"
-					}
-				}
-				title: "Any #spelunkery:diamond_grindable"
-				type: "item"
-			}]
-			title: "Rough Rare Gems"
-			x: -6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["43C76F7F1994F0E0"]
-			description: [
-				"Among its other duties, a &bGrindstone&r can be used to &apolish Rough minerals&r, as long as they're not too precious."
-				"By &6right clicking the item&r on the &bGrindstone&r, you can polish &bRough Lazurite or Cinnabar&r."
-				"Note that you can also use &bSandpaper&r to polish these gems."
-			]
-			id: "5892F99033AB929C"
-			rewards: [{
-				count: 5
-				id: "18C6EF87B540271C"
-				item: "spelunkery:rough_cinnabar"
-				type: "item"
-			}]
-			tasks: [{
-				id: "61DD8BD89D1A0250"
-				item: "minecraft:grindstone"
-				type: "item"
-			}]
-			title: "Polishing Rough Gems, Pt 1"
-			x: -6.5d
-			y: -5.5d
-		}
-		{
-			id: "43C76F7F1994F0E0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7A1F5434B528325B"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "4F2613CD853BCABB"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "spelunkery:grindable"
-					}
-				}
-				title: "Any #spelunkery:grindable"
-				type: "item"
-			}]
-			title: "Rough Common Gems"
-			x: -8.25d
-			y: -6.0d
-		}
-		{
-			description: [
-				"Okay, I admit, I have a Cauldron addiction. Can you blame me?"
-				"Anyway, the &bReinforced Cauldron&r has a few traits to set it apart from its brethren."
-				"It &afunctions as an infinite water source&r when filling &bEmpty Bottles&r."
-				"It can also be filled with potions, but don't try to mix different kinds!"
-				"There is supposedly a way to dip one's weapon in it, but this seems to be dysfunctional at this time."
-			]
-			id: "55B5B1FF2E582197"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "27687415ACFAC3B5"
-				table_id: 6941837675484043489L
-				type: "choice"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "221D7BBAC6B140CF"
-				item: "davespotioneering:reinforced_cauldron"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["55B5B1FF2E582197"]
-			description: [
-				"The &bRudimentary Gauntlet&r is a weapon which, by itself, is not all that impressive. However, &aupgrading it&r will unlock its true potential!"
-				"As it is, it is &acomparable to an &bIron Sword&r."
-			]
-			id: "17E7E31CA9913B11"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "676587CE89B2B2D4"
-				table_id: 223398162038636868L
-				type: "random"
-			}]
-			tasks: [{
-				id: "063114B2110D72F9"
-				item: {
-					Count: 1b
-					id: "davespotioneering:rudimentary_gauntlet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["17E7E31CA9913B11"]
-			description: ["The &bNetherite Gauntlet&r is slightly more powerful than its sword counterpart, but what is truly impressive is &aits final upgrade&r: the &bPotioneer Gauntlet&r."]
-			id: "2678B12013B210AE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "423345F89B6CC035"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			tasks: [{
-				id: "3B88C2AF5574687A"
-				item: {
-					Count: 1b
-					id: "davespotioneering:netherite_gauntlet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["2678B12013B210AE"]
-			description: [
-				"The &bPotioneer's Gauntlet&r allows one to &ainject potions into their attacks&r using the &bPotion Injector&r. Up to 6 &bLingering Potions&r can be injected."
-				"When attacking with the Gauntlet, you will deal both melee damage and the potion effect's damage. This can be toggled by pressing &6shift+right click&r."
-				"Once one potion is used, it will automatically load up the next potion after a few seconds."
-				"They will &aload in the order they were placed&r in the Injector UI. The potions are not consumed, but will be on cooldown after use."
-				"To resupply your gauntlet, apply &bBlaze Powder&r in the &bPotion Injector&r."
-			]
-			id: "025915069DC65690"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6B824B48F8C6CBB1"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "104301CDAFF8EF72"
-					item: {
-						Count: 1b
-						id: "davespotioneering:potioneer_gauntlet"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "1C8E87F23750E634"
-					item: "davespotioneering:potion_injector"
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 6.5d
-		}
-		{
-			description: [
 				"Those who experiment with altering their states may find themselves in quite the situation, not entirely knowing how they arrived at this conclusion."
 				"This achievement involves getting &aevery vanilla effect&r at once, as well as the following modded effects:"
 				"Sculk Affinity (Deeper and Darker), Panic, Serenity (both Environmental), Health Boost, Resilience (Quark)."
@@ -2036,6 +1525,84 @@
 			title: "Raid Master"
 			x: -9.0d
 			y: 6.5d
+		}
+		{
+			description: ["Hmm, some &bMagic Beans&r. They seem legit - wonder what they do?"]
+			id: "6855271C74721F52"
+			rewards: [{
+				id: "0135D146C676F9EE"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7AB04813FADD661F"
+				item: "neapolitan:magic_beans"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"Wanna buy some shrooms? You're in luck! The &eMushroom Trader&r is a unique villager who will trade you &ainteresting mushrooms and blocks&r in exchange for &bEmeralds&r."
+				"{image:cottagewitch:textures/mushroomtrader.png width:100 height:180 align:1 fit:true}"
+				"But despite his grisly appearance, you &acannot Shear him&r, as that would be quite rude."
+			]
+			id: "7264C3A1D00DF2D4"
+			rewards: [
+				{
+					id: "31C90F4B56471882"
+					item: "biomemakeover:glowshroom_stew"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "106D05E1953195AC"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				icon: "minecraft:red_mushroom"
+				id: "72C16E75AC8D71FD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:mushroom_trader"
+				type: "observation"
+			}]
+			title: "Meet the Mushroom Trader"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"You can obtain a &bElder Eye&r from &eElder Guardians&r. Don't confuse it with the &bGuardian Eye&r, which is used to get to &cThe End&r!"
+				"The &bElder Eye&r is a &aplaceable item&r which will give off a &astrong redstone signal&r when an entity is nearby."
+			]
+			id: "2B185A8ECBD7AD8F"
+			rewards: [{
+				id: "76AF237790552D43"
+				item: "upgrade_aquatic:elder_eye"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4223E607CF42AD78"
+				item: "upgrade_aquatic:elder_eye"
+				type: "item"
+			}]
+			title: "Eyes of an Elder"
+			x: -2.0d
+			y: -4.5d
 		}
 	]
 	title: "Miscellaneous"

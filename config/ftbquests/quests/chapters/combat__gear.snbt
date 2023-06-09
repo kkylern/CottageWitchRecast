@@ -732,8 +732,8 @@
 		}
 		{
 			description: [
-				"This modpack brings some changes to &bTridents&r. Firstly, they may now &abe crafted&r, using &bTrident Fragments&r, which drop from &eElder Guardians&r."
-				"Once thrown, a trident with &bLoyalty&r will &areturn to the slot from which it departed&r."
+				"No longer do you need to envy the dead for their incredible &bTrident&r-wielding abilities, and hope that eventually one will drop for you..."
+				"You can now &acraft your own&r! It won't be easy, as it requires the &bTeeth of a Thrasher&r, a fearsome aquatic beast which &aisn't keen on parting with its teeth&r. But it will be worth it!"
 			]
 			id: "6A3F5153FB6473E1"
 			rewards: [
@@ -751,8 +751,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "7F7CAA3B73FD4E69"
-				item: "bettertridents:trident_fragment"
+				id: "232869AFDAC50263"
+				item: "upgrade_aquatic:thrasher_tooth"
 				type: "item"
 			}]
 			title: "Build a Trident"

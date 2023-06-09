@@ -19,9 +19,11 @@
 				}
 			}
 		}
-		{ item: "alexsmobs:cachalot_whale_tooth" }
 		{ count: 5, item: "minecraft:echo_shard" }
 		{ item: "pipez:advanced_upgrade" }
+		{ item: "moblassos:golden_lasso" }
+		{ }
+		{ item: "biomesinjars:empty_biome_jar" }
 	]
 	title: "T2 Choice"
 }

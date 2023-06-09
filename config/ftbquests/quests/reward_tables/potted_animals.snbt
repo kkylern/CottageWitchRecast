@@ -1,0 +1,11 @@
+{
+	id: "698B82A994287272"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ item: "finsandtails:flatback_leaf_snail_pot" }
+		{ item: "finsandtails:siderol_whiskered_snail_pot" }
+		{ item: "finsandtails:river_pebble_snail_pot" }
+	]
+	title: "Potted Animals"
+}

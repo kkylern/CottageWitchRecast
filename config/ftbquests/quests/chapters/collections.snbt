@@ -533,18 +533,8 @@
 			subtitle: "Is fungiphilia a thing?"
 			tasks: [
 				{
-					id: "371E746F7BA14ACE"
-					item: "byg:shulkren_fungus"
-					type: "item"
-				}
-				{
 					id: "62F783639B880310"
 					item: "quark:glow_shroom"
-					type: "item"
-				}
-				{
-					id: "6EBF197515ACA3EC"
-					item: "byg:soul_shroom"
 					type: "item"
 				}
 				{
@@ -563,58 +553,33 @@
 					type: "item"
 				}
 				{
-					id: "748D985DE02CBFB2"
-					item: "alexsmobs:gongylidia"
-					type: "item"
-				}
-				{
-					id: "74603D5C47858EA5"
-					item: "byg:green_mushroom"
-					type: "item"
-				}
-				{
-					id: "66D374A30D1140F0"
-					item: "byg:imparius_mushroom"
-					type: "item"
-				}
-				{
 					id: "61FE2D33E4980C7C"
 					item: "minecraft:warped_fungus"
 					type: "item"
 				}
 				{
-					id: "49C5309778C69B0A"
-					item: "extendedmushrooms:honey_fungus"
+					id: "18DE9B00BA403E19"
+					item: "twilightforest:mushgloom"
 					type: "item"
 				}
 				{
-					id: "232E31DB413BD7CF"
-					item: "extendedmushrooms:slime_fungus"
+					id: "453026BBB2051786"
+					item: "collectorsreap:portobello"
 					type: "item"
 				}
 				{
-					id: "0A0A225B2F884D0F"
-					item: "extendedmushrooms:poisonous_mushroom"
+					id: "5783B3748E3CB806"
+					item: "biomemakeover:green_glowshroom"
 					type: "item"
 				}
 				{
-					id: "0666ED2501985835"
-					item: "extendedmushrooms:glowshroom"
+					id: "652D0736761C50D4"
+					item: "biomemakeover:orange_glowshroom"
 					type: "item"
 				}
 				{
-					id: "7C336275B87713BE"
-					item: "spelunkery:button_mushroom"
-					type: "item"
-				}
-				{
-					id: "7C5EEF479F30202C"
-					item: "spelunkery:white_inkcap_mushroom"
-					type: "item"
-				}
-				{
-					id: "7FF0C3263CC3A2E6"
-					item: "spelunkery:inkcap_mushroom"
+					id: "2B8961E1ADD839AF"
+					item: "biomemakeover:purple_glowshroom"
 					type: "item"
 				}
 			]
@@ -633,13 +598,7 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "3CA57C3B706C562D"
-					item: "alexsmobs:rainbow_glass"
-					type: "item"
-				}
-				{
-					count: 8
+					count: 4
 					id: "207EB76873ACDF1B"
 					item: "quark:rainbow_rune"
 					type: "item"

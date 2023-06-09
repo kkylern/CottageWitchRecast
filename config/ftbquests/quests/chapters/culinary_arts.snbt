@@ -96,7 +96,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgcaupona.png"
+			image: "cottagewitch:textures/bgwinery.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -4.5d
@@ -203,7 +203,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "161C3C3226B4FBA4"
-					table_id: 6951594928314176539L
 					type: "random"
 				}
 			]
@@ -361,7 +360,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "422FD06857C62DDA"
-					table_id: 6951594928314176539L
 					type: "random"
 				}
 			]
@@ -1046,7 +1044,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "309D8CC70326452A"
-				table_id: 6951594928314176539L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -1283,57 +1280,8 @@
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
-				{
-					id: "295B2142CC888888"
-					item: {
-						Count: 1b
-						id: "caupona:vegetable_chowder"
-						tag: {
-							display: {
-								Lore: [
-									"{\"translate\":\"tooltip.caupona.display_only\"}"
-									"{\"translate\":\"tooltip.caupona.cook_required\"}"
-								]
-							}
-							type: "caupona:vegetable_chowder"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "04FC7AA2C7AB0F74"
-					item: {
-						Count: 1b
-						id: "caupona:vegetable_soup"
-						tag: {
-							display: {
-								Lore: [
-									"{\"translate\":\"tooltip.caupona.display_only\"}"
-									"{\"translate\":\"tooltip.caupona.cook_required\"}"
-								]
-							}
-							type: "caupona:vegetable_soup"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "44A9688466EA1177"
-					item: {
-						Count: 1b
-						id: "caupona:sauteed_vegetables"
-						tag: {
-							display: {
-								Lore: [
-									"{\"translate\":\"tooltip.caupona.display_only\"}"
-									"{\"translate\":\"tooltip.caupona.cook_required\"}"
-								]
-							}
-						}
-					}
-					type: "item"
-				}
 			]
+			title: "Delicious Veggies"
 			x: -11.5d
 			y: -2.5d
 		}
@@ -1438,7 +1386,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1BC771B1971C882C"
-					table_id: 6951594928314176539L
 					type: "random"
 				}
 			]
@@ -1520,7 +1467,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0332EB9DA634009A"
-				table_id: 6951594928314176539L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -2081,396 +2027,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["0AB07DA9AF0FB294"]
-			description: [
-				"You can also &aadd Spices to your food&r! One such spice is &bVinegar&r, which is created by leaving &bSweet Berries&r to &arest in the Dolium&r with a &bFlower Pot&r."
-				"Adding spices to your food &agives it greater saturation&r."
-			]
-			id: "6FB77462CDE121E0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6482B9A414C2F51D"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "77CED17C872CD141"
-				item: {
-					Count: 1b
-					id: "caupona:vinegar_spice_jar"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["1C80130EFE5C2FFC"]
-			description: [
-				"The &bDolium&r is used for &aResting Conversion&r, which consists of placing your &aingredients and other items&r inside and &6letting them rest&r, for up to an &ain-game day&r."
-				"Each recipe needs all ingredients, as well as a container to hold the result, and sometimes an additional item (such as &aAnvils for Gravy Boats&r). &dThe resting process will not begin without all components&r."
-				"This can be sped up using the &bTime in a Bottle&r."
-			]
-			id: "0AB07DA9AF0FB294"
-			rewards: [
-				{
-					id: "185280CA37E4EE83"
-					item: "minecraft:flower_pot"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0EC15D91B0841254"
-					item: "minecraft:sweet_berries"
-					type: "item"
-				}
-			]
-			subtitle: "the doldrums"
-			tasks: [{
-				id: "0D8863BF5312178C"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "crafttweaker:dolium"
-					}
-				}
-				title: "Any #crafttweaker:dolium"
-				type: "item"
-			}]
-			title: "Obtain a Dolium"
-			x: -5.5d
-			y: 13.0d
-		}
-		{
-			description: [
-				"&lCaupona&r is a cooking mod that employs a freeform style of recipe."
-				"With most recipes, you will &amaintain a ratio&r of ingredients, such as ensuring that you have &a\"mostly beef\"&r and &a\"some vegetables\"&r, with &a\"no fish\"&r, and so on."
-				"You can use &bthe guidebook&r or &lJEI&r to learn the recipes."
-				"{image:cottagewitch:textures/cauponajei.png width:100 height:80 align:1 fit:true}"
-				"When viewing &bStews and Soups&r, ensure that you &6click these icons&r to access their recipes."
-				""
-				"{image:cottagewitch:textures/cauponarecipe.png width:100 height:90 align:1 fit:true}"
-				"A) This is the &bSoup Base&r. For example, for &bNail Soup&r, you &6boil water&r."
-				"B) This is the &aratio of ingredients to liquid&r. For example, 3 or more ingredients to 1 bucket/4 bowls of liquid."
-				"C) This is the &aoutput&r, or what the recipe will make."
-				"D) These are ingredients which &amust not be included&r."
-				"E and F) These are the &aratio of items to each other&r, for example, a majority of &bbeef&r and at least one &bvegetable&r."
-				""
-				"Now that you know how to read the recipes, let's make some!"
-			]
-			id: "1C80130EFE5C2FFC"
-			rewards: [
-				{
-					count: 5
-					id: "0F977FCE0DC2C342"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-				{
-					count: 20
-					id: "218BF142EC10208A"
-					item: "minecraft:brick"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "62F668FBB95DA821"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "caupona:book"
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["1C80130EFE5C2FFC"]
-			description: [
-				"The &bStove&r is a helpful and aesthetically-pleasing &aheat source&r, which can be used to heat &bStew Pots, Stir Fry Pans, and Hypocausts&r."
-				"Strictly speaking, a &bStove&r is not the only &aheat source usable by the mod&r. However, it's very pretty."
-			]
-			id: "50C95EB7CBDC346C"
-			rewards: [
-				{
-					count: 15
-					id: "20C950EB18CF3B54"
-					item: "minecraft:coal"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "68C4DADB681A65A3"
-					item: "minecraft:bowl"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "222DF6FB2BDBE753"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "caupona:stoves"
-					}
-				}
-				title: "Any #caupona:stoves"
-				type: "item"
-			}]
-			title: "Obtain a Stove"
-			x: -4.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["50C95EB7CBDC346C"]
-			description: [
-				"To stir-fry things, you'll need two things: a &bpan or stone&r, and a &bGravy Boat&r."
-				"The Pan must be &6placed atop a heat source&r. The &bGravy Boat&r must be placed &adirectly next to the pan&r. You can place it with &6shift right click&r."
-			]
-			id: "71C8716D1914B882"
-			rewards: [{
-				count: 8
-				id: "6B7C1D25705EEE00"
-				item: "caupona:walnut"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2E6DB140B6C0DA58"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "crafttweaker:cookingpans"
-					}
-				}
-				title: "Any #crafttweaker:cookingpans"
-				type: "item"
-			}]
-			title: "Obtain a Stir-Fry Pan"
-			x: -3.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["71C8716D1914B882"]
-			description: [
-				"A &bGravy Boat&r is crucial to making &aStir Fried dishes&r. It's crafted by &aresting&r, which is a unique mechanic involving &6putting things in a &bDolium&r and then &6leaving it the heck alone&r."
-				""
-				"{image:cottagewitch:textures/gravyboat.png width:100 height:100 align:1 fit:true}"
-				"In this image, you can see there are &aat least 8 &bWalnuts&r, one &bAnvil&r, and one &bGlass Bottle&r (you can also use an empty Gravy Boat) in the &bDolium&r. All of these must be present in order for the &aresting process&r to begin. Be aware that this &dtakes a very long time&r. Most resting takes &dan in-game day&r to complete."
-				"You can speed it up by using &bTime in a Bottle&r."
-			]
-			id: "2DFE677856208F14"
-			rewards: [{
-				id: "1FE4DD30ABD1C102"
-				item: {
-					Count: 1b
-					id: "caupona:gravy_boat"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3013E83825BE3012"
-				item: {
-					Count: 1b
-					id: "caupona:gravy_boat"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.5d
-			y: 14.5d
-		}
-		{
-			dependencies: ["50C95EB7CBDC346C"]
-			description: [
-				"To begin with, you'll need a &bClay Pot&r, which you'll need to &6fire in a furnace&r. A &bStew Pot&r is used to make &aSoups, Stews, and Aspics&r."
-				"Once placed, you can &afill the Stew Pot&r by &6right clicking it&r with a &bBucket of Milk or Water&r, or &bBowls&r of whichever ingredient."
-			]
-			id: "3502E25C90113657"
-			rewards: [{
-				id: "6A32F2E793A1F940"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4D056C50983F3A3A"
-					item: "caupona:clay_cistern"
-					type: "item"
-				}
-				{
-					id: "533DE80660D97571"
-					item: "caupona:stew_pot"
-					type: "item"
-				}
-			]
-			title: "Obtain a Stew Pot"
-			x: -2.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["3502E25C90113657"]
-			description: [
-				"Now that you're ready to cook, let's try making some &bBorscht&r. Just like babshka used to make."
-				""
-				"{image:cottagewitch:textures/borscht.png width:100 height:60 align:1 fit:true}"
-				"As you can see, it's a &bBeetroot&r-heavy &avegetable soup&r, that doesn't have any &adenial ingredients&r."
-				"Make sure you place &aat least 3 &bBeetroot&r and &aat least 1 &bother vegetable&r (or another &bBeetroot&r)."
-				"However, you can &dadd more than that&r! If you make it with &b9 Beetroot&r, it will give you &agreater saturation&r."
-				"There is a &dbug where the correct Saturation won't appear&r when you hover over the item. However, it will be correct when you eat it."
-				"Stews can also &abe placed down with &6shift + right click&r!"
-				"Additionally, you can &aadd &bPotions&a to your food&r by including them in the 9 ingredients."
-			]
-			id: "1A24E1B112A913B5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0A03646F4272C219"
-					table_id: 8808494820591225409L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0A1CFFFD5A572CE2"
-					table_id: 6951594928314176539L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "3FDAECE6DCA50478"
-				item: {
-					Count: 1b
-					id: "caupona:borscht"
-					tag: {
-						display: {
-							Lore: [
-								"{\"translate\":\"tooltip.caupona.display_only\"}"
-								"{\"translate\":\"tooltip.caupona.cook_required\"}"
-							]
-						}
-						type: "caupona:borscht"
-					}
-				}
-				type: "item"
-			}]
-			title: "Make a Stew"
-			x: -2.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["1A24E1B112A913B5"]
-			description: ["Soups will &aconvert to Aspic&r if left to sit in a &bStew Pot&r or &bDolium&r for long periods of time. This can be a good way of &astacking your stews&r, as &bBowls&r do not stack."]
-			id: "2B95A3784844A835"
-			rewards: [{
-				id: "685A465100AE8BF1"
-				item: "caupona:mushroom_soup_aspic"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "390D095EFFB0452D"
-				item: "caupona:borscht_aspic"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["2B95A3784844A835"]
-			description: [
-				"In order to &athaw an &bAspic&r, you can either &6place it in a &bStew Pot&r and let it convert, or you can use a &bPortable Brazier&r."
-				"The &bBrazier&r can be done while traveling, but it will require a &bBowl of Water&r and some &bVivid Charcoal&r in order to work."
-			]
-			id: "17005FF934CF893E"
-			rewards: [
-				{
-					id: "063721E083CD0092"
-					item: "caupona:vivid_charcoal"
-					type: "item"
-				}
-				{
-					id: "5EE98E840E0DA2F8"
-					item: {
-						Count: 1b
-						id: "caupona:water"
-						tag: {
-							display: {
-								Lore: [
-									"{\"translate\":\"tooltip.caupona.display_only\"}"
-									"{\"translate\":\"tooltip.caupona.cook_required\"}"
-								]
-							}
-							type: "minecraft:water"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "7FAB652F6F66B8B2"
-				item: "caupona:portable_brazier"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["2DFE677856208F14"]
-			description: ["To test your Stir-Fry Skills, why not make some &bSauteed Roots&r? This dish is made with &aroot vegetables such as &bCarrots&r or &bPotatoes&r."]
-			id: "07EB926AC767EEEE"
-			rewards: [{
-				id: "6DB1CA10880F4886"
-				item: {
-					Count: 1b
-					id: "caupona:sauteed_roots"
-					tag: {
-						display: {
-							Lore: [
-								"{\"translate\":\"tooltip.caupona.display_only\"}"
-								"{\"translate\":\"tooltip.caupona.cook_required\"}"
-							]
-						}
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "4EB57E2010CEE329"
-				item: {
-					Count: 1b
-					id: "caupona:sauteed_roots"
-					tag: {
-						display: {
-							Lore: [
-								"{\"translate\":\"tooltip.caupona.display_only\"}"
-								"{\"translate\":\"tooltip.caupona.cook_required\"}"
-							]
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: 14.5d
-		}
-		{
 			description: ["To obtain a &bDragon Tooth&r, one must &6kill the &eEnder Dragon&6 with a &bKnife&r."]
 			id: "7E256574E63296C9"
 			rewards: [{
@@ -2486,6 +2042,285 @@
 			}]
 			x: 5.0d
 			y: 15.0d
+		}
+		{
+			description: ["You can obtain &bGrape Seeds&r from &eWinemaker Villagers&r, whose job block is an &bApple Press&r. Grapes &acan be planted directly as bushes&r."]
+			id: "7D770ADEB3905EE0"
+			rewards: [{
+				count: 6
+				id: "279B079D39770F55"
+				item: "vinery:red_grape"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "02DD5D14AF4E58F8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:seeds"
+					}
+				}
+				title: "Any #c:seeds"
+				type: "item"
+			}]
+			title: "Obtain Grape Seeds"
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: [
+				"Although &bGrapes&r can be planted directly in the ground, you can get &agreater output&r by &6planting them on &bGrapevine Stems&r."
+				"{image:cottagewitch:textures/grapevine.png width:100 height:80 align:1}"
+			]
+			id: "516F4B3499491907"
+			rewards: [{
+				count: 5
+				id: "7A51BC49882402BE"
+				item: "vinery:grapevine_stem"
+				type: "item"
+			}]
+			subtitle: "what a grape idea"
+			tasks: [{
+				id: "1BA6CED99303B74C"
+				item: "vinery:grapevine_stem"
+				type: "item"
+			}]
+			title: "Increase Your Output"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["516F4B3499491907"]
+			description: [
+				"The &bRustic Cooking Pot&r must be placed on a &aHeat Source&r in order to work. This can include &bStoves&r, &bBlaze Burners&r, or &bFireboxes&r."
+				"With this pot, you can &amake Jams and even Applesauce&r!"
+				"Be sure to &6click the recipe book&r inside the &bRustic Cooking Pot&r to see the recipes you can make!"
+			]
+			id: "1B9679B93B25DF27"
+			rewards: [
+				{
+					id: "5C856C28D0AE77B1"
+					item: "vinery:apple_mash"
+					type: "item"
+				}
+				{
+					id: "530088AEC0337C4E"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D34CE8B6D513119"
+					item: "vinery:stove"
+					type: "item"
+				}
+				{
+					id: "08F559F7EC65B8E1"
+					item: "vinery:cooking_pot"
+					type: "item"
+				}
+			]
+			title: "Cooking with Copper"
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: [
+				"You can craft a &bKitchen Sink&r and even &aplace a faucet on it!&r This functions as an easy &ainfinite water source&r for your kitchen!"
+				"&6Right click&r the sink to fill it!"
+			]
+			id: "0DFA6F01A0541AA3"
+			rewards: [{
+				count: 10
+				id: "76C5BF9207D4BAA7"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "an infinite water source"
+			tasks: [
+				{
+					id: "5BBA7E5FE8D0899C"
+					item: "vinery:kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "6EF2FD97D6B70256"
+					item: "vinery:faucet"
+					type: "item"
+				}
+			]
+			title: "Everything But The..."
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: ["To obtain cherries, &6right click with shears&r on fruited cherry leaves. The only &bCherry Trees&r which provide the fruit are from the &lLet's Do Wine/Vinery&r mod.\""]
+			id: "28C888A9549BFA4E"
+			rewards: [
+				{
+					id: "45BF82DCDE014E61"
+					item: "vinery:cherry_jar"
+					type: "item"
+				}
+				{
+					id: "2482C0C68C722C08"
+					item: "vinery:cherry_sapling"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2195D033C18CC25D"
+					item: "vinery:cherry"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "115D8DF67BCA000F"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			title: "Cherry Good"
+			x: -5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["28C888A9549BFA4E"]
+			description: [
+				"Put your new items and skills to work and &acook up some Cherry Jam&r! It goes delicious with some homemade &bCrusty Bread&r. Mmmm."
+				"{image:cottagewitch:textures/vineryui.png width:200 height:100 align:1}"
+				"The recipes for &lVinery&r are not visible in JEI, but instead through a &aRecipe Book&r inside the &bCooking Pot&r."
+			]
+			id: "42E5F9FA19A2E384"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E57160B7D762461"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "we jammin"
+			tasks: [{
+				id: "02BCA32BF3313B46"
+				item: "vinery:cherry_jam"
+				type: "item"
+			}]
+			title: "Make Some Jam"
+			x: -5.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["42E5F9FA19A2E384"]
+			description: ["To obtain a &bSlice of Jammy Bread&r, &6place down a &bloaf of Crusty Bread&r using shift-right click&r. Then, holding your &bJam&r, &6right click the Bread!&r."]
+			id: "467846990392B0CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E7095F60CC8DACA"
+				table_id: 8096229411196850122L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "426FD5AEEDBE788A"
+				item: "vinery:bread_slice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: [
+				"The &bWood Fired Oven&r is an important inclusion to any witch's kitchen. We know well the magic that comes with freshly-baked bread!"
+				"When provided with &bFuel&r, the &bWood Fired Oven&r can make a number of warm, fluffy delicacies."
+				"Don't forget to &6check the recipe book&r inside the &aOven's GUI&r."
+			]
+			id: "30BA6A12CFCE2FB2"
+			rewards: [
+				{
+					count: 2
+					id: "0FAA0E464160D42B"
+					item: "create:wheat_flour"
+					type: "item"
+				}
+				{
+					id: "311683505ABD8529"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "494030F0A4EEBAFF"
+				item: "vinery:wood_fired_oven"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			description: [
+				"You can &aplace up to 3 grapes&r at one time into the &bGrapevine Pot&r to be crushed. Once the pot is full, &6get in there and start stomping&r (jump)!"
+				"This will provide you with &a3 bottles of &bGrapejuice&r, which you can get by &6right clicking the &bPot&r with a &bWine Bottle&r."
+			]
+			id: "68B2EF977B115725"
+			rewards: [{
+				count: 3
+				id: "3B51854674968C14"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			subtitle: "get stompin"
+			tasks: [{
+				id: "0CC50B6E8FCF4F3E"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			title: "Pressing the Grapes"
+			x: -5.0d
+			y: 18.5d
+		}
+		{
+			description: [
+				"You'll need a &bWine Bottle&r to hold your boozy libations."
+				"&dRight now this is a little unbalanced&r. Although your &bGrape Juice&r is inside a &bWine Bottle&r, you &adon't get those bottles back&r when you &acraft and consume&r the wine."
+				"Good things come at a cost, I guess!"
+			]
+			id: "15CAD3A9477E400B"
+			rewards: [{
+				count: 10
+				id: "3DEF6364740AC91D"
+				item: "vinery:wine_bottle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C20C2788C00EBDB"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "4FE5DD102B15C02A"
+					item: {
+						Count: 1b
+						id: "vinery:noir_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bottling the Wine"
+			x: -3.5d
+			y: 18.5d
 		}
 	]
 	title: "Culinary Arts"

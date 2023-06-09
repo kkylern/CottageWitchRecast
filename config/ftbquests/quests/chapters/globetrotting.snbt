@@ -59,67 +59,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Is there much overlap between Ninjas and Witches? I'm not sure, but this armor is pretty cool, so why not stop asking questions and just do the quest, eh? Whippersnapper. Go &6climb 90,000cm&r to prove your worth."]
-			id: "240FB022501AAC3B"
-			rewards: [
-				{
-					id: "725129848D9BBEC3"
-					item: {
-						Count: 1b
-						id: "mcsa:ninja_ivor_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "35B5E3DE2D601E67"
-					item: {
-						Count: 1b
-						id: "mcsa:ninja_ivor_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5FACA725CE4669FD"
-					item: {
-						Count: 1b
-						id: "mcsa:ninja_ivor_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7D52190DC3A60493"
-					item: {
-						Count: 1b
-						id: "mcsa:ninja_ivor_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			subtitle: "it's over 90000"
-			tasks: [{
-				id: "3FD5ABFC21E1C5FB"
-				stat: "minecraft:climb_one_cm"
-				type: "stat"
-				value: 90000
-			}]
-			title: "Witch of the Hidden Leaf Village"
-			x: -6.5d
-			y: -3.5d
-		}
-		{
 			description: ["Congratulations, you have opened 10 trapped chests! An achievement worth celebrating. Now heal up."]
 			id: "4470E2B09DB2B676"
 			rewards: [{
@@ -275,23 +214,23 @@
 			id: "4A83D94AEF11125B"
 			rewards: [
 				{
-					id: "086CB5409B58B55C"
-					item: {
-						Count: 1b
-						id: "minecraft:splash_potion"
-						tag: {
-							Potion: "alexsmobs:long_poison_resistance"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "75A24FC363FAB94F"
 					item: {
 						Count: 1b
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:long_regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45490227971ECC82"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "biomemakeover:actidote_pot"
 						}
 					}
 					type: "item"
@@ -458,50 +397,6 @@
 					id: "20EC227724BF2A88"
 					table_id: 223398162038636868L
 					type: "choice"
-				}
-				{
-					id: "32FD2F3EF624A9C6"
-					item: {
-						Count: 1b
-						id: "mcsa:soren_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "07AF4E5173798D24"
-					item: {
-						Count: 1b
-						id: "mcsa:soren_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0EA3CC007ED564C4"
-					item: {
-						Count: 1b
-						id: "mcsa:soren_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "466C77C2EAD40AE4"
-					item: {
-						Count: 1b
-						id: "mcsa:soren_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
 				}
 			]
 			shape: "octagon"
@@ -706,7 +601,7 @@
 				table_id: 6941837675484043489L
 				type: "random"
 			}]
-			shape: "gear"
+			shape: "heart"
 			tasks: [{
 				icon: "moyai:moyai"
 				id: "75641BA6E29894EE"
@@ -1032,7 +927,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7FF19DA50CF1BE25"
-					table_id: 8035711958862449784L
 					type: "random"
 				}
 			]
@@ -1160,127 +1054,25 @@
 			y: -2.5d
 		}
 		{
-			description: [
-				"Long ago, wandering tribes of &aVillagers&r mastered the art of &amagical flight&r, and now exist in &cfloating cities&r across the land."
-				"If one were to have a &bflying Broomstick&r, one could easily reach such a place!"
-			]
-			id: "081CE468F6E6F2C1"
-			rewards: [
-				{
-					id: "526AEB5057FFED43"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3CE0466A119A3B13"
-					table_id: 8035711958862449784L
-					type: "choice"
-				}
-			]
-			tasks: [{
-				icon: "twilightforest:wispy_cloud"
-				id: "7C4463CED91676B4"
-				structure: "skyvillages:skyvillage"
-				type: "structure"
-			}]
-			title: "Find a Sky Village"
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			description: ["&bGlow sticks&r are a light source that can be &6placed on any surface&r, or thrown like a &6snowball&r (sticking to wherever it lands). Try them out in caves, dungeons, and even under water! Comes in 16 delicious flav- I mean colours. "]
-			id: "6D1210B36D6927EA"
-			rewards: [{
-				id: "5A2C69238CD59379"
-				item: {
-					Count: 1b
-					id: "cnb:glowing_flower_crown"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Peace, Love, Unity, Respect, Glowstick"
-			tasks: [{
-				id: "22ED47290FE7FD37"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "spelunkery:glowsticks"
-					}
-				}
-				title: "Any #spelunkery:glowsticks"
-				type: "item"
-			}]
-			title: "Obtain a Glowstick"
-			x: -10.0d
-			y: -6.0d
-		}
-		{
-			description: ["Craft yourself some &bRope Ladders&r and &bWooden Rails&r to carefully traverse difficult terrain - easy to make, easy to place, and able to &achain across air gaps&r without support blocks below them. Vertical and Horizontal travel has never been so handy! Both can be placed similarly to &bScaffolding&r- &6right click one onto another&r and they’ll build in the direction you face. You can even &apull your rope ladder up&r behind you by right clicking the top piece! "]
-			id: "764EC9973027FFD1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "586F5FF40E862D6A"
-				table_id: 3965165831041023950L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			subtitle: "It’s probably strong enough, right?"
-			tasks: [
-				{
-					id: "150E63B474A42DA9"
-					item: "spelunkery:rope_ladder"
-					type: "item"
-				}
-				{
-					id: "4D9753FCE98F1708"
-					item: "spelunkery:wooden_rail"
-					type: "item"
-				}
-			]
-			title: "Obtain Rope Ladder and a Wooden Rail"
-			x: -9.5d
-			y: -5.0d
-		}
-		{
-			description: ["&bMagnetite&r generates in small clusters underground, surrounded by lava and deepslate iron, &aencased in a shell of obsidian&r. Harvest this rare ore with your Pickaxe to get magnetite chunks… or for &bMagnetite ore&r, use a Hammer + Chisel (or &asilk touch&r). Both of these items will help you discover some strangely attractive new crafting recipes! "]
-			id: "55481D0A52C6BD09"
-			rewards: [{
-				count: 5
-				id: "304EB69026E5530D"
-				item: "spelunkery:rough_cinnabar_block"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "I choose you, Magnetite!"
-			tasks: [{
-				id: "250F48C70BB57499"
-				item: "spelunkery:magnetite"
-				type: "item"
-			}]
-			title: "Obtain Magnetite"
-			x: -11.5d
-			y: -5.0d
-		}
-		{
-			description: ["Cozy up to some bears in this lovely little den in the woods! It's probably totally safe! They're harmless! Probably!"]
+			description: ["Cozy up to some creatures in this lovely little den in the woods! It's probably totally safe! They're harmless! Probably!"]
 			id: "40FFFF9DE0AA9305"
 			rewards: [
-				{
-					count: 4
-					id: "22490890E8407133"
-					item: "alexsmobs:bear_fur"
-					type: "item"
-				}
 				{
 					id: "6CB25745B99F35B1"
 					item: "cnb:heal_spell_book_1"
 					type: "item"
+				}
+				{
+					count: 10
+					id: "2F9CF17C836C0C86"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CFA2C6C77C9ED8D"
+					table_id: 8096229411196850122L
+					type: "random"
 				}
 			]
 			shape: "octagon"

@@ -7,16 +7,7 @@
 		{ item: "crittersandcompanions:koi_fish_bucket" }
 		{ item: "crittersandcompanions:dumbo_octopus_bucket" }
 		{ item: "cnb:cindershell_bucket" }
-		{ item: "babyfat:ranchu_bucket" }
-		{ item: "alexsmobs:small_catfish_bucket" }
-		{ item: "alexsmobs:comb_jelly_bucket" }
-		{ item: "alexsmobs:mimic_octopus_bucket" }
-		{ item: "alexsmobs:frilled_shark_bucket" }
-		{ item: "alexsmobs:platypus_bucket" }
-		{ item: "alexsmobs:blobfish_bucket" }
-		{ item: "alexsmobs:lobster_bucket" }
 		{ item: "minecraft:axolotl_bucket" }
-		{ item: "alexsmobs:potted_flutter" }
 		{ item: "minecraft:tadpole_bucket" }
 		{ item: "netherdepthsupgrade:soulsucker_bucket" }
 		{ item: "netherdepthsupgrade:glowdine_bucket" }
@@ -27,6 +18,44 @@
 		{ item: "netherdepthsupgrade:searing_cod_bucket" }
 		{ item: "netherdepthsupgrade:obsidianfish_bucket" }
 		{ item: "netherdepthsupgrade:lava_pufferfish_bucket" }
+		{ item: "minecraft:pufferfish_bucket" }
+		{ item: "minecraft:salmon_bucket" }
+		{ item: "minecraft:cod_bucket" }
+		{ item: "minecraft:tropical_fish_bucket" }
+		{ item: "infernalexp:voline_bucket" }
+		{ item: "finsandtails:blu_wee_bucket" }
+		{ item: "upgrade_aquatic:glow_squid_bucket" }
+		{ item: "upgrade_aquatic:squid_bucket" }
+		{ item: "upgrade_aquatic:perch_bucket" }
+		{ item: "upgrade_aquatic:lionfish_bucket" }
+		{ item: "upgrade_aquatic:pike_bucket" }
+		{ item: "upgrade_aquatic:nautilus_bucket" }
+		{ item: "environmental:koi_bucket" }
+		{ item: "finsandtails:penglil_bucket" }
+		{ item: "finsandtails:pea_wee_bucket" }
+		{ item: "finsandtails:banded_redback_shrimp_bucket" }
+		{ item: "finsandtails:teal_arrowfish_bucket" }
+		{ item: "finsandtails:swamp_mucker_bucket" }
+		{ item: "finsandtails:flatback_sucker_bucket" }
+		{ item: "finsandtails:high_finned_blue_bucket" }
+		{ item: "finsandtails:phantom_nudibranch_bucket" }
+		{ item: "finsandtails:ornate_bugfish_bucket" }
+		{ item: "finsandtails:golden_river_ray_bucket" }
+		{ item: "finsandtails:vibra_wee_bucket" }
+		{ item: "finsandtails:white_bull_crab_bucket" }
+		{ item: "finsandtails:red_bull_crab_bucket" }
+		{ item: "finsandtails:wee_wee_bucket" }
+		{ item: "finsandtails:spindly_gem_crab_bucket" }
+		{ item: "environmental:slabfish_bucket" }
+		{ item: "finsandtails:night_light_squid_bucket" }
+		{ item: "finsandtails:gopjet_bucket" }
+		{ item: "finsandtails:papa_wee_bucket" }
+		{ item: "finsandtails:baby_horatee_bucket" }
+		{ item: "finsandtails:wherbling_pot" }
+		{ item: "netherdepthsupgrade:fortress_grouper_bucket" }
+		{ item: "netherdepthsupgrade:eyeball_fish_bucket" }
+		{ item: "infernalexp:strider_bucket" }
+		{ item: "infernalexp:magma_cube_bucket" }
 	]
 	title: "Buckets"
 }

@@ -30,6 +30,9 @@
 		{ item: "crittersandcompanions:pearl" }
 		{ item: "ars_nouveau:amethyst_golem_charm" }
 		{ item: "pipez:advanced_upgrade" }
+		{ item: "moblassos:golden_lasso" }
+		{ item: "quark:blank_rune" }
+		{ item: "minecraft:conduit" }
 	]
 	title: "Random Tier 2"
 }

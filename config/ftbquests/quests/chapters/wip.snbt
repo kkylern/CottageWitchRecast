@@ -31,17 +31,6 @@
 			y: -2.5d
 		}
 		{
-			id: "6EE5387EAD21E705"
-			tasks: [{
-				id: "25C6FAD95670D51F"
-				stat: "waystones:waystone_activated"
-				type: "stat"
-				value: 1
-			}]
-			x: -4.5d
-			y: -3.5d
-		}
-		{
 			id: "7E961D086B3262E3"
 			tasks: [{
 				id: "5B8428FF14F8F075"

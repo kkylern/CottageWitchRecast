@@ -656,7 +656,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "67E449FE6C744545"
-					table_id: 6951594928314176539L
 					type: "random"
 				}
 			]

@@ -107,37 +107,15 @@
 					type: "command"
 				}
 				{
-					id: "656D108CEC4CA101"
+					id: "6F3E2186892C5AA0"
 					item: {
 						Count: 1b
 						id: "akashictome:tome"
 						tag: {
 							"akashictome:data": {
-								alexsmobs: {
-									Count: 1b
-									id: "alexsmobs:animal_dictionary"
-								}
 								ars_nouveau: {
 									Count: 1b
 									id: "ars_nouveau:worn_notebook"
-								}
-								babyfat: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "babyfat:the_book_of_baby_fat"
-									}
-								}
-								byg: {
-									Count: 1b
-									id: "byg:biomepedia"
-								}
-								caupona: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "caupona:book"
-									}
 								}
 								create_central_kitchen: {
 									Count: 1b
@@ -146,16 +124,38 @@
 									}
 									id: "create_central_kitchen:cooking_guide"
 								}
-								deeperdarker: {
+								create_central_kitchen_0: {
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											NeedWater: 0b
+										}
+									}
+									id: "create_central_kitchen:brewing_guide"
+									tag: {
+										"akashictome:definedMod": "create_central_kitchen_0"
+									}
+								}
+								extradelight: {
 									Count: 1b
 									id: "patchouli:guide_book"
 									tag: {
-										"patchouli:book": "deeperdarker:wanderers_notebook"
+										"patchouli:book": "extradelight:cookbook"
 									}
 								}
 								ftbquests: {
 									Count: 1b
 									id: "ftbquests:book"
+								}
+								hexerei: {
+									Count: 1b
+									id: "hexerei:book_of_shadows"
+									tag: {
+										bookmarks: { }
+										chapter: 0
+										opened: 0b
+										page: 0
+									}
 								}
 								lexicon: {
 									Count: 1b
@@ -164,17 +164,12 @@
 										"patchouli:book": "lexicon:lexicon"
 									}
 								}
-								sculktransporting: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "sculktransporting:guide"
-									}
-								}
-								solsweetpotato: {
-									Count: 1b
-									id: "solsweetpotato:food_book"
-								}
+							}
+							ingredients: {
+								item0: "block.minecraft.air"
+								item1: "item.akashictome.tome"
+								item2: "item.patchouli.guide_book"
+								length: 3
 							}
 						}
 					}
@@ -380,12 +375,11 @@
 		}
 		{
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk loading&r."
-				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
-				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
-				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
-				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
-				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
+				"If you want your base to stay active even when you're not there, you want &achunk forceloading&r."
+				"&6Press the '&r key (apostrophe) to access the &bOpen Parties and Claims&r menu. This will allow you to claim and/or forceload &athe chunk you're in&r."
+				"{image:cottagewitch:textures/openparties.png width:180 height:200 align:1}"
+				"Forceloading a chunk will &aensure that your base stays loaded when you're away&r. This is very hard on performance though, so do this &dsparingly&r!"
+				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Party as an Ally&r."
 			]
 			id: "26D8EAD9D892805E"
 			min_width: 350
@@ -409,11 +403,10 @@
 		{
 			dependencies: ["26D8EAD9D892805E"]
 			description: [
-				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
-				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
-				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
-				"{image:cottagewitch:textures/createaparty.png width:100 height:100 align:1 fit:true}"
-				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1 fit:true}"
+				"&lOpen Parties and Claims&r allows you to add other players to your party, which can &aallow access to your claimed chunks&r."
+				"You can create a party by typing &d/openpac-parties create&r. You can &achange all party settings&r in the main apostrophe menu. There are a ton of options to control griefing, protection, and access."
+				"You can add a player as an &aAlly&r if you don't want to be on the same team. Type &d/openpac-parties ally add [username]&r."
+				"{image:cottagewitch:textures/allyadd.png width:200 height:50 align:1}"
 			]
 			id: "20F9C02AF5CBE665"
 			rewards: [
@@ -542,6 +535,32 @@
 			}]
 			x: 5.0d
 			y: 10.0d
+		}
+		{
+			description: [
+				"&bWaystones&r allow you to quickly traverse your world along a network of invisible &aleylines&r. You can find more information about &athe different kinds of Waystones&r in the &dGlobetrotting&r quest category. But here's some basic info:"
+				"- It costs xp to travel to Waystones using a &bWarp Stone&r or &bWarp Scroll&r."
+				"- Traveling &afrom one Waystone to another&r costs no exp."
+				"- You can use a &abutton in your inventory&r to travel to the nearest &bWaystone&r."
+			]
+			id: "7AD175287E3F0B68"
+			rewards: [{
+				id: "647BD7A181C2E88D"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				icon: "waystones:sandy_waystone"
+				id: "0897C669F0BCBDB8"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			title: "Waystones 101"
+			x: 6.75d
+			y: 10.5d
 		}
 	]
 	subtitle: ["a very good place to start"]
