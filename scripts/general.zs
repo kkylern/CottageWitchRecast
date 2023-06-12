@@ -13,13 +13,13 @@ import crafttweaker.api.food.FoodProperties;
 import crafttweaker.api.block.Block;
 import mods.create.CompactingManager;
 import mods.jeitweaker.Jei;
+import crafttweaker.api.GenericRecipesManager;
 
 var air = <item:minecraft:air>;
 
 
 // Adds tags to Brooms
-<tag:items:crafttweaker:brooms>.add(<item:hexerei:mahogany_broom>);
-<tag:items:crafttweaker:brooms>.add(<item:hexerei:willow_broom>);
+<tag:items:crafttweaker:brooms>.add(<item:hexerei:mahogany_broom>, <item:hexerei:witch_hazel_broom>, <item:hexerei:willow_broom>);
 
 // Adds compostable tag to make things able to be made into Compost
 
@@ -110,7 +110,7 @@ Jei.addIngredient(agadget);
 }
 
 // Akashic Tome Stuff
-var aTomeFull = <item:akashictome:tome>.withTag({"akashictome:data": {ftbquests: {id: "ftbquests:book", Count: 1}, ars_nouveau: {id: "ars_nouveau:worn_notebook", Count: 1}, create_central_kitchen: {id: "create_central_kitchen:cooking_guide", Count: 1, ForgeCaps: {Parent: {}}}, extradelight: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "extradelight:cookbook"}}, hexerei: {id: "hexerei:book_of_shadows", Count: 1, tag: {chapter: 0, page: 0, opened: 0, bookmarks: {}}}, lexicon: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "lexicon:lexicon"}}, create_central_kitchen_0: {id: "create_central_kitchen:brewing_guide", Count: 1, tag: {"akashictome:definedMod": "create_central_kitchen_0"}, ForgeCaps: {Parent: {NeedWater: 0}}}}, ingredients: {item0: "block.minecraft.air", item1: "item.akashictome.tome", item2: "item.patchouli.guide_book", length: 3}});
+var aTomeFull = <item:akashictome:tome>.withTag({ingredients: {item0: "block.minecraft.air", length: 3, item2: "item.patchouli.guide_book", item1: "item.akashictome.tome"}, "akashictome:data": {hexerei: {Count: 1, id: "hexerei:book_of_shadows", tag: {bookmarks: {}, chapter: 0, opened: 0, page: 0}}, create_central_kitchen: {ForgeCaps: {Parent: {}}, Count: 1, id: "create_central_kitchen:cooking_guide"}, ars_nouveau: {Count: 1, id: "ars_nouveau:worn_notebook"}, ftbquests: {Count: 1, id: "ftbquests:book"}, twilightdelight: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "twilightdelight:twilight_guide"}}, create_central_kitchen_0: {ForgeCaps: {Parent: {NeedWater: 0}}, Count: 1, id: "create_central_kitchen:brewing_guide", tag: {"akashictome:definedMod": "create_central_kitchen_0"}}, extradelight: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "extradelight:cookbook"}}, lexicon: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "lexicon:lexicon"}}}});
 
 craftingTable.addShapeless("akashicfull", aTomeFull, [<item:minecraft:book>, <item:minecraft:stick>]);
 
@@ -228,11 +228,117 @@ var removeNope = [
     <item:crittersandcompanions:gold_dragonfly_armor>,
     <item:crittersandcompanions:iron_dragonfly_armor>,
     <item:sophisticatedstorage:jukebox_upgrade>,
-    <item:sophisticatedstorage:debug_tool>
+    <item:sophisticatedstorage:debug_tool>,
+    <item:delightful:cooked_venison_chops>,
+    <item:twilightforest:raw_venison>,
+    <item:twilightforest:cooked_venison>,
+    <item:twilightdelight:raw_venison_rib>,
+    <item:twilightdelight:cooked_venison_rib>,
+    <item:environmental:cherry_crate>,
+    <item:vinery:apple_crate>,
+    <item:environmental:cherries>,
+    <item:toms_storage:ts.open_crate>,
+    <item:sophisticatedstorage:shulker_box>,
+    <item:sophisticatedstorage:iron_shulker_box>,
+    <item:sophisticatedstorage:gold_shulker_box>,
+    <item:sophisticatedstorage:diamond_shulker_box>,
+    <item:sophisticatedstorage:netherite_shulker_box>,
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:iron_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:netherite_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16351261, accentColor: 16351261}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 13061821, accentColor: 13061821}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 3847130, accentColor: 3847130}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16701501, accentColor: 16701501}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 8439583, accentColor: 8439583}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 15961002, accentColor: 15961002}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 4673362, accentColor: 4673362}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 10329495, accentColor: 10329495}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 1481884, accentColor: 1481884}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 3949738, accentColor: 3949738}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 8991416, accentColor: 8991416}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 8606770, accentColor: 8606770}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 6192150, accentColor: 6192150}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 11546150, accentColor: 11546150}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
+    <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
+    <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
+    <item:vinery:apple_pie_slice>,
+    <item:vinery:apple_pie>,
+    <item:delightful:zinc_knife>,
+    <item:ends_delight:purpur_knife>,
+    <item:ends_delight:end_stone_knife>,
+    <item:ends_delight:dragon_egg_shell_knife>,
+    <item:farmersdelight:golden_knife>
 ] as IItemStack[];
 
 for item in removeNope {
-craftingTable.remove(item);
+recipes.remove(item);
 Jei.hideIngredient(item);
 }
 
@@ -385,19 +491,18 @@ brewing.addRecipe(<item:hexerei:milk_bottle>, <item:hexerei:selenite_shard>, <it
 craftingTable.addShaped("seleniteglass", <item:minecraft:glass> * 8, [[<tag:items:forge:stained_glass>, <tag:items:forge:stained_glass>, <tag:items:forge:stained_glass>], [<tag:items:forge:stained_glass>, <item:hexerei:selenite_shard>, <tag:items:forge:stained_glass>], [<tag:items:forge:stained_glass>, <tag:items:forge:stained_glass>, <tag:items:forge:stained_glass>]]);
 
 // Mandrake as Poppet
-/* TODO - This recipe
 craftingTable.addShaped("mandraketotem", <item:minecraft:totem_of_undying>, [
 [<item:twilightforest:red_thread>, 
 <item:endrem:evil_eye>, 
 <item:twilightforest:red_thread>], 
-[<item:create:crushed_raw_gold>, 
+[<item:hexerei:moon_dust>, 
 <item:hexerei:mandrake_root>, 
-<item:create:powdered_obsidian>], 
+<item:hexerei:moon_dust>], 
 [<item:twilightforest:red_thread>, 
 <item:twilightforest:charm_of_life_1>, 
 <item:twilightforest:red_thread>]
 ]);
-*/
+
 
 // Change Ring of Enderchest Recipe
 
@@ -468,8 +573,11 @@ craftingTable.addShapeless("pancake", <item:supplementaries:pancake>, [<tag:item
 craftingTable.addShapeless("honeytocomb", <item:minecraft:honeycomb> * 4, [<item:minecraft:honeycomb_block>]);
 
 // Add tags to Mushroom Colonies for quest purposes
-<tag:items:crafttweaker:mushcolony>.add(<item:farmersdelight:red_mushroom_colony>);
-<tag:items:crafttweaker:mushcolony>.add(<item:farmersdelight:brown_mushroom_colony>);
+<tag:items:crafttweaker:mushcolony>.add(<item:farmersdelight:red_mushroom_colony>, 
+<item:farmersdelight:brown_mushroom_colony>,
+<item:twilightdelight:mushgloom_colony>,
+<item:collectorsreap:portobello_colony>);
+
 
 <tag:items:crafttweaker:netmushcolony>.add(<item:nethersdelight:crimson_fungus_colony>);
 <tag:items:crafttweaker:netmushcolony>.add(<item:nethersdelight:warped_fungus_colony>);
@@ -1171,7 +1279,50 @@ craftingTable.addShapeless("milk2fd", <item:farmersdelight:milk_bottle> * 3, [
 
 // Interchangeable Cherries
 
-craftingTable.addShapeless("vin2envcherry", <item:environmental:cherries>, [<item:vinery:cherry>]);
-craftingTable.addShapeless("env2vincherry", <item:vinery:cherry>, [<item:environmental:cherries>]);
+//craftingTable.addShapeless("vin2envcherry", <item:environmental:cherries>, [<item:vinery:cherry>]);
+//craftingTable.addShapeless("env2vincherry", <item:vinery:cherry>, [<item:environmental:cherries>]);
 
 // TODO - Venison
+
+recipes.remove(<item:twilightdelight:raw_venison_rib>);
+recipes.remove(<item:twilightdelight:cooked_venison_rib>);
+
+// Cherry Stuff
+
+<tag:items:forge:fruits/berries>.add(<item:vinery:cherry>);
+<tag:items:forge:fruits/cherry>.add(<item:vinery:cherry>);
+<tag:items:environmental:deer_food>.add(<item:vinery:cherry>);
+<tag:items:environmental:deer_tempt_items>.add(<item:vinery:cherry>);
+<tag:items:forge:fruits/sweet>.add(<item:vinery:cherry>);
+<tag:items:forge:fruits>.add(<item:vinery:cherry>);
+<tag:items:forge:berries>.add(<item:vinery:cherry>);
+
+craftingTable.remove(<item:abnormals_delight:seared_venison>);
+craftingTable.addShapeless("searedvenison", <item:abnormals_delight:seared_venison>, [
+    <tag:items:forge:cooked_venison>,
+    <tag:items:forge:fruits/cherry>,
+    <tag:items:forge:fruits/cherry>,
+    <item:minecraft:carrot>,
+    <item:minecraft:bowl>
+]);
+
+craftingTable.remove(<item:abnormals_delight:cherry_cookie>);
+craftingTable.addShaped("cherrycookie", <item:abnormals_delight:cherry_cookie> * 8, [
+    [air, air, air],
+    [<item:minecraft:wheat>, <tag:items:forge:fruits/cherry>, <item:minecraft:wheat>],
+    [air, air, air]
+]);
+
+craftingTable.remove(<item:environmental:cherry_pie>);
+craftingTable.addShaped("cherrypie", <item:environmental:cherry_pie>, [
+[<tag:items:forge:fruits/cherry>, <tag:items:forge:fruits/cherry>, <tag:items:forge:fruits/cherry>],
+[<tag:items:forge:fruits/cherry>, <tag:items:forge:fruits/cherry>, <tag:items:forge:fruits/cherry>],
+[<item:minecraft:sugar>, <item:farmersdelight:pie_crust>, <item:minecraft:sugar>]
+]);
+
+// Moon Dust
+
+
+
+
+brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "goblintraders:levitation"}), <item:hexerei:moon_dust>, <item:minecraft:potion>.withTag({Potion: "minecraft:mundane"}));

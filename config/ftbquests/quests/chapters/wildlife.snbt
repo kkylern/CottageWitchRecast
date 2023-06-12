@@ -903,6 +903,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "or wand, or... whatever"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -1269,6 +1270,7 @@
 				item: "nethersdelight:mimicarnation"
 				type: "item"
 			}]
+			shape: "heart"
 			tasks: [{
 				icon: "artifacts:mimic_spawn_egg"
 				id: "3E845198C4BE9909"
@@ -1278,13 +1280,14 @@
 				type: "observation"
 			}]
 			title: "Fall Prey to the Mimic"
-			x: 11.0d
-			y: 4.5d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			description: [
 				"&eYaks&r are cowlike beasts with long fur. They can be &asheared for their wool&r, which is used in a number of recipes. They can also &abe milked&r!"
-				"They are bred with &aWheat&r, and will try to follow the player around once interacted with."
+				"They are bred with &aWheat&r."
+				"Once &asheared&r, they will go after the player, unless the player is wearing &bYak Pants&r."
 			]
 			id: "382FEE92206B1F49"
 			rewards: [{
@@ -1330,6 +1333,201 @@
 			title: "Meet the Stoneling"
 			x: 6.5d
 			y: -6.0d
+		}
+		{
+			description: [
+				"The &eRootling&r is a forest-dwelling sentient plant which comes in multiple colors. It is closely related to the Mandrake."
+				"They can be &asheared to get petals&r, but they dislike this and will &aflee from you&r! Should you managed to shear some, the &bPetals&r can be used to make &bDyes&r."
+				"They love &arain and flowers&r, and can be found enjoying both. They're also social and will &agreet one another&r with a little belly bump!"
+				"When they die, they drop &bRootling Seeds&r which can be used to grow more &eRootlings&r. They also drop &bBulbus root&r, which are edible once cooked."
+				"They will follow you if you &ahold bonemeal&r."
+			]
+			id: "017910D0153E593E"
+			rewards: [{
+				id: "46BEBDF07CACC1D9"
+				item: "biomemakeover:rootling_seeds"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "biomemakeover:magenta_petals"
+				id: "253832B30BFEED93"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:rootling"
+				type: "observation"
+			}]
+			title: "Meet the Rootling"
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The &bFwin&r is occasionally dropped from &eSwamp Muckers&r. These fish do not swim, but rather &apropel themselves around&r with their fwins."
+				"You can use these items to &acraft some boots&r which increase speed underwater, and &acan be Enchanted&r to allow players to leap from the water while swimming!"
+			]
+			id: "0856883C8F0C0214"
+			rewards: [{
+				id: "72F315A632F4BE0F"
+				item: "finsandtails:fwin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "45EC62F075FD23A5"
+				item: "finsandtails:fwin"
+				type: "item"
+			}]
+			title: "Swamp Muckers' Fwins"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"It is the duty of every witch to improve the world around them. One such method is &adestroying evil creatures&r such as the &eWilden&r."
+				"The &eWilden&r are an ancient race of Shapeshifters who &abroke the treaty with nature&r and became forever trapped in their animal states. They now exist &aonly to kill&r. Defeat them and absorb their knowledge and power."
+			]
+			id: "7EF23B68E32568DE"
+			rewards: [{
+				id: "4A10122B4878EE34"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 10L
+					id: "3A9BB346C47CCBDD"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2B6EEF46BC2C7530"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "03133B1C35B17F08"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+			]
+			title: "Wilden Trophies"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&eFerrets&r are adorable obligate carnivores which can be &atamed with raw rabbit&r!"
+				"Be aware that they will &ahunt &eChickens and Rabbits&r even once tamed, so be sure to keep your livestock separated from them!"
+				"Tamed &eFerrets&r can also &adig for loot&r once every 5 minutes when &afed raw chicken&r."
+			]
+			id: "17D05EDC67E36F43"
+			rewards: [{
+				count: 5
+				id: "5A0F7BCCA4EFD7D8"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cottagewitch:textures/customicons/ferret.png"
+					}
+				}
+				id: "07EDB27B6B4B4337"
+				observe_type: 5
+				timer: 0L
+				to_observe: "crittersandcompanions:ferret"
+				type: "observation"
+			}]
+			title: "Meet the Ferret"
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&eOwls&r are some of the more traditional witch familiars, so you'll be pleased to note that &athey can be tamed&r!"
+				"Feed them &bgame meat&r such as &brabbit&r or &bchicken&r. They can also be bred with the same items. They will &afollow you once tamed&r even if you're flying through the air!"
+			]
+			id: "697E566F9FF782F0"
+			rewards: [{
+				count: 5
+				id: "478853E191F41ABC"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "biomemakeover:owl_spawn_egg"
+				id: "03EBA7A36A380D74"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomemakeover:owl"
+				type: "observation"
+			}]
+			title: "Meet the Owl"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Above the canopy of the &cDark Forest&r, you can find giant hostile &eMoths&r, which cluster around &bMoth Blossoms&r and &alights&r. These pests seem to serve to prevent people from traversing the canopy."
+				"Use their &bScales&r to create a &bPotion of the Nocturnal&r, an exceptionally long-lasting brew which prevents &ePhantoms&r from spawning."
+			]
+			id: "5E86B948F3FA0264"
+			rewards: [{
+				count: 3
+				id: "6E248284527A632A"
+				item: "biomemakeover:moth_scales"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "biomemakeover:moth"
+				icon: "biomemakeover:moth_scales"
+				id: "60D39B0FAEEC2C7C"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Moths in the Canopy"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			description: ["&eKoi&r are delightful creatures which live in shallow fresh water ponds. There are regular &eKoi&r and &eLucky Koi&r."]
+			id: "4F4775AF5B5B93E9"
+			rewards: [{
+				id: "38D49950C6F09766"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "goblintraders:luck"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "514789673C21BDD6"
+					item: "crittersandcompanions:koi_fish_bucket"
+					type: "item"
+				}
+				{
+					id: "0E453F3092616CDB"
+					item: "environmental:koi_bucket"
+					type: "item"
+				}
+			]
+			title: "Types of Koi"
+			x: 10.0d
+			y: -10.5d
 		}
 	]
 	title: "Wildlife"

@@ -6,6 +6,7 @@
 		{ item: "finsandtails:flatback_leaf_snail_pot" }
 		{ item: "finsandtails:siderol_whiskered_snail_pot" }
 		{ item: "finsandtails:river_pebble_snail_pot" }
+		{ item: "finsandtails:wherbling_pot" }
 	]
 	title: "Potted Animals"
 }

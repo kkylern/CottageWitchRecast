@@ -1166,6 +1166,48 @@
 			x: 2.0d
 			y: 4.0d
 		}
+		{
+			id: "699903BB676B2187"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4C28840851604116"
+				structure: "biomemakeover:mansion"
+				type: "structure"
+			}]
+			title: "Find a Woodland Mansion"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["699903BB676B2187"]
+			id: "163BCA4880FDBB02"
+			rewards: [
+				{
+					id: "6D60C13FB54734C7"
+					item: "biomemakeover:adjudicator_tapestry"
+					type: "item"
+				}
+				{
+					id: "1DEABE15F52ED025"
+					item: "biomemakeover:enchanted_totem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "biomemakeover:adjudicator"
+				id: "5C6F1F1034D37848"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
 	]
 	title: "Globetrotting"
 }

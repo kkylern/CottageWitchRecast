@@ -111,6 +111,39 @@
 			x: 0.0d
 			y: -4.5d
 		}
+		{
+			description: ["What kind of witch are you? Now that you're level 10, you can pick a specialization to be granted certain perks and items. You can only choose one, so look through the following quest lines to see which speaks to you the most!"]
+			id: "683D4D91CD135B02"
+			tasks: [{
+				id: "6F2D8840226FEDA2"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			title: "Choose Your Specialization"
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			id: "08D9EE78F901AC4D"
+			tasks: [{
+				id: "66073110404A0438"
+				structure: "biomemakeover:ghost_town"
+				type: "structure"
+			}]
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			id: "1F078C3E361161C1"
+			tasks: [{
+				id: "24D9D80CEDD0866A"
+				structure: "biomemakeover:sunken_ruin"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: -8.5d
+		}
 	]
 	title: "WIP"
 }

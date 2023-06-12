@@ -4,9 +4,9 @@
 	order_index: 10
 	rewards: [
 		{ count: 15, item: "ars_nouveau:source_gem" }
-		{ count: 4, item: "minecraft:emerald" }
+		{ count: 8, item: "minecraft:emerald" }
 		{ item: "ars_nouveau:greater_experience_gem" }
-		{ item: "minecraft:diamond" }
+		{ item: "minecraft:diamond", weight: 4.0f }
 		{ count: 2, item: "minecraft:phantom_membrane" }
 		{ item: "minecraft:nautilus_shell" }
 		{ item: "minecraft:heart_of_the_sea" }
@@ -22,7 +22,6 @@
 		{ count: 5, item: "minecraft:echo_shard" }
 		{ item: "pipez:advanced_upgrade" }
 		{ item: "moblassos:golden_lasso" }
-		{ }
 		{ item: "biomesinjars:empty_biome_jar" }
 	]
 	title: "T2 Choice"

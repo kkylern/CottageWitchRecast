@@ -42,6 +42,18 @@
 			x: 0.0d
 			y: 4.0d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgsophstorage.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -8.0d
+			y: -2.5d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -449,6 +461,7 @@
 				"&6Shift right click the wrench&r onto one side of the &bPipe&r to connect/disconnect it, and also to &aset to Extract mode&r."
 				"{image:cottagewitch:textures/depositextract.png width:300 height:150 align:1}"
 				"Once in &aExtract Mode&r, you can &6right click on the pipe&r to access its menu."
+				"&dDo not use Time in a Bottle on Pipez&r. In certain (admittedly uncommon) cases, it can cause severe lag or a complete crash."
 			]
 			id: "0A76B3D9CF688878"
 			min_width: 300
@@ -507,8 +520,8 @@
 				item: "pipez:improved_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["125AC0EEF7096532"]
@@ -527,7 +540,7 @@
 				item: "pipez:advanced_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -547,8 +560,8 @@
 				item: "pipez:ultimate_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.5d
+			x: 10.0d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -636,6 +649,131 @@
 			}]
 			x: 8.0d
 			y: -4.5d
+		}
+		{
+			description: [
+				"Basic chests and barrels are fine for a while, but the canny witch knows that &athe rules of inventory space&r are meant to be broken. With a little magic, you can easily make your storage bigger - &aand smarter&r!"
+				"Let's begin with a simple &bBarrel&r. Place it in the world as usual, and then &6right click it with the &bBasic Tier Upgrade&r."
+				"Now, once you enter the inventory, you'll see some new additions."
+				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
+				"The slot to the left &aaccepts upgrades&r which allow your storage to perform certain functions."
+				"The &acog wheel&r on the right gives you access to your &astorage settings&r."
+			]
+			id: "3571AAEB58389A64"
+			rewards: [{
+				id: "4B6190142D21C6E5"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Let's get sophisticated"
+			tasks: [
+				{
+					id: "3CCA572F26940DE6"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "0081C1FFE60C75E9"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			title: "Upgrading Your Storage"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"&eEnder Luggages&r are a tight knit group - unlike regular &eLuggages&r, every &eEnder Luggage&r you own will share the same storage space!"
+				""
+				"it's just like an &bEnder Chest&r - with feet!"
+			]
+			id: "69ACDC95A5F78C82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D4E6B43A75CA479"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "A safer way to store"
+			tasks: [{
+				id: "350477CCA398E4F3"
+				item: "luggage:ender_luggage"
+				type: "item"
+			}]
+			title: "Not Quite A Chest"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: [
+				"Within your storage settings, you have the ability to change the way your storage behaves."
+				""
+				"{image:cottagewitch:textures/sophsettings.png width:100 height:70 align:1 fit:true}"
+				""
+				"Select the &aBarrel icon&r to choose whether your settings apply to &aPlayer&r - ie, &oall&r your storages  - or &aStorage&r - ie, this container only."
+				""
+				"Select the &aA/Z icon&r you can select (with &6left click&r) or deselect (with &6right click&r) slots to be auto-sorted."
+				""
+				"Select the &aBrain icon&r to &6choose slots to be locked to the item currently in them&r."
+				""
+				"Select the &aSword icon&r to choose a slot whose &aitem will be displayed&r on the front of your storage."
+				""
+				""
+				"{image:cottagewitch:textures/sophbarreldisplayy.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "52D20498843EECD3"
+			rewards: [{
+				id: "4766BD2C9A6B6B0D"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "20197D584CDFF2FB"
+				title: "Customize Your Storage"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3571AAEB58389A64"]
+			description: [
+				"There are two ways you can upgrade your storage, &alevel by level&r, or &abasic on upwards&r."
+				""
+				"Assuming you used the reward from the last quest, you'll now have an &bIron Barrel&r. You can upgrade this to &aGold tier&r with an &bIron to Gold Upgrade&r. This is taking it up &alevel by level&r."
+				""
+				"To upgrade from &aBasic upwards&r, you'll need the &bBasic to Gold&r (or other level) Upgrade. This will, as you could guess, take a &bBasic Storage&r and bring it directly to &aGold tier&r."
+				""
+				"With each tier of upgrades, &ayour storage improves&r. At Gold tier it has &amore slots and an additional upgrade slot&r on the left."
+				"{image:cottagewitch:textures/sophgold.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "73B26E8BA35A9C25"
+			rewards: [{
+				id: "2A1D974FD10388D9"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37B300AF5E3DAD7A"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "40557863C8F6DAB7"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+			]
+			title: "More Storage, More Upgrades"
+			x: -8.0d
+			y: -1.0d
 		}
 	]
 	title: "Storage"

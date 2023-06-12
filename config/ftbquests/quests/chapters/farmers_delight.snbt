@@ -75,11 +75,6 @@
 					item: "farmersdelight:red_mushroom_colony"
 					type: "item"
 				}
-				{
-					id: "33295FE47D1BEA22"
-					item: "collectorsreap:portobello_colony"
-					type: "item"
-				}
 			]
 			shape: "hexagon"
 			subtitle: "So happy together"
@@ -219,52 +214,15 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "674A15B3EAEEC114"
+					id: "4B783F459C7A48B5"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60E05DAC17F84051"
+					table_id: 1510389528595555205L
 					type: "random"
-				}
-				{
-					id: "37804E3EB83A5A7A"
-					item: {
-						Count: 1b
-						id: "mcsa:magnus_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "66F2B5ABD87147F3"
-					item: {
-						Count: 1b
-						id: "mcsa:magnus_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5E9AF9D548338732"
-					item: {
-						Count: 1b
-						id: "mcsa:magnus_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "570D4C783597351C"
-					item: {
-						Count: 1b
-						id: "mcsa:magnus_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -791,7 +749,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2CA80140F624D0AE"]
+			dependencies: [
+				"2CA80140F624D0AE"
+				"148F84D7DB06E5D1"
+			]
 			description: ["Similar to &bCrates&r, many crops can be compacted into &bSacks&r. These can be used decoratively, or &aused to free up storage space&r!"]
 			id: "2973338AB622C5D6"
 			rewards: [
@@ -1037,7 +998,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0545DF70043D964A"]
+			dependencies: [
+				"0545DF70043D964A"
+				"148F84D7DB06E5D1"
+			]
 			id: "77E1FEDE586A487C"
 			shape: "hexagon"
 			tasks: [
@@ -1102,7 +1066,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["0545DF70043D964A"]
+			dependencies: [
+				"0545DF70043D964A"
+				"148F84D7DB06E5D1"
+			]
 			id: "008A62D8E70B51F9"
 			shape: "hexagon"
 			tasks: [
@@ -1122,7 +1089,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["0545DF70043D964A"]
+			dependencies: [
+				"0545DF70043D964A"
+				"148F84D7DB06E5D1"
+			]
 			id: "22F72EB92786EEF7"
 			shape: "hexagon"
 			tasks: [
@@ -1145,6 +1115,51 @@
 			title: "Compact Your Eggs (Gently)"
 			x: 7.5d
 			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0545DF70043D964A"
+				"148F84D7DB06E5D1"
+			]
+			id: "6DF3D43144E93441"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2B013BA1F90E7A39"
+					item: "vinery:red_grape_crate"
+					type: "item"
+				}
+				{
+					id: "50EA8453703AE091"
+					item: "vinery:white_grape_crate"
+					type: "item"
+				}
+				{
+					id: "35D815CD7FF0DD34"
+					item: "vinery:cherry_crate"
+					type: "item"
+				}
+			]
+			title: "Compact Your Crops: Wine Edition"
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			description: ["Congratulations, you have compacted all of the crops! For your hard work, here is a &bTarot Card&r."]
+			id: "148F84D7DB06E5D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7452EA340BE5C392"
+				table_id: 7265408724434505998L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E7A316EBC2BA46A"
+				title: "Compact All The Crops!"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -8.0d
 		}
 	]
 	title: "Farming \\& Gardening"

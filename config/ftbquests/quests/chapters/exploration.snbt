@@ -107,7 +107,7 @@
 					type: "command"
 				}
 				{
-					id: "6F3E2186892C5AA0"
+					id: "6CFA1AEFD035E6AA"
 					item: {
 						Count: 1b
 						id: "akashictome:tome"
@@ -162,6 +162,13 @@
 									id: "patchouli:guide_book"
 									tag: {
 										"patchouli:book": "lexicon:lexicon"
+									}
+								}
+								twilightdelight: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "twilightdelight:twilight_guide"
 									}
 								}
 							}

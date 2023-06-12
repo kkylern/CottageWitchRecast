@@ -16,12 +16,12 @@
 	emerald_knife = false
 	enderite_knife = true
 	experience_knife = false
-	fiery_knife = true
+	fiery_knife = false
 	gilded_quartz_knife = false
 	invar_knife = false
-	ironwood_knife = true
+	ironwood_knife = false
 	kiwano_knife = true
-	knightmetal_knife = true
+	knightmetal_knife = false
 	lapis_lazuli_knife = false
 	large_amethyst_knife = true
 	lead_knife = true
@@ -40,7 +40,7 @@
 	silver_knife = true
 	sinisite_knife = true
 	steel_knife = true
-	steeleaf_knife = true
+	steeleaf_knife = false
 	thyrium_knife = false
 	tin_knife = true
 	warden_knife = true

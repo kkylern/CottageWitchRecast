@@ -73,7 +73,13 @@ var drinks = [
     <item:collectorsreap:limeade>,
     <item:abnormals_delight:pickerelweed_juice>,
     <item:pineapple_delight:pineapple_juice>,
-    <item:neapolitan:strawberry_banana_smoothie>
+    <item:neapolitan:strawberry_banana_smoothie>,
+    <item:twilightdelight:tear_drink>,
+    <item:twilightdelight:twilight_spring>,
+    <item:twilightdelight:glacier_ice_tea>,
+    <item:twilightdelight:phytochemical_juice>,
+    <item:twilightdelight:thorn_rose_tea>,
+    <item:twilightdelight:torchberry_juice>
 ] as IItemStack[];
 
 for drink in drinks{
@@ -296,7 +302,14 @@ var rawfoods = [
     <item:finsandtails:banded_redback_shrimp>,
     <item:finsandtails:luminous_calamari>,
     <item:finsandtails:teal_arrowfish>,
-    <item:finsandtails:swamp_mucker>
+    <item:finsandtails:swamp_mucker>,
+    <item:twilightforest:mushgloom>,
+    <item:twilightdelight:hydra_piece>,
+    <item:twilightdelight:raw_meef_slice>,
+    <item:twilightdelight:cooked_meef_slice>,
+    <item:twilightdelight:experiment_110>,
+    <item:twilightdelight:experiment_113>,
+    <item:twilightdelight:raw_insect>
 ] as IItemStack[];
 
 for rawfood in rawfoods{
@@ -719,7 +732,35 @@ var cookedfoods = [
     <item:collectorsreap:lime_ice_cream>,
     <item:collectorsreap:pomegranate_ice_cream>,
     <item:collectorsreap:pomegranate_ice_cream>,
-    <item:collectorsreap:glazed_strider>
+    <item:collectorsreap:glazed_strider>,
+    <item:twilightdelight:fiery_snakes_block>,
+    <item:twilightdelight:aurora_cake>,
+    <item:twilightdelight:torchberry_cake>,
+    <item:twilightdelight:phytochemical_cake>,
+    <item:twilightdelight:glacier_cake>,
+    <item:twilightdelight:mushgloom_sauce>,
+    <item:twilightdelight:glow_venison_rib_with_pasta>,
+    <item:twilightdelight:fried_insect>,
+    <item:twilightdelight:thousand_plant_stew>,
+    <item:twilightdelight:grilled_ghast>,
+    <item:twilightdelight:plate_of_lily_chicken>,
+    <item:twilightdelight:plate_of_fiery_snakes>,
+    <item:twilightdelight:plate_of_meef_wellington>,
+    <item:twilightdelight:aurora_ice_cream>,
+    <item:twilightdelight:aurora_milkshake>,
+    <item:twilightdelight:torchberry_ice_cream>,
+    <item:twilightdelight:torchberry_milkshake>,
+    <item:twilightdelight:cooked_insect>,
+    <item:twilightdelight:torchberry_cookie>,
+    <item:twilightdelight:chocolate_wafer>,
+    <item:twilightdelight:berry_stick>,
+    <item:twilightdelight:glowstew>,
+    <item:twilightdelight:phytochemical_ice_cream>,
+    <item:twilightdelight:phytochemical_milkshake>,
+    <item:twilightdelight:glacier_ice_cream>,
+    <item:twilightdelight:glacier_milkshake>,
+    <item:twilightdelight:lily_chicken_block>,
+    <item:twilightdelight:meef_wellington_block>
 ] as IItemStack[];
 
 for cookedfood in cookedfoods{
@@ -1371,7 +1412,9 @@ var lilypads = [
     <item:chipped:flowering_lily_pad>,
     <item:chipped:dark_smooth_lily_pad>,
     <item:chipped:dark_smol_lily_pad>,
-    <item:chipped:dark_rough_lily_pad>
+    <item:chipped:dark_rough_lily_pad>,
+    <item:chipped:dark_flowering_lily_pad>,
+    <item:chipped:big_flower_lily_pad>
 ] as IItemStack[];
 
 for lily in lilypads{
@@ -1499,7 +1542,8 @@ var jobBlocks = [
     <item:minecraft:beehive>,
     <item:villagersplus:alchemist_table>,
     <item:farmersdelight:cooking_pot>,
-    <item:farmersdelight:skillet>
+    <item:farmersdelight:skillet>,
+    <item:vinery:wine_press>
 ] as IItemStack[];
 
 for block in jobBlocks{
@@ -1519,4 +1563,6 @@ block.addTooltip("Job Block");
 <item:reaping:netherite_reaping_tool>.addShiftTooltip("Base Chance of Failure: 9%");
 <item:reaping:netherite_reaping_tool>.addShiftTooltip("Sharpness enchantment decreases failure chance by 10% per level.");
 
-<item:quark:backpack>.addTooltip("This item has been disabled. You can craft it into a Backpacked backpack.");
+<item:biomemakeover:stunt_powder>.addTooltip("Apply this to baby animals to prevent them growing up.");
+
+<item:hexerei:moon_dust_brush>.addTooltip("Swift flight can be problematic for server performance. Please fly considerately.");

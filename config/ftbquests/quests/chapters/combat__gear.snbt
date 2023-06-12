@@ -434,27 +434,6 @@
 		}
 		{
 			description: [
-				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
-				"To do so will cost some &bExperience&r. And most &aCurses cannot be removed&r."
-			]
-			id: "195EC2CC57B6A75F"
-			rewards: [{
-				count: 10
-				id: "4A1B117A5FC22BE9"
-				item: "minecraft:book"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "52F78AFB393CB21D"
-				item: "disenchanting:disenchanter"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.5d
-		}
-		{
-			description: [
 				"A full set of Netherite Armor takes..."
 				"*counts on fingers*..."
 				"..."
@@ -490,48 +469,16 @@
 			id: "306EAF9F6F78ACC1"
 			rewards: [
 				{
-					id: "04223EB2A64EE17D"
-					item: {
-						Count: 1b
-						id: "mcsa:champion_petra_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "164A4AA1982A6D61"
+					table_id: 5036677739913042344L
+					type: "choice"
 				}
 				{
-					id: "0ADF145759143649"
-					item: {
-						Count: 1b
-						id: "mcsa:champion_petra_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "151128DCF4C8B383"
-					item: {
-						Count: 1b
-						id: "mcsa:champion_petra_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4CBE581CA0BBF845"
-					item: {
-						Count: 1b
-						id: "mcsa:champion_petra_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7C431EEEC8B6F534"
+					table_id: 7265408724434505998L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -613,48 +560,16 @@
 			id: "6C413B091C8DBE2A"
 			rewards: [
 				{
-					id: "18DD9DADC52A6FCE"
-					item: {
-						Count: 1b
-						id: "mcsa:adamantium_impervium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2A006BE057172184"
+					table_id: 7265408724434505998L
+					type: "random"
 				}
 				{
-					id: "3979A80902DE9C71"
-					item: {
-						Count: 1b
-						id: "mcsa:adamantium_impervium_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7714C8B0E402A80D"
-					item: {
-						Count: 1b
-						id: "mcsa:adamantium_impervium_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "453C465CF46BF10D"
-					item: {
-						Count: 1b
-						id: "mcsa:adamantium_impervium_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6D4915FE0BE1C3EB"
+					table_id: 5036677739913042344L
+					type: "choice"
 				}
 			]
 			shape: "hexagon"
@@ -1091,9 +1006,9 @@
 			id: "78311C38AC02A32C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5813058479DED3FA"
-				table_id: 8808494820591225409L
-				type: "random"
+				id: "136EB8BF33805067"
+				table_id: 6941837675484043489L
+				type: "loot"
 			}]
 			shape: "hexagon"
 			tasks: [
@@ -1429,52 +1344,12 @@
 		{
 			description: ["Obtain a full set of &bGolden Everything&r to earn the right to &aPraise the Sun&r."]
 			id: "63244E494B2159D8"
-			rewards: [
-				{
-					id: "5476C7B9652064BD"
-					item: {
-						Count: 1b
-						id: "mcsa:golden_goliath_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3DA516992D1BFEAD"
-					item: {
-						Count: 1b
-						id: "mcsa:golden_goliath_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7A5E08DFAA805D14"
-					item: {
-						Count: 1b
-						id: "mcsa:golden_goliath_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "26DD0CB2B8A63897"
-					item: {
-						Count: 1b
-						id: "mcsa:golden_goliath_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B1273830DE558C6"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1570,17 +1445,6 @@
 					item: {
 						Count: 1b
 						id: "minecraft:golden_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2F7B26FCF44E9AC8"
-					item: {
-						Count: 1b
-						id: "farmersdelight:golden_knife"
 						tag: {
 							Damage: 0
 						}

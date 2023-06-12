@@ -620,7 +620,7 @@
 				"13B72F5C0CF9E9FB"
 			]
 			description: [
-				"There are two types of &bBrooms&r, &aWillow&r and &aMahogany&r. Of these, the Mahogany Broom is faster and fire-resistance. The Willow Broom, on the other hand, is susceptible to fire, and is a little harder to control, but is much cheaper to make."
+				"There are three types of &bBrooms&r, &bWillow&r, &bWitch Hazel&r and &bMahogany&r. Of these, the Mahogany Broom is &afaster and fire-resistant&r. The Willow and Witch Hazel Brooms, on the other hand, are susceptible to fire, but are much &acheaper to make&r."
 				"You can &6crouch and right click&r your &bBroom&r in order to access its customization options, as well as switch it from &aFloat Mode&r to &aRest Mode&r, which determines what the Broom will do when you dismount."
 				"You will also need a &bBroom Whistle&r."
 				"Lost your broom? No worries! Just &6right click&r with your &bBroom Whistle&r to call it to you!"
@@ -639,7 +639,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Either kind works!"
+			subtitle: "Any kind works!"
 			tasks: [
 				{
 					id: "610AC7B9B4F8D1E0"
@@ -722,7 +722,10 @@
 		}
 		{
 			dependencies: ["7793743B2F9DE215"]
-			description: ["The &bEnhanced Broom Brush&r has increased durability. Don't forget to hang it out to dry once you've crafted it!"]
+			description: [
+				"The &bEnhanced Broom Brush&r has increased durability. Don't forget to hang it out to dry once you've crafted it!"
+				"Your &bBroom Brush&r can also be &aEnchanted&r with Unbreaking and Mending, so that its durability is better!"
+			]
 			id: "056F7888052BBEF2"
 			rewards: [{
 				id: "54DE2B9C9A50D548"
@@ -742,8 +745,8 @@
 				type: "item"
 			}]
 			title: "Obtain an Enhanced Broom Brush"
-			x: 3.5d
-			y: -2.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
@@ -1177,6 +1180,35 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7793743B2F9DE215"]
+			description: [
+				"The Moon Dust Brush makes your broom go &asignificantly faster&r, especially during a &dFull Moon&r."
+				"In all other regards, it is the &asame as the &bEnhanced Broom Brush&r."
+			]
+			id: "4014D768E23552B0"
+			rewards: [
+				{
+					id: "1CF8C4D2A0E18590"
+					item: "twilightforest:moonworm"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AC85FEA2067E850"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "187D49C855C6716B"
+				item: "hexerei:wet_moon_dust_brush"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
 		}
 	]
 	title: "Hexerei"

@@ -85,16 +85,6 @@
 			min_width: 300
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "69BEF756828B0744"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6DF75DBC530692D7"
-					type: "random"
-				}
-				{
 					count: 4
 					id: "0599A3D734B1522D"
 					item: "snailmail:stamp"
@@ -104,6 +94,12 @@
 					id: "792EE14262BC256A"
 					item: "snailmail:snail_box"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BD1D64752FC1F78"
+					table_id: 2068679807827730220L
+					type: "choice"
 				}
 			]
 			shape: "hexagon"
@@ -252,8 +248,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7A14064FBA3DA69F"
-					type: "random"
+					id: "03E7C7EA0D3FA6C2"
+					table_id: 6941837675484043489L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -1031,6 +1028,11 @@
 				"{image:cottagewitch:textures/tradecycle.png width:200 height:150 align:1}"
 			]
 			id: "08F9BA2E3066C5FB"
+			rewards: [{
+				id: "681C157623F6DA33"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6436F337BFCACE09"
 				title: "Cycle some Trades"
@@ -1050,9 +1052,9 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				icon: "minecraft:clock"
-				id: "229B2B3EC65918C9"
-				type: "custom"
+				days: 999
+				id: "2BA9C25DFAEBBEE4"
+				type: "questsadditions:days"
 			}]
 			x: -3.0d
 			y: 7.5d
@@ -1134,71 +1136,6 @@
 			title: "Apple Crates for Commerce and Deco!"
 			x: 10.0d
 			y: -2.0d
-		}
-		{
-			description: ["Have you ever seen a &aflying chest attached to a balloon&r? You can &6shoot them down&r! Keep your bow at your side."]
-			icon: "starbunclemania:star_balloon"
-			id: "50E79E7487CD3738"
-			rewards: [
-				{
-					id: "42C1EFF33EB5B860"
-					item: "starbunclemania:star_balloon"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7F5461196EF66CDA"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			subtitle: "you now owe money to a raccoon"
-			tasks: [{
-				id: "410E1917008F61C8"
-				item: {
-					Count: 1b
-					id: "minecraft:chest"
-					tag: {
-						display: {
-							Name: "{\"translate\":\"Balloon Chest\"}"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 1.25d
-			y: 6.75d
-		}
-		{
-			dependencies: ["50E79E7487CD3738"]
-			description: ["If you're incredibly lucky, maybe you can land a &bRare Balloon Box&r!"]
-			id: "218B13F9470F9733"
-			rewards: [{
-				id: "4BF620BE9C053C6C"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "5FE72F16468E2FDC"
-				item: {
-					Count: 1b
-					id: "minecraft:chest"
-					tag: {
-						balloonTYPE: 5
-						display: {
-							Name: "{\"translate\":\"Rare Balloon Chest\"}"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: 3.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["3E72CBC6D658F80E"]
@@ -1392,31 +1329,28 @@
 			y: 3.0d
 		}
 		{
-			description: ["Wow, you've caught 999 fish? That's bonkers."]
-			id: "1FDD653A3C13DFDF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "551C86E899306ABB"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			tasks: [{
-				icon: "crittersandcompanions:koi_fish"
-				id: "1FB45C4A92CEC1C7"
-				stat: "minecraft:fish_caught"
-				type: "stat"
-				value: 999
-			}]
-			title: "Catch Em All (and Then Some)"
-			x: -7.0d
-			y: 4.0d
-		}
-		{
 			description: [
 				"What soothes the soul more than houseplants?"
 				"Plant &a50 lovely green (or pink or blue) friends&r in basic &bFlower Pots&r."
 			]
 			id: "5A1DD637C09F0D13"
+			rewards: [
+				{
+					id: "6C4BF4D734DD6872"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					id: "27278A2A82B3986E"
+					item: "minecraft:lilac"
+					type: "item"
+				}
+				{
+					id: "1AE844EDFE9EF08B"
+					item: "environmental:cartwheel"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:flower_pot"
 				id: "26A2431C7A0CBE9B"

@@ -408,6 +408,26 @@
 			x: 5.5d
 			y: -1.5d
 		}
+		{
+			description: ["Wow, you've caught 999 fish? That's bonkers."]
+			id: "1FDD653A3C13DFDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "551C86E899306ABB"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			tasks: [{
+				icon: "crittersandcompanions:koi_fish"
+				id: "1FB45C4A92CEC1C7"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 999
+			}]
+			title: "Catch Em All (and Then Some)"
+			x: 6.0d
+			y: 0.5d
+		}
 	]
 	title: "Fishing \\& Gathering"
 }
