@@ -1002,12 +1002,12 @@
 			}]
 			subtitle: "You know I wanna get ritual, ritual"
 			tasks: [{
-				id: "070595E29282D6D3"
+				id: "6827629A8E303542"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:ritualtablets"
+						value: "forge:ritual_tablets"
 					}
 				}
 				title: "Any Ritual Tablet"
@@ -1150,7 +1150,6 @@
 				"The &eBookwyrm&r is a small flying creature that resembles a wyvern, with book pages for wings. You can summon it using a &bBookwyrm Charm&r (made with &bIron&r and &bSource Gems&r and &ba book&r), which you &6shift right click on a &bLectern&r. After the Lectern finishes drawing magic to itself, the Bookwyrm will appear!"
 				"When following you, the &eBookwyrm&r &adecreases your spell cost and increases your spell damage&r."
 				"When it is simply bound to a Lectern, it will &acast spells on the surrounding area&r, based on what &bParchment Scrolls&r you give it. It can be &adyed&r for color-coding purposes. To cast spells, there must be a filled &bSource Jar&r nearby."
-				"This &ditem is under construction&r and so the quest is temporarily a &acheckmark&r."
 			]
 			id: "4006775C2145C6CD"
 			rewards: [{
@@ -1160,9 +1159,9 @@
 			}]
 			subtitle: "Take a look, it's in a book"
 			tasks: [{
-				id: "243F528BBA3502B9"
-				title: "Make a Bookwyrm Charm"
-				type: "checkmark"
+				id: "03E2F799D60897F2"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
 			}]
 			x: 9.5d
 			y: -2.5d
@@ -1219,57 +1218,11 @@
 			dependencies: ["6D58B5D08AAAAB42"]
 			description: ["There is much more that this mod has to offer! &bRunes&r, &bEnchanter's Weapons&r, &bSource Relays&r and more! Check out the documentation in your &bSpell Book&r to help you learn even more!"]
 			id: "08DA497A806C3600"
-			rewards: [
-				{
-					id: "1E521BF90E8FF373"
-					table_id: 8808494820591225409L
-					type: "choice"
-				}
-				{
-					id: "1B3E54EF1012AD2D"
-					item: {
-						Count: 1b
-						id: "mcsa:olivia_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "41FD118EE6B69978"
-					item: {
-						Count: 1b
-						id: "mcsa:olivia_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "68D19DF0229F54EE"
-					item: {
-						Count: 1b
-						id: "mcsa:olivia_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "17C1E754B6A4BCFF"
-					item: {
-						Count: 1b
-						id: "mcsa:olivia_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1E521BF90E8FF373"
+				table_id: 8808494820591225409L
+				type: "choice"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "I~ can do anything!"
@@ -1380,13 +1333,13 @@
 			id: "7E3F38817F8844ED"
 			rewards: [
 				{
-					id: "0CDA2AAB3DCACC51"
-					item: "duckling:holiday_fruit_cake"
+					id: "163131943C2956D5"
+					item: "minecraft:mycelium"
 					type: "item"
 				}
 				{
-					id: "163131943C2956D5"
-					item: "minecraft:mycelium"
+					id: "122CA7958BE66768"
+					item: "farmersdelight:honey_glazed_ham"
 					type: "item"
 				}
 			]
@@ -1473,8 +1426,8 @@
 				id: "5CE951FAED55C40B"
 				type: "advancement"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
@@ -1661,31 +1614,22 @@
 			y: 0.0d
 		}
 		{
-			description: ["Did you know that &eUndead&r are susceptible to &aSpores&r and &aGrow&r spells? You should test it out sometime."]
-			id: "1614EF9C7E462CD9"
-			rewards: [
-				{
-					count: 3
-					id: "253E68C8CB0F45F7"
-					item: "minecraft:spore_blossom"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "185E7572249B298E"
-					item: "ars_elemental:spore_blossom_up"
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "ars_elemental:spore_blossom"
-				criterion: ""
-				id: "1483BD6D4B597C26"
-				type: "advancement"
+			description: ["&bSkyweave&r is an incredible items which &amimics the look of the sky&r, so you can &asee sunlight even when underground&r!"]
+			id: "772843C57D999564"
+			rewards: [{
+				count: 5
+				id: "5F52A25396C951A4"
+				item: "ars_nouveau:sky_block"
+				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			shape: "hexagon"
+			tasks: [{
+				id: "6629BA2C12C25918"
+				item: "ars_nouveau:sky_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
 		}
 	]
 	title: "Ars Nouveau"

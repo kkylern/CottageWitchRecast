@@ -7,7 +7,7 @@ import stdlib.List;
 
 
 // Food Tooltips
-
+/*
 var drinks = [
     <item:farmersrespite:dandelion_tea>,
     <item:farmersrespite:rose_hip_tea>,
@@ -85,6 +85,7 @@ var drinks = [
 for drink in drinks{
 drink.addTooltip("Drinks!");
 }
+
 
 var brewingingr = [
     <item:vinery:jungle_white_grapejuice_bottle>,
@@ -218,15 +219,10 @@ var rawfoods = [
     <item:ends_delight:dragon_leg>,
     <item:ends_delight:raw_dragon_meat>,
     <item:ends_delight:raw_dragon_meat_cuts>,
-    <item:vinery:grape_jam>,
-    <item:vinery:sweetberry_jam>,
-    <item:vinery:apple_jam>,
-    <item:vinery:cherry_jam>,
     <item:vinery:apple_mash>,
     <item:vinery:cherry>,
     <item:vinery:white_grape>,
     <item:vinery:red_grape>,
-    <item:vinery:dough>,
     <item:finsandtails:papa_wee>,
     <item:finsandtails:pearl_spindly_gem_crab>,
     <item:finsandtails:sapphire_spindly_gem_crab>,
@@ -543,14 +539,6 @@ var cookedfoods = [
     <item:ends_delight:steamed_dragon_egg_block>,
     <item:ends_delight:steamed_dragon_egg>,
     <item:ends_delight:dragon_meat_stew_block>,
-    <item:vinery:chocolate_bread>,
-    <item:vinery:toast>,
-    <item:vinery:donut>,
-    <item:vinery:milk_bread>,
-    <item:vinery:apple_cupcake>,
-    <item:vinery:apple_pie_slice>,
-    <item:vinery:applesauce>,
-    <item:vinery:bread_slice>,
     <item:netherdepthsupgrade:cooked_magmacubefish_slice>,
     <item:netherdepthsupgrade:cooked_glowdine_slice>,
     <item:netherdepthsupgrade:warped_kelp_roll>,
@@ -587,7 +575,6 @@ var cookedfoods = [
     <item:netherdepthsupgrade:grilled_blazefish>,
     <item:netherdepthsupgrade:grilled_magmacubefish>,
     <item:netherdepthsupgrade:grilled_glowdine>,
-    <item:vinery:crusty_bread>,
     <item:pineapple_delight:pineapple_ice_cream>,
     <item:pineapple_delight:pineapple_pie>,
     <item:twilightforest:cooked_meef>,
@@ -602,7 +589,6 @@ var cookedfoods = [
     <item:upgrade_aquatic:mulberry_pie>,
     <item:upgrade_aquatic:mulberry_bread>,
     <item:upgrade_aquatic:mulberry_jam_bottle>,
-    <item:vinery:apple_pie>,
     <item:pineapple_delight:pineapple_milk_shake>,
     <item:pineapple_delight:pineapple_side>,
     <item:finsandtails:cooked_luminous_calamari>,
@@ -1550,6 +1536,122 @@ for block in jobBlocks{
 block.addTooltip("Job Block");
 }
 
+
+//Food nutrients
+
+var fruits = [
+    <item:vinery:red_grape>,
+    <item:neapolitan:banana_bunch>,
+    <item:vinery:apple_mash>,
+    <item:vinery:savanna_grapes_red>,
+    <item:vinery:savanna_grapes_white>,
+    <item:vinery:taiga_grapes_red>,
+    <item:vinery:taiga_grapes_white>,
+    <item:vinery:jungle_grapes_red>,
+    <item:vinery:jungle_grapes_white>,
+    <item:overweight_farming:melon_juice>,
+    <item:vinery:white_grape>,
+    <item:collectorsreap:pomegranate>
+] as IItemStack[];
+
+for fruit in fruits {
+    <tag:items:nourish:fruit>.add(fruit);
+}
+
+var proteins = [
+    <item:netherdepthsupgrade:lava_pufferfish_slice>,
+    <item:netherdepthsupgrade:soulsucker>,
+    <item:netherdepthsupgrade:glowdine>,
+    <item:netherdepthsupgrade:searing_cod>,
+    <item:netherdepthsupgrade:obsidianfish>,
+    <item:netherdepthsupgrade:lava_pufferfish>,
+    <item:neapolitan:adzuki_beans>,
+    <item:minecraft:egg>,
+    <item:finsandtails:pea_wee>,
+    <item:finsandtails:banded_redback_shrimp>,
+    <item:finsandtails:teal_arrowfish>,
+    <item:finsandtails:ruby_spindly_gem_crab>,
+    <item:finsandtails:amber_spindly_gem_crab>,
+    <item:finsandtails:emerald_spindly_gem_crab>,
+    <item:finsandtails:vibra_wee>,
+    <item:finsandtails:wee_wee>,
+    <item:finsandtails:ornate_bugfish>,
+    <item:finsandtails:blu_wee>,
+    <item:finsandtails:red_bull_crab_claw>,
+    <item:finsandtails:white_bull_crab_claw>,
+    <item:finsandtails:night_light_squid_tentacle>,
+    <item:finsandtails:bugmeat>,
+    <item:finsandtails:raw_golden_river_ray_wing>,
+    <item:infernalexp:blindsight_tongue>,
+    <item:finsandtails:papa_wee>,
+    <item:finsandtails:pearl_spindly_gem_crab>,
+    <item:netherdepthsupgrade:soulsucker_slice>,
+    <item:netherdepthsupgrade:magmacubefish>,
+    <item:netherdepthsupgrade:blazefish>,
+    <item:netherdepthsupgrade:magmacubefish_slice>,
+    <item:netherdepthsupgrade:blazefish_slice>,
+    <item:netherdepthsupgrade:glowdine_slice>,
+    <item:finsandtails:sapphire_spindly_gem_crab>,
+    <item:netherdepthsupgrade:searing_cod_slice>,
+    <item:netherdepthsupgrade:obsidianfish_slice>,
+    <item:ends_delight:raw_dragon_meat_cuts>,
+    <item:ends_delight:raw_dragon_meat>,
+    <item:biomemakeover:raw_crab>,
+    <item:ends_delight:dragon_leg>,
+    <item:ends_delight:shulker_meat_slice>,
+    <item:ends_delight:shulker_meat>,
+    <item:culturaldelights:raw_calamari>,
+    <item:culturaldelights:glow_squid>,
+    <item:ends_delight:raw_ender_mite_meat>,
+    <item:environmental:truffle>,
+    <item:environmental:duck_egg>,
+    <item:farmersdelight:milk_bottle>,
+    <item:finsandtails:swamp_mucker>,
+    <item:finsandtails:flatback_sucker>,
+    <item:finsandtails:high_finned_blue>,
+    <item:culturaldelights:squid>
+] as IItemStack[];
+
+for protein in proteins {
+    <tag:items:nourish:protein>.add(protein);
+}
+
+var carbohydrates = [
+    <item:ends_delight:ender_pearl_grain>,
+    <item:farmersdelight:rice>,
+    <item:create:dough>,
+    <item:create:wheat_flour>
+] as IItemStack[];
+
+for carbohydrate in carbohydrates {
+    <tag:items:nourish:carbohydrate>.add(carbohydrate);
+}
+
+var vegetables = [
+    <item:twilightforest:mushgloom>,
+    <item:neapolitan:mint_leaves>,
+    <item:farmersdelight:tomato_sauce>,
+    <item:collectorsreap:baked_portobello_cap>,
+    <item:collectorsreap:portobello>,
+    <item:biomemakeover:bulbus_root>
+] as IItemStack[];
+
+for vegetable in vegetables {
+    <tag:items:nourish:vegetable>.add(vegetable);
+}
+
+var sweets = [
+    <item:nethersdelight:propelpearl>,
+    <item:neapolitan:vanilla_pods>,
+    <item:neapolitan:dried_vanilla_pods>
+] as IItemStack[];
+
+for sweet in sweets {
+    <tag:items:nourish:sweet>.add(sweet);
+}
+
+
+
 <item:reaping:iron_reaping_tool>.addTooltip("Hold shift for failure chance.");
 <item:reaping:iron_reaping_tool>.addShiftTooltip("Base Chance of Failure: 45%");
 <item:reaping:iron_reaping_tool>.addShiftTooltip("Sharpness enchantment decreases failure chance by 10% per level.");
@@ -1566,3 +1668,4 @@ block.addTooltip("Job Block");
 <item:biomemakeover:stunt_powder>.addTooltip("Apply this to baby animals to prevent them growing up.");
 
 <item:hexerei:moon_dust_brush>.addTooltip("Swift flight can be problematic for server performance. Please fly considerately.");
+*/

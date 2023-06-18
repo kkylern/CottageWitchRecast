@@ -200,8 +200,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Coffer"
-			x: 4.0d
-			y: -1.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
@@ -642,18 +642,6 @@
 			subtitle: "Any kind works!"
 			tasks: [
 				{
-					id: "610AC7B9B4F8D1E0"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "crafttweaker:brooms"
-						}
-					}
-					title: "Any #crafttweaker:brooms"
-					type: "item"
-				}
-				{
 					id: "7DCEB8A6B4301FD3"
 					item: {
 						Count: 1b
@@ -662,6 +650,18 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "367698294D2FE4F0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:brooms"
+						}
+					}
+					title: "Any Broom"
 					type: "item"
 				}
 			]
@@ -693,8 +693,8 @@
 				type: "item"
 			}]
 			title: "Obtain Broom Waterproof Tip"
-			x: 1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1698226644682207"]
@@ -745,8 +745,8 @@
 				type: "item"
 			}]
 			title: "Obtain an Enhanced Broom Brush"
-			x: 4.5d
-			y: -3.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
@@ -865,7 +865,7 @@
 			}]
 			title: "Obtain Broom Netherite Tip"
 			x: 1.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1698226644682207"]
@@ -883,8 +883,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Replacement Broom Brush"
-			x: 2.5d
-			y: 0.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
@@ -1125,14 +1125,15 @@
 			id: "434E391D87C3EBD9"
 			rewards: [
 				{
-					id: "56AFA581A237AA71"
-					item: "minecraft:ender_chest"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "28F8DDE2D678294D"
 					table_id: 578597190891487109L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C686A362F5266C2"
+					table_id: 7707783220386620668L
 					type: "random"
 				}
 			]
@@ -1207,8 +1208,54 @@
 				item: "hexerei:wet_moon_dust_brush"
 				type: "item"
 			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02CA3D4397E8BA25"]
+			description: [
+				"The &bBroom Seat&r is an item which allows more than one person to be seated on the same &bBroom&r, &amuch like a boat&r!"
+				""
+				"All you need is a friend. And you've got at least one of those, right?"
+				""
+				"...right?"
+				""
+				"Anyway, the &bBroom Seat&r can be dyed like Leather Armor."
+			]
+			id: "7C899C8C278B0998"
+			rewards: [{
+				count: 5
+				id: "3086CA010C5CDB9C"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6165D82B71E9171E"
+				item: "hexerei:broom_seat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1698226644682207"]
+			description: ["Need a place to keep your &bBroom&r? You can place the &bBroom Stand&r either on the ground or &ahanging on the wall&r, and then &6right click your Broom&r onto it!"]
+			id: "5FFDCF4E36648791"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39C5FB2595A62AA1"
+				table_id: 578597190891487109L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "185BC12ED3E5009E"
+				item: "hexerei:mahogany_broom_stand"
+				type: "item"
+			}]
 			x: 2.5d
-			y: -3.0d
+			y: 0.0d
 		}
 	]
 	title: "Hexerei"

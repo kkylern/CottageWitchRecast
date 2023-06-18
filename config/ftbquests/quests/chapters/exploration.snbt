@@ -107,7 +107,7 @@
 					type: "command"
 				}
 				{
-					id: "6CFA1AEFD035E6AA"
+					id: "1240FF6FE8101619"
 					item: {
 						Count: 1b
 						id: "akashictome:tome"
@@ -116,6 +116,10 @@
 								ars_nouveau: {
 									Count: 1b
 									id: "ars_nouveau:worn_notebook"
+								}
+								camera: {
+									Count: 1b
+									id: "camera:album"
 								}
 								create_central_kitchen: {
 									Count: 1b

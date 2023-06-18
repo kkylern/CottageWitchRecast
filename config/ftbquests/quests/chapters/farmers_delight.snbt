@@ -1026,11 +1026,6 @@
 					type: "item"
 				}
 				{
-					id: "77E2E6D16268124B"
-					item: "neapolitan:white_strawberry_basket"
-					type: "item"
-				}
-				{
 					id: "4DCE2C44EE55C438"
 					item: "neapolitan:banana_crate"
 					type: "item"
@@ -1160,6 +1155,23 @@
 			}]
 			x: 7.0d
 			y: -8.0d
+		}
+		{
+			id: "42F4A9D340D6D4B3"
+			tasks: [
+				{
+					id: "72D2C48BC312799F"
+					item: "neapolitan:white_strawberry_basket"
+					type: "item"
+				}
+				{
+					id: "6120DFBC463438F5"
+					item: "culturaldelights:white_eggplant_crate"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.5d
 		}
 	]
 	title: "Farming \\& Gardening"

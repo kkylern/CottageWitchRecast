@@ -3,8 +3,6 @@
 	loot_size: 6
 	order_index: 27
 	rewards: [
-		{ item: "vinery:crusty_bread" }
-		{ item: "vinery:dough" }
 		{ item: "vinery:cherry" }
 		{ item: "upgrade_aquatic:mulberry" }
 		{ item: "upgrade_aquatic:mulberry_bread" }

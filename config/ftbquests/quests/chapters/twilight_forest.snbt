@@ -851,11 +851,31 @@
 		{
 			dependencies: ["10C91592DCBC6FBD"]
 			id: "470A6825C49EEFAF"
-			rewards: [{
-				id: "6E61129F3516D660"
-				item: "twilightforest:knight_phantom_trophy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6E61129F3516D660"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2FC0B48BB4323B8D"
+					item: "twilightforest:underbrick"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2C65E8D61198D3B1"
+					item: "twilightforest:mossy_underbrick"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "77BA39878CE1E0DF"
+					item: "twilightforest:cracked_underbrick"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "twilightforest:progress_knights"
 				criterion: ""
@@ -869,11 +889,31 @@
 		{
 			dependencies: ["5C463B10FDE8CEF2"]
 			id: "761DD39F82235893"
-			rewards: [{
-				id: "7A19C939ED75E268"
-				item: "twilightforest:ur_ghast_trophy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7A19C939ED75E268"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4D5B2FF906CA5259"
+					item: "twilightforest:towerwood"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6433A4F1AC4C8B6F"
+					item: "twilightforest:cracked_towerwood"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7FBF8B70DBDC4BB0"
+					item: "twilightforest:mossy_towerwood"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "twilightforest:progress_ur_ghast"
 				criterion: ""
@@ -984,72 +1024,6 @@
 			title: "Complete the Quest Ram"
 			x: -6.75d
 			y: 2.25d
-		}
-		{
-			dependencies: [
-				"2B8E1553C1487EBA"
-				"54A57B37E1C04785"
-				"761DD39F82235893"
-				"4EAE4C40B444930A"
-			]
-			description: ["Once you complete the &eFinal Castle&r, obtained the &bLamp of Cinders&r, and even &6Completed the &eQuest Ram&r, you will finally have earned this unique armor set. Wear it with pride!"]
-			id: "25CB8D0869249D24"
-			rewards: [
-				{
-					id: "4C3BB3CA740BD35D"
-					item: {
-						Count: 1b
-						id: "mcsa:petra_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7E820483190944E0"
-					item: {
-						Count: 1b
-						id: "mcsa:petra_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A6115BF0510BD35"
-					item: {
-						Count: 1b
-						id: "mcsa:petra_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "28A8A7CB748149C8"
-					item: {
-						Count: 1b
-						id: "mcsa:petra_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				advancement: "twilightforest:progress_troll"
-				criterion: ""
-				id: "22B4D8AF2A94AC3B"
-				type: "advancement"
-			}]
-			title: "Complete the Twilight Forest"
-			x: 8.0d
-			y: 7.0d
 		}
 		{
 			id: "723D12B934CAB46C"

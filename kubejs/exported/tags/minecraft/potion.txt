@@ -1,0 +1,9 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 11, 2023, 3:26:09 PM
+
+#supplementaries:tipped_spikes_blacklist
+- ars_nouveau:blasting? (from supplementaries-1.19.2-2.3.17.jar)
+
+#supplementaries:quiver_blacklist
+- ars_nouveau:blasting? (from supplementaries-1.19.2-2.3.17.jar)
+- supplementaries:overencumbered? (from cottagewitch)
+- ars_nouveau:blasting_potion? (from cottagewitch)

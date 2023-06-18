@@ -164,15 +164,14 @@
 			size: 2.0d
 			subtitle: "a fisher's life for me"
 			tasks: [{
-				id: "48F4CD59425BC257"
+				id: "12209A4177B4DF50"
 				item: {
 					Count: 1b
-					id: "itemfilters:tag"
+					id: "minecraft:fishing_rod"
 					tag: {
-						value: "forge:fishing_rods"
+						Damage: 0
 					}
 				}
-				title: "Any #forge:fishing_rods"
 				type: "item"
 			}]
 			title: "Get a Fishing Rod"
@@ -216,70 +215,12 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2093240CD42882CF"]
 			description: [
-				"Persephone would surely be proud of you!"
-				"A pomegranate branch brings undiscovered wealth or new riches to the owner. You can also use dried pomegranate skins in abundance incenses."
-			]
-			id: "015EA4B35A947259"
-			rewards: [{
-				count: 5
-				id: "03531A0CBDA0CA3A"
-				item: "collectorsreap:pomegranate"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7972CB0F2E61BE94"
-				item: "collectorsreap:pomegranate"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2093240CD42882CF"]
-			description: ["A spell for curing toothache is to drive a nail into the trunk of a lime tree - but you must thank the lime tree first!"]
-			id: "0D61BF5085BCEF31"
-			rewards: [{
-				count: 5
-				id: "09996C7EF0181006"
-				item: "collectorsreap:lime"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7F37A8C84BE53B25"
-				item: "collectorsreap:lime"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2093240CD42882CF"]
-			description: ["Cooking with Portobello mushrooms can be powerful magic if you are in need of emotional healing."]
-			id: "56DF02D06E0FD715"
-			rewards: [{
-				count: 5
-				id: "0753904EFE9F57BF"
-				item: "collectorsreap:portobello"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E9558C833E4342B"
-				item: "collectorsreap:portobello"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -1.0d
-		}
-		{
-			description: [
-				"Scattered around the world, you can find &bWild Crops&r growing."
-				"Find all of them to build your &alovely witchy garden&r!"
-				"Did you know that corn hung over a mirror will bring good luck to your household?"
-				"Take a small white onion and stick it full of black-headed pins. When placed in the window, this will protect against negativity."
-				"And carrots are said to promote... physical desire. *wink*"
-				"You can find &bEggplant&r in &cJungles&r, &bCucumber&r in &cSwamps&r, &bCorn&r in &cPlains&r, and &bAvocado&r in &cJungles&r."
+				"Scattered around the world, you can find &bWild Crops&r growing. Find all of them to build your &alovely witchy garden&r!"
+				""
+				"Did you know that corn hung over a mirror will bring good luck to your household? Take a small white onion and stick it full of black-headed pins. When placed in the window, this will protect against negativity. And carrots are said to promote... physical desire. *wink*"
+				""
+				"More information on how to find each crop are in the &dother quests in this section&r."
 			]
 			icon: "farmersdelight:wild_carrots"
 			id: "2093240CD42882CF"
@@ -293,47 +234,124 @@
 			size: 2.0d
 			tasks: [
 				{
-					icon: "farmersdelight:wild_cabbages"
-					id: "6EDA315759D3800F"
-					type: "custom"
+					block: "neapolitan:strawberry_bush"
+					block_type: 0
+					checkItem: false
+					icon: "neapolitan:strawberry_pips"
+					id: "32D6F99013A2BDBA"
+					type: "questsadditions:break"
+					value: 1L
 				}
 				{
-					icon: "farmersdelight:wild_potatoes"
-					id: "2A2B8DA40D8637A9"
-					type: "custom"
-				}
-				{
-					icon: "farmersdelight:wild_carrots"
-					id: "608A8CD9B92FE737"
-					type: "custom"
-				}
-				{
-					icon: "farmersdelight:wild_rice"
-					id: "1F855CF180E60103"
-					type: "custom"
-				}
-				{
+					block: "farmersdelight:wild_onions"
+					block_type: 0
+					checkItem: false
 					icon: "farmersdelight:wild_onions"
-					id: "1A6CF9C2538C64F9"
-					type: "custom"
+					id: "7C0454EAFEA8424E"
+					type: "questsadditions:break"
+					value: 1L
 				}
 				{
-					icon: "culturaldelights:wild_cucumbers"
-					id: "44DB742314C20457"
-					type: "custom"
+					block: "farmersdelight:wild_cabbages"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_cabbages"
+					id: "6CBB2B9301C6974B"
+					type: "questsadditions:break"
+					value: 1L
 				}
 				{
-					icon: "culturaldelights:wild_corn"
-					id: "44BBC1579C173631"
-					type: "custom"
+					block: "farmersdelight:wild_rice"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_rice"
+					id: "5576BC85D39A7C82"
+					type: "questsadditions:break"
+					value: 1L
 				}
 				{
+					block: "culturaldelights:wild_eggplants"
+					block_type: 0
+					checkItem: false
 					icon: "culturaldelights:wild_eggplants"
-					id: "1B2A4C08C5746E55"
-					type: "custom"
+					id: "719C9F850D78A68F"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "culturaldelights:wild_corn"
+					block_type: 0
+					checkItem: false
+					icon: "culturaldelights:wild_corn"
+					id: "2ACC22362EEC45FC"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "culturaldelights:wild_cucumbers"
+					block_type: 0
+					checkItem: false
+					icon: "culturaldelights:wild_cucumbers"
+					id: "3EBEC615152C92BE"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "pineapple_delight:pineapple_wild_crop"
+					block_type: 0
+					checkItem: false
+					icon: "pineapple_delight:pineapple_wild_crop"
+					id: "0258A49B9B824523"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "supplementaries:wild_flax"
+					block_type: 0
+					checkItem: false
+					icon: "supplementaries:wild_flax"
+					id: "0625FF2B8B3F0133"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "delightful:wild_salmonberries"
+					block_type: 0
+					checkItem: false
+					icon: "delightful:wild_salmonberries"
+					id: "0FBA394BEF33BDF5"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "neapolitan:mint"
+					block_type: 0
+					checkItem: false
+					icon: "neapolitan:mint_sprout"
+					id: "6DD57C8E78D7F388"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_potatoes"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_potatoes"
+					id: "697D603DCCC7A53C"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_carrots"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_carrots"
+					id: "5D924330F5B837BB"
+					type: "questsadditions:break"
+					value: 1L
 				}
 			]
-			title: "Forage Wild Crops TODO - Quest Additions"
+			title: "Forage Wild Crops"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -427,6 +445,228 @@
 			title: "Catch Em All (and Then Some)"
 			x: 6.0d
 			y: 0.5d
+		}
+		{
+			description: [
+				"&bEggplant&r in &cJungles&r"
+				""
+				"&bCucumber&r in &cSwamps&r"
+				""
+				"&bCorn&r in &cPlains&r"
+				""
+				"&bAvocado&r in &cJungles&r."
+			]
+			id: "197930F20A0979D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DEEE57F702B5468"
+					table_id: 6518300475828805418L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5112DC4EDA27BEEB"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "7D2E048E963F81B8"
+					item: "culturaldelights:eggplant"
+					type: "item"
+				}
+				{
+					id: "4817602A91B0828B"
+					item: "culturaldelights:white_eggplant"
+					type: "item"
+				}
+				{
+					id: "6F4527ED96894DF1"
+					item: "culturaldelights:cucumber"
+					type: "item"
+				}
+				{
+					id: "55C85A79E33AC2EE"
+					item: "culturaldelights:avocado"
+					type: "item"
+				}
+				{
+					id: "24109E992F80F19B"
+					item: "culturaldelights:corn_cob"
+					type: "item"
+				}
+			]
+			title: "Collect Crops: Cultural Delight"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&lNeapolitan&r adds a number of new crops. Please &6click through the quest pages&r to view information on each crop, where it can be found, and how it can be grown!"
+				""
+				"&bMint&r can be found in &cmountainous areas, nearby to lakes&r. You can &6craft Mint Leaves&r into &bMint Sprouts&r, which thrive in light levels 7-14."
+				""
+				"{@pagebreak}"
+				""
+				"&bAdzuki&r can be found in &cforest biomes&r, growing &ain the soil&r. You can plant your own by &6right clicking Adzuki beans&r on &bGrass or Dirt&r. It requires any light level to grow. When a peaceful mob walks through adzuki, it becomes fertilized. This means it grows faster, and drops more beans if destroyed. You must &6left click&r to harvest &bAdzuki Sprouts&r."
+				""
+				"{@pagebreak}"
+				""
+				"&bBanana Plants&r can be found in &cJungles&r or on &cBeaches&r. They grow &bBanana Bundles&r, which drop &bBanana Bunches&r. You can &6right click while holding&r a Banana Bunch to &aobtain a Banana&r, and also to &aplace a Banana Peel&r, which can be hazardous!"
+				""
+				"Banana Plants &dcannot be farmed&r, but &bJungle Leaves&r have a small percentage chance to drop a &bBanana Bunch&r."
+				""
+				"Banana no longer seems like a word to me."
+				""
+				"{@pagebreak}"
+				""
+				"&bStrawberries&r can be found in &cPlains Biomes&r and are somewhat rare."
+				""
+				"If a Strawberry bush is planted in &cthe End&r, there is a chance of it mutating to &bWhite Strawberries&r."
+				""
+				"{@pagebreak}"
+				""
+				"&bVanilla Plants&r can be found in &cSavannah Biomes&r. Vanilla &dmust be harvested with &bShears&r, or else you risk being poisoned!"
+				""
+				"Vanilla &dcannot be farmed&r, but it has a rare chance to &adrop from &bAcacia Trees&r."
+			]
+			id: "67CA1350C2E739E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4224D01D565D2367"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E7A7EC5EF6AD834"
+					table_id: 6518300475828805418L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "5BD1AB696876CF92"
+					item: "neapolitan:banana_bunch"
+					type: "item"
+				}
+				{
+					id: "7C428E12B39EDDD0"
+					item: "neapolitan:vanilla_pods"
+					type: "item"
+				}
+				{
+					id: "08FD74244DA8C475"
+					item: "neapolitan:adzuki_beans"
+					type: "item"
+				}
+				{
+					id: "31558A0339DEFD30"
+					item: "neapolitan:mint_leaves"
+					type: "item"
+				}
+				{
+					id: "6046299B9D90E7CF"
+					item: "neapolitan:strawberries"
+					type: "item"
+				}
+				{
+					id: "31FDCBC119717D06"
+					item: "neapolitan:white_strawberries"
+					type: "item"
+				}
+			]
+			title: "Collect Crops: Neapolitan"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			description: ["&bPrickly Pear&r can be found atop &bCactuses&r."]
+			id: "3D99932B0EAFD2DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "241DD25D49F14D3D"
+					table_id: 6518300475828805418L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C9A17EC026DFCC1"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "44F4339F00E4C3FA"
+					item: "upgrade_aquatic:mulberry"
+					type: "item"
+				}
+				{
+					id: "472FE3154E462C98"
+					item: "vinery:cherry"
+					type: "item"
+				}
+				{
+					id: "25D6B03AB6E99908"
+					item: "pineapple_delight:pineapple"
+					type: "item"
+				}
+				{
+					id: "32DE1E0D678F4764"
+					item: "ecologics:prickly_pear"
+					type: "item"
+				}
+				{
+					id: "7257E765EFC85C34"
+					item: "delightful:salmonberries"
+					type: "item"
+				}
+			]
+			title: "Collect Crops: Misc"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "13FE83358ADA67C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BD5F641ED85B1E1"
+					table_id: 6518300475828805418L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "400025ED447713B6"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "1A010317073CCD6E"
+					item: "collectorsreap:portobello"
+					type: "item"
+				}
+				{
+					id: "580901397EC03847"
+					item: "collectorsreap:pomegranate"
+					type: "item"
+				}
+				{
+					id: "54F6A79ED08AA32C"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
+			]
+			title: "Collect Crops: Collector's Reap"
+			x: -4.5d
+			y: -7.0d
 		}
 	]
 	title: "Fishing \\& Gathering"

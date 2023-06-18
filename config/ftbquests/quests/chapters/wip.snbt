@@ -88,18 +88,6 @@
 			y: -5.5d
 		}
 		{
-			id: "2ADFD97B3FBCF3FE"
-			shape: "octagon"
-			tasks: [{
-				advancement: "create:stressometer_maxed"
-				criterion: ""
-				id: "4A6A32F97BB98183"
-				type: "advancement"
-			}]
-			x: -1.0d
-			y: -4.5d
-		}
-		{
 			id: "35E10BE37EE7B4F3"
 			shape: "octagon"
 			tasks: [{
@@ -143,6 +131,60 @@
 			}]
 			x: -8.0d
 			y: -8.5d
+		}
+		{
+			id: "076F2A55BD9D0BCA"
+			tasks: [
+				{
+					id: "6459F163C1BE0CA0"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "69DB41702759EF2A"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			id: "0FFA665FE241C41B"
+			rewards: [{
+				id: "35EB8FCAB80471AB"
+				item: "finsandtails:spindly_gem"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "137E3F1553B21C0F"
+					item: "finsandtails:spindly_pearl"
+					type: "item"
+				}
+				{
+					id: "62E15A01E428DAFF"
+					item: "finsandtails:spindly_ruby"
+					type: "item"
+				}
+				{
+					id: "0540ECD27268C925"
+					item: "finsandtails:spindly_emerald"
+					type: "item"
+				}
+				{
+					id: "605DCDA1BB5BDB86"
+					item: "finsandtails:spindly_amber"
+					type: "item"
+				}
+				{
+					id: "30EE0D5A49E3317E"
+					item: "finsandtails:spindly_sapphire"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -6.5d
 		}
 	]
 	title: "WIP"

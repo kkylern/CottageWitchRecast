@@ -35,56 +35,22 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The &bAdvancement Frame&r is an item which can be used to show off your achievements! Simply place this frame in your gallery and &6right click&r it to choose which advancement to display."]
-			id: "177BA74185841456"
-			rewards: [
-				{
-					id: "7AE18AF59DFADDE0"
-					item: "advancementframes:advancement_frame"
-					type: "item"
-				}
-				{
-					id: "58B574DA09D1DD09"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Show off a little"
-			tasks: [{
-				id: "520945E2236F2CD7"
-				item: "advancementframes:advancement_frame"
-				type: "item"
-			}]
-			title: "Obtain an Advancement Frame"
-			x: -3.0d
-			y: 3.0d
-		}
-		{
 			description: [
 				"You can craft a &bDisplay Case&r to, well, display an item!"
 				"After placing the Display Case down, &6right click on it&r to store an item, and &6right click with empty hand&r to remove the item."
 			]
 			id: "39C476A7C4682009"
 			rewards: [{
-				count: 2
-				id: "05B4F0C595E236BD"
-				item: {
-					Count: 1b
-					id: "display_case:display_case"
-					tag: { }
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "5C890C89C09D16DB"
+				table_id: 6941837675484043489L
+				type: "random"
 			}]
 			shape: "hexagon"
 			subtitle: "I got a bad case of display-sia"
 			tasks: [{
-				id: "66ED05321269AF6A"
-				item: {
-					Count: 1b
-					id: "display_case:display_case"
-					tag: { }
-				}
+				id: "09758110C43355FD"
+				item: "ars_nouveau:item_detector"
 				type: "item"
 			}]
 			title: "Obtain a Display Case"
@@ -134,19 +100,11 @@
 				"The &bExchanging Gadget&r is a tool which will &areplace blocks in the world with a specific block from your inventory&r. As with the BG, &6shift right click the replacer block&r and then you can &6right click with the gadget&r."
 			]
 			id: "1AFE0FBF887D22FD"
-			rewards: [
-				{
-					id: "2D8DA9461014B308"
-					table_id: 8808494820591225409L
-					type: "loot"
-				}
-				{
-					count: 32
-					id: "3B221CEDD8AD10FD"
-					item: "buildinggadgets:construction_paste"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2D8DA9461014B308"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "The Building Gadget and Exchanging Gadget"
@@ -189,8 +147,8 @@
 				}
 			]
 			title: "Gadgets, Part 1"
-			x: 5.0d
-			y: -0.5d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
@@ -239,8 +197,8 @@
 				}
 			]
 			title: "Gadgets, Part 2"
-			x: 7.0d
-			y: -1.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
@@ -366,13 +324,13 @@
 			id: "567E7D29BF4EAEFA"
 			rewards: [
 				{
-					id: "53C720388E5D69BE"
-					item: "byg:cryptic_lantern"
+					id: "1D88CB845EB3BADE"
+					item: "supplementaries:brass_lantern"
 					type: "item"
 				}
 				{
-					id: "1D88CB845EB3BADE"
-					item: "supplementaries:brass_lantern"
+					id: "7472D3C00F7BF112"
+					item: "chipped:wrought_iron_lantern"
 					type: "item"
 				}
 			]
@@ -388,7 +346,11 @@
 			y: 3.0d
 		}
 		{
-			description: ["There are two types of &bFlower Box&r. One can hold 2 flowers, and the other one 3."]
+			description: [
+				"Who doesn't love the joyful bright colors and enchanting scent of &bFresh Flowers&r?"
+				""
+				"There are many different ways for you to &adisplay these plants in your base&r. Why not try each option and decide which you like best?"
+			]
 			id: "4F9A1B244734638F"
 			rewards: [
 				{
@@ -402,17 +364,58 @@
 					type: "item"
 				}
 				{
-					id: "55117520C811CC8D"
-					item: "byg:protea_flower"
+					id: "57B54422C1204BA0"
+					item: "minecraft:sunflower"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40DF8276726B01E1"
+					table_id: 987967038148964353L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A081EDAEC5ED6D3"
+					table_id: 6990203354287577879L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "4B3D31B09C746903"
-				item: "supplementaries:flower_box"
-				type: "item"
-			}]
+			subtitle: "there's a lot of em"
+			tasks: [
+				{
+					id: "4B3D31B09C746903"
+					item: "supplementaries:flower_box"
+					type: "item"
+				}
+				{
+					id: "5BB004E604B5EBBC"
+					item: "vinery:flower_box"
+					type: "item"
+				}
+				{
+					id: "6F74146BBA8D9DB5"
+					item: "another_furniture:oak_planter_box"
+					type: "item"
+				}
+				{
+					id: "1C2DF644222DD253"
+					item: "sprout:flower_box"
+					type: "item"
+				}
+				{
+					id: "496CE65CDFD2E0ED"
+					item: "villagersplus:oak_horticulturist_table"
+					type: "item"
+				}
+				{
+					id: "0FAA7F8863C7DF42"
+					item: "vinery:flower_pot"
+					type: "item"
+				}
+			]
+			title: "Flower Display Options"
 			x: -3.5d
 			y: 2.0d
 		}
@@ -624,22 +627,6 @@
 			y: -1.5d
 		}
 		{
-			description: [
-				"One of the mods added is called &lEffortless Building&r. This allows you to build similarly to the way &bBuilding Gadgets&r do, but with a different set of functions."
-				"To access its building types, &6You'll need to bind the hotkey&r in your options, and then you can choose a mode from the radial menu once you press the hotkey. Have fun!"
-			]
-			id: "10844100547C60EE"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "65B3CCAA0D9F175F"
-				title: "Effortless Building"
-				type: "checkmark"
-			}]
-			x: 3.25d
-			y: 0.75d
-		}
-		{
 			dependencies: ["32DCF4F0C230C940"]
 			description: [
 				"Love that \"hunting lodge\" look? Want to show off your best hunts? Want to let everyone know you really, really hate &eGoats&r?"
@@ -655,7 +642,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "67E449FE6C744545"
+					id: "284B6B3ACEE6CE5B"
+					table_id: 223398162038636868L
 					type: "random"
 				}
 			]
@@ -771,31 +759,6 @@
 			y: 0.0d
 		}
 		{
-			description: ["Need to clear out a lot of water at once? Why not try a &bblock of Slug Slime&r? It &aabsorbs nearby water, converting it to mucus&r. If the slime is then removed, the mucus decays as well, leaving nothing behind."]
-			id: "64973EA482E1BA7D"
-			rewards: [{
-				id: "2B14D54FC2813530"
-				item: "alexsmobs:banana_slug_slime_block"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "#powerscantparry"
-			tasks: [
-				{
-					id: "1B15D2919E0FB7D1"
-					item: "alexsmobs:banana_slug_slime"
-					type: "item"
-				}
-				{
-					id: "21882C35B9F8941C"
-					item: "alexsmobs:banana_slug_slime_block"
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["1AFE0FBF887D22FD"]
 			description: ["The &bCharging Station&r will &aburn fuel in order to charge your Building Gadgets&r."]
 			id: "6D3D3329A2772A3F"
@@ -814,8 +777,41 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"What soothes the soul more than houseplants?"
+				"Plant &a50 lovely green (or pink or blue) friends&r in basic &bFlower Pots&r."
+			]
+			id: "5A1DD637C09F0D13"
+			rewards: [
+				{
+					id: "6C4BF4D734DD6872"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+				{
+					id: "27278A2A82B3986E"
+					item: "minecraft:lilac"
+					type: "item"
+				}
+				{
+					id: "1AE844EDFE9EF08B"
+					item: "environmental:cartwheel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:flower_pot"
+				id: "26A2431C7A0CBE9B"
+				stat: "minecraft:pot_flower"
+				type: "stat"
+				value: 50
+			}]
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	title: "Building \\& Decorating"

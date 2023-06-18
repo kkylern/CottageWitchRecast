@@ -1,0 +1,36 @@
+{
+    "pools":[
+        {
+        "rolls":1,
+        "entries":
+        [
+            {
+            "type":"item",
+            "name":"minecraft:jungle_sapling",
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "rolls": 1,
+        "entries": 
+        [
+            {
+                "type": "item",
+                "name": "neapolitan:banana_bunch",
+                "conditions": [
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.07
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

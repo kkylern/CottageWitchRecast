@@ -39,8 +39,8 @@
 			image: "cottagewitch:textures/bgwyldhunts.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 6.0d
-			y: 4.5d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			click: ""
@@ -63,8 +63,8 @@
 			image: "cottagewitch:textures/bgmonsters.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -6.0d
-			y: 4.5d
+			x: -5.0d
+			y: 3.5d
 		}
 	]
 	order_index: 2
@@ -97,7 +97,7 @@
 				type: "observation"
 			}]
 			title: "Meet a Snuffle!"
-			x: 6.0d
+			x: 10.5d
 			y: -4.0d
 		}
 		{
@@ -125,34 +125,6 @@
 			title: "Meet the Elephant"
 			x: -8.5d
 			y: -2.5d
-		}
-		{
-			description: ["The &bFeeding Trough&r will automatically feed/breed your livestock for you. Place it in near your animals and &6fill it with the appropriate food&r, and it will work automatically! But be careful that you don't fill it too much, or you may end up with a Cowpocalypse."]
-			id: "030F3DD35DB6D9BC"
-			rewards: [
-				{
-					count: 10
-					id: "3C270D0BFD61D699"
-					item: "minecraft:carrot"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "66A63256B0FF7C97"
-					item: "minecraft:wheat"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "That's trough, buddy"
-			tasks: [{
-				id: "7160D0D97F7AE601"
-				item: "quark:feeding_trough"
-				type: "item"
-			}]
-			title: "Obtain a Feeding Trough"
-			x: -2.5d
-			y: -6.5d
 		}
 		{
 			description: [
@@ -301,15 +273,15 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "683E528EEA16C187"
+				id: "226678EE9D1503C6"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:petbeds"
+						value: "forge:petbeds"
 					}
 				}
-				title: "Any #crafttweaker:petbeds"
+				title: "Any #forge:petbeds"
 				type: "item"
 			}]
 			title: "Get your Pet a Bed"
@@ -368,14 +340,13 @@
 			id: "5DB08A394A7B8122"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "214FDE6AD449E7A4"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-				{
 					id: "378CD636A77C1440"
 					item: "minecraft:name_tag"
+					type: "item"
+				}
+				{
+					id: "05716F91401CFB8F"
+					item: "nightlights:mushroom_red"
 					type: "item"
 				}
 			]
@@ -416,8 +387,8 @@
 				id: "016BADEBDA25900E"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: 2.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -450,8 +421,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -9.0d
-			y: 3.5d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -578,8 +549,8 @@
 				}
 			]
 			title: "Creeper Collector"
-			x: -9.0d
-			y: 4.5d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -608,8 +579,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -8.0d
-			y: 6.0d
+			x: -7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7E36FAC9107093C2"]
@@ -646,8 +617,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -8.0d
-			y: 7.5d
+			x: -7.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -680,8 +651,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -7.0d
-			y: 6.5d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -699,8 +670,8 @@
 				id: "1BBF8996270374EB"
 				type: "advancement"
 			}]
-			x: -6.0d
-			y: 7.5d
+			x: -5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -726,8 +697,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -5.0d
-			y: 6.5d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -764,8 +735,8 @@
 				type: "kill"
 				value: 500L
 			}]
-			x: -4.0d
-			y: 7.5d
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -793,8 +764,8 @@
 				type: "kill"
 				value: 15L
 			}]
-			x: -4.0d
-			y: 6.0d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -821,8 +792,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -860,8 +831,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -886,8 +857,8 @@
 				id: "39A1B59A1F5CD337"
 				type: "advancement"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -919,8 +890,8 @@
 				}
 			]
 			title: "First Swings of a Sword"
-			x: -6.0d
-			y: 3.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -953,8 +924,8 @@
 				type: "kill"
 				value: 30L
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			description: ["He's just a good boi. Don't let him stay out in the sun too long."]
@@ -1015,8 +986,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -1140,8 +1111,8 @@
 				type: "item"
 			}]
 			title: "Gateways to Eternity"
-			x: 4.5d
-			y: 3.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -1171,8 +1142,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Goat"
-			x: 7.5d
-			y: -4.5d
+			x: 9.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -1191,8 +1162,8 @@
 				type: "kill"
 				value: 50L
 			}]
-			x: -9.0d
-			y: 7.0d
+			x: -8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -1212,8 +1183,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -3.0d
-			y: 6.0d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			description: [
@@ -1280,8 +1251,8 @@
 				type: "observation"
 			}]
 			title: "Fall Prey to the Mimic"
-			x: 8.0d
-			y: 3.5d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -1331,8 +1302,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Stoneling"
-			x: 6.5d
-			y: -6.0d
+			x: 7.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1358,8 +1329,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Rootling"
-			x: 11.5d
-			y: -3.0d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -1380,7 +1351,7 @@
 			}]
 			title: "Swamp Muckers' Fwins"
 			x: 7.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -1415,8 +1386,8 @@
 				}
 			]
 			title: "Wilden Trophies"
-			x: 4.0d
-			y: 4.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -1496,11 +1467,17 @@
 				value: 5L
 			}]
 			title: "Moths in the Canopy"
-			x: 7.5d
-			y: 5.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
-			description: ["&eKoi&r are delightful creatures which live in shallow fresh water ponds. There are regular &eKoi&r and &eLucky Koi&r."]
+			description: [
+				"&eKoi&r are delightful creatures which live in shallow fresh water ponds. There are regular &eKoi&r and &eLucky Koi&r."
+				""
+				"Both will provide you with beneficial effects. Regular Koi &agive a Serenity effect&r which &aprevents hostile spawns&r in the nearby area."
+				""
+				"Lucky Koi, you may be shocked to find, will grant a &aLuck effect&r if they are near you while fishing!"
+			]
 			id: "4F4775AF5B5B93E9"
 			rewards: [{
 				id: "38D49950C6F09766"
@@ -1513,6 +1490,7 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "514789673C21BDD6"
@@ -1526,8 +1504,43 @@
 				}
 			]
 			title: "Types of Koi"
-			x: 10.0d
-			y: -10.5d
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Why not travel a while by Pig? It may not be fast, or efficient, or even particularly fun."
+				""
+				"No, that's it, that's the whole sentence."
+			]
+			id: "7E2641B15D6AF49E"
+			rewards: [{
+				id: "0CA93B79B9D94DF7"
+				item: "minecraft:pig_spawn_egg"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "16CAC410F6BBE772"
+					stat: "minecraft:pig_one_cm"
+					type: "stat"
+					value: 10000
+				}
+				{
+					id: "4F6C803E22B3FF71"
+					item: {
+						Count: 1b
+						id: "minecraft:carrot_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Traveling Piggyback"
+			x: 0.5d
+			y: -3.0d
 		}
 	]
 	title: "Wildlife"

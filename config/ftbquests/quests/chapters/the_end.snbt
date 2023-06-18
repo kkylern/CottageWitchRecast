@@ -519,84 +519,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3278B2F717A8F374"
-				"59B0992CDA1B5797"
-				"2C24C18C174AD842"
-				"513067CD571D369E"
-				"537CCA9E121868CC"
-				"605D30BFA0C1C6A7"
-				"3AADAC34ECDEF891"
-				"2356716DE94666CF"
-				"13555E89D6122D88"
-				"1689A10C4DBBE5B0"
-				"0ED4E7CE946E5F48"
-				"468D0B739D93E018"
-				"2DCD3962DBC7E1F4"
-				"393FED910B541631"
-			]
-			description: [
-				"You may only need 12 &bEyes&r to pass into &cThe End&r, but if you go above and beyond, and collect all possible eyes, you will be granted a reward."
-				"Once you have &6collected at least 1 of each Eye&r, you may check this button and receive a unique armor set."
-			]
-			hide_dependency_lines: true
-			id: "72A4C21205E75EAD"
-			rewards: [
-				{
-					id: "01C5430F01DBEBB0"
-					item: {
-						Count: 1b
-						id: "mcsa:ender_defender_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "64C5B5E5FA86F453"
-					item: {
-						Count: 1b
-						id: "mcsa:ender_defender_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1873090398231C34"
-					item: {
-						Count: 1b
-						id: "mcsa:ender_defender_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "213BCA77231CB858"
-					item: {
-						Count: 1b
-						id: "mcsa:ender_defender_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "1B27633C39539B20"
-				title: "Obtain Every End Eye"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: 1.5d
-		}
-		{
 			id: "43C892891BB4B5BF"
 			invisible: true
 			tasks: [{
@@ -696,8 +618,8 @@
 			id: "47639E492B01312E"
 			rewards: [{
 				count: 10
-				id: "26F75603AC664B96"
-				item: "hexerei:milk_bottle"
+				id: "547EB81D9B0E9862"
+				item: "ends_delight:chorus_flower_tea"
 				type: "item"
 			}]
 			shape: "octagon"

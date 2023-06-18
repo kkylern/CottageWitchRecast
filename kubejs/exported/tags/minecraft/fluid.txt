@@ -1,0 +1,62 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 11, 2023, 3:26:09 PM
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- hexerei:quicksilver_flowing (from hexerei-0.3.2.2.jar)
+- hexerei:quicksilver_fluid (from hexerei-0.3.2.2.jar)
+
+#create:bottomless/deny
+
+#forge:experience
+- experienceobelisk:raw_experience (from experienceobelisk-v1.4.3-1.19.2.jar)
+- experienceobelisk:cognitium (from experienceobelisk-v1.4.3-1.19.2.jar)
+- mob_grinding_utils:fluid_xp? (from experienceobelisk-v1.4.3-1.19.2.jar)
+- cofh_core:experience? (from experienceobelisk-v1.4.3-1.19.2.jar)
+- industrialforegoing:essence? (from experienceobelisk-v1.4.3-1.19.2.jar)
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.69.311.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- hexerei:blood_flowing (from hexerei-0.3.2.2.jar)
+- hexerei:blood_fluid (from hexerei-0.3.2.2.jar)
+- hexerei:tallow_flowing (from hexerei-0.3.2.2.jar)
+- hexerei:tallow_fluid (from hexerei-0.3.2.2.jar)
+- create_central_kitchen:flowing_sap? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.b.jar)
+- create_central_kitchen:sap? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.b.jar)
+- create_central_kitchen:flowing_syrup? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.b.jar)
+- create_central_kitchen:syrup? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.b.jar)
+- create_central_kitchen:flowing_tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.b.jar)
+- create_central_kitchen:tomato_sauce? (from create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.7.b.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.1.b.jar)
+- create:chocolate (from create-1.19.2-0.5.1.b.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.9-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.9-universal.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.1.b.jar)
+- create:tea (from create-1.19.2-0.5.1.b.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.1.b.jar)
+- minecraft:lava (from create-1.19.2-0.5.1.b.jar)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+- decorative_blocks:flowing_thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+
+#forge:honey
+- create:flowing_honey (from create-1.19.2-0.5.1.b.jar)
+- create:honey (from create-1.19.2-0.5.1.b.jar)
+
+#forge:potion
+- create:potion? (from starbunclemania-1.19.2-1.0.6.jar)
+- hexerei:potion? (from starbunclemania-1.19.2-1.0.6.jar)
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava (from twilightforest-1.19.2-4.2.1518-universal.jar)

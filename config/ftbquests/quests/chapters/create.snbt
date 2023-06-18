@@ -242,14 +242,22 @@
 			description: [
 				"Another power option is &bStarbuncle Wheels&r. It turns out that the industry of the &eStarbuncle&r goes beyond collecting and transferring items - they &alove to run&r."
 				"Give them a &awheel to run around in&r, and they will reliably generate you &d256 su&r."
+				"They will provide &aeven more power&r if there is a &bGold Block&r in front of them!"
 			]
 			id: "4E3C2382B7035B7D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0C3E96D9F238E3F4"
-				table_id: 1032206960599939459L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C3E96D9F238E3F4"
+					table_id: 1032206960599939459L
+					type: "loot"
+				}
+				{
+					id: "4282504A26348A26"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28340DBE48085983"
 				item: "ars_creo:starbuncle_wheel"
@@ -342,66 +350,6 @@
 			y: -0.5d
 		}
 		{
-			description: ["Congratulations on your feat of engineering! You had to nerf yourself, that's how good you were. Take this armor set as a reward."]
-			id: "0C8B40405806EEB4"
-			invisible: true
-			rewards: [
-				{
-					id: "40F1E962451E5BB6"
-					item: {
-						Count: 1b
-						id: "mcsa:ellegaard_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6FB82F90E8017C7C"
-					item: {
-						Count: 1b
-						id: "mcsa:ellegaard_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "263BDF9767AF721F"
-					item: {
-						Count: 1b
-						id: "mcsa:ellegaard_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "64E3D906B5C602AD"
-					item: {
-						Count: 1b
-						id: "mcsa:ellegaard_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "create:crafter_lazy_000"
-				criterion: ""
-				id: "64FB6A61F1EE24D3"
-				type: "advancement"
-			}]
-			x: -9.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["21D14DACAA03665A"]
 			description: ["Congratulation on operating your first machine! Hopefully if you were feeling intimidated, you now feel a little more confident."]
 			id: "6B62CA860B15D956"
@@ -480,8 +428,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["5859015DE7AD5512"]
-			description: ["These quests are currently being worked on. Expect more in the near future!"]
+			dependencies: ["3136D906C98A2243"]
+			description: ["This is just the basics of what you can do with the magic of engineering. Explore on your own and see what kind of &amystical machines&r you can craft."]
 			icon: {
 				Count: 1b
 				id: "supplementaries:wrench"
@@ -490,14 +438,19 @@
 				}
 			}
 			id: "4DC3913C41E20B81"
+			rewards: [{
+				id: "5515200AFB8C706B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				id: "1F02BA66A19E80A8"
 				type: "checkmark"
 			}]
-			title: "To be Continued"
-			x: 6.0d
+			title: "Continue On"
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -566,6 +519,11 @@
 					item: "create:basin"
 					type: "item"
 				}
+				{
+					id: "18318C670E941574"
+					item: "create:chocolate_bucket"
+					type: "item"
+				}
 			]
 			title: "Mixing and Crafting"
 			x: 2.0d
@@ -618,21 +576,21 @@
 			id: "14877C882C4D9E9E"
 			rewards: [
 				{
-					id: "0B260A952A19CD95"
-					item: "create:chocolate_bucket"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2B4C8F06AD991A1E"
 					table_id: 1032206960599939459L
 					type: "random"
 				}
+				{
+					id: "49CF9314C0D15268"
+					item: "twilightdelight:chocolate_wafer"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 4L
-				id: "14B92679442AA550"
-				item: "create:bar_of_chocolate"
+				id: "11AE2D6398E0A8FF"
+				item: "neapolitan:chocolate_bar"
 				type: "item"
 			}]
 			title: "Liquid to Solid via Compaction"
@@ -748,6 +706,11 @@
 		}
 		{
 			dependencies: ["777BD51D55A705BC"]
+			description: [
+				"The &bElectron Tube&r is a source of magical intelligence, allowing machines to &aperform actions like players&r, for example: The &bDeployer&r is capable of using many tools: shears, buckets, swords, and more."
+				""
+				"&bElectron Tubes&r also provide the basis for most of &lCreate's&r sorting mechanisms, or anything else which requires &aintelligent function&r."
+			]
 			id: "21D3406A746CF116"
 			tasks: [{
 				id: "091B7D2A7E613348"
@@ -779,7 +742,11 @@
 				"55F04B5FF196DD28"
 				"21D3406A746CF116"
 			]
-			description: ["&bDeployers&r are used to automate &bCasings&r, craft &bPrecision Mechanisms&r, and to &agenerally simulate right or left clicks&r. This allows the &bDeployer&r to automate things which &lArs Nouveau&r cannot."]
+			description: [
+				"&bDeployers&r are used to automate &bCasings&r, craft &bPrecision Mechanisms&r, and to &agenerally simulate right or left clicks&r. This allows the &bDeployer&r to automate things which &lArs Nouveau&r cannot."
+				""
+				"It can use tools like shears, buckets, swords, or axes. It can plant crops, saplings, or harvest coffee, apply bonemeal, or even &alight fires&r if provided with a &bFlint and Steel&r."
+			]
 			id: "244FE0B3FC20D15C"
 			rewards: [
 				{
@@ -915,6 +882,200 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			description: ["Congratulations, you achieved the perfect balance of input and output! Here is your reward."]
+			id: "2ADFD97B3FBCF3FE"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31BB095A6A7FEBCE"
+				table_id: 1032206960599939459L
+				type: "loot"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "create:stressometer_maxed"
+				criterion: ""
+				id: "4A6A32F97BB98183"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21D3406A746CF116"]
+			description: [
+				"Interested in &aauto-crafting, but don't have any &eWixies&r yet? Try &bMechanical Crafters&r."
+				""
+				"Set them up in the correct shape and provide them with &aRotational Force&r to get them going. You can feed items into them using many options - &bMechanical Arms, Hoppers, Pipez&r, or others!"
+				""
+				"You need to be sure to &6align their arrows correctly using the &bWrench&r, so that they all &aoutput to a single slot&r. This is required for them to work."
+				"{image:cottagewitch:textures/mechanicalcrafter.png width:100 height:100 align:1 fit:true}"
+				"This image is only &aone example&r of a shape you can place them in. You can do a simple 3x3 for most recipes, but &dyou'll need the above setup for the next quest&r."
+			]
+			id: "043613B0A380BAFE"
+			rewards: [
+				{
+					id: "3196CC9B8240902C"
+					item: "ars_creo:starbuncle_wheel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4463B3336AF27AC2"
+					table_id: 1032206960599939459L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 21L
+				id: "0015C01048C117C4"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Crafting Beyond the Table"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["043613B0A380BAFE"]
+			description: [
+				"One of the recipes that you can craft with your &bMechanical Crafters&r is the &bCrushing Wheel&r. A pair of these wheels will &aprocess raw ores and many other items&r, giving you access to &abonus items&r when compared with preparing them manually."
+				""
+				"You'll also need them in your quest to &amake &bBlaze Cakes&r. Take this &bNetherrack&r and put it through the &bCrushers&r!"
+			]
+			id: "67FDCB49F7F42C98"
+			rewards: [{
+				count: 10
+				id: "6C0C4489B97F7598"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "791EF27D855E24D4"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Power"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"14877C882C4D9E9E"
+				"67FDCB49F7F42C98"
+			]
+			description: [
+				"&bBlaze Cakes&r begin with a crust, or &bBase&r. This is made by &acompacting &bCinder Flour&r with &bSugar&r and &ban Egg&r."
+				""
+				"Use the &bCompactor&r setup you created earlier!"
+			]
+			id: "2EA981021184A143"
+			rewards: [{
+				id: "1788167B1C5F0C10"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "732D7987C8A7370D"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+				{
+					id: "6A194C2BF3FEB06B"
+					item: "create:blaze_cake_base"
+					type: "item"
+				}
+			]
+			title: "Making the Crust"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2EA981021184A143"
+				"221EA16C478CF60B"
+			]
+			description: ["Using your &bSpout&r setup from earlier, you can &apipe lava into your &bBlaze Cake Base&r! The resulting &bBlaze Cake&r can be used to power &bBlaze Burners&r very significantly."]
+			id: "6C79FC5564B166B0"
+			rewards: [{
+				id: "037BBC21CE652258"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "it's a piece of cake to bake a pretty cake"
+			tasks: [{
+				id: "10AB19A2E9B8002A"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "Bake a Cake"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C79FC5564B166B0"]
+			description: [
+				"Did you know there is an &ainfinite &bBlaze Cake&r? Normally it's only available in Creative, but you can &6earn one by trading in&r 100 regular &bBlaze Cakes&r."
+				""
+				"This quest is repeatable."
+			]
+			icon: "create:creative_blaze_cake"
+			id: "3136D906C98A2243"
+			rewards: [{
+				id: "3F6107BBFDA851E8"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			tasks: [{
+				count: 100L
+				id: "28EADC0EBE7B1BCD"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "A Creative Way To Cook"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AD3F51BD3B16B9F"]
+			description: [
+				"Now that you have a &bPump and Pipes&r, what do you do with the fluid?"
+				""
+				"Well, you have a few options. You could &acompact the fluid&r into solids using a &bMechanical Press&r (see the other quests for this!), or you could use a &bSpout&r to &adispense fluid onto or into items&r on a Depot."
+				""
+				"Spouts can be used in making &bChocolate-Covered Berries&r, &bHoneyed Apples&r, &bSweet Rolls&r, and eventually also &bBlaze Cakes!&r."
+			]
+			id: "221EA16C478CF60B"
+			rewards: [
+				{
+					id: "20AEDACAEDB07C7F"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "3A21A4628E57FE5B"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "63BED0C28AFDA534"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "251BCA81A6EDF52A"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Dispensing Fluids"
+			x: 4.0d
+			y: 2.5d
 		}
 	]
 	title: "Create"

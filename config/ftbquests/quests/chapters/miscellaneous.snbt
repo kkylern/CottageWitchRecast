@@ -15,7 +15,7 @@
 			image: "cottagewitch:textures/bgcommerce.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: 8.5d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -27,7 +27,7 @@
 			image: "cottagewitch:textures/bgautomation.png"
 			rotation: 0.0d
 			width: 9.0d
-			x: 0.0d
+			x: -4.5d
 			y: -4.5d
 		}
 		{
@@ -40,30 +40,6 @@
 			rotation: 0.0d
 			width: 11.0d
 			x: 0.0d
-			y: 4.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 9.0d
-			hover: [ ]
-			image: "cottagewitch:textures/bgpotions.png"
-			rotation: 0.0d
-			width: 9.0d
-			x: 9.0d
-			y: 4.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 9.0d
-			hover: [ ]
-			image: "cottagewitch:textures/bgmilestones.png"
-			rotation: 0.0d
-			width: 9.0d
-			x: -9.0d
 			y: 4.5d
 		}
 	]
@@ -421,7 +397,7 @@
 				id: "7F78311C1F39DDCC"
 				type: "advancement"
 			}]
-			x: 6.5d
+			x: 2.5d
 			y: -5.5d
 		}
 		{
@@ -453,7 +429,7 @@
 				type: "item"
 			}]
 			title: "The Basis of an Economy"
-			x: 8.5d
+			x: 4.5d
 			y: -4.0d
 		}
 		{
@@ -474,7 +450,7 @@
 				type: "advancement"
 			}]
 			title: "Trade with a Villager"
-			x: 6.5d
+			x: 2.5d
 			y: -2.5d
 		}
 		{
@@ -504,7 +480,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Goblin Trader"
-			x: 11.0d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -542,7 +518,7 @@
 				type: "item"
 			}]
 			title: "Obtain the Redstone Randomizer"
-			x: -1.0d
+			x: -5.0d
 			y: -2.5d
 		}
 		{
@@ -575,7 +551,7 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
@@ -611,7 +587,7 @@
 				item: "supplementaries:wind_vane"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -4.5d
 			y: -3.5d
 		}
 		{
@@ -651,7 +627,7 @@
 				item: "supplementaries:bellows"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -5.0d
 			y: -4.5d
 		}
 		{
@@ -686,7 +662,7 @@
 				item: "supplementaries:turn_table"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -5.5d
 			y: -5.5d
 		}
 		{
@@ -718,7 +694,7 @@
 				item: "supplementaries:redstone_illuminator"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -748,7 +724,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Faucet"
-			x: 0.0d
+			x: -4.0d
 			y: -4.5d
 		}
 		{
@@ -806,7 +782,7 @@
 				item: "quark:ender_watcher"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -3.5d
 			y: -5.5d
 		}
 		{
@@ -848,7 +824,7 @@
 				type: "item"
 			}]
 			title: "Obtain an Iron Rod"
-			x: 1.0d
+			x: -3.0d
 			y: -4.5d
 		}
 		{
@@ -887,7 +863,7 @@
 				type: "item"
 			}]
 			title: "A Player-Only Pressure Plate"
-			x: 1.5d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -927,7 +903,7 @@
 				type: "item"
 			}]
 			title: "Sand Which Disobeys Gravity"
-			x: 0.5d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
@@ -967,7 +943,7 @@
 				}
 			]
 			title: "Obtain Iron and Gold Buttons"
-			x: 1.0d
+			x: -3.0d
 			y: -2.5d
 		}
 		{
@@ -1007,7 +983,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Chute"
-			x: 0.0d
+			x: -4.0d
 			y: -2.5d
 		}
 		{
@@ -1038,7 +1014,7 @@
 				title: "Cycle some Trades"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 4.5d
 			y: -6.5d
 		}
 		{
@@ -1134,7 +1110,7 @@
 				type: "item"
 			}]
 			title: "Apple Crates for Commerce and Deco!"
-			x: 10.0d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -1294,72 +1270,8 @@
 				id: "3A8AB0F1F2EAB075"
 				type: "advancement"
 			}]
-			x: 10.5d
-			y: 5.0d
-		}
-		{
-			description: ["Even the most honest witch needs to sneak around sometimes. But you...well, you've snuck around &3a lot&r."]
-			id: "38285B9280444C60"
-			rewards: [{
-				id: "38E09DED192D360D"
-				item: {
-					Count: 1b
-					id: "environmental:thief_hood"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "minecraft:leather_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "191D3E228208A0CB"
-				stat: "minecraft:sneak_time"
-				type: "stat"
-				value: 99999
-			}]
-			title: "Sneaking Around"
-			x: -9.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"What soothes the soul more than houseplants?"
-				"Plant &a50 lovely green (or pink or blue) friends&r in basic &bFlower Pots&r."
-			]
-			id: "5A1DD637C09F0D13"
-			rewards: [
-				{
-					id: "6C4BF4D734DD6872"
-					item: "minecraft:wither_rose"
-					type: "item"
-				}
-				{
-					id: "27278A2A82B3986E"
-					item: "minecraft:lilac"
-					type: "item"
-				}
-				{
-					id: "1AE844EDFE9EF08B"
-					item: "environmental:cartwheel"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "minecraft:flower_pot"
-				id: "26A2431C7A0CBE9B"
-				stat: "minecraft:pot_flower"
-				type: "stat"
-				value: 50
-			}]
-			x: -11.0d
-			y: 5.5d
+			x: 3.5d
+			y: 6.5d
 		}
 		{
 			description: [
@@ -1393,41 +1305,6 @@
 			y: 2.5d
 		}
 		{
-			description: [
-				"Why not travel a while by Pig? It may not be fast, or efficient, or even particularly fun."
-				""
-				"No, that's it, that's the whole sentence."
-			]
-			id: "7E2641B15D6AF49E"
-			rewards: [{
-				id: "0CA93B79B9D94DF7"
-				item: "minecraft:pig_spawn_egg"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "16CAC410F6BBE772"
-					stat: "minecraft:pig_one_cm"
-					type: "stat"
-					value: 10000
-				}
-				{
-					id: "4F6C803E22B3FF71"
-					item: {
-						Count: 1b
-						id: "minecraft:carrot_on_a_stick"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Traveling Piggyback"
-			x: -11.0d
-			y: 4.0d
-		}
-		{
 			description: ["Winning a &aRaid&r can be a satisfying challenge. Even better, win a bunch of raids, and you'll get rewarded!"]
 			id: "5B185B1B72278050"
 			rewards: [
@@ -1457,8 +1334,8 @@
 				value: 10
 			}]
 			title: "Raid Master"
-			x: -9.0d
-			y: 6.5d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
 			description: ["Hmm, some &bMagic Beans&r. They seem legit - wonder what they do?"]
@@ -1514,7 +1391,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Mushroom Trader"
-			x: 6.0d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -1535,8 +1412,93 @@
 				type: "item"
 			}]
 			title: "Eyes of an Elder"
-			x: -2.0d
+			x: -6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["70C4F17973F6492E"]
+			description: ["Ooh dang, you just got &arejected by a &bNitwit&r. Feelsbadman."]
+			id: "4F7C97B20944FDB5"
+			rewards: [
+				{
+					id: "339DAF2F0074CD0D"
+					item: "finsandtails:spindly_emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "230848B75E85B7EF"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:villager"
+				icon: "minecraft:barrier"
+				id: "2DEEF63C17E2447C"
+				nbt: {
+					VillagerData: {
+						level: 1
+						profession: "minecraft:none"
+					}
+				}
+				title: "Get Turned Down by a Nitwit"
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			title: "Denied."
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"There have long been superstitions about whether &aphotography holds magical sway&r in our world. Some say photographs steal souls - others say they grant a form of immortality."
+				""
+				"Whatever you believe the power of the picture truly is, it cannot be denied that it &ais at least somewhat magical&r. The ability to capture light from a moment in time and look back on it long since it has passed? That's a small miracle without a doubt."
+				""
+				"You, too, can &acapture photos with a camera&r! &6Right click&r while holding the &bCamera&r to enter the photo mode. While in photo mode, &6scroll in and out to zoom&r. To take a photo, &6right click again&r. &dThis consumes paper&r and provides you with photos! &dThere is also a cooldown before you can take another picture&r."
+				""
+				"Continued on next page."
+				""
+				"{@pagebreak}"
+				""
+				"The &bPhotos&r can either be hung in an &bImage Frame&r, or added to an &bAlbum&r."
+				""
+				"To open the Album, &6shift click&r and place photos inside. &6Right click holding the Album&r to view the photos, and &6scroll to change photos&r. You can also &aplace them in &bLecterns&r!"
+			]
+			id: "153DBE782905BF62"
+			rewards: [{
+				count: 10
+				id: "5B7A726DA7F78989"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "03128A3B738BB1B8"
+					item: {
+						Count: 1b
+						id: "camera:camera"
+						tag: {
+							active: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66138B48096C9D0E"
+					item: {
+						Count: 1b
+						id: "camera:album"
+					}
+					type: "item"
+				}
+			]
+			title: "Photography Witchcraft"
+			x: 3.0d
+			y: 7.5d
 		}
 	]
 	title: "Miscellaneous"

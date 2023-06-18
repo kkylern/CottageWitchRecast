@@ -18,7 +18,7 @@
 [mobs]
 
 	[mobs.plantain_spider]
-		"Plantain Spider spawn from Banana Bundles" = true
+		"Plantain Spider spawn from Banana Bundles" = false
 		"Plantain Spiders give Slipping" = true
 
 	[mobs.chimpanzee]

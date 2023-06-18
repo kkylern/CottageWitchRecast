@@ -19,10 +19,11 @@ var air = <item:minecraft:air>;
 
 
 // Adds tags to Brooms
+/*
 <tag:items:crafttweaker:brooms>.add(<item:hexerei:mahogany_broom>, <item:hexerei:witch_hazel_broom>, <item:hexerei:willow_broom>);
-
+*/
 // Adds compostable tag to make things able to be made into Compost
-
+/*
 <tag:items:crafttweaker:compostable>.add(
 <item:hexerei:mugwort_flowers>,
 <item:hexerei:mugwort_leaves>,
@@ -41,10 +42,10 @@ var air = <item:minecraft:air>;
 <item:hexerei:dried_yellow_dock_leaves>,
 <item:farmersdelight:tree_bark>,
 <item:minecraft:rotten_flesh>
-);
+);*/
 
 // Adds dirt tag to a bunch of dirt
-<tag:items:crafttweaker:dirts>.add(
+/*<tag:items:crafttweaker:dirts>.add(
 <item:minecraft:dirt>,
 <item:minecraft:coarse_dirt>,
 <item:minecraft:rooted_dirt>,
@@ -53,20 +54,14 @@ var air = <item:minecraft:air>;
 
 // Change Compost recipe
 craftingTable.remove(<item:farmersdelight:organic_compost>);
-craftingTable.addShapeless("witchycompost", <item:farmersdelight:organic_compost> * 2, [<tag:items:crafttweaker:dirts>, <tag:items:supplementaries:straw>, <tag:items:supplementaries:straw>, <item:minecraft:bone_meal>, <item:minecraft:bone_meal>, <tag:items:crafttweaker:compostable>, <tag:items:crafttweaker:compostable>, <tag:items:crafttweaker:compostable>, <tag:items:crafttweaker:compostable>]);
+craftingTable.addShapeless("witchycompost", <item:farmersdelight:organic_compost> * 2, [<tag:items:crafttweaker:dirts>, <tag:items:supplementaries:straw>, <tag:items:supplementaries:straw>, <item:minecraft:bone_meal>, <item:minecraft:bone_meal>, <tag:items:crafttweaker:compostable>, <tag:items:crafttweaker:compostable>, <tag:items:crafttweaker:compostable>, <tag:items:crafttweaker:compostable>]);*/
 
 // Add rope tags
-<tag:items:supplementaries:ropes>.add(<item:farmersdelight:rope>);
-
-// Add milk tags just in case
-<tag:items:forge:cheese_or_milk>.add(<item:hexerei:milk_bottle>);
-<tag:items:forge:milk>.add(<item:hexerei:milk_bottle>);
-<tag:items:forge:milk/milk_bottle>.add(<item:hexerei:milk_bottle>);
-
+//<tag:items:supplementaries:ropes>.add(<item:farmersdelight:rope>);
 
 
 // Hides powerless building gadgets
-
+/*
 var removeGadgets = [
 <item:buildinggadgets:gadget_building>,
 <item:buildinggadgets:gadget_exchanging>,
@@ -78,6 +73,7 @@ for rgadget in removeGadgets {
 craftingTable.remove(rgadget);
 Jei.hideIngredient(rgadget);
 }
+
 
 // Makes Building Gadgets Accessible without power
 
@@ -108,14 +104,15 @@ var addGadgets = [
 for agadget in addGadgets {
 Jei.addIngredient(agadget);
 }
-
+*/
+/*
 // Akashic Tome Stuff
 var aTomeFull = <item:akashictome:tome>.withTag({ingredients: {item0: "block.minecraft.air", length: 3, item2: "item.patchouli.guide_book", item1: "item.akashictome.tome"}, "akashictome:data": {hexerei: {Count: 1, id: "hexerei:book_of_shadows", tag: {bookmarks: {}, chapter: 0, opened: 0, page: 0}}, create_central_kitchen: {ForgeCaps: {Parent: {}}, Count: 1, id: "create_central_kitchen:cooking_guide"}, ars_nouveau: {Count: 1, id: "ars_nouveau:worn_notebook"}, ftbquests: {Count: 1, id: "ftbquests:book"}, twilightdelight: {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "twilightdelight:twilight_guide"}}, create_central_kitchen_0: {ForgeCaps: {Parent: {NeedWater: 0}}, Count: 1, id: "create_central_kitchen:brewing_guide", tag: {"akashictome:definedMod": "create_central_kitchen_0"}}, extradelight: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "extradelight:cookbook"}}, lexicon: {Count: 1, id: "patchouli:guide_book", tag: {"patchouli:book": "lexicon:lexicon"}}}});
 
 craftingTable.addShapeless("akashicfull", aTomeFull, [<item:minecraft:book>, <item:minecraft:stick>]);
-
+*/
 // Remove Smelting Recipes
-
+/*
 var removeSmelting = [
     <item:delightful:animal_fat>,
     <item:delightful:animal_oil_bottle>
@@ -124,9 +121,9 @@ for item in removeSmelting {
 blastFurnace.remove(item);
 furnace.remove(item);
 }
-
+*/
 // Remove Crafting Table Recipes & Hide from JEI
-
+/*
 var removeNope = [
     <item:enigmaticgraves:grave_finder>,
     <item:ftbquests:barrier>,
@@ -192,7 +189,7 @@ var removeNope = [
     <item:hexerei:milk_bottle>,
     <item:delightful:animal_fat>,
     <item:delightful:animal_oil_bottle>,
-    //<item:pipez:fluid_pipe>,
+    <item:pipez:fluid_pipe>,
     <item:pipez:energy_pipe>,
     <item:pipez:gas_pipe>,
     <item:pipez:universal_pipe>,
@@ -328,8 +325,6 @@ var removeNope = [
     <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 1908001, accentColor: 1908001}),
     <item:sophisticatedstorage:gold_shulker_box>.withTag({mainColor: 16701501, accentColor: 8439583}),
     <item:sophisticatedstorage:diamond_shulker_box>.withTag({mainColor: 16383998, accentColor: 16383998}),
-    <item:vinery:apple_pie_slice>,
-    <item:vinery:apple_pie>,
     <item:delightful:zinc_knife>,
     <item:ends_delight:purpur_knife>,
     <item:ends_delight:end_stone_knife>,
@@ -341,21 +336,22 @@ for item in removeNope {
 recipes.remove(item);
 Jei.hideIngredient(item);
 }
+*/
 
 // Time in a Bottle
 
-craftingTable.remove(<item:tiab:time_in_a_bottle>);
-craftingTable.addShaped("timeinabottle", <item:tiab:time_in_a_bottle>, [[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>], [<item:minecraft:diamond>, <item:minecraft:clock>, <item:minecraft:diamond>], [<item:minecraft:lapis_lazuli>, <item:quark:bottled_cloud>, <item:minecraft:lapis_lazuli>]]);
+//craftingTable.remove(<item:tiab:time_in_a_bottle>);
+//craftingTable.addShaped("timeinabottle", <item:tiab:time_in_a_bottle>, [[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>], [<item:minecraft:diamond>, <item:minecraft:clock>, <item:minecraft:diamond>], [<item:minecraft:lapis_lazuli>, <item:quark:bottled_cloud>, <item:minecraft:lapis_lazuli>]]);
 
 // Ars Nouveau Novice Spellbook
-
+/*
 craftingTable.addShaped("novicebook", <item:ars_nouveau:novice_spell_book>, 
 [[air, <item:minecraft:gold_ingot>, air],
 [<item:minecraft:gold_ingot>, <item:ars_nouveau:worn_notebook>, <item:minecraft:gold_ingot>],
 [air, <item:minecraft:gold_ingot>, air]]);
-
+*/
 // Pearl Necklace Balancing
-
+/*
 var pearlnecklaces = [
     <item:crittersandcompanions:pearl_necklace_2>,
     <item:crittersandcompanions:pearl_necklace_3>
@@ -368,9 +364,9 @@ craftingTable.remove(item);
 craftingTable.addShapeless("pearl2", <item:crittersandcompanions:pearl_necklace_2>, [<item:crittersandcompanions:pearl_necklace_1>, <item:minecraft:ender_pearl>]);
 
 craftingTable.addShapeless("pearl3", <item:crittersandcompanions:pearl_necklace_3>, [<item:crittersandcompanions:pearl_necklace_2>, <item:mermod:glowing_pearl_modifier>]);
-
+*/
 // Burger recipes
-
+/*
 var burgers = [
 <item:farmersdelight:hamburger>,
 <item:delightful:cheeseburger>,
@@ -404,6 +400,7 @@ craftingTable.addShapeless("cheeseburger", <item:delightful:cheeseburger>, [
     <tag:items:forge:cheese>
 ]);
 
+
 craftingTable.addShapeless("ultraburger", <item:delightful:deluxe_cheeseburger>, [
     <item:minecraft:bread>,
     <tag:items:forge:salad_ingredients>,
@@ -423,6 +420,7 @@ craftingTable.addShapeless("ultraburgercon", <item:delightful:deluxe_cheeseburge
     <item:farmersdelight:cooked_bacon>
 ]);
 
+
 // Tom's Tags
 
 <tag:items:crafttweaker:invcable>.add(
@@ -433,9 +431,10 @@ craftingTable.addShapeless("ultraburgercon", <item:delightful:deluxe_cheeseburge
 <tag:items:crafttweaker:connector>.add(
     <item:toms_storage:ts.inventory_cable_connector_filtered>,
     <item:toms_storage:ts.inventory_cable_connector>,
-    <item:toms_storage:ts.inventory_cable_connector_framed>
+    <item:toms_storage:ts.inventory_cable_connector_framed>,
+    <item:sophisticatedstorage:storage_link>,
+    <item:toms_storage:ts.trim>
 );
-
 
 // Nature's Compass recipe
 
@@ -515,24 +514,6 @@ craftingTable.addShaped("ringofenderchest", <item:ring_of_enderchest:ring_of_end
 ]);
 
 
-// Making Knives compatible across mods
-
-<tag:items:forge:fillet_knife>.add(
-    <item:delightful:copper_knife>,
-    <item:delightful:tin_knife>,
-    <item:delightful:silver_knife>,
-    <item:delightful:lead_knife>,
-    <item:delightful:fiery_knife>,
-    <item:delightful:ironwood_knife>,
-    <item:delightful:knightmetal_knife>,
-    <item:delightful:steeleaf_knife>,
-    <item:farmersdelight:flint_knife>,
-    <item:farmersdelight:iron_knife>,
-    <item:farmersdelight:diamond_knife>,
-    <item:farmersdelight:netherite_knife>,
-    <item:farmersdelight:golden_knife>
-);
-
 
 // Pet Beds
 
@@ -555,18 +536,6 @@ craftingTable.addShaped("ringofenderchest", <item:ring_of_enderchest:ring_of_end
     <item:domesticationinnovation:pet_bed_black>
 );
 
-// egg carton to eggs
-
-craftingTable.addShapeless("cartontoegg", <item:minecraft:egg> * 9, [<item:prefab:item_carton_of_eggs>]);
-
-// Remove all recipes in MC Story Mode Armors
-craftingTable.removeByModid("mcsa");
-
-<tag:items:crafttweaker:diaknife>.add(<item:farmersdelight:diamond_knife>);
-
-craftingTable.remove(<item:supplementaries:pancake>);
-
-craftingTable.addShapeless("pancake", <item:supplementaries:pancake>, [<tag:items:forge:flour>, <tag:items:forge:sugar>, <tag:items:forge:eggs>, <tag:items:forge:milk>]);
 
 // Uncompress honeycomb
 
@@ -600,6 +569,7 @@ craftingTable.addShapeless("honeytocomb", <item:minecraft:honeycomb> * 4, [<item
     <item:endrem:undead_eye>,
     <item:endrem:witch_pupil>
 );
+
 
 //Overweight crops tags
 <tag:items:crafttweaker:overcrops>.add(
@@ -653,7 +623,7 @@ craftingTable.addShapeless("honeytocomb", <item:minecraft:honeycomb> * 4, [<item
 );
 
 var hotBlocks = [
-    <block:create:blaze_burner>,
+    //<block:create:blaze_burner>,
     <block:decorative_blocks:brazier>,
     <block:decorative_blocks:soul_brazier>,
     <block:vinery:stove>,
@@ -693,11 +663,7 @@ craftingTable.addShaped("tarotdeck", <item:tarotcards:tarot_deck>,
     [<item:create:golden_sheet>, <item:tarotcards:justice>, <item:create:golden_sheet>]
 ]);
 
-// Fishing Rod Tags
 
-<tag:items:forge:fishing_rods>.add(
-    <item:minecraft:fishing_rod>
-);
 
 // Dried Sage Recipe
 
@@ -740,6 +706,7 @@ craftingTable.addShapeless("sandywaystonetosharestone", <item:waystones:sharesto
 <tag:items:crafttweaker:azalea_planks>.add(<item:ecologics:azalea_planks>, 
 <item:ecologics:flowering_azalea_planks>);
 
+
 craftingTable.addShapeless("quarkazalog", <item:quark:azalea_log>, [<item:minecraft:moss_block>, <tag:items:crafttweaker:azalea_logs>]);
 
 craftingTable.addShapeless("quarkazawood", <item:quark:azalea_wood>, [<item:minecraft:moss_block>, <tag:items:crafttweaker:azalea_wood>]);
@@ -776,12 +743,13 @@ craftingTable.addShapeless("seacrystal", <item:mermod:sea_crystal> * 4, [<item:e
 <recipetype:create:haunting>.addRecipe("hauntedflaxencheese", [<item:brewinandchewin:flaxen_cheese_wheel> % 100], <item:brewinandchewin:unripe_flaxen_cheese_wheel>, 200);
 
 <recipetype:create:haunting>.addRecipe("hauntedscarletcheese", [<item:brewinandchewin:scarlet_cheese_wheel> % 100], <item:brewinandchewin:unripe_scarlet_cheese_wheel>, 200);
-
+*/
 //Make Cheese Compactable
 
 // CompactingManager.addRecipe(name as string, heat as HeatCondition, outputs as Percentaged<IItemStack>[], itemInputs as IIngredientWithAmount[], fluidInputs as FluidIngredient[], duration as int) as void
-
+/*
 <recipetype:create:compacting>.addRecipe("compactedflaxencheese", <constant:create:heat_condition:heated>, [<item:brewinandchewin:unripe_flaxen_cheese_wheel> % 100], [<item:minecraft:brown_mushroom> * 2, <item:minecraft:sugar>], [<fluid:minecraft:milk> * 1000], 4000);
+
 
 <recipetype:create:compacting>.addRecipe("compactedscarletcheese", <constant:create:heat_condition:heated>, [<item:brewinandchewin:unripe_scarlet_cheese_wheel> % 100], [<item:minecraft:crimson_fungus> * 2, <item:minecraft:sugar>], [<fluid:minecraft:milk> * 1000], 4000);
 
@@ -796,15 +764,8 @@ craftingTable.addShapeless("seacrystal", <item:mermod:sea_crystal> * 4, [<item:e
 //Dough tags
 
 <tag:items:minecraft:dough>.add(<item:culturaldelights:corn_dough>);
-<tag:items:forge:dough>.add(<item:culturaldelights:corn_dough>, <item:vinery:dough>);
+<tag:items:forge:dough>.add(<item:culturaldelights:corn_dough>);
 
-// Rustic Dough Recipe
-craftingTable.remove(<item:vinery:dough>);
-craftingTable.addShapeless("rusticdough", <item:vinery:dough> * 2, 
-    [<item:create:wheat_flour>,
-    <item:create:wheat_flour>, 
-    <item:minecraft:sugar>, 
-    <item:minecraft:water_bucket>]);
 
 // Grape tags
 
@@ -814,10 +775,6 @@ craftingTable.addShapeless("rusticdough", <item:vinery:dough> * 2,
 // Jelly Tags
 
 var jams = [
-    <item:vinery:cherry_jam>,
-    <item:vinery:apple_jam>,
-    <item:vinery:sweetberry_jam>,
-    <item:vinery:grape_jam>,
     <item:upgrade_aquatic:mulberry_jam_bottle>
 ] as IItemStack[];
 
@@ -832,11 +789,13 @@ for jam in jams{
 
 <tag:items:forge:cheese>.add(<item:brewinandchewin:scarlet_cheese_wedge>, <item:brewinandchewin:flaxen_cheese_wedge>);
 
+craftingTable.addShapeless("coalfromblock", <item:minecraft:coal> * 9, [<item:minecraft:coal_block>]);
+
 // Fried Egg Recipe
 
 furnace.addRecipe("friedduckegg", <item:farmersdelight:fried_egg>, <tag:items:forge:eggs>, 1.0, 60);
 
-craftingTable.addShapeless("coalfromblock", <item:minecraft:coal> * 9, [<item:minecraft:coal_block>]);
+
 
 //reaper scythe tags
 
@@ -877,6 +836,7 @@ craftingTable.addShaped("snow_golemplushie", <item:plushies:snow_golem> * 2, [
     [<item:ars_nouveau:mirrorweave>, <item:plushies:snow_golem>, <item:ars_nouveau:mirrorweave>],
     [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
 ]);
+
 
 craftingTable.addShaped("axolotlplushie", <item:plushies:axolotl> * 2, [
     [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
@@ -931,6 +891,7 @@ craftingTable.addShaped("mooshroomplushie", <item:plushies:mooshroom> * 2, [
     [<item:ars_nouveau:mirrorweave>, <item:plushies:mooshroom>, <item:ars_nouveau:mirrorweave>],
     [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
 ]);
+*/
 /*
 craftingTable.addShaped("magma_cubeplushie", <item:plushies:magma_cube>, [
     [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
@@ -956,7 +917,7 @@ craftingTable.addShaped("slimeplushie", <item:plushies:slime>, [
     [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>]
 ]);
 */
-
+/*
 craftingTable.addShaped("llamaplushie", <item:plushies:llama> * 2, [
     [<item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>, <item:ars_nouveau:mirrorweave>],
     [<item:ars_nouveau:mirrorweave>, <item:plushies:llama>, <item:ars_nouveau:mirrorweave>],
@@ -1005,14 +966,6 @@ craftingTable.addShaped("turtleplushie", <item:plushies:turtle> * 2, [
 //    [<item:ars_nouveau:wilden_wing>, <item:minecraft:dragon_egg>, <item:ars_nouveau:wilden_wing>],
 //    [air, <item:alexsmobs:raccoon_tail>, air]
 //]);
-
-// Backpacks
-
-craftingTable.addShaped("packtopack", <item:backpacked:backpack>, [
-    [air, <item:minecraft:bone_meal>, air],
-    [<item:minecraft:leather>, <item:quark:backpack>, <item:minecraft:leather>],
-    [air, <item:minecraft:bone_meal>, air]
-]);
 
 // Torch Tagging
 
@@ -1101,6 +1054,7 @@ craftingTable.addShaped("enhancedprop", <item:immersive_aircraft:enhanced_propel
     [air, <item:minecraft:copper_ingot>, air]
 ]);
 
+
 craftingTable.remove(<item:immersive_aircraft:sail>);
 craftingTable.addShaped("sail", <item:immersive_aircraft:sail>, [
     [air, air, air],
@@ -1128,6 +1082,7 @@ craftingTable.addShaped("biplane", <item:immersive_aircraft:biplane>, [
     [<item:immersive_aircraft:sail>, <item:immersive_aircraft:engine>, <item:immersive_aircraft:sail>],
     [<item:immersive_aircraft:hull>, <item:create:red_seat>, <item:immersive_aircraft:hull>]
 ]);
+
 
 craftingTable.remove(<item:immersive_aircraft:gyrodyne>);
 craftingTable.addShaped("gyrodyne", <item:immersive_aircraft:gyrodyne>, [
@@ -1233,10 +1188,12 @@ craftingTable.addShaped("elder_guardian_gate", <item:gateways:gate_pearl>.withTa
     [<item:minecraft:prismarine_shard>, air, <item:minecraft:prismarine_shard>]
 ]);
 
+
 craftingTable.remove(<item:luphieclutteredmod:luphie_sewing_table_clutter>);
 craftingTable.addShaped("sewingkit", <item:luphieclutteredmod:luphie_sewing_table_clutter>, [
     [<tag:items:forge:string>, <tag:items:minecraft:wool_carpets>, <tag:items:minecraft:wool>],
 ]);
+
 
 //Horse Armors
 
@@ -1277,16 +1234,6 @@ craftingTable.addShapeless("milk2fd", <item:farmersdelight:milk_bottle> * 3, [
     <item:minecraft:glass_bottle>
 ]);
 
-// Interchangeable Cherries
-
-//craftingTable.addShapeless("vin2envcherry", <item:environmental:cherries>, [<item:vinery:cherry>]);
-//craftingTable.addShapeless("env2vincherry", <item:vinery:cherry>, [<item:environmental:cherries>]);
-
-// TODO - Venison
-
-recipes.remove(<item:twilightdelight:raw_venison_rib>);
-recipes.remove(<item:twilightdelight:cooked_venison_rib>);
-
 // Cherry Stuff
 
 <tag:items:forge:fruits/berries>.add(<item:vinery:cherry>);
@@ -1320,9 +1267,45 @@ craftingTable.addShaped("cherrypie", <item:environmental:cherry_pie>, [
 [<item:minecraft:sugar>, <item:farmersdelight:pie_crust>, <item:minecraft:sugar>]
 ]);
 
+
 // Moon Dust
 
-
-
-
 brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "goblintraders:levitation"}), <item:hexerei:moon_dust>, <item:minecraft:potion>.withTag({Potion: "minecraft:mundane"}));
+
+// inventory managers for quest
+
+<tag:items:crafttweaker:invmanagers>.add(<item:sophisticatedstorage:controller>,
+<item:toms_storage:ts.inventory_connector>);
+
+// inventory upgrades
+
+<tag:items:crafttweaker:procupgrades>.add(<item:sophisticatedstorage:auto_smelting_upgrade>,
+<item:sophisticatedstorage:auto_smoking_upgrade>,
+<item:sophisticatedstorage:auto_blasting_upgrade>,
+<item:sophisticatedstorage:smelting_upgrade>,
+<item:sophisticatedstorage:smoking_upgrade>,
+<item:sophisticatedstorage:blasting_upgrade>);
+
+// accessory boosters
+
+<tag:items:crafttweaker:accbooster>.add(<item:majruszsaccessories:owl_feather>,
+<item:majruszsaccessories:golden_dice>,
+<item:majruszsaccessories:dice>,
+<item:majruszsaccessories:horseshoe>,
+<item:majruszsaccessories:golden_horseshoe>);
+
+// stack upgrades
+
+<tag:items:crafttweaker:stackupgrades>.add(<item:sophisticatedstorage:stack_upgrade_tier_1>,
+<item:sophisticatedstorage:stack_upgrade_tier_2>,
+<item:sophisticatedstorage:stack_upgrade_tier_3>,
+<item:sophisticatedstorage:stack_upgrade_tier_4>);
+*/
+// uncrafting
+
+	#If an item has multiple crafting recipes and you wish to disable them all, 
+    #add the item to the "twilightforest:banned_uncraftables" item tag.
+	#If you have a problematic ingredient, like infested towerwood for example, 
+    #add the item to the "twilightforest:banned_uncrafting_ingredients" item tag.
+
+//<tag:items:twilightforest:banned_uncraftables>.add(<item:plushies:dragon>);

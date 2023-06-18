@@ -539,15 +539,14 @@
 					type: "item"
 				}
 				{
-					id: "7E64A2B8734B6083"
+					id: "4B6AD6E118B09EB4"
 					item: {
 						Count: 1b
-						id: "itemfilters:tag"
+						id: "farmersdelight:diamond_knife"
 						tag: {
-							value: "crafttweaker:diaknife"
+							Damage: 0
 						}
 					}
-					title: "Any #crafttweaker:diaknife"
 					type: "item"
 				}
 			]
@@ -1248,6 +1247,27 @@
 								id: "minecraft:efficiency"
 								lvl: 1s
 							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "478C2361FB346097"
+					item: {
+						Count: 1b
+						id: "twilightdelight:steeleaf_knife"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:looting"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:fortune"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -2180,6 +2200,37 @@
 			}]
 			x: -5.5d
 			y: 5.5d
+		}
+		{
+			description: [
+				"&bAccessory Boosters&r are items which you can &acombine with certain &bPocket Accessories&r to make them more powerful."
+				""
+				"Each booster describes its effect in the tooltip, so you'll know what you're getting."
+				""
+				"&dBe aware that an Accessory can only accept one Booster&r at a time."
+			]
+			id: "48385747B9F27B10"
+			rewards: [{
+				id: "0FB99508E9078240"
+				item: "majruszsaccessories:owl_feather"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1DC5B698846A3FC5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:accessory_boosters"
+					}
+				}
+				title: "Any Accessory Booster"
+				type: "item"
+			}]
+			title: "Acquire an Accessory Booster"
+			x: 6.5d
+			y: 2.5d
 		}
 	]
 	title: "Equipment \\& Gear"
