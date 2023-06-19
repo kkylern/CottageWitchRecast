@@ -1618,15 +1618,15 @@
 			}]
 			subtitle: "not another cheesy pun..."
 			tasks: [{
-				id: "026310FB86DCF6D3"
+				id: "4B2AA86DDD1E76DF"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:cheeses"
+						value: "forge:cheese"
 					}
 				}
-				title: "Any #crafttweaker:cheeses"
+				title: "Any Cheese Wedge"
 				type: "item"
 			}]
 			title: "Make Some Cheese"

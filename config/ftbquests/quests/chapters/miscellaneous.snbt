@@ -151,15 +151,15 @@
 			shape: "hexagon"
 			subtitle: "I tome you so"
 			tasks: [{
-				id: "647CA26F664F82B7"
+				id: "74CD55EBA3A75ABB"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:tomes"
+						value: "forge:tomes"
 					}
 				}
-				title: "Any #crafttweaker:tomes"
+				title: "Any Ancient Tome"
 				type: "item"
 			}]
 			title: "Obtain an Ancient Tome"
@@ -347,7 +347,7 @@
 						value: "upgrade_aquatic:bedrolls"
 					}
 				}
-				title: "Any #upgrade_aquatic:bedrolls"
+				title: "Any Bedroll"
 				type: "item"
 			}]
 			title: "Roughing It"
@@ -1098,15 +1098,15 @@
 				}
 			]
 			tasks: [{
-				id: "29D09AD08884A9A7"
+				id: "058BF4F7C1627B51"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:crates"
+						value: "forge:apple_crates"
 					}
 				}
-				title: "Any #crafttweaker:crates"
+				title: "Any \"Apple\" Crate"
 				type: "item"
 			}]
 			title: "Apple Crates for Commerce and Deco!"
@@ -1289,15 +1289,15 @@
 			shape: "hexagon"
 			subtitle: "an alternative to sage"
 			tasks: [{
-				id: "5D582D2A264F8D84"
+				id: "03BCF6954B5954F4"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:magnumtorches"
+						value: "forge:magnum_torches"
 					}
 				}
-				title: "Any #crafttweaker:magnumtorches"
+				title: "Any Magnum Torch"
 				type: "item"
 			}]
 			title: "Preventing Mob Spawning"
@@ -1488,11 +1488,8 @@
 					type: "item"
 				}
 				{
-					id: "66138B48096C9D0E"
-					item: {
-						Count: 1b
-						id: "camera:album"
-					}
+					id: "507468F7A2387394"
+					item: "camera:album"
 					type: "item"
 				}
 			]

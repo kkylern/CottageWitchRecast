@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/katukitchenbg.png
+  path = kubejs/assets/cottagewitch/textures/mainmenu/alliekat2.png
   action = texturizebackground
 }
 
@@ -19,13 +19,13 @@ customization {
 }
 
 customization {
-  path = config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bgcorners3.png
-  orientation = top-left
-  x = 0
-  width = %guiwidth%
+  path = kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
+  orientation = top-centered
+  x = -350
+  width = 701
   action = addtexture
-  actionid = 3e5d16c3-ba2e-44f5-9d70-e9cc13e5699a1681421642277
+  actionid = 25663be1-1966-45c7-8b97-b3a5677174a71687134272877
   y = 0
-  height = %guiheight%
+  height = 213
 }
 

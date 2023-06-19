@@ -43,15 +43,15 @@
 			size: 2.0d
 			subtitle: "I've got my eye on the End"
 			tasks: [{
-				id: "0BEFF75777888C6B"
+				id: "0328F21C5C6D8DB7"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:end_eyes"
+						value: "forge:eyes"
 					}
 				}
-				title: "Any #crafttweaker:end_eyes"
+				title: "Any End Eye"
 				type: "item"
 			}]
 			title: "Obtain an End Eye"

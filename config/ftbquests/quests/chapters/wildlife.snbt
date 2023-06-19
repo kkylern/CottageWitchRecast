@@ -281,7 +281,7 @@
 						value: "forge:petbeds"
 					}
 				}
-				title: "Any #forge:petbeds"
+				title: "Any Pet Bed"
 				type: "item"
 			}]
 			title: "Get your Pet a Bed"

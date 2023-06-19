@@ -79,15 +79,15 @@
 			shape: "hexagon"
 			subtitle: "So happy together"
 			tasks: [{
-				id: "358424B23A630422"
+				id: "315D13677114638B"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:mushcolony"
+						value: "forge:mushcolony"
 					}
 				}
-				title: "Any #crafttweaker:mushcolony"
+				title: "Any Mushroom Colony"
 				type: "item"
 			}]
 			title: "Obtain a Mushroom Colony"
@@ -372,15 +372,15 @@
 			]
 			subtitle: "Everyone loves a chubby carrot"
 			tasks: [{
-				id: "705498616DE28A9B"
+				id: "6A35F0139B9BEB50"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:overcrops"
+						value: "forge:overweightcrops"
 					}
 				}
-				title: "Any #crafttweaker:overcrops"
+				title: "Any Overweight Crop"
 				type: "item"
 			}]
 			title: "Overweight Crops"
@@ -837,15 +837,15 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4308C515AAC6F0EE"
+				id: "023BBACBE25257BD"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:netmushcolony"
+						value: "forge:funguscolony"
 					}
 				}
-				title: "Any #crafttweaker:netmushcolony"
+				title: "Any Fungus Colony"
 				type: "item"
 			}]
 			title: "Obtain a Nether Fungus Colony"
@@ -959,15 +959,15 @@
 			shape: "hexagon"
 			subtitle: "don't fear the reaper...seriously"
 			tasks: [{
-				id: "0F91D658F8373DD2"
+				id: "0B81F73CB298DCCE"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "crafttweaker:scythe"
+						value: "forge:scythe"
 					}
 				}
-				title: "Any #crafttweaker:scythe"
+				title: "Any Reaping Tool"
 				type: "item"
 			}]
 			title: "Obtain a Reaping Tool"
