@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 300
 	default_quest_shape: ""
 	filename: "miscellaneous"
 	group: "346046A71D537172"
@@ -49,12 +50,27 @@
 		{
 			description: [
 				"You can send letters and packages to your friends! You can &asend and receive mail&r using a &bSnailbox&r. Placing it down claims it, and you can even give it a name by &6right clicking on it&r and entering text in the name field."
+				""
+				"For more information, &6please click to the next page&r."
+				""
+				"{@pagebreak}"
+				""
 				"To &asend mail&r, you'll need a &bStamp&r and an &bOpen Envelope&r. These envelopes can be reused, so they're good for the environment. &6Place the Envelope in the upper right of the &bSnailbox&r. Then click &6\"Open Envelope&r.\""
-				"{image:cottagewitch:textures/snailmail1.png width:250 height:300 align:1}"
-				"In here, you can put your mail! You can send &bpostcards, wrapped parcels, and more&r! &aDon't forget to add a Stamp&r! Enter the name of the recipient, your name if desired, and then &6Hit Esc to go back to the previous window&r!"
+				""
+				"{image:cottagewitch:textures/snailmail1.png width:210 height:275 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"In here, you can put your mail! You can send &bphotos, items, and more&r! To include a message, use a &bBook and Quill&r. &aDon't forget to add a Stamp&r! Enter the name of the recipient, your name if desired, and then &6Hit Esc to go back to the previous window&r!"
+				""
 				"{image:cottagewitch:textures/snailmail2.png width:250 height:200 align:1}"
+				""
+				"{@pagebreak}"
+				""
 				"Once you've hit &dEsc&r, you can &aselect the Snailbox to send to&r, and ta-da! You're done!"
+				""
 				"{image:cottagewitch:textures/snailmail3.png width:250 height:80 align:1}"
+				""
 				"{image:cottagewitch:textures/snailmail4.png width:250 height:150 align:1}"
 			]
 			id: "476D80268DFAFC7A"
@@ -93,6 +109,7 @@
 		{
 			description: [
 				"The &bSandcastle&r can be placed over &bTurtle Eggs&r in order to protect them from Zombies."
+				""
 				"However, there is &da bug currently&r which prevents eggs in a &bSand Castle&r from hatching."
 			]
 			id: "012D4FE416DC8BE7"
@@ -190,7 +207,9 @@
 		{
 			description: [
 				"The &bCinder Furnace&r is a unique item which &aonly functions on the back of a &eCindershell Tortoise&r, which live in the Nether Wastes."
+				""
 				"You can befriend and breed them with &bFungus&r - but beware, they have a LOT of young at once."
+				""
 				"If you place this &bFurnace&r on top of a &eCindershell&r, it will use the beast's volcanic heat to &asmelt items without fuel&r!"
 			]
 			id: "7B40E7022A67BC86"
@@ -212,6 +231,7 @@
 		{
 			description: [
 				"Did you know that you can &aspeed up the tick speed of a block&r? This can be used on things like &bCompost&r to make them progress faster."
+				""
 				"Craft the &bTime in a Bottle&r and hold it in your inventory to accumulate time. Then, you can &6shift right click&r on certain blocks to apply that time to them."
 			]
 			id: "00BDE15DD24045A6"
@@ -274,6 +294,7 @@
 		{
 			description: [
 				"Did you know you can grind the enchantment off of the &bEnchanted Golden Apple&r?"
+				""
 				"That would be utterly ridiculous to do, and yet..."
 			]
 			id: "7DD918D36463CF71"
@@ -303,6 +324,7 @@
 		{
 			description: [
 				"The &bWrench&r is an item which can &arotate blocks&r. Just &6right click the block&r with the &bWrench&r, and it will adjust the position based on where you click it."
+				""
 				"Does not work on objects which have the same texture on all sides (such as planks)."
 			]
 			id: "1547891EBE53934F"
@@ -357,8 +379,11 @@
 		{
 			description: [
 				"Have you ever fallen in love with the color palette of one biome, but your base is somewhere else entirely? Well, worry not! With &bBiome Jars&r, you can &6pick up the biome and transport it!&r"
+				""
 				"Right click the &bBiome Jar&r on the ground of the biome you want to take. Wait just long enough to go - \"Is this worki -\""
+				""
 				"&l&dBANG!&r Yes, it's working! Once it completes its capture, you can &6right click it&r to pick it back up."
+				""
 				"Then, take your jar and &6right click it&r on the area you want to transfer the new biome to."
 			]
 			id: "642A47408175527E"
@@ -381,6 +406,7 @@
 			dependencies: ["70C4F17973F6492E"]
 			description: [
 				"Villagers who have &abeen zombified and then cured&r will offer &asignificant discounts&r."
+				""
 				"Should you find a &eZombie Villager&r, &6hit them with a Splash Potion of Weakness&r, and then &6give them a golden apple&r. After a time, they will be cured!"
 			]
 			id: "16797E1EF5450E7E"
@@ -557,6 +583,7 @@
 		{
 			description: [
 				"Depending on weather, this decorative block will output a redstone signal."
+				""
 				"When it is &araining&r, it will output a signal of 1. When it is &athundering&r, it will output a signal of 2."
 			]
 			id: "6DBD018A4FB32DD8"
@@ -593,6 +620,7 @@
 		{
 			description: [
 				"&bBellows&r are blocks that can &aspeed up furnaces&r, &aprevent fires from extinguishing&r, and even &apush entities&r."
+				""
 				"The rate at which the Bellows pump is determined by the strength of the &aRedstone signal&r it is receiving."
 			]
 			id: "50E64308D7D56C48"
@@ -633,6 +661,7 @@
 		{
 			description: [
 				"Perhaps this is too obvious to explain, but the &bTurntable&r is a block that, when provided with a Redstone signal, will rotate the block it is touching."
+				""
 				"When placed sideways, it can turn an &bHourglass&r to reset it."
 			]
 			id: "6C7EB11A659D7914"
@@ -700,6 +729,7 @@
 		{
 			description: [
 				"The &bFaucet&r is an item which will &awithdraw, and drop, items from the sides of blocks&r (inventories, beehives, or jars). This is opposed to Hoppers, which can only withdraw from the bottom."
+				""
 				"They also function like &bDripstone&r, slowly dripping liquids into a cauldron beneath them."
 			]
 			id: "5A0A46815A9FE05D"
@@ -788,6 +818,7 @@
 		{
 			description: [
 				"The &bIron Rod&r is not just a decoration, it is also functional. When it is placed on a &bSticky Piston&r, it will &abreak the block&r the Piston pushes it into."
+				""
 				"This only works on blocks which can be pushed, so blocks like &bObsidian&r will not be affected."
 			]
 			id: "593CA14F58A43AEB"
@@ -1000,7 +1031,8 @@
 		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
-				"You no longer need to break a villager's job block to cycle through their trades. Simply &aask nicely&r (byt &6pressing the Cycle Trades button&r)."
+				"You no longer need to break a villager's job block to cycle through their trades. Simply &aask nicely&r (by &6pressing the Cycle Trades button&r)."
+				""
 				"{image:cottagewitch:textures/tradecycle.png width:200 height:150 align:1}"
 			]
 			id: "08F9BA2E3066C5FB"
@@ -1076,12 +1108,19 @@
 			dependencies: ["70C4F17973F6492E"]
 			description: [
 				"If you're playing with others, you can use Crates from the &lApple Crates&r mod to &asell items to one another&r!"
+				""
 				"{image:cottagewitch:textures/applecrates.png width:200 height:130 align:1}"
+				""
 				"A) This input is &athe item you want to receive&r as payment. Place one into the slot."
+				""
 				"B) This is the &aitem you're trading&r. Stack size matters - in this example the trade is &a1 emerald for 64 cheeseburgers&r."
+				""
 				"C) This is &ayour personal inventory&r."
+				""
 				"D) You must &6press this button to lock in your trade&r."
+				""
 				"E) This is the &ainventory of the crate&r. Place all your items for sale here."
+				""
 				"F) This is where your &apayment is stored&r. As people purchase from you, the items they use to pay will go here."
 			]
 			id: "5C5768D4346FD3FE"
@@ -1117,9 +1156,13 @@
 			dependencies: ["3E72CBC6D658F80E"]
 			description: [
 				"Now that you've gotten your first &bSea Crystal&r, you can craft it into a &bSea Necklace&r. This can be worn in your &achest slot&r or &aas a curio&r."
+				""
 				"Equipping the necklace will &aturn you into a mermaid while in water&r. This will allow you to &aswim quickly&r and &abreathe underwater&r."
-				"You can also &6upgrade your appearance&r by crafting the &bNecklace&r with &bupgrade items&r."
-				"You can dye your tail by &6crafting the &bNecklace&r with different &bdyes&r, just like &bleather armor&r."
+				""
+				"You can also upgrade your appearance by crafting the &bNecklace&r with &bupgrade items&r."
+				""
+				"You can dye your tail by &6crafting the &bNecklace&r with different dyes, just like leather armor."
+				""
 				"To &dremove dyes or upgrades&r, you need to &6hold the necklace&r in your hand and &6right click&r."
 			]
 			id: "32235F4557C97245"
@@ -1238,8 +1281,10 @@
 		{
 			description: [
 				"Those who experiment with altering their states may find themselves in quite the situation, not entirely knowing how they arrived at this conclusion."
-				"This achievement involves getting &aevery vanilla effect&r at once, as well as the following modded effects:"
-				"Sculk Affinity (Deeper and Darker), Panic, Serenity (both Environmental), Health Boost, Resilience (Quark)."
+				""
+				"This achievement involves getting &aevery vanilla effect&r at once, as well as the modded effects, such as (this list may be incomplete):"
+				""
+				"Panic, Serenity (both Environmental), Health Boost, Resilience (both Quark)."
 			]
 			id: "3B84722A9CD28821"
 			rewards: [
@@ -1276,8 +1321,11 @@
 		{
 			description: [
 				"The &bMagnum Torches&r are a set-it-and-forget-it method of preventing mob spawns."
+				""
 				"The &bDiamond Magnum Torch&r prevents &ehostile mobs&r from spawning."
+				""
 				"The &bEmerald Magnum Torch&r prevents &eneutral and passive mobs&r from spawning."
+				""
 				"The &bAmethyst Magnum Torch&r prevents &lALL&r mob spawns."
 			]
 			id: "592DF5A6484F1988"
@@ -1364,7 +1412,9 @@
 			dependencies: ["70C4F17973F6492E"]
 			description: [
 				"Wanna buy some shrooms? You're in luck! The &eMushroom Trader&r is a unique villager who will trade you &ainteresting mushrooms and blocks&r in exchange for &bEmeralds&r."
-				"{image:cottagewitch:textures/mushroomtrader.png width:100 height:180 align:1 fit:true}"
+				""
+				"{image:cottagewitch:textures/mushroomtrader.png width:100 height:150 align:1}"
+				""
 				"But despite his grisly appearance, you &acannot Shear him&r, as that would be quite rude."
 			]
 			id: "7264C3A1D00DF2D4"
@@ -1397,6 +1447,7 @@
 		{
 			description: [
 				"You can obtain a &bElder Eye&r from &eElder Guardians&r. Don't confuse it with the &bGuardian Eye&r, which is used to get to &cThe End&r!"
+				""
 				"The &bElder Eye&r is a &aplaceable item&r which will give off a &astrong redstone signal&r when an entity is nearby."
 			]
 			id: "2B185A8ECBD7AD8F"
@@ -1505,7 +1556,7 @@
 				""
 				"Make sure you &aload your Palette with dye first!&r You can do this by &6crafting Dyes together with the Palette&r."
 				""
-				"{image:cottagewitch:textures/palette.png width:100 height:100 align:1 fit:true}"
+				"{image:cottagewitch:textures/palette.png width:100 height:100 align:1}"
 				""
 				"Read more on the next page."
 				"{@pagebreak}"

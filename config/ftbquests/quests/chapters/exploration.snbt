@@ -214,7 +214,9 @@
 		{
 			description: [
 				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
+				""
 				"You can use your &bGrave Finder&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
+				""
 				"Your &aexperience&r, however, drops near your grave, so make sure to collect it!"
 			]
 			id: "47643C0C8D4BCBD9"
@@ -255,6 +257,7 @@
 		{
 			description: [
 				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
+				""
 				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :)"
 			]
 			id: "21AD64E594528F4D"
@@ -427,8 +430,11 @@
 			dependencies: ["26D8EAD9D892805E"]
 			description: [
 				"&lOpen Parties and Claims&r allows you to add other players to your party, which can &aallow access to your claimed chunks&r."
+				""
 				"You can create a party by typing &d/openpac-parties create&r. You can &achange all party settings&r in the main apostrophe menu. There are a ton of options to control griefing, protection, and access."
+				""
 				"You can add a player as an &aAlly&r if you don't want to be on the same team. Type &d/openpac-parties ally add [username]&r."
+				""
 				"{image:cottagewitch:textures/allyadd.png width:200 height:50 align:1}"
 			]
 			id: "20F9C02AF5CBE665"
@@ -473,8 +479,11 @@
 		{
 			description: [
 				"This modpack has a number of building and decoration mods which are all worth looking into. &dMost of them do not have associated quests&r."
+				""
 				"So how are you supposed to know they're there? Why, &lJEI&r of course. &6Opening your inventory&r will show you a wall of items to your right. You can search through these items at the bottom right. Type &d@&r and the name of a mod to search for only items from that mod."
+				""
 				"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
+				""
 				"This will let you view how to make anything in the game!"
 			]
 			id: "226D1B09B2958EFC"
@@ -492,9 +501,13 @@
 		{
 			description: [
 				"You might be wondering where all the quests are, when your screen looks like this:"
+				""
 				"{image:cottagewitch:textures/questmenu.png width:100 height:70 align:1 fit:true}"
+				""
 				"See that &aarrow on the left bar&r? &6Hovering over that&r will show you all the categories."
+				""
 				"{image:cottagewitch:textures/questmenu2.png width:100 height:70 align:1 fit:true}"
+				""
 				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
 			]
 			id: "51383D499E0DF0DA"
@@ -518,7 +531,9 @@
 			dependencies: ["51383D499E0DF0DA"]
 			description: [
 				"Did you know you can &apin quests&r so they &ashow on your main screen&r? You can!"
+				""
 				"Just &dbe warned that this overlaps your pinned Notes&r."
+				""
 				"Also, perhaps I should mention that you can &apin notes&r to your screen as well! &6Press N to access your Notes menu&r."
 			]
 			id: "1E43FCEBA416DCFF"
@@ -540,8 +555,11 @@
 		{
 			description: [
 				"To read a book in your &bAkashic Tome&r, &6right click&r while holding the book and &6select the book you want&r."
+				""
 				"To &areturn the Akashic Tome&r to its regular form, &6hold it and left click in the air&r."
+				""
 				"To &aremove a book from the tome&r, you need to &6crouch and throw&r the item (default keybind is Q)."
+				""
 				"To &aadd a book&r, you should &6craft the book with the &bTome&r."
 			]
 			id: "5B1C86C4A7C3351F"
@@ -562,8 +580,11 @@
 		{
 			description: [
 				"&bWaystones&r allow you to quickly traverse your world along a network of invisible &aleylines&r. You can find more information about &athe different kinds of Waystones&r in the &dGlobetrotting&r quest category. But here's some basic info:"
+				""
 				"- It costs xp to travel to Waystones using a &bWarp Stone&r or &bWarp Scroll&r."
+				""
 				"- Traveling &afrom one Waystone to another&r costs no exp."
+				""
 				"- You can use a &abutton in your inventory&r to travel to the nearest &bWaystone&r."
 			]
 			id: "7AD175287E3F0B68"

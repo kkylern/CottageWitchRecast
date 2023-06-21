@@ -4,6 +4,13 @@
 	default_quest_shape: ""
 	filename: "wip"
 	group: ""
+	icon: {
+		Count: 1b
+		id: "supplementaries:wrench"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "35FE7BAE212BD14E"
 	order_index: 0
 	quest_links: [ ]
