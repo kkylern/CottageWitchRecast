@@ -429,8 +429,8 @@
 				type: "item"
 			}]
 			title: "Craft a Totem of Undying"
-			x: -4.0d
-			y: -6.5d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -2231,6 +2231,104 @@
 			title: "Acquire an Accessory Booster"
 			x: 6.5d
 			y: 2.5d
+		}
+		{
+			description: [
+				"Although an unconventional tool, &bBugfish Mandibles&r can actually be &aused as Shears&r!"
+				""
+				"Or, craft them into a &bunique Banner Pattern&r."
+			]
+			id: "120C22B19557CBF2"
+			rewards: [
+				{
+					count: 10
+					id: "6C3DAF7C3DBD80F5"
+					item: "environmental:white_wisteria_leaves"
+					type: "item"
+				}
+				{
+					id: "72C726E33EE7C77D"
+					item: "minecraft:white_banner"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "44048DD8945B4853"
+				item: {
+					Count: 1b
+					id: "finsandtails:bugfish_mandibles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Occasionally when killing &eSpindly Gem Crabs&r, they will drop the gem that is associated with their color."
+				""
+				"Aside from making &arather fetching building blocks&r, the &bSpindly Gems&r can be made into a &bCharm&r, which is worn in the chest slot and provides effects &awhen the player is at low health&r."
+				""
+				"The &bPearl Charm&r grants Regeneration."
+				""
+				"The &bAmber Charm&r grants Speed."
+				""
+				"The &bSapphire Charm&r grants Water Breathing."
+				""
+				"The &bEmerald Charm&r grants Strength."
+				""
+				"The &bRuby Charm&r grants Fire Resistance."
+				""
+				"The &bSpindly Gem Charm&r grants all of the above effects, but can only be used once before it needs to be repaired. &dIf it triggers a second time, it breaks before granting effects&r."
+			]
+			id: "0FFA665FE241C41B"
+			rewards: [
+				{
+					id: "35EB8FCAB80471AB"
+					item: "finsandtails:spindly_gem"
+					type: "item"
+				}
+				{
+					id: "16C2F4053D39589B"
+					item: "finsandtails:empty_charm"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "137E3F1553B21C0F"
+					item: "finsandtails:spindly_pearl"
+					type: "item"
+				}
+				{
+					id: "62E15A01E428DAFF"
+					item: "finsandtails:spindly_ruby"
+					type: "item"
+				}
+				{
+					id: "0540ECD27268C925"
+					item: "finsandtails:spindly_emerald"
+					type: "item"
+				}
+				{
+					id: "605DCDA1BB5BDB86"
+					item: "finsandtails:spindly_amber"
+					type: "item"
+				}
+				{
+					id: "30EE0D5A49E3317E"
+					item: "finsandtails:spindly_sapphire"
+					type: "item"
+				}
+			]
+			title: "Collect Spindly Gems"
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 	title: "Equipment \\& Gear"

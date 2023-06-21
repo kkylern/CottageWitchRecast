@@ -57,8 +57,8 @@
 				type: "item"
 			}]
 			title: "Obtain some seeds"
-			x: -1.0d
-			y: 0.0d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -91,8 +91,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Mushroom Colony"
-			x: 5.0d
-			y: 2.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -134,7 +134,7 @@
 				type: "item"
 			}]
 			title: "Make a Pie"
-			x: -2.5d
+			x: -4.5d
 			y: -2.0d
 		}
 		{
@@ -154,8 +154,8 @@
 				type: "item"
 			}]
 			title: "Obtain Straw"
-			x: -3.5d
-			y: -1.0d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
@@ -173,8 +173,8 @@
 				item: "farmersdelight:canvas"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
@@ -199,8 +199,8 @@
 				type: "item"
 			}]
 			title: "Obtain Rope"
-			x: -5.5d
-			y: -0.5d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
@@ -300,8 +300,8 @@
 				}
 			]
 			title: "Compact Your Crops"
-			x: 6.0d
-			y: -1.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -345,8 +345,8 @@
 				}
 			]
 			title: "Obtain the New Crops"
-			x: 3.5d
-			y: 1.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -384,8 +384,8 @@
 				type: "item"
 			}]
 			title: "Overweight Crops"
-			x: 2.0d
-			y: -0.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["780D09CCF1A8D814"]
@@ -426,8 +426,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["780D09CCF1A8D814"]
@@ -449,8 +449,8 @@
 				type: "item"
 			}]
 			title: "Peel A Carrot"
-			x: 3.0d
-			y: -2.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -501,8 +501,8 @@
 				item: "supplementaries:planter"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -537,8 +537,8 @@
 				id: "689FF833D614619E"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["780D09CCF1A8D814"]
@@ -615,8 +615,8 @@
 				}
 			]
 			title: "Collect Chubby Crops"
-			x: 4.5d
-			y: -1.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -745,14 +745,11 @@
 				}
 			]
 			title: "Ship Your Crops"
-			x: 3.5d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"2CA80140F624D0AE"
-				"148F84D7DB06E5D1"
-			]
+			dependencies: ["2CA80140F624D0AE"]
 			description: ["Similar to &bCrates&r, many crops can be compacted into &bSacks&r. These can be used decoratively, or &aused to free up storage space&r!"]
 			id: "2973338AB622C5D6"
 			rewards: [
@@ -822,35 +819,8 @@
 				}
 			]
 			title: "Sack Up"
-			x: 7.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["435BD760D0F2E010"]
-			description: ["Similar to their overworld counterparts, &bNether Fungi&r can also be grown in colonies in the same way, except using &bRich Soul Soil&r."]
-			id: "1E45E829FB9AB50E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D91FD2631D4022C"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "023BBACBE25257BD"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:funguscolony"
-					}
-				}
-				title: "Any Fungus Colony"
-				type: "item"
-			}]
-			title: "Obtain a Nether Fungus Colony"
-			x: 6.5d
-			y: 2.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
@@ -886,8 +856,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 0.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["02F91E51E86F71F6"]
@@ -922,8 +892,8 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 1.5d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			id: "7814F0DBA486B635"
@@ -971,8 +941,8 @@
 				type: "item"
 			}]
 			title: "Obtain a Reaping Tool"
-			x: 0.5d
-			y: -2.0d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -994,15 +964,18 @@
 				id: "28E5384ECA31D155"
 				type: "advancement"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"0545DF70043D964A"
-				"148F84D7DB06E5D1"
-			]
+			dependencies: ["0545DF70043D964A"]
 			id: "77E1FEDE586A487C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "655EEA38807AA427"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1057,15 +1030,18 @@
 				}
 			]
 			title: "Compact Your Crops 2"
-			x: 6.0d
-			y: -5.5d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0545DF70043D964A"
-				"148F84D7DB06E5D1"
-			]
+			dependencies: ["0545DF70043D964A"]
 			id: "008A62D8E70B51F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "306D28898C8818B6"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1080,15 +1056,18 @@
 				}
 			]
 			title: "Compact Your (Golden) Crops"
-			x: 3.5d
-			y: -5.5d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0545DF70043D964A"
-				"148F84D7DB06E5D1"
-			]
+			dependencies: ["0545DF70043D964A"]
 			id: "22F72EB92786EEF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54BDFDE2D0F0A249"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1108,15 +1087,26 @@
 				}
 			]
 			title: "Compact Your Eggs (Gently)"
-			x: 7.5d
-			y: -5.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0545DF70043D964A"
-				"148F84D7DB06E5D1"
-			]
+			dependencies: ["0545DF70043D964A"]
 			id: "6DF3D43144E93441"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B7B6392FD1B6E8D"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5502140B599DD57B"
+					table_id: 8096229411196850122L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1136,28 +1126,52 @@
 				}
 			]
 			title: "Compact Your Crops: Wine Edition"
-			x: 9.5d
-			y: -4.5d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
-			description: ["Congratulations, you have compacted all of the crops! For your hard work, here is a &bTarot Card&r."]
+			dependencies: [
+				"42F4A9D340D6D4B3"
+				"008A62D8E70B51F9"
+				"77E1FEDE586A487C"
+				"2973338AB622C5D6"
+				"22F72EB92786EEF7"
+				"6DF3D43144E93441"
+			]
+			description: ["Congratulations, you have compacted all of the crops! For your hard work, here is a reward."]
 			id: "148F84D7DB06E5D1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7452EA340BE5C392"
-				table_id: 7265408724434505998L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7452EA340BE5C392"
+					table_id: 7265408724434505998L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21F0645F04708BFF"
+					table_id: 5525848455660196930L
+					type: "choice"
+				}
+			]
 			tasks: [{
 				id: "2E7A316EBC2BA46A"
 				title: "Compact All The Crops!"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -8.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["0545DF70043D964A"]
 			id: "42F4A9D340D6D4B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3183BD2CE76319BB"
+				table_id: 7707783220386620668L
+				type: "random"
+			}]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "72D2C48BC312799F"
@@ -1170,8 +1184,9 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -2.5d
+			title: "Compact Your Crops: Shiny Edition"
+			x: 7.5d
+			y: 0.0d
 		}
 	]
 	title: "Farming \\& Gardening"

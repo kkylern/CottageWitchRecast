@@ -60,7 +60,7 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
+  orientation = bottom-centered
   background_texture = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarbg.png
   bar_texture = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarfill.png
   progress_for_element_orientation = true
@@ -70,20 +70,19 @@ customization {
   bar_color = #545D51
   action = custom_layout_element:drippy_custom_loading_bar
   actionid = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
-  y = 111
+  y = -111
   direction = right
   height = 34
 }
 
 customization {
   path = kubejs/assets/cottagewitch/textures/mainmenu/loadingbarframe.png
-  orientation = element
-  orientation_element = d755f59a-5525-43ce-8e08-43e2c8d2e2ab1680826350264
+  orientation = bottom-centered
   x = -132
   width = 265
   action = addtexture
   actionid = efc8cc75-8378-4a65-b97c-40538defbe831687133936505
-  y = 0
+  y = -111
   height = 34
 }
 
@@ -94,7 +93,7 @@ customization {
   width = 700
   action = addtexture
   actionid = ce580ae3-5e91-4202-929f-dd8a6d7658241687134015577
-  y = 107
-  height = 219
+  y = 119
+  height = 207
 }
 

@@ -1614,7 +1614,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["&bSkyweave&r is an incredible items which &amimics the look of the sky&r, so you can &asee sunlight even when underground&r!"]
+			description: ["&bSkyweave&r is an item which &amimics the look of the sky&r, so you can see sunlight even when underground!"]
 			id: "772843C57D999564"
 			rewards: [{
 				count: 5

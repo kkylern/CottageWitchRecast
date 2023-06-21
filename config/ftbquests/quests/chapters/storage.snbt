@@ -15,7 +15,7 @@
 			image: "cottagewitch:textures/bgstoragenetwork.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 0.5d
+			x: 0.0d
 			y: -6.5d
 		}
 		{
@@ -143,7 +143,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6BE48C9DD8CA7959"]
@@ -173,7 +173,7 @@
 			}]
 			title: "Connected at a Distance"
 			x: -2.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["21A2E4CA683BD232"]
@@ -214,8 +214,8 @@
 				}
 			]
 			title: "Framed Blocks"
-			x: -4.0d
-			y: -3.0d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6BE48C9DD8CA7959"]
@@ -233,8 +233,8 @@
 				item: "toms_storage:ts.wireless_terminal"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["50D94EFE04154F83"]
@@ -256,8 +256,8 @@
 				item: "toms_storage:ts.adv_wireless_terminal"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.5d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6BE48C9DD8CA7959"]
@@ -278,7 +278,7 @@
 				item: "toms_storage:ts.inventory_proxy"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -302,7 +302,7 @@
 				item: "toms_storage:ts.inventory_hopper_basic"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -324,8 +324,8 @@
 				item: "toms_storage:ts.level_emitter"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -569,9 +569,12 @@
 		{
 			description: [
 				"Basic chests and barrels are fine for a while, but the canny witch knows that &athe rules of space and time&r are meant to be bent a little. With a little magic, you can easily make your storage bigger - &aand smarter&r!"
+				""
 				"Let's begin with a simple &bBarrel&r. Place it in the world as usual, and then &6right click it with the &bBasic Tier Upgrade&r."
+				""
 				"Now, once you enter the inventory, you'll see some new additions."
 				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
+				""
 				"The slot to the left &aaccepts upgrades&r which allow your storage to perform certain functions."
 				"The &acog wheel&r on the right gives you access to your &astorage settings&r."
 			]
@@ -605,7 +608,7 @@
 			]
 			title: "Upgrading Your Storage"
 			x: 0.0d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
@@ -682,6 +685,7 @@
 				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
 				type: "item"
 			}]
+			subtitle: "mo storage, mo problems"
 			tasks: [
 				{
 					id: "37B300AF5E3DAD7A"
@@ -803,7 +807,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
@@ -872,9 +876,9 @@
 			id: "04E69B80121E8192"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "275BC4F8D8379570"
+				id: "0B08911D6E5AF72C"
 				table_id: 6941837675484043489L
-				type: "loot"
+				type: "random"
 			}]
 			shape: "hexagon"
 			tasks: [{
@@ -946,8 +950,8 @@
 				item: "sophisticatedstorage:filter_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.5d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3571AAEB58389A64"]
@@ -974,7 +978,7 @@
 			]
 			title: "Crafting Upgrades"
 			x: 4.0d
-			y: -6.0d
+			y: -6.5d
 		}
 	]
 	title: "Storage"

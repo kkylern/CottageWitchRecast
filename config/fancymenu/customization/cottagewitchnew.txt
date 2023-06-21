@@ -340,11 +340,11 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 122
+  width = 143
   action = deep_customization_element:title_screen_branding
   actionid = a003fa8c-70ab-4cb6-918c-9fd75fce38771669925873483
-  y = 398
-  height = 50
+  y = 388
+  height = 60
 }
 
 customization {
@@ -423,12 +423,12 @@ customization {
   showname = false
   crouching = false
   follow_mouse = true
-  x = 42
+  x = 41
   width = 36
   parrot_left_shoulder = false
   action = custom_layout_element:fancymenu_customization_player_entity
   actionid = a011a95f-7603-4841-aa82-8236f87900731680030674211
-  y = -158
+  y = -198
   playername = Katubug
   bodyrotationx = 0.0
   parrot = false
@@ -448,5 +448,24 @@ customization {
   actionid = a9ba6664-613d-4454-a96f-9ef77d87579c1687134737831
   y = -105
   height = 100
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = background by xx_alliekat_xx
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 165
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 71bb9fe7-1df9-4540-96e4-20e942f8fced1687199227764
+  y = -73
+  alignment = left
+  height = 14
 }
 

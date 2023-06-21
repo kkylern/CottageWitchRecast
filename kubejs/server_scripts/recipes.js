@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
             'ADA'
         ],
         {
-            A: 'minecraft:iron_ingot',
+            A: 'create:brass_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:diamond',
             D: 'minecraft:lapis_lazuli'
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
             'ADA'
         ],
         {
-            A: 'minecraft:iron_ingot',
+            A: 'create:brass_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:diamond',
             D: 'minecraft:lapis_lazuli'
@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
             'ADA'
         ],
         {
-            A: 'minecraft:iron_ingot',
+            A: 'create:brass_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:emerald',
             D: 'minecraft:lapis_lazuli'
@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
             'ADA'
         ],
         {
-            A: 'minecraft:iron_ingot',
+            A: 'create:brass_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:ender_pearl',
             D: 'minecraft:lapis_lazuli'
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
 
     //Akashic Tome
     event.shapeless(
-        Item.of('akashictome:tome', '{"akashictome:data":{ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},camera:{Count:1b,id:"camera:album"},create_central_kitchen:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"},create_central_kitchen_0:{Count:1b,ForgeCaps:{Parent:{NeedWater:0b}},id:"create_central_kitchen:brewing_guide",tag:{"akashictome:definedMod":"create_central_kitchen_0"}},extradelight:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"extradelight:cookbook"}},ftbquests:{Count:1b,id:"ftbquests:book"},hexerei:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}},lexicon:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}},twilightdelight:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"twilightdelight:twilight_guide"}}},ingredients:{item0:"block.minecraft.air",item1:"item.akashictome.tome",item2:"item.patchouli.guide_book",length:3}}'),        
+        Item.of('akashictome:tome', '{"akashictome:data":{ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},camera:{Count:1b,id:"camera:album"},create_central_kitchen:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"},create_central_kitchen_0:{Count:1b,ForgeCaps:{Parent:{NeedWater:0b}},id:"create_central_kitchen:brewing_guide",tag:{"akashictome:definedMod":"create_central_kitchen_0"}},dimdungeons:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"dimdungeons:guide_book"}},extradelight:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"extradelight:cookbook"}},ftbquests:{Count:1b,id:"ftbquests:book"},hexerei:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}},lexicon:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}},twilightdelight:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"twilightdelight:twilight_guide"}}},ingredients:{item0:"block.minecraft.air",item1:"item.akashictome.tome",item2:"item.patchouli.guide_book",length:3}}'),
             [ 
                 'minecraft:book',
                 'minecraft:stick'
@@ -1110,5 +1110,37 @@ ServerEvents.recipes(event => {
         '#forge:fruits/cherry'         // Arg 3: the item to replace it with
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
+
+    // BG Charging Gadget
+    event.shaped(
+        Item.of('charginggadgets:charging_station'),
+        [
+            'ABA',
+            'DBD',
+            'ACA'
+        ],
+        {
+            A: 'create:gold_ingot',
+            B: 'minecraft:redstone',
+            C: 'minecraft:coal_block',
+            D: 'minecraft:lapis_lazuli'
+        }
+    )
+
+    // BG Template Manager
+    event.shaped(
+        Item.of('buildinggadgets:template_manager'),
+        [
+            'ABA',
+            'BCB',
+            'ADA'
+        ],
+        {
+            A: 'create:copper_ingot',
+            B: 'minecraft:redstone',
+            C: 'minecraft:emerald',
+            D: 'minecraft:lapis_lazuli'
+        }
+    )
   })
 

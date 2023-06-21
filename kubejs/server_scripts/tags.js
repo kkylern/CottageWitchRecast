@@ -324,7 +324,7 @@ ServerEvents.tags('item', event => {
     vch)
 
     //===Banning Uncraftables===
-    event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes')
+    event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg')
     event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes')
 
     //===Tags for FTB Quests=== TODO : Change all these quests over
@@ -497,6 +497,77 @@ ServerEvents.tags('item', event => {
     'sophisticatedstorage:stack_upgrade_tier_4'
     )
 
+    //Aquaculture tags
+    //Fishing Rods
+    event.add('forge:fishing_rods',
+    'aquaculture:iron_fishing_rod',
+    'aquaculture:gold_fishing_rod',
+    'aquaculture:diamond_fishing_rod'
+    )
+
+    //Upgraded Hooks
+    event.add('forge:upgraded_hooks',
+    'aquaculture:nether_star_hook',
+    'aquaculture:double_hook',
+    'aquaculture:diamond_hook',
+    'aquaculture:gold_hook'
+    )
+
+    //Niche Hooks
+    event.add('forge:niche_hooks',
+    'aquaculture:note_hook',
+    'aquaculture:redstone_hook',
+    'aquaculture:heavy_hook',
+    'aquaculture:light_hook'
+    )
+
+    //Fish Tags
+    event.add('forge:raw_fishes', 'aquaculture:fish_fillet_raw')
+    event.add('forge:cooked_fishes', 'aquaculture:fish_fillet_cooked')
+    event.add('forge:cooked_seafood', 'aquaculture:fish_fillet_cooked')
+
+    //Fishy tags for crafting
+    event.add('forge:smallfish',
+    'aquaculture:boulti',
+    'aquaculture:synodontis',
+    'aquaculture:bluegill',
+    'aquaculture:perch',
+    'aquaculture:piranha',
+    'aquaculture:atlantic_herring'
+    )
+
+    event.add('forge:medsmallfish',
+    'aquaculture:smallmouth_bass',
+    'aquaculture:brown_trout',
+    'aquaculture:carp',
+    'aquaculture:blackfish',
+    'aquaculture:pink_salmon',
+    'aquaculture:pollock',
+    'aquaculture:rainbow_trout'
+    )
+
+    event.add('forge:medfish',
+    'aquaculture:muskellunge',
+    'aquaculture:tambaqui',
+    'aquaculture:red_grouper'
+    )
+
+    event.add('forge:medlgfish',
+    'aquaculture:gar',
+    'aquaculture:bayad'
+    )
+
+    event.add('forge:largefish',
+    'aquaculture:atlantic_cod',
+    'aquaculture:catfish'
+    )
+
+    event.add('forge:largerfish',
+    'aquaculture:tuna',
+    'aquaculture:capitaine',
+    'aquaculture:arapaima'
+    )
+
 })
 
 
@@ -514,15 +585,6 @@ ServerEvents.tags('block', event => {
 
     //Brewin and Chewin
     event.add('brewinandchewin:hot_blocks', 
-    'create:blaze_burner',
-    'decorative_blocks:brazier',
-    'decorative_blocks:soul_brazier',
-    'vinery:stove',
-    'farmersdelight:stove'
-    )
-
-    //Vinery
-    event.add('vinery:allows_cooking_pot_on', 
     'create:blaze_burner',
     'decorative_blocks:brazier',
     'decorative_blocks:soul_brazier',

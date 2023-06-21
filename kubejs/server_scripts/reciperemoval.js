@@ -123,6 +123,19 @@ ServerEvents.recipes(event => {
         {output: 'ends_delight:end_stone_knife'},
         {output: 'ends_delight:dragon_egg_shell_knife'},
         {output: 'farmersdelight:golden_knife'},
+        {output: 'aquaculture:neptunium_helmet'},
+        {output: 'aquaculture:neptunium_leggings'},
+        {output: 'aquaculture:neptunium_chestplate'},
+        {output: 'aquaculture:neptunium_boots'},
+        {output: 'aquaculture:neptunium_bow'},
+        {output: 'aquaculture:neptunium_sword'},
+        {output: 'aquaculture:neptunium_axe'},
+        {output: 'aquaculture:neptunes_bounty'},
+        {output: 'aquaculture:wooden_fillet_knife'},
+        {output: 'aquaculture:stone_fillet_knife'},
+        {output: 'aquaculture:iron_fillet_knife'},
+        {output: 'aquaculture:gold_fillet_knife'},
+        {output: 'aquaculture:diamond_fillet_knife'},
         //Replaced Recipes Below
         {output: 'buildinggadgets:gadget_building'},
         {output: 'buildinggadgets:gadget_exchanging'},
@@ -160,7 +173,9 @@ ServerEvents.recipes(event => {
         {output: 'immersive_aircraft:gyrodyne'},
         {output: 'luphieclutteredmod:luphie_sewing_table_clutter'},
         {output: 'nethersdelight:blackstone_blast_furnace'},
-        {output: 'minecraft:milk_bucket'}
+        {output: 'minecraft:milk_bucket'},
+        {output: 'buildinggadgets:template_manager'},
+        {output: 'charginggadgets:charging_station'}
     ];
     
       for (const remove of toRemove) {

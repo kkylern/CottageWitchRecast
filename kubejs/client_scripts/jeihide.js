@@ -125,7 +125,20 @@ JEIEvents.hideItems(event => {
         'ends_delight:end_stone_knife',
         'ends_delight:dragon_egg_shell_knife',
         'farmersdelight:golden_knife',
-		'incubation:fried_egg'
+		    'incubation:fried_egg',
+        'aquaculture:neptunium_helmet',
+        'aquaculture:neptunium_leggings',
+        'aquaculture:neptunium_chestplate',
+        'aquaculture:neptunium_boots',
+        'aquaculture:neptunium_bow',
+        'aquaculture:neptunium_sword',
+        'aquaculture:neptunium_axe',
+        'aquaculture:neptunes_bounty',
+        'aquaculture:wooden_fillet_knife',
+        'aquaculture:stone_fillet_knife',
+        'aquaculture:iron_fillet_knife',
+        'aquaculture:gold_fillet_knife',
+        'aquaculture:diamond_fillet_knife',
     ];
     
       for (const hide of toHide) {

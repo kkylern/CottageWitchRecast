@@ -635,205 +635,6 @@
 			y: -4.0d
 		}
 		{
-			description: ["The beginning of your journey should bring you to a &cTower&r, looming over the surrounding lands. Found most often in plains, forests, and mountains, these Towers &ahold countless treasures&r, as well as a &bmap to the next dungeon...&r"]
-			id: "4609AFE9E0472C33"
-			rewards: [
-				{
-					id: "3683E9952A47BC36"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7C8D30CDE65940A4"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				icon: "sootychimneys:stone_brick_chimney"
-				id: "11E9F72AB87C443C"
-				structure: "dungeons_plus:tower"
-				type: "structure"
-			}]
-			title: "Find the Tower"
-			x: 0.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["4609AFE9E0472C33"]
-			description: ["There are &athree types&r of &cReanimated Ruins&r. Which one you complete will determine which &anew map you unlock&r. You only need to find one to complete this quest, but if you wish to &aobtain all the unique artifacts&r, you'll need to &6seek out more ruins&r!"]
-			hide: true
-			id: "2BAEDCFF3F99C4F0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57DE25BD90FCE4B5"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			tasks: [
-				{
-					icon: "minecraft:packed_ice"
-					id: "6086759FD812A744"
-					structure: "dungeons_plus:reanimated_ruins_frozen"
-					type: "structure"
-				}
-				{
-					icon: "minecraft:orange_terracotta"
-					id: "762A05754DC14DD2"
-					structure: "dungeons_plus:reanimated_ruins_mesa"
-					type: "structure"
-				}
-				{
-					icon: "minecraft:mossy_cobblestone"
-					id: "03911AC94BE7F62F"
-					structure: "dungeons_plus:reanimated_ruins_mossy"
-					type: "structure"
-				}
-			]
-			title: "Reanimated Ruins"
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2BAEDCFF3F99C4F0"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"This &cancient skeleton&r can be found in &cdeserts&r and hides a secret beneath. Explore the ancient temple and &afind the treasures that rest within&r. Legend has it that this is where the &bLeviathan Blade&r resides. Along with treasure, the &ehusks&r that spawn here are &acapable of dropping &bsand&r with their normal loot.\""]
-			hide: true
-			id: "4E1F4BA7F58DCAC8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D9637E587B850EA"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "dungeons_plus:leviathan_blade"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "71AD2757683D2F7B"
-				structure: "dungeons_plus:leviathan"
-				type: "structure"
-			}]
-			title: "Leviathan"
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"2BAEDCFF3F99C4F0"
-				"4E1F4BA7F58DCAC8"
-				"24BA87E903CB3B76"
-			]
-			dependency_requirement: "one_completed"
-			description: ["The journals from which I discovered these dungeons had this to say: \"This &cabandoned temple of old&r has long since been taken over by &eStrays&r. At the top, you’ll find the &bFrosted Cowl&r to aid you in your combat. Strays spawned within this structure &acan drop &bice&r, or rarely &bpacked ice&r, on death, and they’re the only mob allowed to spawn inside.\""]
-			hide: true
-			id: "7185E4EBAB87EBF0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2B0CD5A4F4486412"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			subtitle: "not to be confused with shirley temple"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "dungeons_plus:frosted_cowl"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "3B0BEB2BDEFCC616"
-				structure: "dungeons_plus:snowy_temple"
-				type: "structure"
-			}]
-			title: "Snowy Temple"
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["2BAEDCFF3F99C4F0"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"This shell of an &cundersea town&r is home to many axe-wielding &edrowned&r and provides a renewable source of &bcoral blocks&r. Weapons from a time forgotten, such as the &bWarped Axe&r, can still be found inside.\""]
-			hide: true
-			id: "24BA87E903CB3B76"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "106473AF417CA37A"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			subtitle: "it's not in the nether"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "dungeons_plus:warped_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "5ADBC4B95F8A71DB"
-				structure: "dungeons_plus:warped_garden"
-				type: "structure"
-			}]
-			title: "Warped Garden"
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4609AFE9E0472C33"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"Once you defeat the dragon and gain access to the &couter islands&r, you may be lucky enough to find this &cdilapidated structure&r. There isn’t much loot inside, but at the top of the tower, you can find a &bdragon egg&r. Be careful though, the &eendermen&r inside &aaren’t quite as peaceful&r as the ones outside of the structure.\""]
-			hide: true
-			id: "17D7F6B86B4AAD39"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "676B6110D4979B9D"
-				table_id: 5161092699925703455L
-				type: "random"
-			}]
-			tasks: [{
-				icon: "minecraft:dragon_egg"
-				id: "5A6E47AE26C423B6"
-				structure: "dungeons_plus:end_ruins"
-				type: "structure"
-			}]
-			title: "End Ruins"
-			x: -2.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["4609AFE9E0472C33"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"Found in the lava pools of the Nether’s &csoul sand valley&r, you may find this &cprison of souls&r. With the amount of &eghasts&r surrounding it, approaching and reaching the top for your reward may prove to be a no small task. Be wary as the ghasts are not opposed to &adestroying the structure around you&r with their fireballs. Should you survive, you may walk out with a &bSoul Cannon&r.\""]
-			hide: true
-			id: "0531D54C99BEF0A9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4FCB397034F3C806"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "dungeons_plus:soul_cannon"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "73606FC0175B5036"
-				structure: "dungeons_plus:soul_prison"
-				type: "structure"
-			}]
-			title: "Soul Prison"
-			x: 2.0d
-			y: -6.5d
-		}
-		{
 			description: [
 				"The &bExplorer's Compass&r replaces &bEnder Eyes&r as the primary way to locate &aStrongholds and other Structures&r."
 				"Simply &6right click while holding it&r in order to search for the structure you want to find."
@@ -1258,6 +1059,82 @@
 			title: "Sneaking Around"
 			x: -8.5d
 			y: -3.0d
+		}
+		{
+			description: [
+				"Dimensional Dungeons are a unique phenomenon which &aallow witches to delve into unique catacombs&r to solve puzzles, acquire wealth, and occasionally fight mobs. The dimension in which these dungeons reside is one unknowable to the human mind, even one as advanced as a witch's."
+				""
+				"The only thing known about these dungeons is that they are crafted by some kind of higher being, possibly to test human mettle."
+				""
+				"In order to learn more about them, you should first &aacquire some literature&r on the subject. Next, you will need a &bBlank Portal Key&r. In order to use this key, you must &6right click it onto an &bEnd Portal Frame&r to \"program\" it."
+			]
+			id: "28C61A43906C6883"
+			rewards: [{
+				id: "3DC9C11DFA1EFB75"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5F1F1A0B7F0DEAFA"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EA7E42B3FF92AD7"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["28C61A43906C6883"]
+			description: [
+				"Now that you have a properly working portal key, you'll need to &6build a portal frame&r. There is more information &ain the guidebook&r, but the portal should end up looking something like this:"
+				""
+				""
+				"{image:cottagewitch:textures/dimdungeonframe.png width:100 height:70 align:1 fit:true}"
+			]
+			id: "11A45FA468D85461"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "147EF79FFF84B163"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/activate_basic_key"
+				criterion: ""
+				id: "027095B7CE5B96B6"
+				type: "advancement"
+			}]
+			title: "Building a Portal"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11A45FA468D85461"]
+			id: "0D8473F43FB4CE74"
+			shape: "octagon"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/enter_basic_dungeon"
+				criterion: ""
+				id: "66A6392EB99A34D8"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -5.0d
 		}
 	]
 	title: "Globetrotting"

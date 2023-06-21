@@ -1497,6 +1497,333 @@
 			x: 3.0d
 			y: 7.5d
 		}
+		{
+			description: [
+				"Are you an artist? Of course you are. Everyone has the ability to paint, to put pigment onto parchment. The simple act of creation is one of the most meditative pasttimes there is."
+				""
+				"To begin, you'll need an &bEasel&r, and a &bPalette&r. You'll also need &bCanvases&r to paint on."
+				""
+				"Make sure you &aload your Palette with dye first!&r You can do this by &6crafting Dyes together with the Palette&r."
+				""
+				"{image:cottagewitch:textures/palette.png width:100 height:100 align:1 fit:true}"
+				""
+				"Read more on the next page."
+				"{@pagebreak}"
+				"Once you have pigments on your &bPalette&r, you can &6mix them together&r on the &aright side of your Palette&r."
+				""
+				"Use the &aWater&r on your Palette to erase a mixed color. Use the &ablending options&r on the right of the &bCanvas&r to blend your colors together. Change your &abrush size&r there, too!"
+				""
+				"{image:cottagewitch:textures/joyofpainting.png width:100 height:80 align:1 fit:true}"
+				""
+				"You can toggle tooltips using the button in the &atop right&r (not pictured)."
+				"{@pagebreak}"
+				"At any time, you can &6shift left click&r the &bEasel&r to take your painting down. You can &6hang the painting by right clicking it&r on a wall. You can remove it and edit it &aas long as you haven't signed it yet&r."
+				""
+				"{image:cottagewitch:textures/joyofpaintingsign.png width:100 height:90 align:1 fit:true}"
+				""
+				"Once you've signed it, it can no longer be edited, but it will be named what you titled it, and will show your name as the artist! Nice work!"
+				""
+				"{image:cottagewitch:textures/joyofpaintingdone.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "076F2A55BD9D0BCA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CBBD375651C6F55"
+					table_id: 987967038148964353L
+					type: "loot"
+				}
+				{
+					id: "327EEBE907B5E132"
+					item: {
+						Count: 1b
+						id: "xercapaint:item_canvas"
+						tag: {
+							author: "Katubug"
+							generation: 1
+							name: "e5e2b89d-3884-4190-8b69-97863eb95bc6_1687209904"
+							pixels: [I;
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-12142633
+								-12142633
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-12142633
+								-5907223
+								-393218
+								-2231048
+								-2953226
+								-2953226
+								-4594190
+								-6891806
+								-5907223
+								-12142633
+								-12930086
+								-393218
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2953226
+								-4594190
+								-4594190
+								-4594190
+								-2953226
+								-2953226
+								-2953226
+								-4594190
+								-5907223
+								-5907223
+								-12142633
+								-393218
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2231048
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-2953226
+								-4594190
+								-2953226
+								-4594190
+								-5907223
+								-12017472
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-2953226
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-12017472
+								-393218
+								-393218
+								-12930086
+								-5907223
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-5907223
+								-12017472
+								-393218
+								-393218
+								-12142633
+								-5907223
+								-393218
+								-12930086
+								-4594190
+								-12930086
+								-12930086
+								-12930086
+								-12930086
+								-4594190
+								-393218
+								-12930086
+								-5907223
+								-12741189
+								-393218
+								-393218
+								-11552043
+								-5907223
+								-12930086
+								-12930086
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-4594190
+								-12930086
+								-12930086
+								-6891806
+								-12741189
+								-393218
+								-393218
+								-12142633
+								-9648944
+								-4594190
+								-4594190
+								-4594190
+								-5907223
+								-6891806
+								-6891806
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-5907223
+								-12741189
+								-393218
+								-393218
+								-12741189
+								-8146998
+								-5907223
+								-6891806
+								-8139303
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-9648944
+								-8538933
+								-8146998
+								-13728075
+								-393218
+								-393218
+								-393218
+								-13728075
+								-7624248
+								-8146998
+								-8538933
+								-8538933
+								-8538933
+								-8538933
+								-8865588
+								-8538933
+								-8146998
+								-7624248
+								-12741189
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-13728075
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+								-393218
+							]
+							title: "Gloop"
+							v: 86
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6459F163C1BE0CA0"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "69DB41702759EF2A"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+			]
+			title: "The Joy of Painting"
+			x: 1.5d
+			y: 6.5d
+		}
 	]
 	title: "Miscellaneous"
 }

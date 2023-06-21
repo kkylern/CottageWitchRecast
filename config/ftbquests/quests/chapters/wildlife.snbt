@@ -1542,6 +1542,33 @@
 			x: 0.5d
 			y: -3.0d
 		}
+		{
+			description: [
+				"The &eRed Bull Crab&r, unlike it's friendlier cousin the &eWhite Bull Crab&r, is somewhat vicious, even to others of its own kind."
+				""
+				"If you kill one, you may receive a &bRed Bull Crab Claw&r, which can either &abe cooked&r, or &acrafted into a &bRed Claw Gauntlet&r."
+				""
+				"The Gauntlet can be enchanted with &aunique effects&r."
+			]
+			id: "068330DDB109AAD2"
+			rewards: [{
+				id: "604366D6E4B3DD6F"
+				item: "finsandtails:red_bull_crab_claw"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "it gives you claaaaws"
+			tasks: [{
+				entity: "finsandtails:red_bull_crab"
+				icon: "finsandtails:red_bull_crab_claw"
+				id: "4B46CE4E3E2AA1E3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay a Red Bull Crab"
+			x: 3.0d
+			y: 3.5d
+		}
 	]
 	title: "Wildlife"
 }

@@ -27,32 +27,20 @@
 			image: "cottagewitch:textures/bgteaandsundry.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 0.5d
+			x: -10.0d
 			y: -5.0d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 10.0d
+			height: 13.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgspiceoflife.png"
 			rotation: 0.0d
-			width: 10.0d
-			x: -9.0d
-			y: -5.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 10.0d
-			hover: [ ]
-			image: "cottagewitch:textures/bgmiscfood.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: 0.5d
-			y: 4.0d
+			width: 13.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			click: ""
@@ -63,7 +51,7 @@
 			image: "cottagewitch:textures/bgcookingpot.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -9.0d
+			x: -10.5d
 			y: 4.0d
 		}
 		{
@@ -75,7 +63,7 @@
 			image: "cottagewitch:textures/bgbrewing.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 10.0d
+			x: 10.5d
 			y: 4.0d
 		}
 		{
@@ -123,8 +111,8 @@
 				type: "item"
 			}]
 			title: "Cook some Tropical Stew"
-			x: -9.5d
-			y: -2.5d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -162,8 +150,8 @@
 				type: "checkmark"
 			}]
 			title: "The Spice of Life"
-			x: -7.0d
-			y: -2.5d
+			x: -2.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["644439D23D454629"]
@@ -191,7 +179,7 @@
 				type: "item"
 			}]
 			title: "Obtain Tea Seeds"
-			x: 0.5d
+			x: -10.0d
 			y: -5.0d
 		}
 		{
@@ -222,7 +210,7 @@
 				type: "item"
 			}]
 			title: "Obtain Coffee Beans"
-			x: -1.5d
+			x: -12.0d
 			y: -7.0d
 		}
 		{
@@ -248,7 +236,7 @@
 				item: "farmersrespite:rose_hip_tea"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -12.5d
 			y: -5.5d
 		}
 		{
@@ -272,7 +260,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Kettle"
-			x: -0.5d
+			x: -11.0d
 			y: -2.5d
 		}
 		{
@@ -295,7 +283,7 @@
 				item: "farmersrespite:black_tea"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -10.5d
 			y: -7.5d
 		}
 		{
@@ -314,7 +302,7 @@
 				item: "farmersrespite:yellow_tea"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -9.0d
 			y: -7.5d
 		}
 		{
@@ -333,7 +321,7 @@
 				item: "farmersrespite:green_tea"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -8.5d
 			y: -4.0d
 		}
 		{
@@ -352,7 +340,7 @@
 				item: "farmersrespite:dandelion_tea"
 				type: "item"
 			}]
-			x: 3.0d
+			x: -7.5d
 			y: -5.0d
 		}
 		{
@@ -371,7 +359,7 @@
 				item: "farmersrespite:purulent_tea"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -8.0d
 			y: -6.5d
 		}
 		{
@@ -689,7 +677,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Knife"
-			x: -11.0d
+			x: -12.5d
 			y: 2.5d
 		}
 		{
@@ -728,7 +716,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Cooking Pot"
-			x: -9.0d
+			x: -10.5d
 			y: 2.0d
 		}
 		{
@@ -751,7 +739,7 @@
 				type: "item"
 			}]
 			title: "Create a Stove"
-			x: -6.5d
+			x: -8.0d
 			y: 3.5d
 		}
 		{
@@ -773,7 +761,7 @@
 				item: "farmersdelight:tree_bark"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.5d
 			y: 6.0d
 		}
 		{
@@ -796,7 +784,7 @@
 				type: "item"
 			}]
 			title: "Obtain a Cutting Board"
-			x: -12.0d
+			x: -13.5d
 			y: 4.5d
 		}
 		{
@@ -815,7 +803,7 @@
 				item: "farmersdelight:dog_food"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -12.0d
 			y: 3.5d
 		}
 		{
@@ -842,7 +830,7 @@
 				type: "item"
 			}]
 			title: "Make Hearty Meals"
-			x: -10.0d
+			x: -11.5d
 			y: 5.5d
 		}
 		{
@@ -863,7 +851,7 @@
 				type: "item"
 			}]
 			title: "Make Some Hot Cocoa"
-			x: -10.5d
+			x: -12.0d
 			y: 4.5d
 		}
 		{
@@ -919,7 +907,7 @@
 				type: "item"
 			}]
 			title: "Make Placeable Meals"
-			x: -8.5d
+			x: -10.0d
 			y: 4.0d
 		}
 		{
@@ -959,8 +947,8 @@
 				}
 			]
 			title: "PBJ Deliciousness"
-			x: -8.0d
-			y: -7.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1556BE457F25FA9F"]
@@ -1010,8 +998,8 @@
 				item: "delightful:deluxe_cheeseburger"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -6.0d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -1029,8 +1017,8 @@
 				item: "delightful:smore"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -6.0d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -1048,8 +1036,8 @@
 				item: "delightful:ender_nectar"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -7.0d
+			x: -0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -1071,8 +1059,8 @@
 				item: "delightful:berry_matcha_latte"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -6.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
@@ -1093,8 +1081,8 @@
 				item: "farmersdelight:hamburger"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -4.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["717B733896BBB2AA"]
@@ -1112,8 +1100,8 @@
 				item: "delightful:cheeseburger"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -4.0d
+			x: -2.5d
+			y: 5.5d
 		}
 		{
 			description: ["Eat a bunch of cake! It's a delicious treat and you deserve it."]
@@ -1160,8 +1148,8 @@
 				type: "stat"
 				value: 70
 			}]
-			x: -6.5d
-			y: -5.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0E2749D8FEEF0D49"]
@@ -1187,7 +1175,7 @@
 				id: "0D13DAED0731D633"
 				type: "advancement"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 7.0d
 		}
 		{
@@ -1227,7 +1215,7 @@
 				id: "0E783661822CB045"
 				type: "advancement"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 5.0d
 		}
 		{
@@ -1261,8 +1249,8 @@
 				}
 			]
 			title: "Delicious Veggies"
-			x: -11.5d
-			y: -2.5d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5F2C26D1C6302016"]
@@ -1331,7 +1319,7 @@
 				}
 			]
 			title: "Placeable Meal Diversity"
-			x: -7.5d
+			x: -9.0d
 			y: 5.5d
 		}
 		{
@@ -1430,8 +1418,8 @@
 				}
 			]
 			title: "Cake-a-holic"
-			x: 1.5d
-			y: 4.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
@@ -1450,7 +1438,7 @@
 				item: "delightful:azalea_tea"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -12.0d
 			y: -4.0d
 		}
 		{
@@ -1491,8 +1479,8 @@
 				type: "item"
 			}]
 			title: "Cooking with Create"
-			x: -0.5d
-			y: 2.5d
+			x: 1.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["6347F33BF36A112E"]
@@ -1765,8 +1753,8 @@
 				type: "item"
 			}]
 			title: "A Different Dragon Egg"
-			x: 5.5d
-			y: 11.25d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["4264920573ADC879"]
@@ -1796,8 +1784,8 @@
 				type: "item"
 			}]
 			title: "An Eggshellent Bowl"
-			x: 5.5d
-			y: 12.75d
+			x: 4.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
@@ -1818,8 +1806,8 @@
 				item: "ends_delight:dragon_meat_stew_block"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 12.75d
+			x: 7.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
@@ -1836,8 +1824,8 @@
 				item: "ends_delight:steamed_dragon_egg_block"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 14.25d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
@@ -1883,8 +1871,8 @@
 				id: "5A3136C711223B37"
 				type: "advancement"
 			}]
-			x: 3.5d
-			y: 12.75d
+			x: 2.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1905,8 +1893,8 @@
 				id: "05A7CA3D3CBCBE10"
 				type: "advancement"
 			}]
-			x: 8.5d
-			y: 14.25d
+			x: 7.5d
+			y: 14.0d
 		}
 		{
 			description: ["Possibly the &amost helpful item&r in the &cShulkren Forest&r, this tea helpfully &aclears the Levitation effect&r! You may want to make... a few..."]
@@ -2036,7 +2024,7 @@
 			}]
 			title: "Obtain Grape Seeds"
 			x: -6.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -2059,7 +2047,7 @@
 			}]
 			title: "Increase Your Output"
 			x: -4.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -2090,7 +2078,7 @@
 			]
 			title: "Everything But The..."
 			x: -7.5d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -2169,7 +2157,7 @@
 			}]
 			title: "Pressing the Grapes"
 			x: -4.0d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["547C558385301BA9"]
@@ -2263,7 +2251,7 @@
 			}]
 			title: "Meet the Wandering Winemaker"
 			x: -7.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["15CAD3A9477E400B"]
@@ -2434,7 +2422,7 @@
 				}
 			]
 			title: "Rare Feasts - Nether"
-			x: -8.5d
+			x: -10.0d
 			y: 7.0d
 		}
 		{
@@ -2499,7 +2487,7 @@
 				}
 			]
 			title: "Rare Feasts - Exotic"
-			x: -6.0d
+			x: -7.5d
 			y: 6.0d
 		}
 		{
@@ -2543,7 +2531,7 @@
 				}
 			]
 			title: "Rare Feasts - The End"
-			x: -7.0d
+			x: -8.5d
 			y: 7.0d
 		}
 		{
@@ -2629,8 +2617,8 @@
 				}
 			]
 			title: "Pie Lovers Anonymous"
-			x: 0.0d
-			y: 5.5d
+			x: 2.5d
+			y: 3.5d
 		}
 	]
 	title: "Culinary Arts"

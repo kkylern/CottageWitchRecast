@@ -712,6 +712,11 @@
 				"&bElectron Tubes&r also provide the basis for most of &lCreate's&r sorting mechanisms, or anything else which requires &aintelligent function&r."
 			]
 			id: "21D3406A746CF116"
+			rewards: [{
+				id: "64035AA399680C18"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			tasks: [{
 				id: "091B7D2A7E613348"
 				item: "create:electron_tube"
@@ -1031,6 +1036,7 @@
 				item: "create:creative_blaze_cake"
 				type: "item"
 			}]
+			subtitle: "blaze it"
 			tasks: [{
 				count: 100L
 				id: "28EADC0EBE7B1BCD"
@@ -1048,7 +1054,7 @@
 				""
 				"Well, you have a few options. You could &acompact the fluid&r into solids using a &bMechanical Press&r (see the other quests for this!), or you could use a &bSpout&r to &adispense fluid onto or into items&r on a Depot."
 				""
-				"Spouts can be used in making &bChocolate-Covered Berries&r, &bHoneyed Apples&r, &bSweet Rolls&r, and eventually also &bBlaze Cakes!&r."
+				"Spouts can be used in making &bChocolate-Covered Berries&r, &bHoneyed Apples&r, &bSweet Rolls&r, and eventually also &bBlaze Cakes&r!"
 			]
 			id: "221EA16C478CF60B"
 			rewards: [
