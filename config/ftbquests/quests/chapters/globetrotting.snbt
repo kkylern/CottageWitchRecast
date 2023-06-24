@@ -429,8 +429,8 @@
 				type: "advancement"
 			}]
 			title: "Visit all Vanilla Biomes"
-			x: -7.0d
-			y: -5.0d
+			x: -6.5d
+			y: -5.5d
 		}
 		{
 			description: ["Traverse all Nether biomes!"]
@@ -461,8 +461,8 @@
 				id: "2D416C15BC4F0576"
 				type: "advancement"
 			}]
-			x: -10.5d
-			y: -3.5d
+			x: -9.5d
+			y: -2.5d
 		}
 		{
 			description: ["Discover an &cEnchanting Tower&r, a small but cozy spire featuring a magical twist."]
@@ -610,7 +610,7 @@
 				type: "observation"
 			}]
 			title: "Meet a Wise Oak"
-			x: -8.5d
+			x: -9.0d
 			y: -6.5d
 		}
 		{
@@ -632,8 +632,8 @@
 				to_observe: "moyai:moyai"
 				type: "observation"
 			}]
-			x: -11.5d
-			y: -4.0d
+			x: -9.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -657,8 +657,8 @@
 				type: "item"
 			}]
 			title: "Find Structures with the Explorer's Compass"
-			x: -11.0d
-			y: -6.0d
+			x: -11.5d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -690,7 +690,7 @@
 			}]
 			title: "Find Biomes with the Nature's Compass"
 			x: -10.5d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			id: "4E9CAB55113B5280"
@@ -989,7 +989,31 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"You've found a &cWoodland Mansion&r! You may immediately notice that it's a little bigger than you might be used to."
+				""
+				"It is also &amore dangerous&r. Be sure you are well-prepared with equipment and food before you enter! "
+			]
 			id: "699903BB676B2187"
+			rewards: [
+				{
+					id: "14FACD04B20A8751"
+					item: {
+						Count: 1b
+						id: "biomemakeover:cladded_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C7C1CFF066119F3"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -1003,11 +1027,16 @@
 				type: "structure"
 			}]
 			title: "Find a Woodland Mansion"
-			x: -8.5d
-			y: 1.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["699903BB676B2187"]
+			description: [
+				"The &eAdjudicator&r is a boss hiding &adeep in the bowels of the &cWoodland Mansion&r. He attacks from afar using magic, and teleports frequently when found. It is recommended to &6listen carefully&r, as the sounds of his ender magic give away his position."
+				""
+				"Once slain, he drops the &bEnchanted Totem of Undying&r, which is a more powerful version of the one his subservients drop. It &arestores full health and provides buffs on use&r. However, it is also an excellent trophy, being exceedingly rare."
+			]
 			id: "163BCA4880FDBB02"
 			rewards: [
 				{
@@ -1021,14 +1050,16 @@
 					type: "item"
 				}
 			]
+			shape: "diamond"
 			tasks: [{
 				entity: "biomemakeover:adjudicator"
 				id: "5C6F1F1034D37848"
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.5d
-			y: 3.5d
+			title: "Defeat the Adjudicator"
+			x: -5.5d
+			y: 5.0d
 		}
 		{
 			description: ["Even the most honest witch needs to sneak around sometimes. But you...well, you've snuck around &3a lot&r."]
@@ -1059,7 +1090,7 @@
 			}]
 			title: "Sneaking Around"
 			x: -8.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -1122,11 +1153,18 @@
 			}]
 			title: "Building a Portal"
 			x: -2.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["11A45FA468D85461"]
+			description: ["You've made it into your first &lDimensional Dungeon&r! Within these rooms you will find &apuzzles to solve&r and &aloot to find&r. If you find yourself getting stuck, look for &bDispensers&r, as these will give out &ahints&r!"]
 			id: "0D8473F43FB4CE74"
+			rewards: [{
+				count: 4
+				id: "16CA4936E71834CC"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				advancement: "dimdungeons:dungeons/enter_basic_dungeon"
@@ -1135,7 +1173,92 @@
 				type: "advancement"
 			}]
 			x: -2.5d
-			y: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D8473F43FB4CE74"]
+			description: [
+				"These &bPortal Crown Blocks&r are used to upgrade your &bPortal&r so that you can continue deeper into certain dungeons."
+				""
+				"Your tome of dungeon delving has this to say:"
+				""
+				"\"While exploring dungeons, you may find &bportal keyhole blocks&r. These contain &badvanced portal keys&r, which require an upgraded &aPortal&r to use."
+				""
+				"To upgrade your portal, you must place 2 &bPortal Crown Blocks&r, which can only be found in dungeon chests. You will also need 2 &bBanners&r in either purple or white.\""
+				""
+				""
+				"{image:cottagewitch:textures/upgradedportal.png width:100 height:70 align:1 fit:true}"
+			]
+			id: "49137236E5BAEFD3"
+			rewards: [{
+				count: 2
+				id: "42728DA53BA50D90"
+				item: "minecraft:white_banner"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "32D0366E9B412181"
+				item: "dimdungeons:block_portal_crown"
+				type: "item"
+			}]
+			title: "Advanced Portals"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28C61A43906C6883"]
+			description: [
+				"An artifact! How exciting!"
+				""
+				"Your tome of dungeon delving has this to say:"
+				""
+				"\"You've found a rare &bBell of Secrets&r! This bell will play a 2-note chime when rung. However, it will play an extended &a8-note chime&r if there is a &atreasure chest or barrel nearby&r! Try ringing it in every room of a dungeon."
+				""
+				"Due to the magical nature of the bell, it works only in the dungeon dimension. It is strangely silent in all other dimensions.\""
+			]
+			id: "6C606FBC981D33CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D67701B1A42C291"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "for whom the bell tolls"
+			tasks: [{
+				id: "394C7BB52E3E1068"
+				item: "dimdungeons:item_secret_bell"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["28C61A43906C6883"]
+			description: [
+				"An artifact! How exciting!"
+				""
+				"Your tome of dungeon delving has this to say:"
+				""
+				"\"The &bHomeward Pearl&r is a handy tool which will &ateleport you to the entrance&r of the dungeon. It &dbreaks after it is used&r. Crafting Homeward Pearls is a good use for unwanted keys!\""
+			]
+			id: "2131763DC4BF4ACF"
+			rewards: [{
+				id: "2341040BA07E0EE5"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "don't give up, skeleton"
+			tasks: [{
+				id: "4646939CB923D49E"
+				item: "dimdungeons:item_homeward_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
 		}
 	]
 	title: "Globetrotting"

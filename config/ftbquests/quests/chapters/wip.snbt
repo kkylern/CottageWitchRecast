@@ -109,6 +109,11 @@
 		{
 			description: ["What kind of witch are you? Now that you're level 10, you can pick a specialization to be granted certain perks and items. You can only choose one, so look through the following quest lines to see which speaks to you the most!"]
 			id: "683D4D91CD135B02"
+			rewards: [{
+				id: "447E7251AEF613AA"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F2D8840226FEDA2"
 				points: false
@@ -116,8 +121,8 @@
 				value: 10L
 			}]
 			title: "Choose Your Specialization"
-			x: -5.0d
-			y: -9.0d
+			x: -9.5d
+			y: -14.5d
 		}
 		{
 			id: "08D9EE78F901AC4D"
@@ -318,6 +323,237 @@
 			title: "Snowy Temple"
 			x: 6.5d
 			y: -9.5d
+		}
+		{
+			id: "0166A8E6B39FD8AA"
+			rewards: [{
+				id: "2D9406FDD2B0934E"
+				item: {
+					Count: 1b
+					id: "majruszsaccessories:tamed_potato_beetle"
+					tag: {
+						Bonus: {
+							Value: 0.42f
+							ValueMax: 0.51f
+							ValueMin: -0.21f
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5253E9C578DF7A7A"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
+			title: "Green Witchery"
+			x: -6.5d
+			y: -15.5d
+		}
+		{
+			id: "0F6FCCFAAA4DB2C9"
+			rewards: [
+				{
+					command: "/attribute @s minecraft:generic.movement_speed base set 0.2"
+					icon: {
+						Count: 1b
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "76D9FD3C0EE04B35"
+					player_command: true
+					title: "Increase Walking Speed"
+					type: "command"
+				}
+				{
+					command: "/attribute @s forge:step_height_addition base set 1"
+					icon: "minecraft:polished_andesite_stairs"
+					id: "6BBFDF7301E963DD"
+					player_command: true
+					title: "Increase Step Height"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4356FB45B0DE1BF0"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
+			title: "Fey Witchery"
+			x: -6.5d
+			y: -13.5d
+		}
+		{
+			id: "41E9B4B0912E1D6B"
+			rewards: [{
+				command: "/attribute @s minecraft:generic.armor base set 2"
+				icon: "domesticationinnovation:deflection_shield"
+				id: "71F8B315CBCD10AD"
+				player_command: true
+				title: "Increase Base Armor"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1A5C300D7A83A1B7"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
+			title: "White Witchery"
+			x: -5.0d
+			y: -13.5d
+		}
+		{
+			id: "02D1DBEACCE79BA7"
+			rewards: [
+				{
+					id: "0963F4A0CD8C91DF"
+					item: {
+						Count: 1b
+						id: "reaping:diamond_reaping_tool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/attribute @s minecraft:generic.attack_damage base set 2"
+					icon: {
+						Count: 1b
+						id: "twilightforest:knightmetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "62E2441D3940C884"
+					player_command: true
+					title: "Increase Base Attack"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4BB1C0E025379E7E"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
+			title: "Dark Witchery"
+			x: -5.0d
+			y: -15.5d
+		}
+		{
+			id: "48CBC9CCD6DE3EC5"
+			rewards: [{
+				id: "577404ACDA35E7E4"
+				item: {
+					Count: 1b
+					id: "mermod:sea_necklace"
+					tag: {
+						necklace_modifiers: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32845730C076DDCC"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
+			title: "Sea Witchery"
+			x: -3.5d
+			y: -15.5d
+		}
+		{
+			id: "3B29D264111FFAC1"
+			rewards: [{
+				command: "/attribute @s minecraft:generic.luck base set 0.5"
+				icon: "twilightforest:clover_patch"
+				id: "1711CC1E816B22C5"
+				player_command: true
+				title: "Increase Base Luck"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3095A6D6ED193A19"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
+			title: "Goblin Witchery"
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			description: [
+				"The &bCoven Witch&r has no bonuses nor negatives. Instead, they refresh their power from their friends and allies."
+				""
+				"This type of witch starts out with"
+			]
+			id: "5266DE50FC59F824"
+			rewards: [
+				{
+					id: "0CE6CA7D58010FBC"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71EABC42442E84A3"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "788E3E831892D7C4"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "nothing wrong with being basic"
+			tasks: [{
+				id: "7013A1F70CDD009A"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
+			title: "Coven Witchery"
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			description: [
+				"The &bStorage Lectern&r is an item which, when combined with a &eBookwyrm&r, can allow you to access multiple inventories in your network. This is very similar to &lTom's&r and &lSophisticated Storage&r."
+				""
+				"To &aconnect multiple inventories&r, simply &6shift right click a &bDominion Wand&r onto the storage"
+			]
+			id: "29B3AC124374A99F"
+			rewards: [{
+				id: "5A9F173D6AAC6C52"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "592A922EC62DB55A"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -17.5d
 		}
 	]
 	title: "WIP"

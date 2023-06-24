@@ -1120,7 +1120,7 @@ ServerEvents.recipes(event => {
             'ACA'
         ],
         {
-            A: 'create:gold_ingot',
+            A: 'minecraft:gold_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:coal_block',
             D: 'minecraft:lapis_lazuli'
@@ -1136,7 +1136,7 @@ ServerEvents.recipes(event => {
             'ADA'
         ],
         {
-            A: 'create:copper_ingot',
+            A: 'minecraft:copper_ingot',
             B: 'minecraft:redstone',
             C: 'minecraft:emerald',
             D: 'minecraft:lapis_lazuli'

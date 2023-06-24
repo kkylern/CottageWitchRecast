@@ -53,6 +53,7 @@
 		{ item: "biomemakeover:ghost_town_music_disk" }
 		{ item: "biomemakeover:swamp_jives_music_disk" }
 		{ item: "biomemakeover:red_rose_music_disk" }
+		{ item: "supplementaries:pancake" }
 	]
 	title: "Music Disc Reward"
 }

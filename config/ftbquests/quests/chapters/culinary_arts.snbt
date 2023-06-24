@@ -2597,11 +2597,6 @@
 					type: "item"
 				}
 				{
-					id: "0749B56E88A4FBCB"
-					item: "pineapple_delight:pineapple_pie"
-					type: "item"
-				}
-				{
 					id: "29E796F40148F7DE"
 					item: "ends_delight:chorus_flower_pie"
 					type: "item"

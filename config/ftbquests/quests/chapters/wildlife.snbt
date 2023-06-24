@@ -124,8 +124,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Elephant"
-			x: -8.5d
-			y: -2.5d
+			x: -9.0d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -160,8 +160,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -7.5d
+			x: -1.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -216,8 +216,8 @@
 				id: "650E23F990D62E75"
 				type: "advancement"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			description: ["Find two animals and breed them in order to get this advancement and begin these quests!"]
@@ -243,7 +243,7 @@
 				type: "advancement"
 			}]
 			x: -2.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			description: ["The &bCommand Drum&r is an item which allows you to command multiple tamed creatures at one time."]
@@ -260,8 +260,8 @@
 				item: "domesticationinnovation:drum"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -7.5d
+			x: -0.5d
+			y: -7.0d
 		}
 		{
 			description: ["The &bPet Bed&r allows your pets to &arespawn&r in the morning, should anything unpleasant happen to them. Simply have your pet &6set their spawn point&r by pushing them onto the &bPet Bed&r."]
@@ -286,8 +286,8 @@
 				type: "item"
 			}]
 			title: "Get your Pet a Bed"
-			x: 0.0d
-			y: -7.5d
+			x: 0.5d
+			y: -7.0d
 		}
 		{
 			description: ["&bCollars&r can be used to name your pets, but they can also be &aenchanted&r to give your pet special abilities."]
@@ -312,8 +312,8 @@
 				item: "domesticationinnovation:collar_tag"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.5d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			description: ["The &bDeed of Ownership&r is an item used in &amultiplayer&r. You can &6right click it on an animal&r and then give the &bDeed&r to a friend. When they use it, the pet will now be linked to them, &aas if they had tamed it themself&r."]
@@ -329,8 +329,8 @@
 				item: "domesticationinnovation:deed_of_ownership"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -357,8 +357,8 @@
 				item: "domesticationinnovation:wayward_lantern"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.5d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			id: "61F03A15727266F2"
@@ -959,8 +959,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Snow Golem"
-			x: -11.0d
-			y: -3.0d
+			x: -10.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -1014,7 +1014,7 @@
 				type: "advancement"
 			}]
 			x: 1.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -1034,8 +1034,8 @@
 				id: "66A0BD4051C658F5"
 				type: "advancement"
 			}]
-			x: 1.0d
-			y: -7.5d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1056,7 +1056,7 @@
 				type: "advancement"
 			}]
 			x: 2.0d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -1113,7 +1113,7 @@
 			}]
 			title: "Gateways to Eternity"
 			x: 5.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -1226,8 +1226,8 @@
 				}
 			]
 			title: "The Search for the Holy Snail"
-			x: -11.5d
-			y: -4.5d
+			x: -10.5d
+			y: -7.5d
 		}
 		{
 			description: [
@@ -1253,7 +1253,7 @@
 			}]
 			title: "Fall Prey to the Mimic"
 			x: 6.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1278,7 +1278,7 @@
 				type: "observation"
 			}]
 			title: "Meet the Yak"
-			x: 2.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -1388,7 +1388,7 @@
 			]
 			title: "Wilden Trophies"
 			x: 3.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1419,8 +1419,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Ferret"
-			x: -8.0d
-			y: -5.5d
+			x: -7.5d
+			y: -7.5d
 		}
 		{
 			description: [
@@ -1444,8 +1444,8 @@
 				type: "observation"
 			}]
 			title: "Meet the Owl"
-			x: -9.5d
-			y: -4.5d
+			x: -9.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -1468,8 +1468,8 @@
 				value: 5L
 			}]
 			title: "Moths in the Canopy"
-			x: 5.0d
-			y: 3.5d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -1540,7 +1540,7 @@
 				}
 			]
 			title: "Traveling Piggyback"
-			x: 0.5d
+			x: -1.0d
 			y: -3.0d
 		}
 		{
@@ -1568,7 +1568,7 @@
 			}]
 			title: "Slay a Red Bull Crab"
 			x: 3.0d
-			y: 3.5d
+			y: 6.0d
 		}
 	]
 	title: "Wildlife"

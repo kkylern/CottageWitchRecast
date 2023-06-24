@@ -125,7 +125,7 @@ JEIEvents.hideItems(event => {
         'ends_delight:end_stone_knife',
         'ends_delight:dragon_egg_shell_knife',
         'farmersdelight:golden_knife',
-		    'incubation:fried_egg',
+		'incubation:fried_egg',
         'aquaculture:neptunium_helmet',
         'aquaculture:neptunium_leggings',
         'aquaculture:neptunium_chestplate',
@@ -139,6 +139,12 @@ JEIEvents.hideItems(event => {
         'aquaculture:iron_fillet_knife',
         'aquaculture:gold_fillet_knife',
         'aquaculture:diamond_fillet_knife',
+        'aquaculture:oak_fish_mount',
+        'aquaculture:spruce_fish_mount',
+        'aquaculture:birch_fish_mount',
+        'aquaculture:jungle_fish_mount',
+        'aquaculture:acacia_fish_mount',
+        'aquaculture:dark_oak_fish_mount'
     ];
     
       for (const hide of toHide) {

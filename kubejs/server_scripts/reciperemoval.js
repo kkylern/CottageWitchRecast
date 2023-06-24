@@ -136,6 +136,12 @@ ServerEvents.recipes(event => {
         {output: 'aquaculture:iron_fillet_knife'},
         {output: 'aquaculture:gold_fillet_knife'},
         {output: 'aquaculture:diamond_fillet_knife'},
+        {output: 'aquaculture:oak_fish_mount'},
+        {output: 'aquaculture:spruce_fish_mount'},
+        {output: 'aquaculture:birch_fish_mount'},
+        {output: 'aquaculture:jungle_fish_mount'},
+        {output: 'aquaculture:acacia_fish_mount'},
+        {output: 'aquaculture:dark_oak_fish_mount'},
         //Replaced Recipes Below
         {output: 'buildinggadgets:gadget_building'},
         {output: 'buildinggadgets:gadget_exchanging'},

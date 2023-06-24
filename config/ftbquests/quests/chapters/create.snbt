@@ -24,8 +24,12 @@
 		{
 			description: [
 				"&lCreate&r is an incredible mod focusing on low-tech automation and machinery. I am sure I don't need to explain to you that physics, science, and magic are all closely interrelated. Why not dabble a bit in &atech witchery&r? Unlike many tech mods, the basic energy type Create uses is &arotational force&r, which can be generated in a number of ways."
+				""
 				"These quests will help to guide you through the basics, but ultimately the final products will be up to you and your imagination! Thankfully, there is a robust in-game documentation system called &dPondering&r, which can be accessed by &6holding the “w” key down when hovering over an item&r in your inventory or in JEI. Make sure you aren’t typing in a text field first, though!"
-				"To begin with, take this &bWrench&r. You can &6right click on most Create blocks&r to rotate them or alter them in some way. &dWhich side of the block you click on&r determines which way the object rotates. Additionally, you can &6shift right click&r most Create items (and some vanilla, such as levers or hoppers) &ato instantly remove them directly into your inventory&r. An incredibly useful feature!"
+				""
+				"To begin with, take this &bWrench&r. You can &6right click on most Create blocks&r to rotate them or alter them in some way. &dWhich side of the block you click on&r determines which way the object rotates."
+				""
+				"Additionally, you can &6shift right click&r most Create items (and some vanilla, such as levers or hoppers) &ato instantly remove them directly into your inventory&r. An incredibly useful feature!"
 			]
 			id: "01896E1F4E0B7F2F"
 			rewards: [{
@@ -48,7 +52,9 @@
 			dependencies: ["090B731F01A14C75"]
 			description: [
 				"One of the first machines you'll want to build is the &bMechanical Press&r. This, well, presses items down to create things like &bBrass and Iron Sheets&r, which you'll need for future projects."
+				""
 				"To begin with, make a &bHand Crank&r to power it. Going forward, you'll &aautomate your power&r, but in a pinch, some elbow grease does the trick just as well."
+				""
 				"Take this &bIron&r and place it underneath the &bMechanical Press&r."
 			]
 			icon: "create:mechanical_press"
@@ -86,7 +92,9 @@
 		{
 			description: [
 				"&bAndesite&r is one of the foundational blocks of beginning your factory. However, though stone by itself is strong, it is not malleable. So, it is best to mix it with &bIron&r to create a more versatile material: &bAndesite Alloy&r."
+				""
 				"&bAndesite Alloy&r is used in making both &bShafts&r (which are then used to make &bCogs&r), and also to reinforce stripped logs into &bAndesite Casing&r. Together, these make up the basis of most of the recipes in this mod."
+				""
 				"&6Equip these Goggles in your Curio slot&r to &aeasily see detailed information&r about all your machines."
 			]
 			id: "283B3A75443BDA35"
@@ -136,7 +144,9 @@
 			dependencies: ["1EB53FD55A3973BF"]
 			description: [
 				"As mentioned, &bCogwheels&r - or Cogs - can &aconvey and manipulate rotational force&r."
+				""
 				"The way that &bCogs&r connect is fairly simple: &bSmall Cogs&r can connect in a + pattern (ie, on the cardinal directional sides, as well as at the shaft). &bLarge and Small Cogs&r connect diagonally, as well as at the shaft."
+				""
 				"If you connect the shafts of a &bSmall&r and then a &bLarge Cog&r, it will &aincrease the speed&r of the rotation. These can be &dstacked multiple times&r, by &6placing a second Small Cog at the diagonal&r of the Large Cog, and then another Large Cog at its shaft. You can continue this as many times as you have space for."
 			]
 			id: "0B539C0958C0AE9F"
@@ -158,8 +168,11 @@
 			dependencies: ["1EB53FD55A3973BF"]
 			description: [
 				"As mentioned, &bCogwheels&r - or Cogs - can &aconvey and manipulate rotational force&r."
+				""
 				"The way that &bCogs&r connect is fairly simple: &bLarge Cogs&r connect perpendicularly to one another, allowing you to &atransfer from horizontal to vertical rotation&r without a &bGearbox&r (more on that later). &bLarge and Small Cogs&r connect diagonally, as well as at the shaft."
+				""
 				"&bLarge Cogwheels&r in particular are helpful, as they can connect to the top of the &bRotation Speed Controller&r, allowing you to &6customize the rotations per minute - rpm - of the subsequent machinery&r."
+				""
 				"If you connect the shafts of a &bSmall&r and then a &bLarge Cog&r, it will &aincrease the speed&r of the rotation. These can be &dstacked multiple times&r, by &6placing a second Small Cog at the diagonal&r of the Large Cog, and then another Large Cog at its shaft. You can continue this as many times as you have space for."
 			]
 			id: "053309454320882E"
@@ -180,9 +193,14 @@
 		{
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
-				"{image:cottagewitch:textures/waterwheel.png width:230 height:200 align:1}"
-				"One of the primary methods of creating rotational force is the &bWater Wheel&r. It requires &aflowing water&r to function. The most optimal way of doing this is to &6place it vertically&r, ensuring that it is not clipping into any blocks, and then placing a block of &bSoul Sand&r to one side of the bottom. Then, &6place two water source blocks&r on top of the &bSoul Sand&r, creating a &awater elevator&r. This will give you a generation of &d320 su&r, which is the maximum a Water Wheel&r can provide."
-				"You then place &bShafts&r or &bCogs&r at the center of the wheel, which transfers the power to the machines."
+				"An early game method of generating rotational force is with water wheels. They require &aat least one flowing water block&r to function. Any additional flowing water blocks &awill not generate more stress units or rotational speed&r. The two types of water wheels are the standard &bWater Wheel&r and the &bLarge Water Wheel&r. The standard &bWater Wheel&r generates &a256 su&r at a speed of &a8 rpm&r, while the &bLarge Water Wheel&r generates &a512 su&r at a speed of &a4 rpm&r."
+				""
+				""
+				"{image:cottagewitch:textures/lgwaterwheel.png width:100 height:100 align:1}"
+				""
+				"You can connect items such as &bShafts&r, &bCogs&r, or &bGearboxes&r to the center of the wheel, allowing you to distribute rotational force to your machines."
+				""
+				"You can also &6right-click&r the water wheel with a &bwooden plank&r to change the texture of the water wheel to the corresponding plank texture. Keep in mind that modded planks &dmay cause odd textures&r."
 			]
 			id: "2DC641E0D0A72439"
 			rewards: [{
@@ -203,11 +221,17 @@
 		{
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
-				"A very powerful method of generating force is the &bWindmill&r. One can be made relatively simply, and then improved later on to create even more su."
-				"A Windmill requires a &bWindmill Bearing&r, to begin with. This can be &aplaced either horizontally or vertically&r, and the shafts must connect to the back of it. The front of the Bearing is sticky, so you can &6place blocks on it&r and they will become part of the machine."
-				"&dNow you have two choices&r, using &bSails&r or &bWool&r as the “sail-like” blocks."
-				"Once you have attached 8 or more sail-like blocks, &6right click the &bWindmill Bearing&r to activate the structure&r. If there is an issue, you can read about it by &6hovering over the block&r."
-				"Over time, you can expand a windmill by adding more sail-like blocks to it. The more there are, the &amore su it will generate&r. However, be aware that the &bRadial Chassis&r only has a radial range of 8 blocks."
+				"A mid-game method of generating rotational force is with a windmill. A small windmill can be made relatively easily, and can be expanded later on to generate more stress units."
+				""
+				"A windmill requires a &bWindmill Bearing&r, which can be &aplaced facing any direction&r. The front face of the Bearing is sticky, and &6a block placed on it&r will become part of the windmill. The back of the bearing is where shafts can be connected to distribute the windmill’s rotational force."
+				""
+				"&dNow you have two choices&r, using &bSails&r or &bWools&r as the “sail-like” blocks."
+				""
+				"Once you have attached 8 or more &bSails&r or sail-like blocks, &6right click the &bWindmill Bearing&r to activate the structure&r. &6Hold right-click while looking at the side of bearing&r to configure the rotational direction of the windmill. If &bWools&r are used, you have to &6apply glue to attach the blocks together&r as they do not automatically connect like sails do."
+				""
+				"You can expand a windmill up to 128 sail/sail-like blocks to generate a maximum of &a8192 su&r at a speed of &a16 rpm&r. Any additional &bSails&r or &bWools&r &adoes not generate more stress units or rotational speed&r."
+				""
+				"Other non-&bSails&r or &bWools&r blocks can also be attached to the windmill structure. These additional blocks &awill not effect the efficiency of the windmill&r so feel free to decorate the windmill as you please!"
 			]
 			id: "7653B8A3BFBA6E2C"
 			rewards: [
@@ -221,11 +245,6 @@
 					count: 8
 					id: "4F0458414AE06049"
 					item: "create:white_sail"
-					type: "item"
-				}
-				{
-					id: "2DF9936EF7EAD09E"
-					item: "create:radial_chassis"
 					type: "item"
 				}
 			]
@@ -242,8 +261,8 @@
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
 				"Another power option is &bStarbuncle Wheels&r. It turns out that the industry of the &eStarbuncle&r goes beyond collecting and transferring items - they &alove to run&r."
-				"Give them a &awheel to run around in&r, and they will reliably generate you &d256 su&r."
-				"They will provide &aeven more power&r if there is a &bGold Block&r in front of them!"
+				""
+				"Give them a &awheel to run around in&r, and they will reliably generate you &d256 su&r. Put a &bGold Block&r &6in front of the wheel&r and they’ll generate &d320 su&r instead!"
 			]
 			id: "4E3C2382B7035B7D"
 			rewards: [
@@ -309,7 +328,8 @@
 			dependencies: ["1EB53FD55A3973BF"]
 			description: [
 				"The &bGearbox&r helps you &amanipulate rotation&r in a small space by &aforming a right angle&r for 2 or more &bCogs&r or &bShafts&r."
-				"The &bGear Shift&r can be &6rotated on either x or y axis&r to help you &dturn corners&r and &achange directions&r."
+				""
+				"It can also be &6rotated on either x or y axis&r to help you &dturn corners&r and &achange directions&r."
 			]
 			id: "1371BBAA8FDBC0B2"
 			rewards: [
@@ -371,45 +391,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7653B8A3BFBA6E2C"]
-			description: ["You can use &bSails&r, which will &aautomatically become part of the structure&r, even if the block they are attached to is not a &bRadial Chassis&r. This method also does not require a &bSlime Ball&r."]
-			id: "7086AF668F510A2C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0D91D14636EFD211"
-				table_id: 1032206960599939459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4D1ADB86F100E08F"
-				item: "create:white_sail"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7653B8A3BFBA6E2C"]
-			description: ["You may wish to use a &bRadial Chassis&r, which will attach to plain blocks such as &bWool&r. You must &6stick the wool to each side&r by first making it sticky. You can do this by right clicking the &bChassis&r with a &bSlime Block&r, and then &6placing the wool&r on the sticky side."]
-			id: "72519F917B007C84"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0BF35074E42F785E"
-				table_id: 1032206960599939459L
-				type: "random"
-			}]
-			tasks: [{
-				id: "28A2A5CF8000F8A8"
-				item: "create:radial_chassis"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
-		}
-		{
 			dependencies: ["21D14DACAA03665A"]
 			description: [
 				"&aRotational force&r is measured in &dStress Units, or su&r. The more force you generate, the more su you have access to. Machines require a certain amount of su to run, and if you try to place too many operations on a single network, your system can become &dOverstressed&r. You can view this in individual parts by &6wearing Goggles&r, but it is also recommended to craft a &bStressometer&r to attach to your network."
+				""
 				"The Stressometer allows you to &aview your maximum su and how much of it is remaining&r."
 			]
 			id: "576AE3823B89AE8E"
@@ -458,6 +443,7 @@
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
 				"The &bSteam Engine&r is another method of creating power, but it is &asignificantly more difficult&r and not recommended for beginners."
+				""
 				"To find out how to power a &bSteam Engine&r, as well as how to &dupgrade the output&r, please &6search &lJEI&r for \"steam engine\" and &6hold \"W\" to ponder&r."
 			]
 			id: "265265A0C4DFD728"
@@ -479,8 +465,11 @@
 			dependencies: ["21D14DACAA03665A"]
 			description: [
 				"The &bMechanical Mixer&r is used for multiple functions such as &acreating alloys&r and &aautocrafting shapeless recipes&r."
+				""
 				"It must be paired with a &bBasin&r, which holds the ingredients for it to mix."
+				""
 				"Let's test it out by &dmaking some &bChocolate Bars&r."
+				""
 				"Take these ingredients and &6set up your Basin above a Heat Source&r. This should make one bucket of &bMelted Chocolate&r. You can either &6extract it with a &bPump&r, or with a &bBucket&r."
 			]
 			id: "5859015DE7AD5512"
@@ -534,7 +523,9 @@
 			dependencies: ["5859015DE7AD5512"]
 			description: [
 				"Many &bMixer&r recipes will require &aHeat&r. You can use normal heat sources such as &bCampfires&r for certain recipes, but many will require a &bBlaze Burner&r."
+				""
 				"You can craft an &bEmpty Blaze Burner&r, and then you must &6find a &eBlaze&6 and right click it&r with the &bBlaze Burner&r to capture it."
+				""
 				"The &bBlaze Burner&r must be &afed to function&r. You can feed it by &6right clicking it with flammable things&r such as &blogs&r, &btorches&r, &bBlaze Rods&r, and most efficiently: &bBlaze Cakes&r. You'll be able to make those later, but for now, take this one."
 			]
 			id: "5073743E21AB8738"
@@ -571,7 +562,9 @@
 			dependencies: ["5073743E21AB8738"]
 			description: [
 				"Now that you have your &bMelted Chocolate&r, you'll want to &6compact it into Bars using a &bMechanical Press&r."
+				""
 				"Place a &bBasin&r beneath a &bMechanical Press&r and either &apump or bucket&r the Chocolate into the Basin."
+				""
 				"With enough power, the &bPress&r will automatically turn the liquid into &bChocolate Bars&r, which can be retrieved by &6right clicking with an empty hand&r."
 			]
 			id: "14877C882C4D9E9E"
@@ -602,7 +595,9 @@
 			dependencies: ["5859015DE7AD5512"]
 			description: [
 				"For certain recipes you may wish to use &bFluids&r, and for that you'll need &bTanks&r, &bPipes&r, and &bPumps&r."
+				""
 				"To test it out, why not &dset up an infinite &bLava&d source&r? Set up a basic &aLava Generator&r with &bDripstone&r and a &bCauldron&r."
+				""
 				"Then, place a &bPump&r and/or some &bFluid Pipes&r beside it, as well as a &bTank&r to hold the liquid. Power the pump and &6use the Wrench to change the Pump's direction&r."
 			]
 			id: "7AD3F51BD3B16B9F"
@@ -654,7 +649,9 @@
 			dependencies: ["5859015DE7AD5512"]
 			description: [
 				"Another important &aalloy&r is &bBrass&r, which is formed of &bCopper&r and &bZinc&r."
+				""
 				"To craft it, you'll need a &bMixer&r with a &bBlaze Burner&r underneath. Throw the ingredients into the mixer, &6feed the Blaze Burner&r, and make sure the &bMixer&r is receiving enough su."
+				""
 				"You can remove the finished product by setting up a &bConveyor Belt&r, or just by &6right clicking with an empty hand&r."
 			]
 			id: "196015594CAFB1C6"
@@ -783,7 +780,9 @@
 			dependencies: ["5859015DE7AD5512"]
 			description: [
 				"&bMechanical Belts&r convey items between machines and inventories &ahorizontally or diagonally&r. Items placed on a &bMechanical Belt&r will stick to it and not despawn."
+				""
 				"&bChutes&r can transport items &avertically and diagonally&r. By default they transport downward, but &6hook them up to &bEncased Fans&r to change the direction. Unlike hoppers, they do not have a multi-slot inventory, and can transport multiple items at once."
+				""
 				"You can learn more about how they work by &6holding w to Ponder&r."
 			]
 			id: "27B39B900D3D7572"
@@ -837,8 +836,11 @@
 			dependencies: ["244FE0B3FC20D15C"]
 			description: [
 				"The &bPrecision Mechanism&r is crafted by setting up a &bMechanical Belt&r and &bthree Deployers&r."
+				""
 				"You can view the recipe in &lJEI&r by selecting the second tab at the top, &d\"Recipe Sequence\"&r."
+				""
 				"{image:cottagewitch:textures/precisionmechanism.png width:150 height:150 align:1}"
+				""
 				"The first Deployer should hold a &bCogwheel&r, the second a &bLarge Cogwheel&r, and the third a &bIron Nugget&r. Each mechanism must &6go through the process 5 times&r. There is only an &d80% change of receiving&r the final product."
 			]
 			id: "5CCE41AE05329A9A"
@@ -859,8 +861,11 @@
 			dependencies: ["5CCE41AE05329A9A"]
 			description: [
 				"The &bRotational Speed Controller&r is a machine which can &aincrease, decrease, or reverse&r the speed and direction of rotation."
+				""
 				"&6Place it down and connect one of the sides&r to your su network. Then, &6attach a &bLarge Cogwheel&r as shown in the image, and &6connect the subsequent machinery&r to that &bCogwheel&r."
+				""
 				"The machinery will then adopt whatever speed you &aset the Controller to&r. &6Scroll to the negatives to reverse direction&r."
+				""
 				"{image:cottagewitch:textures/rotationalspeed.png width:150 height:150 align:1}"
 			]
 			id: "0EBD468481C32221"
@@ -1039,6 +1044,7 @@
 			}]
 			subtitle: "blaze it"
 			tasks: [{
+				consume_items: true
 				count: 100L
 				id: "28EADC0EBE7B1BCD"
 				item: "create:blaze_cake"
