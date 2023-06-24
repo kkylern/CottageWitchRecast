@@ -88,12 +88,12 @@ customization {
 
 customization {
   path = kubejs/assets/cottagewitch/textures/mainmenu/cottagewitchsplash.png
-  orientation = top-centered
+  orientation = mid-centered
   x = -350
   width = 700
   action = addtexture
   actionid = ce580ae3-5e91-4202-929f-dd8a6d7658241687134015577
-  y = 119
+  y = -97
   height = 207
 }
 

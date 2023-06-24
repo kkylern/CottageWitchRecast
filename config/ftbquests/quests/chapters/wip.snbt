@@ -342,6 +342,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "5253E9C578DF7A7A"
 				item: "kubejs:witch_type_item"
 				type: "item"
@@ -354,7 +355,7 @@
 			id: "0F6FCCFAAA4DB2C9"
 			rewards: [
 				{
-					command: "/attribute @s minecraft:generic.movement_speed base set 0.2"
+					command: "/attribute @s minecraft:generic.movement_speed base set 0.15"
 					icon: {
 						Count: 1b
 						id: "minecraft:leather_boots"
@@ -377,6 +378,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "4356FB45B0DE1BF0"
 				item: "kubejs:witch_type_item"
 				type: "item"
@@ -396,6 +398,7 @@
 				type: "command"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "1A5C300D7A83A1B7"
 				item: "kubejs:witch_type_item"
 				type: "item"
@@ -434,6 +437,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "4BB1C0E025379E7E"
 				item: "kubejs:witch_type_item"
 				type: "item"
@@ -456,6 +460,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "32845730C076DDCC"
 				item: "kubejs:witch_type_item"
 				type: "item"
@@ -475,6 +480,7 @@
 				type: "command"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "3095A6D6ED193A19"
 				item: "kubejs:witch_type_item"
 				type: "item"
@@ -527,6 +533,7 @@
 			]
 			subtitle: "nothing wrong with being basic"
 			tasks: [{
+				consume_items: true
 				id: "7013A1F70CDD009A"
 				item: "kubejs:witch_type_item"
 				type: "item"
@@ -536,24 +543,20 @@
 			y: -15.5d
 		}
 		{
-			description: [
-				"The &bStorage Lectern&r is an item which, when combined with a &eBookwyrm&r, can allow you to access multiple inventories in your network. This is very similar to &lTom's&r and &lSophisticated Storage&r."
-				""
-				"To &aconnect multiple inventories&r, simply &6shift right click a &bDominion Wand&r onto the storage"
-			]
-			id: "29B3AC124374A99F"
-			rewards: [{
-				id: "5A9F173D6AAC6C52"
-				item: "ars_nouveau:bookwyrm_charm"
-				type: "item"
-			}]
+			id: "08B88FDA113C6AC3"
 			tasks: [{
-				id: "592A922EC62DB55A"
-				item: "ars_nouveau:storage_lectern"
+				id: "3644BBD4E0B49F52"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:limited_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -17.5d
+			x: -1.0d
+			y: -13.5d
 		}
 	]
 	title: "WIP"

@@ -144,7 +144,9 @@ JEIEvents.hideItems(event => {
         'aquaculture:birch_fish_mount',
         'aquaculture:jungle_fish_mount',
         'aquaculture:acacia_fish_mount',
-        'aquaculture:dark_oak_fish_mount'
+        'aquaculture:dark_oak_fish_mount',
+        'sophisticatedstorage:filter_upgrade',
+        'sophisticatedstorage:advanced_filter_upgrade',
     ];
     
       for (const hide of toHide) {

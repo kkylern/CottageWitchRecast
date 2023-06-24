@@ -1570,6 +1570,32 @@
 			x: 3.0d
 			y: 6.0d
 		}
+		{
+			description: [
+				"&ePenglils&r are fun-loving little guys who are distant relatives of the &ePenguin&r. They love water and can be tamed with &bHigh-Finned Blue&r."
+				""
+				"I wonder what would happen if you named one \"Lord?\""
+			]
+			id: "30B298083652D459"
+			rewards: [{
+				count: 5
+				id: "52786D29ABFE43EB"
+				item: "finsandtails:high_finned_blue"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				icon: "finsandtails:penglil_bucket"
+				id: "643E09E7E6546836"
+				observe_type: 5
+				timer: 0L
+				to_observe: "finsandtails:penglil"
+				type: "observation"
+			}]
+			title: "Meet the Penglil"
+			x: -9.0d
+			y: -7.5d
+		}
 	]
 	title: "Wildlife"
 }

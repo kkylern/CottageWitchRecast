@@ -142,6 +142,8 @@ ServerEvents.recipes(event => {
         {output: 'aquaculture:jungle_fish_mount'},
         {output: 'aquaculture:acacia_fish_mount'},
         {output: 'aquaculture:dark_oak_fish_mount'},
+        {output: 'sophisticatedstorage:filter_upgrade'},
+        {output: 'sophisticatedstorage:advanced_filter_upgrade'},
         //Replaced Recipes Below
         {output: 'buildinggadgets:gadget_building'},
         {output: 'buildinggadgets:gadget_exchanging'},

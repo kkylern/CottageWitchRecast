@@ -327,20 +327,35 @@ ServerEvents.tags('item', event => {
     event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg')
     event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes')
 
-    //===Tags for FTB Quests=== TODO : Change all these quests over
+    //===Tags for FTB Quests===
 
     // Brooms
     event.add('forge:brooms', 'hexerei:mahogany_broom', 'hexerei:witch_hazel_broom', 'hexerei:willow_broom')
 
     //Tom's Storage Tags
-    event.add('forge:invcable', 'toms_storage:ts.inventory_cable','toms_storage:ts.inventory_cable_framed')
+    //event.add('forge:invcable', 'toms_storage:ts.inventory_cable','toms_storage:ts.inventory_cable_framed')
 
     event.add('forge:connector', 
-    'toms_storage:ts.inventory_cable_connector_filtered',
-    'toms_storage:ts.inventory_cable_connector',
-    'toms_storage:ts.inventory_cable_connector_framed',
+    //'toms_storage:ts.inventory_cable_connector_filtered',
+    //'toms_storage:ts.inventory_cable_connector',
+    //'toms_storage:ts.inventory_cable_connector_framed',
     'sophisticatedstorage:storage_link',
-    'toms_storage:ts.trim')
+    //'toms_storage:ts.trim'
+    )
+
+    // Inventory Managers
+    event.add('forge:inventory_controllers',
+    'sophisticatedstorage:controller',
+    //'ars_nouveau:storage_lectern'
+    //'toms_storage:ts.inventory_connector'
+    )
+
+    // Ars Storage
+    event.add('forge:filter_scrolls',
+    'ars_nouveau:allow_scroll',
+    'ars_nouveau:deny_scroll',
+    'ars_nouveau:mimic_scroll'
+    )
 
     //Pet Beds
     event.add('forge:petbeds',
@@ -462,12 +477,6 @@ ServerEvents.tags('item', event => {
     'magnumtorch:diamond_magnum_torch',
     'magnumtorch:emerald_magnum_torch',
     'magnumtorch:amethyst_magnum_torch'
-    )
-
-    // Inventory Managers
-    event.add('forge:inventory_controllers',
-    'sophisticatedstorage:controller',
-    'toms_storage:ts.inventory_connector'
     )
 
     // Inventory Upgrades
