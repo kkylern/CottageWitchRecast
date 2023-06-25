@@ -768,7 +768,7 @@
 				"{@pagebreak}"
 				"Multiple &bStorage Lecterns&r can be linked together to allow access from a wider area. To link them, &6right-click&r (note: &dnot &oshift&r &dright click&r) the secondary &bStorage Lectern&r first (one that isn't connected to inventory blocks), then &6right-click the main lectern&r, just as if you were connecting other inventories to it."
 				""
-				"This allows for you to use the secondary lectern to access storage and do wireless auto-input into the secondary lectern"
+				"This allows you to link inventories outside of range without using something like &bPipez&r to connect them, which can be helpful for gardens or remote farms."
 			]
 			id: "29B3AC124374A99F"
 			rewards: [{

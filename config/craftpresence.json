@@ -362,7 +362,8 @@
     },
     "dynamicIcons": {
       "default": "NaN",
-      "Katubug": "https://crafatar.com/avatars/e5e2b89d388441908b6997863eb95bc6"
+      "Katubug": "https://crafatar.com/avatars/e5e2b89d388441908b6997863eb95bc6",
+      "cottagewitchredux.g.akliz.net": "https://api.mcsrvstat.us/icon/cottagewitchredux.g.akliz.net"
     },
     "dynamicVariables": {
       "default": "Example Text",

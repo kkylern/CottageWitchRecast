@@ -2035,7 +2035,7 @@
 			]
 			id: "516F4B3499491907"
 			rewards: [{
-				count: 5
+				count: 6
 				id: "7A51BC49882402BE"
 				item: "vinery:grapevine_stem"
 				type: "item"
