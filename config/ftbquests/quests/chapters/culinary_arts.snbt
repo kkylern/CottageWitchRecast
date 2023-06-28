@@ -1594,8 +1594,10 @@
 			dependencies: ["6347F33BF36A112E"]
 			description: [
 				"Cheese can be created in the Keg, but must &abe aged before it can be eaten&r. Place the Cheese out to let it ripen."
+				""
 				"Once it's ripe, you can place it on a &bCutting Board&r to obtain &bCheese Wedges&r to cook with."
 				"&dWarning&r - the popup screen will say \\\"Fully Grown\\\" before the cheese is matured. Wait a little longer, until that text is gone."
+				""
 				"You can also &aage cheese quickly&r with Create &6Haunting&r. Trauma causes the cheese to age prematurely. It also makes it &ldelicious&r."
 			]
 			id: "0593C1D467DB38E3"
@@ -2587,6 +2589,70 @@
 			title: "Pie Lovers Anonymous"
 			x: 2.5d
 			y: 3.5d
+		}
+		{
+			id: "486FE1761F7E41E3"
+			tasks: [{
+				id: "075CFC19D7C57F9C"
+				item: "meadow:cheese_block"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			id: "43CC7A6F8C1284B5"
+			tasks: [
+				{
+					id: "4CA1FD9DFD919159"
+					item: "meadow:cheese_rack"
+					type: "item"
+				}
+				{
+					id: "10F24C6F606E244C"
+					item: "meadow:cheese_form"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			id: "4449135F7D10724F"
+			tasks: [{
+				id: "199614A27116767E"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			id: "4E4341D997F9AE98"
+			tasks: [
+				{
+					id: "07A4D60B8F66A320"
+					item: "meadow:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "0A960C517FE10BEE"
+					item: "meadow:frame"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			id: "561E0AC36A0C1DB4"
+			tasks: [{
+				id: "524AA3711696170D"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.5d
 		}
 	]
 	title: "Culinary Arts"

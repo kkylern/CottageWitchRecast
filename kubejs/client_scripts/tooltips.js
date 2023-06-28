@@ -1498,4 +1498,8 @@ ItemEvents.tooltip(e => {
     'Swift flight can be problematic for server performance. Please fly considerately.'
     )
 
+    e.add('meadow:rennet', 
+    'Made in a Rustic Cauldron.'
+    )
+
 })
