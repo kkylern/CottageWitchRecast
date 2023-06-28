@@ -130,13 +130,6 @@ ServerEvents.tags('item', event => {
         'upgrade_aquatic:mulberry_jam_bottle'
     )
 
-    // Cheese Tags for Crafting
-    event.add(
-        'forge:cheese',
-        'brewinandchewin:scarlet_cheese_wedge',
-        'brewinandchewin:flaxen_cheese_wedge'
-    )
-
     // Bowl Tagging
     event.add('forge:bowls',
     'minecraft:bowl',
@@ -455,24 +448,6 @@ ServerEvents.tags('item', event => {
     'cnb:pink_minipad_flower_glow',
     'cnb:light_pink_minipad_flower_glow',
     'cnb:yellow_minipad_flower_glow'
-    )
-
-    // Apple Crates
-    event.add('forge:apple_crates',
-    'applecrates:oak_crate',
-    'applecrates:birch_crate',
-    'applecrates:spruce_crate',
-    'applecrates:acacia_crate',
-    'applecrates:jungle_crate',
-    'applecrates:dark_oak_crate',
-    'applecrates:crimson_crate',
-    'applecrates:warped_crate'
-    )
-
-    // Cheese Tags for Quests
-    event.add('forge:unripe_cheese_wheels',
-    'brewinandchewin:unripe_flaxen_cheese_wheel',
-    'brewinandchewin:unripe_scarlet_cheese_wheel'
     )
 
     // Scythe/Reaping Tool Tagging

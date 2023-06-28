@@ -1484,260 +1484,6 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["6347F33BF36A112E"]
-			description: [
-				"Time to put that Keg to use! &bMead&r grants the effect &dSweetheart&r, which increases all incoming healing."
-				"&bRice Wine&r gives &dSatisfaction&r, which causes Hunger to regen the same way Health does."
-			]
-			id: "6DF8D73EB3A4C0B6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "09F81A50FCC395DC"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0EDC7CD5F0EB4938"
-					table_id: 1739670786502713488L
-					type: "choice"
-				}
-			]
-			subtitle: "party responsibly!"
-			tasks: [
-				{
-					id: "433D4EB8693BD179"
-					item: "brewinandchewin:mead"
-					type: "item"
-				}
-				{
-					id: "02E42A39C5F5F67B"
-					item: "brewinandchewin:rice_wine"
-					type: "item"
-				}
-			]
-			title: "Brew Some Booze"
-			x: 12.5d
-			y: 6.5d
-		}
-		{
-			description: [
-				"To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."
-				"To get your brewery started, you'll first need a &bKeg&r, and some &bTankards&r. Place the Tankards into the Keg with some &bWater&r and &aIngredients&r, such as Wheat for Beer, or Honey for Mead."
-			]
-			id: "166F53EED3372358"
-			rewards: [
-				{
-					count: 5
-					id: "48ED13802D196F7B"
-					item: "minecraft:sweet_berries"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "2202874F92B1BC7C"
-					item: "minecraft:sugar"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "17094E829617176D"
-					item: "minecraft:wheat"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [
-				{
-					id: "29306B1442FA29F0"
-					item: "brewinandchewin:keg"
-					type: "item"
-				}
-				{
-					id: "2D17F5FF72E0E07E"
-					item: "brewinandchewin:tankard"
-					type: "item"
-				}
-			]
-			title: "Obtain a Keg"
-			x: 9.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["166F53EED3372358"]
-			description: [
-				"Place &bMagma Blocks&r around your &bKeg&r to raise the temperature and craft new brews! The more blocks you use, the higher the heat."
-				"With this method, you can even craft &bCheeses&r and &bFudge&r."
-				"You can also &acool down&r your &bKeg&r by placing &bIce Blocks&r around it instead! This will allow you to make things like &bPickles&r."
-			]
-			id: "6347F33BF36A112E"
-			rewards: [{
-				count: 4
-				id: "6C100CB15AA30F6B"
-				item: "minecraft:packed_ice"
-				type: "item"
-			}]
-			subtitle: "things are heating up"
-			tasks: [{
-				count: 4L
-				id: "77682E446D5BB282"
-				item: "minecraft:magma_block"
-				type: "item"
-			}]
-			title: "Heat and Cool Your Keg"
-			x: 11.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6347F33BF36A112E"]
-			description: [
-				"Cheese can be created in the Keg, but must &abe aged before it can be eaten&r. Place the Cheese out to let it ripen."
-				""
-				"Once it's ripe, you can place it on a &bCutting Board&r to obtain &bCheese Wedges&r to cook with."
-				"&dWarning&r - the popup screen will say \\\"Fully Grown\\\" before the cheese is matured. Wait a little longer, until that text is gone."
-				""
-				"You can also &aage cheese quickly&r with Create &6Haunting&r. Trauma causes the cheese to age prematurely. It also makes it &ldelicious&r."
-			]
-			id: "0593C1D467DB38E3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38348E2ABC89F5F0"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			subtitle: "not another cheesy pun..."
-			tasks: [{
-				id: "4B2AA86DDD1E76DF"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:cheese"
-					}
-				}
-				title: "Any Cheese Wedge"
-				type: "item"
-			}]
-			title: "Make Some Cheese"
-			x: 10.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["0593C1D467DB38E3"]
-			description: ["Have you ever had lasagna so good that it was frightening? Well, &awhat are you waiting for?&r"]
-			id: "72DD11780E330689"
-			rewards: [
-				{
-					id: "377852F9CF25023C"
-					item: "farmersdelight:mixed_salad"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2D8A3C2726EF309D"
-					table_id: 8808494820591225409L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "4E0ABBE6E62D68BF"
-				item: "brewinandchewin:horror_lasagna"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["0593C1D467DB38E3"]
-			description: ["Served in a &bCauldron&r, this fanciful feast is &adevilishly good&r!"]
-			id: "20AE2593886C2EE5"
-			rewards: [{
-				id: "693738686EF4421A"
-				item: "brewinandchewin:pale_jane"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "tonight we dine in hell"
-			tasks: [{
-				id: "219D5144E677F616"
-				item: "brewinandchewin:fiery_fondue_pot"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6347F33BF36A112E"]
-			description: ["In order to make &bFudge&r, your &bKeg&r will need to be at &amax heat&r."]
-			id: "263A248387E583B4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "656AB04E0309D179"
-				table_id: 2068679807827730220L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "fudge it"
-			tasks: [{
-				id: "2F00523C9A20A8D1"
-				item: "brewinandchewin:cocoa_fudge"
-				type: "item"
-			}]
-			title: "Make some Fudge"
-			x: 10.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6347F33BF36A112E"]
-			description: ["&bPickles&r need a &anice, cold&r Keg to marinate in."]
-			id: "0672E8DC36A5BFFA"
-			rewards: [
-				{
-					id: "763C68AF6474D1B6"
-					item: {
-						Count: 1b
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Id: [I;
-									674725540
-									512641857
-									-1355274027
-									1969636290
-								]
-								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyMjkyZDkxODNlMzhmM2JlOWYwNmY5NjYzOTRlMmRhZmYzNjJmNzBhZTQ1Y2RlNDEyYjg3YmNkYjg5YzE1OCJ9fX0="
-									}]
-								}
-							}
-							display: {
-								Name: "{\"text\":\"Jar of Pickles\"}"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6B38A61A82CD834D"
-					item: "culturaldelights:pickle"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "6972414BB445CA25"
-				item: "brewinandchewin:pickled_pickles"
-				type: "item"
-			}]
-			title: "Pickle some Pickles"
-			x: 12.5d
-			y: 2.5d
-		}
-		{
 			description: [
 				"Once you've obtained a &bDragon Egg&r, you can use them to craft a &bNourishing Dragon Egg&r."
 				"This item can only be cut with the &aextreme sharpness&r of a &bNether Star&r on a &bCutting Board&r. Cutting open the egg will give you &aseveral ingredients&r needed for high-level meals."
@@ -2114,8 +1860,9 @@
 		{
 			dependencies: ["7D770ADEB3905EE0"]
 			description: [
-				"You can &aplace up to 3 grapes&r at one time into the &bGrapevine Pot&r to be crushed. Once the pot is full, &6get in there and start stomping&r (jump)!"
-				"This will provide you with &a3 bottles of &bGrapejuice&r, which you can get by &6right clicking the &bPot&r with a &bWine Bottle&r."
+				"You can &aplace up to 6 grapes&r at one time into the &bGrapevine Pot&r to be crushed. Once the pot is full, &6get in there and start stomping&r (jump)!"
+				""
+				"This will provide you with &abottles of &bGrapejuice&r, which you can get by &6right clicking the &bPot&r with a &bWine Bottle&r."
 			]
 			id: "68B2EF977B115725"
 			rewards: [{
@@ -2598,7 +2345,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -4.5d
+			y: 6.5d
 		}
 		{
 			id: "43CC7A6F8C1284B5"
@@ -2615,7 +2362,7 @@
 				}
 			]
 			x: 17.0d
-			y: -6.0d
+			y: 5.0d
 		}
 		{
 			id: "4449135F7D10724F"
@@ -2625,7 +2372,7 @@
 				type: "item"
 			}]
 			x: 15.5d
-			y: -5.5d
+			y: 5.5d
 		}
 		{
 			id: "4E4341D997F9AE98"
@@ -2642,7 +2389,7 @@
 				}
 			]
 			x: 15.5d
-			y: -7.0d
+			y: 4.0d
 		}
 		{
 			id: "561E0AC36A0C1DB4"
@@ -2652,7 +2399,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: -7.5d
+			y: 3.5d
 		}
 	]
 	title: "Culinary Arts"
