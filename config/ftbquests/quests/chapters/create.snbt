@@ -215,7 +215,7 @@
 				type: "item"
 			}]
 			title: "Rotational Force: Water"
-			x: -5.0d
+			x: -2.5d
 			y: 2.5d
 		}
 		{
@@ -231,7 +231,7 @@
 				""
 				"You can expand a windmill up to 128 sail/sail-like blocks to generate a maximum of &a8192 su&r at a speed of &a16 rpm&r. Any additional &bSails&r or &bWools&r &adoes not generate more stress units or rotational speed&r."
 				""
-				"Other non-&bSails&r or &bWools&r blocks can also be attached to the windmill structure. These additional blocks &awill not effect the efficiency of the windmill&r so feel free to decorate the windmill as you please!"
+				"Other non-&bSails&r or &bWools&r blocks can also be attached to the windmill structure. These additional blocks &awill not affect the efficiency of the windmill&r so feel free to decorate the windmill as you please!"
 			]
 			id: "7653B8A3BFBA6E2C"
 			rewards: [
@@ -440,7 +440,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["576AE3823B89AE8E"]
+			dependencies: ["2DC641E0D0A72439"]
 			description: [
 				"The &bSteam Engine&r is another method of creating power, but it is &asignificantly more difficult&r and not recommended for beginners."
 				""
@@ -458,7 +458,7 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.0d
 			y: 2.5d
 		}
 		{

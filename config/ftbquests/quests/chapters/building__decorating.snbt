@@ -391,11 +391,6 @@
 					type: "item"
 				}
 				{
-					id: "5BB004E604B5EBBC"
-					item: "vinery:flower_box"
-					type: "item"
-				}
-				{
 					id: "6F74146BBA8D9DB5"
 					item: "another_furniture:oak_planter_box"
 					type: "item"
@@ -408,11 +403,6 @@
 				{
 					id: "496CE65CDFD2E0ED"
 					item: "villagersplus:oak_horticulturist_table"
-					type: "item"
-				}
-				{
-					id: "0FAA7F8863C7DF42"
-					item: "vinery:flower_pot"
 					type: "item"
 				}
 			]
@@ -813,6 +803,54 @@
 			}]
 			x: -3.5d
 			y: 0.0d
+		}
+		{
+			description: [
+				"The &lChipped&r mod offers over 500 new block variants to decorate with. These can be obtained from &avarious stations&r that the mod adds. On the following pages of this quest, you will find each station along with a &alist of what blocks they accept&r. You can also look up the recipes in &lJEI&r."
+				""
+				"{@pagebreak}"
+				""
+				"The &bAlchemy Bench&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/alchemybench.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"The &bBotanist Workbench&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/botanistworkbench.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"The &bGlassblower&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/glassblower.png width:100 height:100 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"The &bLoom Table&r works with the following blocks:"
+				""
+				""
+				"{image:cottagewitch:textures/loomtable.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"The &bMason Table&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/masontable.png width:100 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"The &bTinkering Table&r works with the following blocks:"
+				""
+				"{image:cottagewitch:textures/tinkeringtable.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "1399EE01027F8D7B"
+			rewards: [{
+				id: "7B2CB068ED64A116"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "144258294987402E"
+				title: "Chipped Benches"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.25d
 		}
 	]
 	title: "Building \\& Decorating"

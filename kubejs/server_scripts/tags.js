@@ -323,6 +323,18 @@ ServerEvents.tags('item', event => {
     event.add('forge:fruits/sweet',
     vch)
 
+    // Jelly Torches
+    event.add('forge:jelly_torches',
+    'upgrade_aquatic:green_jelly_torch',
+    'upgrade_aquatic:blue_jelly_torch',
+    'upgrade_aquatic:purple_jelly_torch',
+    'upgrade_aquatic:yellow_jelly_torch',
+    'upgrade_aquatic:red_jelly_torch',
+    'upgrade_aquatic:orange_jelly_torch',
+    'upgrade_aquatic:pink_jelly_torch',
+    'upgrade_aquatic:white_jelly_torch'
+    )
+
     //===Banning Uncraftables===
     event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg')
     event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes')
@@ -589,16 +601,34 @@ ServerEvents.tags('block', event => {
     'decorative_blocks:brazier',
     'decorative_blocks:soul_brazier',
     'vinery:stove',
-    'farmersdelight:stove'
+    'farmersdelight:stove',
+    'ends_delight:end_stove',
+    'nethersdelight:blackstone_stove',
+    'twilightdelight:maze_stove'
     )
 
-    //Brewin and Chewin
-    event.add('brewinandchewin:hot_blocks', 
+    //Meadow
+    event.add('meadow:allows_cooking', 
     'create:blaze_burner',
     'decorative_blocks:brazier',
     'decorative_blocks:soul_brazier',
     'vinery:stove',
-    'farmersdelight:stove'
+    'farmersdelight:stove',
+    'ends_delight:end_stove',
+    'nethersdelight:blackstone_stove',
+    'twilightdelight:maze_stove'
+    )
+
+    //Hexerei
+    event.add('hexerei:heat_sources', 
+    'create:blaze_burner',
+    'decorative_blocks:brazier',
+    'decorative_blocks:soul_brazier',
+    'vinery:stove',
+    'farmersdelight:stove',
+    'ends_delight:end_stove',
+    'nethersdelight:blackstone_stove',
+    'twilightdelight:maze_stove'
     )
 
 })

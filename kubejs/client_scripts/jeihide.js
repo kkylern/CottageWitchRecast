@@ -147,6 +147,20 @@ JEIEvents.hideItems(event => {
         'aquaculture:dark_oak_fish_mount',
         'sophisticatedstorage:filter_upgrade',
         'sophisticatedstorage:advanced_filter_upgrade',
+        'vinery:flower_pot',
+        'vinery:wood_fired_oven',
+        'meadow:climbing_rope_topmount',
+        'meadow:stove_tiles_wood',
+        'vinery:stove',
+        'meadow:flecked_bed',
+        'meadow:highland_bed',
+        'meadow:patched_bed',
+        'meadow:rocky_bed',
+        'meadow:umbra_bed',
+        'meadow:inky_bed',
+        'meadow:warped_bed',
+        'vinery:flower_box',
+        'meadow:flower_box',
     ];
     
       for (const hide of toHide) {

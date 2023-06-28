@@ -339,18 +339,11 @@
 				"In &dMultiplayer&r, your pets will respawn at the &aclosest Lantern&r, so be careful in other people's areas."
 			]
 			id: "5DB08A394A7B8122"
-			rewards: [
-				{
-					id: "378CD636A77C1440"
-					item: "minecraft:name_tag"
-					type: "item"
-				}
-				{
-					id: "05716F91401CFB8F"
-					item: "nightlights:mushroom_red"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "378CD636A77C1440"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4FEF850143E6C25D"
@@ -1473,11 +1466,11 @@
 		}
 		{
 			description: [
-				"&eKoi&r are delightful creatures which live in shallow fresh water ponds. There are regular &eKoi&r and &eLucky Koi&r."
+				"&eKoi&r are delightful creatures which live in shallow fresh water. There are regular &eKoi&r and &eLucky Koi&r. Both will provide you with beneficial effects."
 				""
-				"Both will provide you with beneficial effects. Regular Koi &agive a Serenity effect&r which &aprevents hostile spawns&r in the nearby area."
+				"Regular Koi &agive a Serenity effect&r which &aprevents hostile spawns&r in the nearby area. These fish can be found in &cBlossom Woods&r and &cBlossom Valleys&r biomes."
 				""
-				"Lucky Koi, you may be shocked to find, will grant a &aLuck effect&r if they are near you while fishing!"
+				"Lucky Koi, you may be shocked to find, will grant a &aLuck effect&r if they are near you while fishing! These fish can be found in &cRivers&r."
 			]
 			id: "4F4775AF5B5B93E9"
 			rewards: [{

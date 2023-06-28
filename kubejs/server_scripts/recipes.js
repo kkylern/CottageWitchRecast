@@ -1142,5 +1142,148 @@ ServerEvents.recipes(event => {
             D: 'minecraft:lapis_lazuli'
         }
     )
+
+    // Jelly torches
+
+    // Main Jelly Torch
+    event.shaped(
+        Item.of('upgrade_aquatic:green_jelly_torch', 8),
+        [
+            ' A ',
+            ' B '
+        ],
+        {
+            A: 'minecraft:slime_ball',
+            B: 'upgrade_aquatic:prismarine_rod'
+        }
+    )
+
+    // Jelly torch blue
+    event.shaped(
+        Item.of('upgrade_aquatic:blue_jelly_torch', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:jelly_torches',
+            B: 'minecraft:light_blue_dye'
+        }
+    )
+
+    // Jelly torch green
+    event.shaped(
+        Item.of('upgrade_aquatic:green_jelly_torch', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:jelly_torches',
+            B: 'minecraft:lime_dye'
+        }
+    )
+
+    // Jelly torch purple
+    event.shaped(
+        Item.of('upgrade_aquatic:purple_jelly_torch', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:jelly_torches',
+            B: 'minecraft:purple_dye'
+        }
+    )
+
+    // Jelly torch yellow
+    event.shaped(
+        Item.of('upgrade_aquatic:yellow_jelly_torch', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:jelly_torches',
+            B: 'minecraft:yellow_dye'
+        }
+    )
+
+    // Jelly torch red
+    event.shaped(
+        Item.of('upgrade_aquatic:red_jelly_torch', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:jelly_torches',
+            B: 'minecraft:red_dye'
+        }
+    )
+
+    // Jelly torch orange
+    event.shaped(
+        Item.of('upgrade_aquatic:orange_jelly_torch', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:jelly_torches',
+            B: 'minecraft:orange_dye'
+        }
+    )
+
+    // Jelly torch pink
+    event.shaped(
+        Item.of('upgrade_aquatic:pink_jelly_torch', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:jelly_torches',
+            B: 'minecraft:magenta_dye'
+        }
+    )
+
+    // Jelly torch white
+    event.shaped(
+        Item.of('upgrade_aquatic:white_jelly_torch', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: '#forge:jelly_torches',
+            B: 'minecraft:white_dye'
+        }
+    )
+
+    // Vinery Sink
+    event.shaped(
+        Item.of('vinery:kitchen_sink'),
+        [
+            'AAA',
+            'BCB',
+            'BBB'
+        ],
+        {
+            A: 'minecraft:polished_deepslate_slab',
+            B: 'minecraft:brick',
+            C: 'minecraft:water_bucket'
+        }
+    )
+
   })
 

@@ -764,6 +764,8 @@
 				""
 				"&dSome limitations to note&r are that each &eBookwyrm&r can only connect to a maximum of 8 inventories (you can bypass this with the information in the following quest). Additionally, the &bLectern&r can only connect to inventories within a &a30 block radius&r of itself."
 				""
+				"When in the Lectern interface, turn on \"&dSynced Search&r\" to search in JEI without extra steps (it will also search your inventory). &6Right click&r to clear text."
+				""
 				"This quest has multiple pages. Please see the other pages for more information."
 				"{@pagebreak}"
 				"Multiple &bStorage Lecterns&r can be linked together to allow access from a wider area. To link them, &6right-click&r (note: &dnot &oshift&r &dright click&r) the secondary &bStorage Lectern&r first (one that isn't connected to inventory blocks), then &6right-click the main lectern&r, just as if you were connecting other inventories to it."
