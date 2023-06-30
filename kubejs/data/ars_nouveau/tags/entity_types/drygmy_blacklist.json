@@ -14,6 +14,15 @@
     "twilightforest:snow_queen",
     "twilightforest:plateau_boss",
     "minecraft:warden",
-    "artifacts:mimic"
+    "artifacts:mimic",
+    "minecraft:illusioner",
+    "minecraft:vindicator",
+    "minecraft:evoker",
+    "friendsandfoes:copper_golem",
+    "friendsandfoes:iceologer",
+    "quark:stoneling",
+    "quark:toretoise",
+    "upgradeaquatic:great_thrasher",
+    "minecraft:elder_guardian"
   ]
 }

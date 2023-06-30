@@ -339,7 +339,7 @@
 		}
 		{
 			dependencies: ["77E446610B522392"]
-			description: ["Upgrade to the next tier by &6adding an &bEnder Pearl&r to the Necklace!"]
+			description: ["Upgrade to the next tier by &6adding a &bSpindly Pearl&r to the Necklace!"]
 			id: "6F81FCE0DCB18FA5"
 			rewards: [{
 				id: "2BD53F618708AA4A"
@@ -355,8 +355,8 @@
 					type: "item"
 				}
 				{
-					id: "192985BC4199139E"
-					item: "minecraft:ender_pearl"
+					id: "4B425A1637479AFF"
+					item: "finsandtails:spindly_pearl"
 					type: "item"
 				}
 			]
@@ -366,7 +366,7 @@
 		}
 		{
 			dependencies: ["6F81FCE0DCB18FA5"]
-			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
+			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bGlowing Pearl&r."]
 			id: "1220403FE4E19BC8"
 			rewards: [{
 				id: "7D50796B6756DF97"
@@ -382,8 +382,8 @@
 					type: "item"
 				}
 				{
-					id: "55A4F873279A1ADE"
-					item: "minecraft:heart_of_the_sea"
+					id: "755DB0220C6DB254"
+					item: "mermod:glowing_pearl_modifier"
 					type: "item"
 				}
 			]

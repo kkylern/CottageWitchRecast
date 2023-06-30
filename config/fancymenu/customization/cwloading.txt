@@ -10,7 +10,7 @@ customization-meta {
 }
 
 customization {
-  path = kubejs/assets/cottagewitch/textures/mainmenu/alliekat2.png
+  path = kubejs/assets/cottagewitch/textures/mainmenu/alliekatredo2.png
   action = texturizebackground
 }
 

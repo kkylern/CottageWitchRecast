@@ -564,6 +564,12 @@ ServerEvents.tags('item', event => {
     'aquaculture:arapaima'
     )
 
+    // Copycat
+    event.add('forge:copycat_blocks',
+    'create:copycat_step',
+    'create:copycat_panel'
+    )
+
 })
 
 
@@ -604,6 +610,11 @@ ServerEvents.tags('block', event => {
     'ends_delight:end_stove',
     'nethersdelight:blackstone_stove',
     'twilightdelight:maze_stove'
+    )
+
+    // Alpine Limestone/Salt
+    event.add('minecraft:stone',
+    'meadow:limestone'
     )
 
 })

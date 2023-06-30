@@ -401,18 +401,6 @@
 					type: "item"
 				}
 				{
-					id: "16BEAB150ECF2C2D"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "crafttweaker:lilies"
-						}
-					}
-					title: "Any #crafttweaker:lilies"
-					type: "item"
-				}
-				{
 					id: "08C4D7C3FA0278FC"
 					item: "environmental:pink_delphinium"
 					type: "item"
@@ -440,6 +428,18 @@
 				{
 					id: "0C2CC5F1A191D9A1"
 					item: "upgrade_aquatic:flowering_rush"
+					type: "item"
+				}
+				{
+					id: "5D66D2D89A87763E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:lilies"
+						}
+					}
+					title: "Any Lilies"
 					type: "item"
 				}
 			]

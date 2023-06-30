@@ -2338,44 +2338,83 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["43CC7A6F8C1284B5"]
 			id: "486FE1761F7E41E3"
 			tasks: [{
 				id: "075CFC19D7C57F9C"
 				item: "meadow:cheese_block"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 6.5d
-		}
-		{
-			id: "43CC7A6F8C1284B5"
-			tasks: [
-				{
-					id: "4CA1FD9DFD919159"
-					item: "meadow:cheese_rack"
-					type: "item"
-				}
-				{
-					id: "10F24C6F606E244C"
-					item: "meadow:cheese_form"
-					type: "item"
-				}
-			]
-			x: 17.0d
+			x: 12.5d
 			y: 5.0d
 		}
 		{
+			dependencies: ["4449135F7D10724F"]
+			description: [
+				"The &bCheese Press&r is a rudimentary machine which will help &acondense your Milk into Cheese&r. Although you can also achieve this via a &bMechanical Press&r from Create, it's always good to know the original methods of doing something!"
+				""
+				"Simply place your &bMilk&r and your &bRennet&r into the Press and then &6wait patiently&r (or use Time in a Bottle) for it to work its magic."
+				""
+				"Different &atypes of Milk&r will make unique cheeses... but more on that later!"
+			]
+			id: "43CC7A6F8C1284B5"
+			rewards: [{
+				id: "52F2E9AB20189810"
+				item: "meadow:wooden_milk_bucket"
+				type: "item"
+			}]
+			subtitle: "press cheese everyday"
+			tasks: [{
+				id: "10F24C6F606E244C"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			title: "Obtain a Cheese Press"
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["684AF61973DB643F"]
+			description: [
+				"&bRennet&r is a substance rendered from... actually, you know what? Let's not go into the details."
+				""
+				"The important part is that it makes &bCheese&r. Which you can now do! Well, once you &amake a Cheese Press&r. Let's do that now!"
+			]
 			id: "4449135F7D10724F"
+			rewards: [{
+				count: 4
+				id: "543F2E1FFCFC80B3"
+				item: "meadow:rennet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "199614A27116767E"
 				item: "meadow:rennet"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 5.5d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
+			description: [
+				"Witches are no strangers to &bCauldrons&r, and they know very well that you should never brew and cook in the same place! Hence why you should &aget yourself a &bRustic Cauldron&r, to help you in making some brand new recipes."
+				""
+				"This cooking device will help you to &arender &bRennet&r, but it can also &acook simple meats&r and even make some delicious...&abear related foods&r? Hmm."
+				""
+				"Anyway. All the recipes this mod adds are visible &ainside the Cauldron and Cheese Press interfaces&r. They cannot be found in JEI! So make sure you &6check the in-item GUI&r."
+				""
+				""
+				"{image:cottagewitch:textures/rennet.png width:100 height:50 align:1 fit:true}"
+			]
 			id: "4E4341D997F9AE98"
+			rewards: [{
+				count: 6
+				id: "002A656D91256D87"
+				item: "meadow:raw_bear_meat"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "07A4D60B8F66A320"
@@ -2388,18 +2427,107 @@
 					type: "item"
 				}
 			]
-			x: 15.5d
-			y: 4.0d
+			title: "Obtain a Rustic Cauldron"
+			x: 10.5d
+			y: 2.25d
 		}
 		{
+			dependencies: ["486FE1761F7E41E3"]
 			id: "561E0AC36A0C1DB4"
 			tasks: [{
 				id: "524AA3711696170D"
 				item: "meadow:fondue"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 3.5d
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E4341D997F9AE98"]
+			description: [
+				"&bSalt&r is an important ingredient in &bCheesemaking&r. It can be found in &cMeadow biomes&r, embedded in &bLimestone&r."
+				""
+				"Place this, alongside some &bRaw Beef&r and a &bGlass Bottle&r, inside a &bCauldron&r to make &bRennet&r, the next step in acquiring the most delicious food group."
+			]
+			id: "684AF61973DB643F"
+			rewards: [{
+				count: 5
+				id: "1C58B4117732A2B4"
+				item: "meadow:alpine_salt"
+				type: "item"
+			}]
+			subtitle: "getting salty"
+			tasks: [{
+				block: "meadow:alpine_salt_ore"
+				block_type: 0
+				checkItem: false
+				id: "60EB0849563B7F8B"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "Obtain Alpine Salt"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E4341D997F9AE98"]
+			description: [
+				"There are a bunch of different types of &bMilk&r, which can all be made into &aunique and tasty cheeses&r."
+				""
+				"Although most of them come from &adifferent types of &eAnimals&r, you can also craft &bGrain Milk&r (vegan-friendly!) and &bAmethyst Milk&r. These last two types of milk are crafted using the &bRustic Cauldron&r."
+				""
+				"&eWater Buffalo&r can be found in &cRiver&r biomes."
+				""
+				"&eWarped Cows&r live in &cWarped Forest&r biomes."
+			]
+			id: "31CE923007EF1D03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38D234C88D3E2B5A"
+				table_id: 8096229411196850122L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "598A0D833CA0EBE5"
+					item: "meadow:wooden_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "70B7321FCA03B4F8"
+					item: "meadow:wooden_sheep_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "355D317CD1BF5C32"
+					item: "meadow:wooden_buffalo_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "07914BB6355F731F"
+					item: "meadow:wooden_goat_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "10F0DCAE8F924F07"
+					item: "meadow:wooden_warped_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "22D5D533D052AF44"
+					item: "meadow:wooden_grain_milk_bucket"
+					type: "item"
+				}
+				{
+					id: "032E0831C523F75E"
+					item: "meadow:wooden_amethyst_milk_bucket"
+					type: "item"
+				}
+			]
+			title: "Many Milk Types!"
+			x: 10.5d
+			y: 4.0d
 		}
 	]
 	title: "Culinary Arts"

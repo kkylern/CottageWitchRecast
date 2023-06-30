@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "finsandtails:ornate_bugfish"
+				}
+			],
+			"conditions": [
+				{
+				  "condition": "minecraft:killed_by_player",
+				  "inverse": false
+				}
+			  ]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "finsandtails:bugfish_mandibles"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.15
+				},
+				{
+					"condition": "minecraft:killed_by_player",
+					"inverse": false
+				  }
+			]
+		}
+	]
+}

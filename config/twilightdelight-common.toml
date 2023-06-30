@@ -5,5 +5,5 @@ effectRange = 6
 #Range: 0 ~ 128
 auroraRange = 24
 #Generate food effect tooltip for all modded food
-genAllModFoodValues = true
+genAllModFoodValues = false
 

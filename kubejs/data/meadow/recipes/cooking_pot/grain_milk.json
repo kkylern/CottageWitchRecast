@@ -1,0 +1,18 @@
+{
+  "type": "meadow:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:grain"
+    },
+    {
+      "tag": "forge:grain"
+    },
+    {
+      "item": "meadow:wooden_water_bucket"
+    }
+  ],
+  "result": {
+    "item": "meadow:wooden_grain_milk_bucket",
+    "count": 1
+  }
+}

@@ -1,16 +1,23 @@
 {
-    "values": [
-      "#ars_nouveau:familiar",
-      "#forge:bosses",
-      "twilightforest:naga",
-      "twilightforest:lich",
-      "twilightforest:minoshroom",
-      "twilightforest:hydra",
-      "twilightforest:knight_phantom",
-      "twilightforest:ur_ghast",
-      "twilightforest:alpha_yeti",
-      "twilightforest:snow_queen",
-      "twilightforest:plateau_boss",
-      "minecraft:warden"
-    ]
-  }
+  "values": [
+    "#ars_nouveau:familiar",
+    "#forge:bosses",
+    "twilightforest:naga",
+    "twilightforest:lich",
+    "twilightforest:minoshroom",
+    "twilightforest:hydra",
+    "twilightforest:knight_phantom",
+    "twilightforest:ur_ghast",
+    "twilightforest:alpha_yeti",
+    "twilightforest:snow_queen",
+    "twilightforest:plateau_boss",
+    "enigmaticgraves:grave",
+    "friendsandfoes:player_illusion",
+    "friendsandfoes:wildfire",
+    "lootr:lootr_minecart",
+    "minecraft:chest_minecart",
+    "luggage:luggage",
+    "luggage:ender_luggage",
+    "minecraft:ender_dragon"
+  ]
+}

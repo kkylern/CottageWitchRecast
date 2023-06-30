@@ -1090,6 +1090,46 @@
 			x: 4.0d
 			y: 2.5d
 		}
+		{
+			description: [
+				"Copycat Blocks are &lCreate’s&r version of &lFramedBlocks&r. They come in two forms, as half-slabs (steps) and panel form, both are crafted by &ausing Zinc in a Stonecutter&r. These copycat blocks differ from framed blocks because they can take the &oshape&r of certain blocks that framed blocks can’t. For example, &bIron Bars&r can be used on a &bFramed Panel&r to have the bars be &apositioned on the edge of a block rather than through the middle&r. In addition, blocks like the &bPiston&r can be put into copycat blocks while they aren’t able to be put into framed blocks."
+				""
+				"Keep in mind that the block used will &aremain in the copycat block&r. To remove the block from the copycat blocks, &aright-click the copycat block with a&r &bCreate Wrench&r."
+				"{image:cottagewitch:textures/copycatblocks.png width:100 height:70 align:1 fit:true}"
+			]
+			id: "6133ABD925EDB8E8"
+			rewards: [
+				{
+					count: 8
+					id: "19289D758187369C"
+					item: "create:copycat_step"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2E489BCE1CDE01D1"
+					item: "create:copycat_panel"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Meow ~ woeM"
+			tasks: [{
+				id: "24D3B975ED330FBA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:copycat_blocks"
+					}
+				}
+				title: "Any Copycat Block"
+				type: "item"
+			}]
+			title: "Copycat Blocks"
+			x: -7.0d
+			y: -0.5d
+		}
 	]
 	title: "Create"
 }

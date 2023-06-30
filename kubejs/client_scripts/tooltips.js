@@ -1463,8 +1463,4 @@ ItemEvents.tooltip(e => {
     'Made in a Rustic Cauldron.'
     )
 
-    e.add('meadow:wooden_warped_milk_bucket',
-    'Light with flint and steel. Does not store wood yet.'
-    )
-
 })
