@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "minecraft:iron_golem",
     "minecraft:villager",
@@ -22,7 +23,7 @@
     "friendsandfoes:iceologer",
     "quark:stoneling",
     "quark:toretoise",
-    "upgradeaquatic:great_thrasher",
+    "upgrade_aquatic:great_thrasher",
     "minecraft:elder_guardian"
   ]
 }

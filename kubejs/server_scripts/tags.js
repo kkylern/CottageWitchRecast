@@ -623,6 +623,55 @@ ServerEvents.tags('block', event => {
 
 })
 
+ServerEvents.tags('entity_type', event => {
+    event.add('ars_nouveau:drygmy_blacklist', 
+    'minecraft:iron_golem',
+    'minecraft:villager',
+    'minecraft:pillager',
+    '#forge:bosses',
+    'twilightforest:naga',
+    'twilightforest:lich',
+    'twilightforest:minoshroom',
+    'twilightforest:hydra',
+    'twilightforest:knight_phantom',
+    'twilightforest:ur_ghast',
+    'twilightforest:alpha_yeti',
+    'twilightforest:snow_queen',
+    'twilightforest:plateau_boss',
+    'minecraft:warden',
+    'artifacts:mimic',
+    'minecraft:illusioner',
+    'minecraft:vindicator',
+    'minecraft:evoker',
+    'friendsandfoes:copper_golem',
+    'friendsandfoes:iceologer',
+    'quark:stoneling',
+    'quark:toretoise',
+    'upgrade_aquatic:great_thrasher',
+    'minecraft:elder_guardian'
+    )
 
+    event.add('ars_nouveau:jar_blacklist',
+        '#ars_nouveau:familiar',
+        '#forge:bosses',
+        'twilightforest:naga',
+        'twilightforest:lich',
+        'twilightforest:minoshroom',
+        'twilightforest:hydra',
+        'twilightforest:knight_phantom',
+        'twilightforest:ur_ghast',
+        'twilightforest:alpha_yeti',
+        'twilightforest:snow_queen',
+        'twilightforest:plateau_boss',
+        'enigmaticgraves:grave',
+        'friendsandfoes:player_illusion',
+        'friendsandfoes:wildfire',
+        'lootr:lootr_minecart',
+        'minecraft:chest_minecart',
+        'luggage:luggage',
+        'luggage:ender_luggage',
+        'minecraft:ender_dragon'
+    )
+  })
 
 

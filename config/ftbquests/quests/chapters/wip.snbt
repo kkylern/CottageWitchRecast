@@ -109,11 +109,6 @@
 		{
 			description: ["What kind of witch are you? Now that you're level 10, you can pick a specialization to be granted certain perks and items. You can only choose one, so look through the following quest lines to see which speaks to you the most!"]
 			id: "683D4D91CD135B02"
-			rewards: [{
-				id: "713DE6F5552ADF9B"
-				item: "kubejs:witch_type_item"
-				type: "item"
-			}]
 			title: "Choose Your Specialization"
 			x: -9.5d
 			y: -14.5d
