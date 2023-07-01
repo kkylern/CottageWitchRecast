@@ -1285,5 +1285,20 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Backpack alternate
+    event.shaped(
+        Item.of('backpacked:backpack'),
+        [
+            'AAA',
+            'CBC',
+            'AAA'
+        ],
+        {
+            A: '#forge:leather',
+            B: 'minecraft:iron_ingot',
+            C: 'minecraft:string'
+        }
+    )
+
   })
 

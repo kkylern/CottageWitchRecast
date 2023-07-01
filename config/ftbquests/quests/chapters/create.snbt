@@ -860,11 +860,11 @@
 		{
 			dependencies: ["5CCE41AE05329A9A"]
 			description: [
-				"The &bRotational Speed Controller&r is a machine which can &aincrease, decrease, or reverse&r the speed and direction of rotation."
+				"The &bRotational Speed Controller&r is a component which can &aincrease, decrease, or reverse&r the speed and direction of rotation."
 				""
-				"&6Place it down and connect one of the sides&r to your su network. Then, &6attach a &bLarge Cogwheel&r as shown in the image, and &6connect the subsequent machinery&r to that &bCogwheel&r."
+				"&6Place it down and connect one of the sides&r to your su network. Then, &6attach a &bLarge Cogwheel&r as shown in the image, and &6connect the subsequent machinery&r to that &bCogwheel&r. &aThe inverse is also possible&r, meaning you can have &6rotation input going into the&r &bLarge Cogwheel&r and &athe rotational force will come out of the side of the&r &bRotational Speed Controller&r instead."
 				""
-				"The machinery will then adopt whatever speed you &aset the Controller to&r. &6Scroll to the negatives to reverse direction&r."
+				"The machinery will then adopt whatever speed you &aset the Controller to&r. &6Right-click and hold on the side to configure the speed and rotation&r."
 				""
 				"{image:cottagewitch:textures/rotationalspeed.png width:150 height:150 align:1}"
 			]
@@ -1129,6 +1129,82 @@
 			title: "Copycat Blocks"
 			x: -7.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["5CCE41AE05329A9A"]
+			description: [
+				"The train is one of %lCreate’s%r biggest feature. You can customize and build your own trains, set up stations from one place to another, transfer items and fluids using trains, and even have them run on a schedule!"
+				""
+				"Due to its large amount of content and features, it’s best that you explore on your own using the &6ponder feature&r on the different components of a train, such as"
+				""
+				"- &bTrain Tracks&r"
+				"- &bTrain Schedule,&r"
+				"- &bTrain Station,&r"
+				""
+				"and &bthe Train Controls&r. For more advanced features of a train, useful for multitrack navigation and automation, check out the &bTrain Signal&r, and the &bTrain Observer&r. There are also plenty of guides and videos online with more information on trains."
+				""
+				"Certain mechanical components can also be attached to a train, such as the &bMechanical Roller&r, which allows for automatic paving and pathing using a train!"
+				""
+				"Do refrain from &amanipulating entities on a train too much&r, as certain actions like &dteleporting while on a train can cause server crashes&r."
+			]
+			id: "4DE7199DEC37F98C"
+			rewards: [
+				{
+					count: 64
+					id: "317C4C1DA0C09AD8"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "2C49E2EE496D2849"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			subtitle: "*train noises*"
+			tasks: [
+				{
+					count: 64L
+					id: "4C7312C713EB0FCA"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "0AE6A8E457FBC892"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "Trains!"
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			description: ["&lCreate&r doors are distinct from other doors because they &ahave unique opening and closing animations&r. They can be crafted by &6combining any of the&r &bCasings&r &6or a&r &bFramed Glass&r &6with a door&r. Try putting them on an elevator or a train!"]
+			id: "2AEDB7CDA375B929"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09F0A80DABAC115B"
+				table_id: 1032206960599939459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "...or exit"
+			tasks: [{
+				id: "458A2737415D7CCA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:create_doors"
+					}
+				}
+				title: "Any Create Door"
+				type: "item"
+			}]
+			title: "A-door-able Entrance"
+			x: -7.0d
+			y: 1.0d
 		}
 	]
 	title: "Create"

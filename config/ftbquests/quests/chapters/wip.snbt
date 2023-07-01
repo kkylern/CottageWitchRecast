@@ -110,15 +110,9 @@
 			description: ["What kind of witch are you? Now that you're level 10, you can pick a specialization to be granted certain perks and items. You can only choose one, so look through the following quest lines to see which speaks to you the most!"]
 			id: "683D4D91CD135B02"
 			rewards: [{
-				id: "447E7251AEF613AA"
+				id: "713DE6F5552ADF9B"
 				item: "kubejs:witch_type_item"
 				type: "item"
-			}]
-			tasks: [{
-				id: "6F2D8840226FEDA2"
-				points: false
-				type: "xp"
-				value: 10L
 			}]
 			title: "Choose Your Specialization"
 			x: -9.5d
@@ -403,7 +397,7 @@
 				item: "kubejs:witch_type_item"
 				type: "item"
 			}]
-			title: "White Witchery"
+			title: "Light Witchery"
 			x: -5.0d
 			y: -13.5d
 		}

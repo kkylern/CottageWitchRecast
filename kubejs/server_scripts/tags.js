@@ -570,6 +570,15 @@ ServerEvents.tags('item', event => {
     'create:copycat_panel'
     )
 
+    // Create Doors
+    event.add('forge:create_doors',
+    'create:andesite_door',
+    'create:brass_door',
+    'create:copper_door',
+    'create:train_door',
+    'create:framed_glass_door'
+    )
+
 })
 
 
@@ -610,11 +619,6 @@ ServerEvents.tags('block', event => {
     'ends_delight:end_stove',
     'nethersdelight:blackstone_stove',
     'twilightdelight:maze_stove'
-    )
-
-    // Alpine Limestone/Salt
-    event.add('minecraft:stone',
-    'meadow:limestone'
     )
 
 })

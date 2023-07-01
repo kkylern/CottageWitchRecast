@@ -61,7 +61,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "cottagewitch:textures/bgbrewing.png"
+			image: "cottagewitch:textures/bgcheesemaking.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 10.5d
@@ -684,8 +684,11 @@
 		{
 			description: [
 				"The &bCooking Pot&r will allow you to make uniquely filling and delicious dishes! The more different foods you try, the &amore hearts you'll gain&r, making this an important tool for the kitchen witch adventurer."
+				""
 				"Place the &bCooking Pot&r on top of a heat source such as &bfire&r, &bcampfire&r, &bmagma block&r, or &bstove&r, to heat it. Then, &6place your ingredients inside&r."
+				""
 				"You'll also need something to serve your dish in, such as a &bbowl&r, &bbottle&r, or a &bpumpkin&r!"
+				""
 				"When the &bCooking Pot&r is broken, it retains its contents."
 			]
 			id: "2615CD06E32EC741"
@@ -724,6 +727,7 @@
 			dependencies: ["2615CD06E32EC741"]
 			description: [
 				"A &bStove&r is an incredibly useful tool. Thanks to your inherent magic, it is fueled at all times! You can &6place up to 6 food items&r on the grill in order to cook them. They'll pop up into items when they're ready! You can &6place an upside-down &bBasket&r above it to collect them automatically."
+				""
 				"The &bStove&r can also be used as a heat source for the &bCooking Pot&r, but if you do it that way, you cannot place items on the grill."
 			]
 			id: "492DDC880E65C534"
@@ -2128,11 +2132,6 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "693F0F9C94F7B1F9"
-					item: "brewinandchewin:fiery_fondue_pot"
-					type: "item"
-				}
-				{
 					id: "1E69A4176C223AF7"
 					item: "netherdepthsupgrade:nether_rice_roll_medley_block"
 					type: "item"
@@ -2195,16 +2194,6 @@
 				{
 					id: "5D1D6D136D06EF69"
 					item: "collectorsreap:portobello_quiche"
-					type: "item"
-				}
-				{
-					id: "64B40B1DD3B3C3B3"
-					item: "brewinandchewin:pizza"
-					type: "item"
-				}
-				{
-					id: "2A78EAEC4C761515"
-					item: "brewinandchewin:quiche"
 					type: "item"
 				}
 			]
@@ -2332,6 +2321,11 @@
 					item: "farmersdelight:sweet_berry_cheesecake"
 					type: "item"
 				}
+				{
+					id: "3DC09010A41BCF6D"
+					item: "meadow:cheesecake"
+					type: "item"
+				}
 			]
 			title: "Pie Lovers Anonymous"
 			x: 2.5d
@@ -2339,12 +2333,45 @@
 		}
 		{
 			dependencies: ["43CC7A6F8C1284B5"]
+			description: [
+				"You did it! You've finally obtained the holy grail of foods: &bcheese&r. There are a number of incredible dishes which can be made with &ole fromage&r (pardon my French), but why not go straight to the source and make some &bFondue&r?"
+				""
+				"To &aobtain &bCheese Pieces&r, &6place down&r your Cheese Wheel and &6right click&r it with an empty hand."
+			]
 			id: "486FE1761F7E41E3"
+			rewards: [
+				{
+					id: "7D76B9B0F996A207"
+					item: {
+						Count: 1b
+						id: "vinery:clark_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2BA923B38B1D2EB3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "that's the stuff, gromit!"
 			tasks: [{
 				id: "075CFC19D7C57F9C"
-				item: "meadow:cheese_block"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "meadow:cheese_blocks"
+					}
+				}
+				title: "Any Cheese Wheel"
 				type: "item"
 			}]
+			title: "Obtain a Cheese Wheel"
 			x: 12.5d
 			y: 5.0d
 		}
@@ -2355,7 +2382,7 @@
 				""
 				"Simply place your &bMilk&r and your &bRennet&r into the Press and then &6wait patiently&r (or use Time in a Bottle) for it to work its magic."
 				""
-				"Different &atypes of Milk&r will make unique cheeses... but more on that later!"
+				"Different &atypes of Milk&r will make unique cheeses... but more on that elsewhere!"
 			]
 			id: "43CC7A6F8C1284B5"
 			rewards: [{
@@ -2433,7 +2460,25 @@
 		}
 		{
 			dependencies: ["486FE1761F7E41E3"]
+			description: [
+				"To enjoy a lovely &bFondue&r, simply &6place Bread above and Cheese below&r, and enjoy your tasty, molten treat."
+				""
+				"Better blow on it a bit first. That stuff is like lava."
+			]
 			id: "561E0AC36A0C1DB4"
+			rewards: [
+				{
+					id: "7F531AFE46E2E309"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "60FE11617AB55BDC"
+					item: "meadow:piece_of_buffalo_cheese"
+					type: "item"
+				}
+			]
+			subtitle: "well that's a 'fon' how 'due' you do"
 			tasks: [{
 				id: "524AA3711696170D"
 				item: "meadow:fondue"
@@ -2474,19 +2519,27 @@
 			description: [
 				"There are a bunch of different types of &bMilk&r, which can all be made into &aunique and tasty cheeses&r."
 				""
-				"Although most of them come from &adifferent types of &eAnimals&r, you can also craft &bGrain Milk&r (vegan-friendly!) and &bAmethyst Milk&r. These last two types of milk are crafted using the &bRustic Cauldron&r."
+				"Although most of them come from &adifferent types of &eAnimals&r, you can also craft &bGrain Milk&r (vegan-friendly!) and &bAmethyst Milk&r. These last two types of milk are crafted using the &bRustic Cauldron&r. Grain milk is made with 2 Grains and one Wooden Water Bucket. Amethyst milk is made with Amethyst and, well, milk..."
 				""
 				"&eWater Buffalo&r can be found in &cRiver&r biomes."
 				""
 				"&eWarped Cows&r live in &cWarped Forest&r biomes."
 			]
 			id: "31CE923007EF1D03"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38D234C88D3E2B5A"
-				table_id: 8096229411196850122L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D234C88D3E2B5A"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43F87593A57FD77D"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{

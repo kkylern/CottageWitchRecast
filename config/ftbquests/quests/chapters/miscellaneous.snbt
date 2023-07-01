@@ -1108,6 +1108,19 @@
 			dependencies: ["70C4F17973F6492E"]
 			description: [
 				"If you're playing with others, you can use Bartering Stations from the &lShoppy&r mod to &asell items to one another&r!"
+				""
+				"To &aset an item to sell&r, &6right click it&r (in the amount you plan to sell it) on the top of the station. For example, you want to sell Leather in stacks of 16. You would right click 16 Leather on the top of the station to set the item."
+				""
+				"To &aadd more inventory&r (multiple stacks of the same item), &6right click&r that item onto the top of the station. For the above example, you would click the top of the station with 1-64 Leather to deposit it into the block."
+				""
+				"To &aset the price&r, &6right click&r the item you'd like to receive (in the amount you want to receive) &don the bottom&r of the station. For the above example, if you wanted to sell 16 Leather for 1 Gold Nugget, you would click a single Gold Nugget on the bottom of the station."
+				""
+				"If you changed your mind, you could &achange the price&r again by right clicking it with 1 Gold Nugget, and it would add 1 for each click. Or, you could right click it with 5 Gold Nuggets to directly set the price to 5."
+				""
+				"To &areset the station&r, &6shift right click with empty hands&r on the &dtop&r of the station."
+				""
+				"To &awithdraw profits&r, &6shift left click with empty hands&r. If you &6left click&r without shift, you can see &awhat you're selling&r and &ahow many have sold/are still in stock&r."
+				""
 				"{image:cottagewitch:textures/shoppy.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "5C5768D4346FD3FE"
