@@ -176,7 +176,7 @@
 176, swamp, minecraft:swamp, CREATURE, ars_nouveau:drygmy, 3, 1, 2
 177, swamp, minecraft:swamp, CREATURE, finsandtails:mudhorse, 10, 2, 3
 178, swamp, minecraft:swamp, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
-179, swamp, minecraft:swamp, CREATURE, environmental:duck, 10, 3, 4
+179, swamp, minecraft:swamp, CREATURE, environmental:duck, 5, 3, 4
 180, swamp, minecraft:swamp, CREATURE, environmental:slabfish, 5, 1, 3
 181, swamp, minecraft:swamp, CREATURE, biomemakeover:toad, 5, 1, 2
 182, swamp, minecraft:swamp, AMBIENT, minecraft:bat, 10, 8, 8
@@ -211,7 +211,7 @@
 215, swamp, minecraft:mangrove_swamp, CREATURE, ars_nouveau:drygmy, 3, 1, 2
 216, swamp, minecraft:mangrove_swamp, CREATURE, finsandtails:mudhorse, 10, 2, 3
 217, swamp, minecraft:mangrove_swamp, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
-218, swamp, minecraft:mangrove_swamp, CREATURE, environmental:duck, 10, 3, 4
+218, swamp, minecraft:mangrove_swamp, CREATURE, environmental:duck, 5, 3, 4
 219, swamp, minecraft:mangrove_swamp, CREATURE, environmental:slabfish, 5, 1, 3
 220, swamp, minecraft:mangrove_swamp, CREATURE, biomemakeover:toad, 5, 1, 2
 221, swamp, minecraft:mangrove_swamp, AMBIENT, minecraft:bat, 10, 8, 8
@@ -899,7 +899,7 @@
 909, river, minecraft:river, WATER_AMBIENT, aquaculture:brown_trout, 5, 1, 4
 910, river, minecraft:river, WATER_AMBIENT, aquaculture:gar, 5, 1, 1
 911, river, minecraft:river, WATER_AMBIENT, aquaculture:catfish, 5, 1, 3
-912, river, minecraft:river, WATER_AMBIENT, environmental:duck, 5, 1, 3
+912, river, minecraft:river, CREATURE, environmental:duck, 5, 1, 3
 913, river, minecraft:frozen_river, MONSTER, minecraft:spider, 30, 4, 4
 914, river, minecraft:frozen_river, MONSTER, minecraft:zombie, 30, 4, 4
 915, river, minecraft:frozen_river, MONSTER, minecraft:zombie_villager, 5, 1, 1
@@ -1549,7 +1549,7 @@
 1586, swamp, hexerei:willow_swamp, CREATURE, ars_nouveau:drygmy, 3, 1, 2
 1587, swamp, hexerei:willow_swamp, CREATURE, finsandtails:mudhorse, 4, 2, 3
 1588, swamp, hexerei:willow_swamp, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
-1589, swamp, hexerei:willow_swamp, CREATURE, environmental:duck, 10, 3, 4
+1589, swamp, hexerei:willow_swamp, CREATURE, environmental:duck, 5, 3, 4
 1590, swamp, hexerei:willow_swamp, CREATURE, environmental:slabfish, 5, 1, 3
 1591, swamp, hexerei:willow_swamp, CREATURE, biomemakeover:toad, 5, 1, 2
 1592, swamp, hexerei:willow_swamp, AMBIENT, minecraft:bat, 10, 8, 8
@@ -2834,7 +2834,7 @@
 2877, swamp, terralith:orchid_swamp, CREATURE, ars_nouveau:drygmy, 3, 1, 2
 2878, swamp, terralith:orchid_swamp, CREATURE, finsandtails:mudhorse, 30, 2, 3
 2879, swamp, terralith:orchid_swamp, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
-2880, swamp, terralith:orchid_swamp, CREATURE, environmental:duck, 10, 3, 4
+2880, swamp, terralith:orchid_swamp, CREATURE, environmental:duck, 5, 3, 4
 2881, swamp, terralith:orchid_swamp, CREATURE, environmental:slabfish, 5, 1, 3
 2882, swamp, terralith:orchid_swamp, CREATURE, biomemakeover:toad, 5, 1, 2
 2883, swamp, terralith:orchid_swamp, AMBIENT, minecraft:bat, 10, 8, 8
@@ -3637,7 +3637,6 @@
 3686, swamp, terralith:ice_marsh, CREATURE, finsandtails:mudhorse, 4, 2, 3
 3687, swamp, terralith:ice_marsh, CREATURE, finsandtails:wherble, 3, 2, 6
 3688, swamp, terralith:ice_marsh, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
-3689, swamp, terralith:ice_marsh, CREATURE, environmental:duck, 10, 3, 4
 3690, swamp, terralith:ice_marsh, AMBIENT, minecraft:bat, 10, 8, 8
 3691, swamp, terralith:ice_marsh, AMBIENT, biomemakeover:lightning_bug, 20, 1, 1
 3692, swamp, terralith:ice_marsh, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
@@ -3751,7 +3750,6 @@
 3800, none, terralith:warm_river, WATER_AMBIENT, aquaculture:brown_trout, 5, 1, 4
 3801, none, terralith:warm_river, WATER_AMBIENT, aquaculture:gar, 5, 1, 1
 3802, none, terralith:warm_river, WATER_AMBIENT, aquaculture:catfish, 5, 1, 3
-3803, none, terralith:warm_river, WATER_AMBIENT, environmental:duck, 5, 1, 3
 3804, none, terralith:warm_river, WATER_AMBIENT, crittersandcompanions:koi_fish, 4, 2, 5
 3805, plains, terralith:blooming_plateau, MONSTER, minecraft:spider, 30, 4, 4
 3806, plains, terralith:blooming_plateau, MONSTER, minecraft:zombie, 30, 4, 4

@@ -1300,6 +1300,26 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Palette
+    event.shaped(
+        Item.of('xercapaint:item_palette'),
+        [
+            'AA ',
+            'AA '
+        ],
+        {
+            A: '#minecraft:wooden_slabs'
+        }
+    )
+
+    // String from Wool
+    event.shapeless(
+        Item.of('minecraft:string', 4),
+        [ 
+            'minecraft:white_wool'
+        ]
+    )
+
     //Stonecutter recipes for Xerca Woods
 
     event.stonecutting('kubejs:carved_warped_1', 'minecraft:stripped_warped_stem')
