@@ -5,6 +5,6 @@
     "color": "green"
   },
   "tip": {
-    "text": "You can restore Anvil durability by right clicking it with an iron ingot."
+    "text": "You can restore Anvil durability by right clicking it with an iron block."
   }
 }
