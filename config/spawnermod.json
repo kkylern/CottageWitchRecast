@@ -83,6 +83,7 @@
     "minecraft:zombie": 0,
     "minecraft:zombie_horse": 0,
     "minecraft:zombie_villager": 0,
-    "minecraft:zombified_piglin": 0
+    "minecraft:zombified_piglin": 0,
+    "artifacts:mimic": 1
   }
 }

@@ -1,0 +1,20 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "meals",
+    "ingredients": [
+      {
+        "item": "minecraft:beef"
+      },
+      {
+        "item": "meadow:alpine_salt"
+      }
+    ],
+    "container": {
+        "item": "minecraft:glass_bottle"
+      },
+    "result": {
+      "item": "meadow:rennet"
+    },
+    "experience": 0.35,
+    "cookingtime": 100
+  }

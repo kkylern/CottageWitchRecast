@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "shoppy:shop_block",
     "shoppy:creative_shop_block"

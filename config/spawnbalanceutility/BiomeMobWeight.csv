@@ -100,7 +100,7 @@
 100, icy, minecraft:snowy_plains, WATER_AMBIENT, aquaculture:pink_salmon, 5, 1, 4
 101, icy, minecraft:snowy_plains, WATER_AMBIENT, aquaculture:pollock, 5, 1, 2
 102, icy, minecraft:snowy_plains, WATER_AMBIENT, aquaculture:rainbow_trout, 5, 1, 3
-103, icy, minecraft:snowy_plains, WATER_AMBIENT, environmental:yak, 5, 1, 3
+103, icy, minecraft:snowy_plains, CREATURE, environmental:yak, 5, 1, 3
 104, none, minecraft:ice_spikes, MONSTER, minecraft:spider, 30, 4, 4
 105, none, minecraft:ice_spikes, MONSTER, minecraft:zombie, 30, 4, 4
 106, none, minecraft:ice_spikes, MONSTER, minecraft:zombie_villager, 5, 1, 1
@@ -3982,7 +3982,7 @@
 4033, icy, terralith:snowy_badlands, WATER_AMBIENT, aquaculture:pink_salmon, 5, 1, 4
 4034, icy, terralith:snowy_badlands, WATER_AMBIENT, aquaculture:pollock, 5, 1, 2
 4035, icy, terralith:snowy_badlands, WATER_AMBIENT, aquaculture:rainbow_trout, 5, 1, 3
-4036, icy, terralith:snowy_badlands, WATER_AMBIENT, environmental:yak, 5, 1, 3
+4036, icy, terralith:snowy_badlands, CREATURE, environmental:yak, 5, 1, 3
 4037, none, terralith:basalt_cliffs, MONSTER, minecraft:spider, 30, 4, 4
 4038, none, terralith:basalt_cliffs, MONSTER, minecraft:zombie, 30, 4, 4
 4039, none, terralith:basalt_cliffs, MONSTER, minecraft:zombie_villager, 5, 1, 1
