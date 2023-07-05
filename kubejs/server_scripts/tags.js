@@ -328,6 +328,17 @@ ServerEvents.tags('item', event => {
     'upgrade_aquatic:white_jelly_torch'
     )
 
+    // Meadow Milk
+    event.add('forge:milk',
+    'meadow:wooden_milk_bucket',
+    'meadow:wooden_sheep_milk_bucket',
+    'meadow:wooden_buffalo_milk_bucket',
+    'meadow:wooden_goat_milk_bucket',
+    'meadow:wooden_warped_milk_bucket',
+    'meadow:wooden_amethyst_milk_bucket',
+    'meadow:wooden_grain_milk_bucket'
+    )
+
     //===Banning Uncraftables===
     event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg')
     event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes')
@@ -583,6 +594,16 @@ ServerEvents.tags('item', event => {
 
 
 ServerEvents.tags('block', event => {
+    const bookshelves = (/.*bookshelf*./)
+    //Bookshelves
+    event.add('minecraft:bookshelf',
+    bookshelves
+    )
+
+    event.add('forge:bookshelves',
+    bookshelves
+    )
+
 
     //Hot Blocks
     //Farmer's Delight

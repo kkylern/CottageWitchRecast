@@ -340,8 +340,11 @@
 	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG
 	bottomlessFluidMode = "ALLOW_BY_TAG"
 	#.
-	#Whether open-ended pipes and hose pulleys should be allowed to place fluid sources.
-	placeFluidSourceBlocks = true
+	#Whether hose pulleys should be allowed to place fluid sources.
+	fluidFillPlaceFluidSourceBlocks = true
+	#.
+	#Whether open-ended pipes should be allowed to place fluid sources.
+	pipesPlaceFluidSourceBlocks = true
 
 #.
 #Tweaks for logistical components
@@ -375,6 +378,9 @@
 	#The amount of ticks a brass tunnel waits between distributions.
 	#Range: 1 ~ 10
 	brassTunnelTimer = 10
+	#.
+	#Whether hostile mobs walking near a seat will start riding it.
+	seatHostileMobs = true
 
 #.
 #Everything related to Schematic tools

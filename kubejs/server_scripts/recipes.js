@@ -1111,6 +1111,13 @@ ServerEvents.recipes(event => {
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
 
+    //milk
+    event.replaceInput(
+        { input: '#meadow:milk_bucket' }, // Arg 1: the filter
+        '#meadow:milk_bucket',            // Arg 2: the item to replace
+        '#forge:milk'         // Arg 3: the item to replace it with
+      )
+
     // BG Charging Gadget
     event.shaped(
         Item.of('charginggadgets:charging_station'),
@@ -1317,6 +1324,55 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:string', 4),
         [ 
             'minecraft:white_wool'
+        ]
+    )
+
+    // Coin Conversion recipes
+    // Lunar to Solar
+    event.shapeless(
+        Item.of('kubejs:solar_coin'),
+        [ 
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin',
+            'kubejs:lunar_coin'
+        ]
+    )
+
+    // Solar to Arcane
+    event.shapeless(
+        Item.of('kubejs:arcane_coin'),
+        [ 
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin',
+            'kubejs:solar_coin'
+        ]
+    )
+
+    // Arcane to Solar
+    event.shapeless(
+        Item.of('kubejs:solar_coin', 9),
+        [ 
+            'kubejs:arcane_coin'
+        ]
+    )
+
+    // Solar to Lunar
+    event.shapeless(
+        Item.of('kubejs:lunar_coin', 9),
+        [ 
+            'kubejs:solar_coin'
         ]
     )
 

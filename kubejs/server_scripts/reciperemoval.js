@@ -158,6 +158,8 @@ ServerEvents.recipes(event => {
         {output:'meadow:warped_bed'},
         {output: 'vinery:flower_box'},
         {output: 'meadow:flower_box'},
+        {output: 'shoppy:shop_block'},
+        {output: 'shoppy:creative_shop_block'},
         //Replaced Recipes Below
         {output: 'buildinggadgets:gadget_building'},
         {output: 'buildinggadgets:gadget_exchanging'},

@@ -161,6 +161,8 @@ JEIEvents.hideItems(event => {
         'meadow:warped_bed',
         'vinery:flower_box',
         'meadow:flower_box',
+        'shoppy:shop_block',
+        'shoppy:creative_shop_block'
     ];
     
       for (const hide of toHide) {

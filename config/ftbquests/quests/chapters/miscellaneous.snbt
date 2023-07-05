@@ -125,6 +125,12 @@
 					item: "plushies:turtle"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "011BA0D1215C61A4"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "Do you wanna build a...uh...sandcastle?"
@@ -1076,15 +1082,15 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "4D6DF23583CEDAA8"
-					table_id: 8808494820591225409L
+					id: "4CAC99596EA711E2"
+					table_id: 1279979498352596350L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4CAC99596EA711E2"
-					table_id: 1279979498352596350L
-					type: "random"
+					id: "26096232AA71A2BA"
+					table_id: 7737096167250795605L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -1163,6 +1169,12 @@
 					item: "minecraft:sea_lantern"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "23BFAEDC1538A8A9"
+					table_id: 7737096167250795605L
+					type: "choice"
+				}
 			]
 			subtitle: "see? crystal!"
 			tasks: [{
@@ -1178,11 +1190,19 @@
 			dependencies: ["32235F4557C97245"]
 			description: ["This &bGlowing Pearl&r will make your mermaid top and tail shimmer as if &aenchanted&r!"]
 			id: "446D2A3C8B066099"
-			rewards: [{
-				id: "4CF4355BEF3A17A7"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4CF4355BEF3A17A7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3243A0BCFBBE9088"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1AC3BC2BA93D897A"
@@ -1196,11 +1216,19 @@
 			dependencies: ["32235F4557C97245"]
 			description: ["Use this item to look like you're in h2o: Just Add Water!"]
 			id: "2ABFB8A3E57C7F1A"
-			rewards: [{
-				id: "21B44FA4EEDD6CA4"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "21B44FA4EEDD6CA4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "091048E071EEA686"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "0E0F18FDDDB3CAF0"
@@ -1214,11 +1242,19 @@
 			dependencies: ["32235F4557C97245"]
 			description: ["Once you've dyed your tail, you can &aadd a gradient&r by &6crafting this item with &bdye&r and then &6crafting it with your necklace&r."]
 			id: "082F39C7CD7A47D9"
-			rewards: [{
-				id: "795FD36AE1F0BEEC"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "795FD36AE1F0BEEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C225D04F4170902"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "608D1D285D7168E6"
@@ -1232,11 +1268,19 @@
 			dependencies: ["32235F4557C97245"]
 			description: ["Want to be the Little Mermaid? This upgrade will &agive you Ariel's appearance&r."]
 			id: "3C874A7A82622DA3"
-			rewards: [{
-				id: "2E27FE9F048B7753"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2E27FE9F048B7753"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07B566F63959453C"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "39623CFEA41CA5EA"
@@ -1250,11 +1294,19 @@
 			dependencies: ["32235F4557C97245"]
 			description: ["Craft your necklace with this accessory to &aadd a bra to your mermaid look&r!"]
 			id: "7F994A9008E7F84D"
-			rewards: [{
-				id: "3E4A0B59D9F7119E"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3E4A0B59D9F7119E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7062C9F173E6EBA9"
+					table_id: 7737096167250795605L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "4F0676809027358D"

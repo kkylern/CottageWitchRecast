@@ -87,12 +87,20 @@
 		{
 			description: ["This quaint &cFisherman's Lodge&r is water-bound, and is a great place to go fishing."]
 			id: "653C7B872B33A477"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "601C47F6994D2062"
-				table_id: 1279979498352596350L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "601C47F6994D2062"
+					table_id: 1279979498352596350L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B8A59B88951FDFA"
+					table_id: 7737096167250795605L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				advancement: "idas:fishermans_lodge"

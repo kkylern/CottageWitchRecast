@@ -1,7 +1,8 @@
 {
   "replace": true,
   "values": [
-    "shoppy:shop_block",
-    "shoppy:creative_shop_block"
+    "shoppy:bartering_station",
+    "shoppy:creative_bartering_station",
+    "snailmail:snail_box"
   ]
 }
