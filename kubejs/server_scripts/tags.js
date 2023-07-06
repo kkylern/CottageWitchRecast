@@ -329,7 +329,7 @@ ServerEvents.tags('item', event => {
     )
 
     // Meadow Milk
-    event.add('forge:milk',
+    event.add('meadow:milk_bucket',
     'meadow:wooden_milk_bucket',
     'meadow:wooden_sheep_milk_bucket',
     'meadow:wooden_buffalo_milk_bucket',

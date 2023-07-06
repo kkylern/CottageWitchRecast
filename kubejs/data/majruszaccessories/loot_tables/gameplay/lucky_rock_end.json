@@ -1,5 +1,6 @@
 {
   "mlib": "majruszsaccessories:gameplay/lucky_rock_end",
+  "replace": true,
   "type": "minecraft:gift",
   "pools": [
     {

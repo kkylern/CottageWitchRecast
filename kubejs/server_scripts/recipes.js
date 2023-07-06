@@ -1111,13 +1111,6 @@ ServerEvents.recipes(event => {
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
 
-    //milk
-    event.replaceInput(
-        { input: '#meadow:milk_bucket' }, // Arg 1: the filter
-        '#meadow:milk_bucket',            // Arg 2: the item to replace
-        '#forge:milk'         // Arg 3: the item to replace it with
-      )
-
     // BG Charging Gadget
     event.shaped(
         Item.of('charginggadgets:charging_station'),
@@ -1323,7 +1316,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('minecraft:string', 4),
         [ 
-            'minecraft:white_wool'
+            '#minecraft:wool'
         ]
     )
 
@@ -1374,6 +1367,42 @@ ServerEvents.recipes(event => {
         [ 
             'kubejs:solar_coin'
         ]
+    )
+
+    // Hexerei Stone Windows
+    event.shaped(
+        Item.of('hexerei:stone_window_pane', 16),
+        [
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'hexerei:stone_window'
+        }
+    )
+
+    event.shapeless(
+        Item.of('hexerei:stone_window', 2),
+        [ 
+            '#forge:stone',
+            '#forge:glass'
+        ]
+    )
+
+    // Casting Crystal
+    event.shaped(
+        Item.of('casting_crystals:casting_crystal'),
+        [
+            'ABA',
+            'BCB',
+            'DBA'
+        ],
+        {
+            A: 'minecraft:string',
+            B: 'minecraft:gold_ingot',
+            C: 'ars_nouveau:source_gem',
+            D: 'ars_nouveau:manipulation_essence'
+        }
     )
 
     //Stonecutter recipes for Xerca Woods

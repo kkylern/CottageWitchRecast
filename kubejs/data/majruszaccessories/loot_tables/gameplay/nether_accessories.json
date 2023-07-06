@@ -1,5 +1,6 @@
 {
   "type": "minecraft:gift",
+  "replace": true,
   "pools": [
     {
       "rolls": 1,
