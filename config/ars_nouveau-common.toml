@@ -34,7 +34,7 @@
 	drygmyManaCost = 5000
 	#How many channels must occur before a drygmy produces loot
 	#Range: 0 ~ 300
-	drygmyMaxProgress = 50
+	drygmyMaxProgress = 20
 	#Bonus number of items a drygmy produces per unique mob
 	#Range: 0 ~ 300
 	drygmyUniqueBonus = 1
