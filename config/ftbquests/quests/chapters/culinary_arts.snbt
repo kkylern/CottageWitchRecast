@@ -118,13 +118,20 @@
 		{
 			description: [
 				"One feature of this modpack is that &aeating food grants you bonuses&r!"
-				"{image:cottagewitch:textures/nutrition1.png width:100 height:100 align:1 fit:true}"
-				"The button with the bread and the stripes will &ashow you your current nourishment levels&r."
-				"{image:cottagewitch:textures/nutrition2.png width:100 height:80 align:1 fit:true}"
+				""
 				"All foods have beneficial categories called &aEssences&r. Your body and soul are nourished by these Essences, so it's in your best interests to eat &asome of everything&r!"
-				"{image:cottagewitch:textures/nutrition3.png width:100 height:70 align:1 fit:true}"
+				""
 				"Different food types will grant &adifferent Essences&r, and you can see what's in your food by &6hovering over it&r."
-				"Be aware though that &dPride can be a problem&r if you have too much of it. It's important to have a little, though."
+				""
+				"{image:cottagewitch:textures/nutrition2.png width:100 height:60 align:1 fit:true}"
+				""
+				"Please click to view the next page."
+				"{@pagebreak}"
+				"The button with the bread and the stripes will &ashow you your current nourishment levels&r."
+				""
+				"{image:cottagewitch:textures/nutrition1.png width:180 height:200 align:1}"
+				"{@pagebreak}"
+				"{image:cottagewitch:textures/nutrition3.png width:100 height:60 align:1 fit:true}"
 			]
 			id: "6EFFB8ED37DC8A47"
 			optional: true
@@ -1782,57 +1789,40 @@
 		{
 			dependencies: ["7D770ADEB3905EE0"]
 			description: [
-				"Although &bGrapes&r can be planted directly in the ground, you can get &agreater output&r by &6planting them on &bGrapevine Stems&r."
+				"Although &bGrapes&r can be planted directly in the ground, you can get &agreater output&r by &6planting them on &bGrapevine Stems&r or &bGrapevine Lattices&r (for Jungle Grapes)."
 				"{image:cottagewitch:textures/grapevine.png width:100 height:80 align:1}"
 			]
 			id: "516F4B3499491907"
-			rewards: [{
-				count: 6
-				id: "7A51BC49882402BE"
-				item: "vinery:grapevine_stem"
-				type: "item"
-			}]
-			subtitle: "what a grape idea"
-			tasks: [{
-				id: "1BA6CED99303B74C"
-				item: "vinery:grapevine_stem"
-				type: "item"
-			}]
-			title: "Increase Your Output"
-			x: -4.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["7D770ADEB3905EE0"]
-			description: [
-				"You can craft a &bKitchen Sink&r and even &aplace a faucet on it!&r This functions as an easy &ainfinite water source&r for your kitchen!"
-				""
-				"&6Right click&r the sink to fill it!"
+			rewards: [
+				{
+					count: 6
+					id: "7A51BC49882402BE"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "686263155CBFE623"
+					item: "vinery:grapevine_lattice"
+					type: "item"
+				}
 			]
-			id: "0DFA6F01A0541AA3"
-			rewards: [{
-				count: 10
-				id: "76C5BF9207D4BAA7"
-				item: "minecraft:glass_bottle"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "an infinite water source"
+			subtitle: "what a grape idea"
 			tasks: [
 				{
-					id: "5BBA7E5FE8D0899C"
-					item: "vinery:kitchen_sink"
+					id: "1BA6CED99303B74C"
+					item: "vinery:grapevine_stem"
 					type: "item"
 				}
 				{
-					id: "6EF2FD97D6B70256"
-					item: "vinery:faucet"
+					id: "20AB931E2C84649B"
+					item: "vinery:grapevine_lattice"
 					type: "item"
 				}
 			]
-			title: "Everything But The..."
+			title: "Increase Your Output"
 			x: -4.0d
-			y: 14.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
@@ -1883,7 +1873,7 @@
 			}]
 			title: "Pressing the Grapes"
 			x: -4.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["547C558385301BA9"]
@@ -2581,6 +2571,76 @@
 			title: "Many Milk Types!"
 			x: 10.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["7D770ADEB3905EE0"]
+			description: ["There are many different types of Grapes! Can you collect one of each?"]
+			id: "40C54E2C3375C44D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "276EA674AD33BCB2"
+					table_id: 8096229411196850122L
+					type: "loot"
+				}
+				{
+					id: "459E314EA3A709DA"
+					item: {
+						Count: 1b
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0CC41F3E4AC51490"
+					item: "vinery:red_grape"
+					type: "item"
+				}
+				{
+					id: "3BBF1696526D0EA0"
+					item: "vinery:white_grape"
+					type: "item"
+				}
+				{
+					id: "0DD5031BDC656C53"
+					item: "vinery:savanna_grapes_red"
+					type: "item"
+				}
+				{
+					id: "0802190701FC4514"
+					item: "vinery:savanna_grapes_white"
+					type: "item"
+				}
+				{
+					id: "3FEBB71D4314F6F6"
+					item: "vinery:taiga_grapes_red"
+					type: "item"
+				}
+				{
+					id: "2B75BECC8911FDE8"
+					item: "vinery:taiga_grapes_white"
+					type: "item"
+				}
+				{
+					id: "0CE7499AD423248E"
+					item: "vinery:jungle_grapes_red"
+					type: "item"
+				}
+				{
+					id: "181FD6A75A39B761"
+					item: "vinery:jungle_grapes_white"
+					type: "item"
+				}
+			]
+			title: "Collect All Grapes"
+			x: -4.0d
+			y: 14.0d
 		}
 	]
 	title: "Culinary Arts"

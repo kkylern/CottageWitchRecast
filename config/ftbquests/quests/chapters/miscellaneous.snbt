@@ -2954,6 +2954,38 @@
 			x: 1.5d
 			y: 6.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["70C4F17973F6492E"]
+			description: [
+				"In multiplayer, &bCoins&r are an important currency. They are obtainable in several ways - "
+				""
+				""
+				"- Rarely they can be fished up while it is raining."
+				"- They have a low chance to be dropped by &eSkeletons&r and &eZombie Villagers&r."
+				"- They can be looted in &cWoodland Mansions&r dungeon chests."
+				""
+				"However, in singleplayer they are...less useful. In that case, you may use this quest to exchange your found currency for something more practical."
+				""
+				"This quest is repeatable."
+			]
+			id: "2063FF7B9C55E56F"
+			rewards: [{
+				id: "3569569879089E03"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: true
+				id: "7D95252A3CCFF662"
+				item: "kubejs:solar_coin"
+				type: "item"
+			}]
+			title: "Money Changing"
+			x: 4.5d
+			y: -2.0d
+		}
 	]
 	title: "Miscellaneous"
 }
