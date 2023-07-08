@@ -1110,6 +1110,13 @@ ServerEvents.recipes(event => {
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
 
+    //Cherries
+    event.replaceInput(
+        { input: 'minecraft:egg' }, // Arg 1: the filter
+        'minecraft:egg',            // Arg 2: the item to replace
+        '#forge:eggs'         // Arg 3: the item to replace it with
+      )
+
     // BG Charging Gadget
     event.shaped(
         Item.of('charginggadgets:charging_station'),
@@ -1401,6 +1408,33 @@ ServerEvents.recipes(event => {
             B: 'minecraft:gold_ingot',
             C: 'ars_nouveau:source_gem',
             D: 'ars_nouveau:manipulation_essence'
+        }
+    )
+
+    //Biome Jar Emptying
+    
+    event.shapeless(
+        Item.of('biomesinjars:empty_biome_jar'),
+        [ 
+            'biomesinjars:filled_biome_jar'
+        ]
+    )
+
+    // BG Charging Gadget
+    event.shaped(
+        Item.of('shoppy:bartering_station'),
+        [
+            'ABA',
+            'CDC',
+            'EFE'
+        ],
+        {
+            A: 'minecraft:gold_nugget',
+            B: '#forge:glass',
+            C: '#minecraft:wool_carpets',
+            D: '#forge:chests',
+            E: '#minecraft:logs',
+            F: 'minecraft:smooth_stone'
         }
     )
 

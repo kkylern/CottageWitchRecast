@@ -339,6 +339,20 @@ ServerEvents.tags('item', event => {
     'meadow:wooden_grain_milk_bucket'
     )
 
+    // Meadow Wool
+    event.add('minecraft:wool',
+    'meadow:warped_wool')
+
+    // Seats
+    event.add('forge:seats',
+    'fantasyfurniture:necrolord/cushion',
+    'fantasyfurniture:royal/cushion',
+    'fantasyfurniture:venthyr/cushion',
+    'fantasyfurniture:dunmer/cushion',
+    'fantasyfurniture:nordic/cushion',
+    'fantasyfurniture:decorations/royal_floor_cushion'
+    )
+
     //===Banning Uncraftables===
     event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg')
     event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes')
@@ -615,7 +629,14 @@ ServerEvents.tags('block', event => {
     'farmersdelight:stove',
     'ends_delight:end_stove',
     'nethersdelight:blackstone_stove',
-    'twilightdelight:maze_stove'
+    'twilightdelight:maze_stove',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:necrolord/oven',
+    'handcrafted:oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:venthyr/oven',
+    'fantasyfurniture:nordic/oven'
     )
 
     //Meadow
@@ -627,7 +648,14 @@ ServerEvents.tags('block', event => {
     'farmersdelight:stove',
     'ends_delight:end_stove',
     'nethersdelight:blackstone_stove',
-    'twilightdelight:maze_stove'
+    'twilightdelight:maze_stove',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:necrolord/oven',
+    'handcrafted:oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:venthyr/oven',
+    'fantasyfurniture:nordic/oven'
     )
 
     //Hexerei
@@ -639,7 +667,14 @@ ServerEvents.tags('block', event => {
     'farmersdelight:stove',
     'ends_delight:end_stove',
     'nethersdelight:blackstone_stove',
-    'twilightdelight:maze_stove'
+    'twilightdelight:maze_stove',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:necrolord/oven',
+    'handcrafted:oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:venthyr/oven',
+    'fantasyfurniture:nordic/oven'
     )
 
 })

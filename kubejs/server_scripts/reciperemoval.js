@@ -199,7 +199,8 @@ ServerEvents.recipes(event => {
         {output: 'nethersdelight:blackstone_blast_furnace'},
         {output: 'minecraft:milk_bucket'},
         {output: 'buildinggadgets:template_manager'},
-        {output: 'charginggadgets:charging_station'}
+        {output: 'charginggadgets:charging_station'},
+        {output: 'shoppy:bartering_station'}
     ];
     
       for (const remove of toRemove) {

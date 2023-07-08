@@ -314,18 +314,11 @@
 		{
 			id: "0781A21B04D458DE"
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "1A65B136D57D2913"
-					item: "minecraft:budding_amethyst"
-					type: "item"
-				}
-				{
-					id: "339DB9EB9FFA561F"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "339DB9EB9FFA561F"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
 			title: "Scavenger Hunt: Amethyst"
 			x: -4.0d
 			y: -2.0d
