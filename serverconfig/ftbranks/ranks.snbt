@@ -8,15 +8,55 @@
 		command.paintimport: true
 		command.paintimport.name: true
 	}
-	vip: {
-		name: "VIP"
-		power: 50
-		ftbranks.name_format: "&bVIP {name}"
+	red: {
+		name: "Red"
+		power: 2
+		ftbranks.name_format: "&c{name}"
+	}
+	darkgreen: {
+		name: "Dark Green"
+		power: 2
+		ftbranks.name_format: "&2{name}"
+	}
+	darkaqua: {
+		name: "Dark Aqua"
+		power: 2
+		ftbranks.name_format: "&3{name}"
+	}
+	darkred: {
+		name: "Dark red"
+		power: 2
+		ftbranks.name_format: "&4{name}"
+	}
+	darkpurple: {
+		name: "Dark purple"
+		power: 2
+		ftbranks.name_format: "&5{name}"
+	}
+	blue: {
+		name: "blue"
+		power: 2
+		ftbranks.name_format: "&9{name}"
+	}
+	green: {
+		name: "green"
+		power: 2
+		ftbranks.name_format: "&a{name}"
+	}
+	aqua: {
+		name: "aqua"
+		power: 2
+		ftbranks.name_format: "&b{name}"
+	}
+	lightpurple: {
+		name: 	light purple"
+		power: 2
+		ftbranks.name_format: "&d{name}"
 	}
 	admin: {
 		name: "Admin"
 		power: 1000
 		condition: "op"
-		ftbranks.name_format: "&2{name}"
+		ftbranks.name_format: "&6{name}"
 	}
 }

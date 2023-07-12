@@ -341,24 +341,24 @@
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
 						Controls = 2
-						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: #minecraft:doors, #minecraft:fence_gates, #forge:fence_gates, #minecraft:trapdoors.
+						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: #minecraft:doors, #minecraft:fence_gates, #forge:fence_gates, #minecraft:trapdoors, dramaticdoors:*.
 						#
 						#1) Party - players or entities owned by players in the same party as you.
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
-						Doors = 3
+						Doors = 0
 						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: minecraft:chest, minecraft:trapped_chest, #forge:chests/wooden.
 						#
 						#1) Party - players or entities owned by players in the same party as you.
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
-						Chests = 3
+						Chests = 2
 						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: minecraft:barrel, #forge:barrels.
 						#
 						#1) Party - players or entities owned by players in the same party as you.
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
-						Barrels = 3
+						Barrels = 2
 						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: minecraft:ender_chest, #forge:chests/ender.
 						#
 						#1) Party - players or entities owned by players in the same party as you.
@@ -419,6 +419,12 @@
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
 						Lootr = 3
+						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: #create:seats, #decorative_blocks:seats, #forge:seats.
+						#
+						#1) Party - players or entities owned by players in the same party as you.
+						#2) Allies - players or entities owned by players in parties that are allied by yours.
+						#3) Every - all players/entities.
+						Seats = 0
 
 					[playerConfig.claims.protection.exceptionGroups.block.break]
 						#When enabled, claimed chunk protection makes an exception for destruction of the following blocks: #minecraft:crops.

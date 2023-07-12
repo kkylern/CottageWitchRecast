@@ -2347,6 +2347,12 @@
 					item: "minecraft:iron_ingot"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "126BFC7E59EA3AA3"
+					table_id: 2534339319169675056L
+					type: "choice"
+				}
 			]
 			subtitle: "that's the stuff, gromit!"
 			tasks: [{
@@ -2528,6 +2534,12 @@
 					id: "43F87593A57FD77D"
 					table_id: 8808494820591225409L
 					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BDBA6DF75D59385"
+					table_id: 2534339319169675056L
+					type: "choice"
 				}
 			]
 			shape: "hexagon"

@@ -12,8 +12,8 @@
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
-    "clientId": "1087130453888217109",
-    "defaultIcon": "logodiscord",
+    "clientId": "1128385051504148550",
+    "defaultIcon": "recastlogo",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
@@ -74,7 +74,7 @@
   },
   "serverSettings": {
     "fallbackServerIcon": "logodiscord",
-    "fallbackServerName": "Cottage Witch Server",
+    "fallbackServerName": "Cottage Witch Recast Server",
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
       "default": {

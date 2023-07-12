@@ -929,12 +929,20 @@
 				"However, they can also be enchanted with &aExecutioner&r, which &dcurrently has no effect&r."
 			]
 			id: "78CB4E7CEB48941A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3CCD4E605779C068"
-				table_id: 7049021818423122779L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CCD4E605779C068"
+					table_id: 7049021818423122779L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1580038724F9E500"
+					table_id: 2534339319169675056L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "don't fear the reaper...seriously"
 			tasks: [{

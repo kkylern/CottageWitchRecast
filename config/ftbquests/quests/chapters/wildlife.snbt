@@ -207,6 +207,12 @@
 					item: "supplementaries:cage"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "32818194460DA541"
+					table_id: 2534339319169675056L
+					type: "random"
+				}
 			]
 			shape: "octagon"
 			subtitle: "IDK, my BFF Cow?"
@@ -232,6 +238,12 @@
 					id: "0AEB98268C0B3561"
 					item: "plushies:parrot"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CA33382BFD28B72"
+					table_id: 2534339319169675056L
+					type: "random"
 				}
 			]
 			shape: "octagon"

@@ -1110,12 +1110,44 @@ ServerEvents.recipes(event => {
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
 
-    //Cherries
+    //Eggys
     event.replaceInput(
         { input: 'minecraft:egg' }, // Arg 1: the filter
         'minecraft:egg',            // Arg 2: the item to replace
         '#forge:eggs'         // Arg 3: the item to replace it with
       )
+
+    //Dough
+    event.replaceInput(
+        { input: 'candlelight:dough' }, // Arg 1: the filter
+        'candlelight:dough',            // Arg 2: the item to replace
+        '#forge:dough'         // Arg 3: the item to replace it with
+      )
+
+    //Pasta
+    event.replaceInput(
+        { input: 'candlelight:pasta_raw' }, // Arg 1: the filter
+        'candlelight:pasta_raw',            // Arg 2: the item to replace
+        '#forge:pasta'         // Arg 3: the item to replace it with
+      )
+
+    //Tomatoes
+    event.replaceInput(
+        { input: 'candlelight:tomato' }, // Arg 1: the filter
+        'candlelight:tomato',            // Arg 2: the item to replace
+        '#forge:crops/tomato'         // Arg 3: the item to replace it with
+    )
+
+    // limes 
+    event.replaceInput(
+        {not: 
+        [{output: 'collectorsreap:lime_crate'}, 
+        {output: 'collectorsreap:lime_seeds'}, 
+        {output: 'collectorsreap:lime_slice'},],
+        input: 'collectorsreap:lime' }, // Arg 1: the filter
+        'collectorsreap:lime',            // Arg 2: the item to replace
+        '#collectorsreap:lime_or_slice'         // Arg 3: the item to replace it with
+    )
 
     // BG Charging Gadget
     event.shaped(
@@ -1435,6 +1467,48 @@ ServerEvents.recipes(event => {
             D: '#forge:chests',
             E: '#minecraft:logs',
             F: 'minecraft:smooth_stone'
+        }
+    )
+
+    // Candlelight Chocolate Box
+    event.shaped(
+        Item.of('candlelight:chocolate_box'),
+        [
+            'AAA',
+            'AAA',
+            ' B '
+        ],
+        {
+            A: '#forge:chocolate',
+            B: '#forge:chests'
+        }
+    )
+
+    // Diamond Shears
+    event.shaped(
+        Item.of('kubejs:diamond_shears'),
+        [
+            'A  ',
+            ' A '
+        ],
+        {
+            A: 'minecraft:diamond'
+        }
+    )
+
+    //Candlelight Luck Ring
+    event.shaped(
+        Item.of('candlelight:gold_ring', '{Damage:0}'),
+        [
+            'ABB',
+            'BCB',
+            'BBD'
+        ],
+        {
+            A: 'minecraft:diamond',
+            B: 'minecraft:gold_ingot',
+            C: 'ars_nouveau:glyph_fortune',
+            D: 'majruszsaccessories:golden_horseshoe'
         }
     )
 

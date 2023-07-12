@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "candlelight:crops/cabbage"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    },
+    {
+      "item": "candlelight:butter"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:broccoli_beef",
+    "count": 1
+  }
+}

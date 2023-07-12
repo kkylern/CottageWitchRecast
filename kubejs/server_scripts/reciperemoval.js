@@ -160,6 +160,16 @@ ServerEvents.recipes(event => {
         {output: 'meadow:flower_box'},
         {output: 'shoppy:shop_block'},
         {output: 'shoppy:creative_shop_block'},
+        {output: 'candlelight:tomato_seeds'},
+        {output: 'candlelight:tomato'},
+        {output: 'candlelight:tomato_crate'},
+        {output: 'candlelight:potato_crate'},
+        {output: 'candlelight:beetroot_crate'},
+        {output: 'candlelight:carrot_crate'},
+        {output: 'candlelight:dough'},
+        {output: 'candlelight:pasta_raw'},
+        {output: 'vinery:cristel_wine'},
+        {output: 'candlelight:chocolate'},
         //Replaced Recipes Below
         {output: 'buildinggadgets:gadget_building'},
         {output: 'buildinggadgets:gadget_exchanging'},
@@ -200,7 +210,9 @@ ServerEvents.recipes(event => {
         {output: 'minecraft:milk_bucket'},
         {output: 'buildinggadgets:template_manager'},
         {output: 'charginggadgets:charging_station'},
-        {output: 'shoppy:bartering_station'}
+        {output: 'shoppy:bartering_station'},
+        {output: 'candlelight:chocolate_box'},
+        {output: 'candlelight:gold_ring'}
     ];
     
       for (const remove of toRemove) {

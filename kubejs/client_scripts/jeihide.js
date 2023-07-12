@@ -162,7 +162,17 @@ JEIEvents.hideItems(event => {
         'vinery:flower_box',
         'meadow:flower_box',
         'shoppy:shop_block',
-        'shoppy:creative_shop_block'
+        'shoppy:creative_shop_block',
+        'candlelight:tomato_seeds',
+        'candlelight:tomato',
+        'candlelight:tomato_crate',
+        'candlelight:potato_crate',
+        'candlelight:beetroot_crate',
+        'candlelight:carrot_crate',
+        'candlelight:dough',
+        'candlelight:pasta_raw',
+        'vinery:cristel_wine',
+        'candlelight:chocolate',
     ];
     
       for (const hide of toHide) {

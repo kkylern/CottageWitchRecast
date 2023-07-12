@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "candlelight:mushrooms"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    },
+    {
+      "item": "candlelight:butter"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:mushroom_soup",
+    "count": 1
+  }
+}

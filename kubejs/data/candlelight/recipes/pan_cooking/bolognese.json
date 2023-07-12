@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "candlelight:tomato_soup"
+    },
+    {
+      "tag": "candlelight:cooked_beef"
+    },
+    {
+      "tag": "candlelight:red_effect"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:bolognese"
+  }
+}

@@ -1,4 +1,10 @@
 // Listen to item registry event
+
+
+const $ShearsItem = Java.loadClass('net.minecraft.world.item.ShearsItem')
+const $IProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
+const $KubeJS = Java.loadClass('dev.latvian.mods.kubejs.KubeJS')
+
 StartupEvents.registry('item', event => {
     // The texture for this item has to be placed in kubejs/assets/kubejs/textures/item/test_item.png
     // If you want a custom item model, you can create one in Blockbench and put it in kubejs/assets/kubejs/models/item/test_item.json
@@ -8,9 +14,18 @@ StartupEvents.registry('item', event => {
     event.create('solar_coin').maxStackSize(64).displayName("Solar Coin")
     event.create('arcane_coin').maxStackSize(64).displayName("Arcane Coin")
 
+    event.custom('diamond_shears', new $ShearsItem(new $IProperties().durability(1500).tab($KubeJS.tab))).displayName("Diamond Shears")
+
   })
 
 StartupEvents.registry('block', event => {
+
+//Katu Bricks
+  event.create('katubrick')
+  .material('stone')
+  .hardness(4)
+  .displayName('Katu Bricks') 
+  .tagBlock('minecraft:mineable/pickaxe') 
 
 // Carved Warped Logs
   event.create('carved_warped_1', 'cardinal')

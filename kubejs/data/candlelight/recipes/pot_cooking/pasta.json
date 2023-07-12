@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "candlelight:pasta"
+    },
+    {
+      "item": "candlelight:tomato_soup"
+    },
+    {
+      "tag": "vinery:wine"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:pasta",
+    "count": 4
+  }
+}

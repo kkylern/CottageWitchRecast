@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "candlelight:crops/tomato"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "candlelight:all_effects"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:tomato_soup",
+    "count": 1
+  }
+}

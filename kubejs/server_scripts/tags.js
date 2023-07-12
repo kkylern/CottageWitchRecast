@@ -212,7 +212,8 @@ ServerEvents.tags('item', event => {
         'vinery:jungle_grapes_white',
         'overweight_farming:melon_juice',
         'vinery:white_grape',
-        'collectorsreap:pomegranate'
+        'collectorsreap:pomegranate',
+        //'bakery:strawberry'
     )
 
     //Proteins
@@ -352,6 +353,12 @@ ServerEvents.tags('item', event => {
     'fantasyfurniture:nordic/cushion',
     'fantasyfurniture:decorations/royal_floor_cushion'
     )
+
+    // Limes
+    event.add('forge:fruits/lime',
+    'collectorsreap:lime_slice')
+    event.add('forge:fruits/citrus',
+    'collectorsreap:lime_slice')
 
     //===Banning Uncraftables===
     event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg')
@@ -636,7 +643,27 @@ ServerEvents.tags('block', event => {
     'fantasyfurniture:bone/wither/oven',
     'fantasyfurniture:bone/skeleton/oven',
     'fantasyfurniture:venthyr/oven',
-    'fantasyfurniture:nordic/oven'
+    'fantasyfurniture:nordic/oven',
+    'candlelight:cobblestone_stove',
+    'candlelight:sandstone_stove',
+    'candlelight:stone_bricks_stove',
+    'candlelight:deepslate_stove',
+    'candlelight:granite_stove',
+    'candlelight:end_stove',
+    'candlelight:mud_stove',
+    'candlelight:quartz_stove',
+    'candlelight:red_nether_bricks_stove',
+   /*'bakery:red_nether_bricks_stove',
+    'bakery:quartz_stove',
+    'bakery:mud_stove',
+    'bakery:end_stove',
+    'bakery:granite_stove',
+    'bakery:deepslate_stove',
+    'bakery:stone_bricks_stove',
+    'bakery:sandstone_stove',
+    'bakery:cobblestone_stove',*/
+    'meadow:stove_tiles',
+    'meadow:stove_tiles_lid'
     )
 
     //Meadow
@@ -655,7 +682,27 @@ ServerEvents.tags('block', event => {
     'fantasyfurniture:bone/wither/oven',
     'fantasyfurniture:bone/skeleton/oven',
     'fantasyfurniture:venthyr/oven',
-    'fantasyfurniture:nordic/oven'
+    'fantasyfurniture:nordic/oven',
+    'candlelight:cobblestone_stove',
+    'candlelight:sandstone_stove',
+    'candlelight:stone_bricks_stove',
+    'candlelight:deepslate_stove',
+    'candlelight:granite_stove',
+    'candlelight:end_stove',
+    'candlelight:mud_stove',
+    'candlelight:quartz_stove',
+    'candlelight:red_nether_bricks_stove',
+    /*'bakery:red_nether_bricks_stove',
+    'bakery:quartz_stove',
+    'bakery:mud_stove',
+    'bakery:end_stove',
+    'bakery:granite_stove',
+    'bakery:deepslate_stove',
+    'bakery:stone_bricks_stove',
+    'bakery:sandstone_stove',
+    'bakery:cobblestone_stove',*/
+    'meadow:stove_tiles',
+    'meadow:stove_tiles_lid'
     )
 
     //Hexerei
@@ -674,8 +721,106 @@ ServerEvents.tags('block', event => {
     'fantasyfurniture:bone/wither/oven',
     'fantasyfurniture:bone/skeleton/oven',
     'fantasyfurniture:venthyr/oven',
-    'fantasyfurniture:nordic/oven'
+    'fantasyfurniture:nordic/oven',
+    'candlelight:cobblestone_stove',
+    'candlelight:sandstone_stove',
+    'candlelight:stone_bricks_stove',
+    'candlelight:deepslate_stove',
+    'candlelight:granite_stove',
+    'candlelight:end_stove',
+    'candlelight:mud_stove',
+    'candlelight:quartz_stove',
+    'candlelight:red_nether_bricks_stove',
+    /*'bakery:red_nether_bricks_stove',
+    'bakery:quartz_stove',
+    'bakery:mud_stove',
+    'bakery:end_stove',
+    'bakery:granite_stove',
+    'bakery:deepslate_stove',
+    'bakery:stone_bricks_stove',
+    'bakery:sandstone_stove',
+    'bakery:cobblestone_stove',*/
+    'meadow:stove_tiles',
+    'meadow:stove_tiles_lid'
     )
+
+    //Candlelight
+    event.add('candlelight:stoves', 
+    'create:blaze_burner',
+    'decorative_blocks:brazier',
+    'decorative_blocks:soul_brazier',
+    'vinery:stove',
+    'farmersdelight:stove',
+    'ends_delight:end_stove',
+    'nethersdelight:blackstone_stove',
+    'twilightdelight:maze_stove',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:necrolord/oven',
+    'handcrafted:oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:venthyr/oven',
+    'fantasyfurniture:nordic/oven',
+    'candlelight:cobblestone_stove',
+    'candlelight:sandstone_stove',
+    'candlelight:stone_bricks_stove',
+    'candlelight:deepslate_stove',
+    'candlelight:granite_stove',
+    'candlelight:end_stove',
+    'candlelight:mud_stove',
+    'candlelight:quartz_stove',
+    'candlelight:red_nether_bricks_stove',
+    /*'bakery:red_nether_bricks_stove',
+    'bakery:quartz_stove',
+    'bakery:mud_stove',
+    'bakery:end_stove',
+    'bakery:granite_stove',
+    'bakery:deepslate_stove',
+    'bakery:stone_bricks_stove',
+    'bakery:sandstone_stove',
+    'bakery:cobblestone_stove',*/
+    'meadow:stove_tiles',
+    'meadow:stove_tiles_lid'
+    )
+
+    //Bakery
+    /*event.add('bakery:stove', 
+    'create:blaze_burner',
+    'decorative_blocks:brazier',
+    'decorative_blocks:soul_brazier',
+    'vinery:stove',
+    'farmersdelight:stove',
+    'ends_delight:end_stove',
+    'nethersdelight:blackstone_stove',
+    'twilightdelight:maze_stove',
+    'fantasyfurniture:royal/oven',
+    'fantasyfurniture:necrolord/oven',
+    'handcrafted:oven',
+    'fantasyfurniture:bone/wither/oven',
+    'fantasyfurniture:bone/skeleton/oven',
+    'fantasyfurniture:venthyr/oven',
+    'fantasyfurniture:nordic/oven',
+    'candlelight:cobblestone_stove',
+    'candlelight:sandstone_stove',
+    'candlelight:stone_bricks_stove',
+    'candlelight:deepslate_stove',
+    'candlelight:granite_stove',
+    'candlelight:end_stove',
+    'candlelight:mud_stove',
+    'candlelight:quartz_stove',
+    'candlelight:red_nether_bricks_stove',
+    'bakery:red_nether_bricks_stove',
+    'bakery:quartz_stove',
+    'bakery:mud_stove',
+    'bakery:end_stove',
+    'bakery:granite_stove',
+    'bakery:deepslate_stove',
+    'bakery:stone_bricks_stove',
+    'bakery:sandstone_stove',
+    'bakery:cobblestone_stove',
+    'meadow:stove_tiles',
+    'meadow:stove_tiles_lid'
+    )*/
 
 })
 

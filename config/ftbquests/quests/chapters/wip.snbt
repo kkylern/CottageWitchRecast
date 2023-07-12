@@ -110,8 +110,8 @@
 			description: ["What kind of witch are you? Now that you're level 10, you can pick a specialization to be granted certain perks and items. You can only choose one, so look through the following quest lines to see which speaks to you the most!"]
 			id: "683D4D91CD135B02"
 			title: "Choose Your Specialization"
-			x: -9.5d
-			y: -14.5d
+			x: -4.0d
+			y: -13.5d
 		}
 		{
 			id: "08D9EE78F901AC4D"
@@ -341,51 +341,63 @@
 			y: -15.5d
 		}
 		{
-			id: "0F6FCCFAAA4DB2C9"
+			id: "41E9B4B0912E1D6B"
 			rewards: [
 				{
-					command: "/attribute @s minecraft:generic.movement_speed base set 0.15"
-					icon: {
-						Count: 1b
-						id: "minecraft:leather_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "76D9FD3C0EE04B35"
-					player_command: true
-					title: "Increase Walking Speed"
-					type: "command"
+					count: 2
+					id: "5A44916E8429B2B5"
+					item: "magnumtorch:diamond_magnum_torch"
+					type: "item"
 				}
 				{
-					command: "/attribute @s forge:step_height_addition base set 1"
-					icon: "minecraft:polished_andesite_stairs"
-					id: "6BBFDF7301E963DD"
-					player_command: true
-					title: "Increase Step Height"
-					type: "command"
+					id: "40DC12AD28DDCCA4"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:caster_tome"
+						tag: {
+							"ars_nouveau:caster": {
+								current_slot: 0
+								flavor: ""
+								hidden_recipe: ""
+								is_hidden: 0b
+								spell_count: 1
+								spells: {
+									spell0: {
+										name: ""
+										recipe: {
+											part0: "ars_nouveau:glyph_self"
+											part1: "ars_nouveau:glyph_light"
+											part2: "ars_nouveau:glyph_extend_time"
+											part3: "ars_nouveau:glyph_extend_time"
+											part4: "ars_nouveau:glyph_extend_time"
+											part5: "ars_nouveau:glyph_extend_time"
+											part6: "ars_nouveau:glyph_extend_time"
+											part7: "ars_nouveau:glyph_extend_time"
+											part8: "ars_nouveau:glyph_extend_time"
+											part9: "ars_nouveau:glyph_extend_time"
+											size: 10
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+								}
+							}
+						}
+					}
+					type: "item"
 				}
 			]
-			tasks: [{
-				consume_items: true
-				id: "4356FB45B0DE1BF0"
-				item: "kubejs:witch_type_item"
-				type: "item"
-			}]
-			title: "Fey Witchery"
-			x: -6.5d
-			y: -13.5d
-		}
-		{
-			id: "41E9B4B0912E1D6B"
-			rewards: [{
-				command: "/attribute @s minecraft:generic.armor base set 2"
-				icon: "domesticationinnovation:deflection_shield"
-				id: "71F8B315CBCD10AD"
-				player_command: true
-				title: "Increase Base Armor"
-				type: "command"
-			}]
 			tasks: [{
 				consume_items: true
 				id: "1A5C300D7A83A1B7"
@@ -393,38 +405,22 @@
 				type: "item"
 			}]
 			title: "Light Witchery"
-			x: -5.0d
-			y: -13.5d
+			x: -3.5d
+			y: -15.5d
 		}
 		{
 			id: "02D1DBEACCE79BA7"
-			rewards: [
-				{
-					id: "0963F4A0CD8C91DF"
-					item: {
-						Count: 1b
-						id: "reaping:diamond_reaping_tool"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "0963F4A0CD8C91DF"
+				item: {
+					Count: 1b
+					id: "reaping:diamond_reaping_tool"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					command: "/attribute @s minecraft:generic.attack_damage base set 2"
-					icon: {
-						Count: 1b
-						id: "twilightforest:knightmetal_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "62E2441D3940C884"
-					player_command: true
-					title: "Increase Base Attack"
-					type: "command"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				id: "4BB1C0E025379E7E"
@@ -455,19 +451,11 @@
 				type: "item"
 			}]
 			title: "Sea Witchery"
-			x: -3.5d
+			x: -2.0d
 			y: -15.5d
 		}
 		{
 			id: "3B29D264111FFAC1"
-			rewards: [{
-				command: "/attribute @s minecraft:generic.luck base set 0.5"
-				icon: "twilightforest:clover_patch"
-				id: "1711CC1E816B22C5"
-				player_command: true
-				title: "Increase Base Luck"
-				type: "command"
-			}]
 			tasks: [{
 				consume_items: true
 				id: "3095A6D6ED193A19"
@@ -475,14 +463,14 @@
 				type: "item"
 			}]
 			title: "Goblin Witchery"
-			x: -3.5d
-			y: -13.5d
+			x: -0.5d
+			y: -15.5d
 		}
 		{
 			description: [
 				"The &bCoven Witch&r has no bonuses nor negatives. Instead, they refresh their power from their friends and allies."
 				""
-				"This type of witch starts out with"
+				"This type of witch starts out with &bRobes&r which make Witches neutral to the player, as well as &bSeed Mixture&r to tame their own &eCrow&r familiar."
 			]
 			id: "5266DE50FC59F824"
 			rewards: [
@@ -498,25 +486,9 @@
 					type: "item"
 				}
 				{
-					id: "71EABC42442E84A3"
-					item: {
-						Count: 1b
-						id: "hexerei:witch_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "788E3E831892D7C4"
-					item: {
-						Count: 1b
-						id: "hexerei:witch_boots"
-						tag: {
-							Damage: 0
-						}
-					}
+					count: 15
+					id: "1B1A4C33E6EE2897"
+					item: "hexerei:seed_mixture"
 					type: "item"
 				}
 			]
@@ -532,20 +504,262 @@
 			y: -15.5d
 		}
 		{
-			id: "08B88FDA113C6AC3"
+			dependencies: ["5266DE50FC59F824"]
+			id: "78D3F2937D5ACAEE"
+			progression_mode: "linear"
 			tasks: [{
-				id: "3644BBD4E0B49F52"
+				id: "7B39F3274D74C76A"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: -8.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0166A8E6B39FD8AA"]
+			id: "75269C21B807E90D"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 25
+					id: "226EAF3790964F19"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4DBF765F6E4B12C2"
+					item: "nethersdelight:rich_soul_soil"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "331A07761F5CA0E1"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["75269C21B807E90D"]
+			id: "4743C16F783DF4F6"
+			progression_mode: "linear"
+			tasks: [{
+				id: "453314D925C9FC34"
+				stat: "minecraft:pot_flower"
+				type: "stat"
+				value: 100
+			}]
+			x: -6.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4743C16F783DF4F6"]
+			id: "6F12ECA0264D4E5E"
+			progression_mode: "linear"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "032984BBBAAEFEBB"
+				table_id: 1141638724931521925L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "340B610B49E95C58"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
+				{
+					id: "09077D60FE961B27"
+					item: "ends_delight:dried_chorus_flower"
+					type: "item"
+				}
+				{
+					id: "172255EA9F970FC3"
+					item: "culturaldelights:white_eggplant"
+					type: "item"
+				}
+				{
+					id: "7A7EEF44671B4966"
+					item: "neapolitan:white_strawberries"
+					type: "item"
+				}
+				{
+					id: "0410FE50BF93FED2"
+					item: "environmental:cartwheel"
+					type: "item"
+				}
+			]
+			title: "Collect Rare Plants"
+			x: -6.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["02D1DBEACCE79BA7"]
+			id: "08995A656942304F"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59B57046D653CA36"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F952DF2644B53F0"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "53108C4FA164488C"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 50
+			}]
+			x: -5.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["48CBC9CCD6DE3EC5"]
+			id: "6580F6C54BA96DBF"
+			progression_mode: "linear"
+			tasks: [{
+				id: "797BFCE40C901D2C"
+				structure: "#minecraft:ocean_ruin"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["3B29D264111FFAC1"]
+			id: "4788EE9A2E3BF29D"
+			progression_mode: "linear"
+			tasks: [{
+				id: "294AD43395AAF7E2"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 50
+			}]
+			x: -0.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["08995A656942304F"]
+			id: "1A5A55A233D5E843"
+			progression_mode: "linear"
+			rewards: [{
+				count: 2
+				id: "64AF48FE108B75B6"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4C915A6BE8524AB6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["41E9B4B0912E1D6B"]
+			id: "3AC2A207C626FE8F"
+			progression_mode: "linear"
+			rewards: [{
+				id: "6B12C05C523653C8"
+				item: "ars_nouveau:jar_of_light"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6702CBD663E4164D"
+				type: "dimension"
+			}]
+			x: -3.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["3AC2A207C626FE8F"]
+			id: "50C54A5528257CED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63A10CB18E0181D6"
+				table_id: 1141638724931521925L
+				type: "choice"
+			}]
+			tasks: [{
+				checkItem: true
+				entity: "minecraft:zombie_villager"
+				id: "093B0B9DE3380119"
+				item: "minecraft:golden_apple"
+				nbt: { }
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -19.5d
+		}
+		{
+			id: "0C225B1E2F7C6BF0"
+			rewards: [{
+				id: "3B729CB01F14B2B6"
 				item: {
 					Count: 1b
-					id: "sophisticatedstorage:limited_barrel_1"
-					tag: {
-						woodType: "oak"
-					}
+					id: "ars_nouveau:apprentice_spell_book"
+					tag: { }
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -13.5d
+			tasks: [{
+				id: "6C1DB53B5401FC27"
+				item: "kubejs:witch_type_item"
+				type: "item"
+			}]
+			title: "Scholarly Witch"
+			x: 1.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0C225B1E2F7C6BF0"]
+			id: "64EF507113910AB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A2E4BBBC1ED3547"
+				table_id: 8674317693039055704L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "33F3657C1C71C4A6"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Craft an Enchanting Table"
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["64EF507113910AB8"]
+			id: "4202D270BC613C98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77D2A6115FA628DD"
+				table_id: 2716320750821748806L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 3L
+				id: "5C175F1AECF5873A"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -19.5d
 		}
 	]
 	title: "WIP"
