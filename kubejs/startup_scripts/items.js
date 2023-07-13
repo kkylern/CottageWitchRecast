@@ -21,11 +21,18 @@ StartupEvents.registry('item', event => {
 StartupEvents.registry('block', event => {
 
 //Katu Bricks
-  event.create('katubrick')
-  .material('stone')
-  .hardness(4)
-  .displayName('Katu Bricks') 
-  .tagBlock('minecraft:mineable/pickaxe') 
+event.create('katubrick')
+.material('stone')
+.hardness(4)
+.displayName('Katu Bricks') 
+.tagBlock('minecraft:mineable/pickaxe') 
+
+//Cash Register
+event.create('cash_register')
+.material('stone')
+.hardness(4)
+.displayName('Cash Register') 
+.tagBlock('minecraft:mineable/pickaxe') 
 
 // Carved Warped Logs
   event.create('carved_warped_1', 'cardinal')

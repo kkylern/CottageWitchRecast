@@ -1,0 +1,14 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "bakery:butter"
+    }
+  ],
+  "item": "bakery:bun",
+  "count": 5,
+  "experience": 0.15
+}

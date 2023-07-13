@@ -1,0 +1,17 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "item": "bakery:sweet_dough"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "bakery:butter"
+    }
+  ],
+  "item": "bakery:baguette",
+  "count": 3,
+  "experience": 0.15
+}

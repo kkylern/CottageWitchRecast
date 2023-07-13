@@ -1149,6 +1149,31 @@ ServerEvents.recipes(event => {
         '#collectorsreap:lime_or_slice'         // Arg 3: the item to replace it with
     )
 
+    //Strawberries
+    event.replaceInput(
+        { input: 'bakery:strawberry' }, // Arg 1: the filter
+        'bakery:strawberry',            // Arg 2: the item to replace
+        '#forge:fruits/strawberries'         // Arg 3: the item to replace it with
+        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+      )
+
+    //Bakery Dough
+    event.replaceInput(
+        { input: 'bakery:dough' }, // Arg 1: the filter
+        'bakery:dough',            // Arg 2: the item to replace
+        '#forge:dough'         // Arg 3: the item to replace it with
+        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+      )
+
+    //Candlelight Butter
+    event.replaceInput(
+        { input: 'candlelight:butter' }, // Arg 1: the filter
+        'candlelight:butter',            // Arg 2: the item to replace
+        '#forge:butter'         // Arg 3: the item to replace it with
+        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+      )
+      
+
     // BG Charging Gadget
     event.shaped(
         Item.of('charginggadgets:charging_station'),

@@ -173,6 +173,12 @@ JEIEvents.hideItems(event => {
         'candlelight:pasta_raw',
         'vinery:cristel_wine',
         'candlelight:chocolate',
+        'bakery:strawberry',
+        'bakery:strawberry_seeds',
+        'bakery:strawberry_crate',
+        'candlelight:butter',
+        'bakery:dough',
+        'bakery:chocolate_truffle',
     ];
     
       for (const hide of toHide) {

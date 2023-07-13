@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "bakery:jam"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "bakery:pudding",
+    "count": 1
+  }
+}

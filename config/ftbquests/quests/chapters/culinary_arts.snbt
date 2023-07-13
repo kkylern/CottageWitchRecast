@@ -1276,11 +1276,6 @@
 					type: "random"
 				}
 				{
-					id: "6C28C7061A77DFC0"
-					item: "brewinandchewin:kombucha"
-					type: "item"
-				}
-				{
 					id: "6F880DBA7486C95D"
 					item: {
 						Count: 1b

@@ -900,6 +900,7 @@
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			description: ["This quest is repeatable."]
 			id: "3057155A3A2B5F47"
@@ -1172,6 +1173,7 @@
 			y: 6.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			description: ["This quest is repeatable."]
 			id: "376F0C3219E696C9"

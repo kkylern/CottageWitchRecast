@@ -29,5 +29,5 @@
 		#The minimum attempts for Chimpanzees to spawn with a Banana Plant
 		"Chimpanzee minimum spawn attempts" = 0
 		#The maximum attempts for Chimpanzees to spawn with a Banana Plant
-		"Chimpanzee maximum spawn attempts" = 0
+		"Chimpanzee maximum spawn attempts" = 1
 

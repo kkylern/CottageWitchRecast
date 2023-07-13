@@ -1,0 +1,14 @@
+{
+  "type": "bakery:stove",
+  "ingredients": [
+    {
+      "tag": "forge:fruits/strawberries"
+    },
+    {
+      "item": "bakery:sweet_dough"
+    }
+  ],
+  "item": "bakery:linzer_tart",
+  "count": 1,
+  "experience": 0.35
+}

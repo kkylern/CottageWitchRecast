@@ -170,6 +170,12 @@ ServerEvents.recipes(event => {
         {output: 'candlelight:pasta_raw'},
         {output: 'vinery:cristel_wine'},
         {output: 'candlelight:chocolate'},
+        {output: 'bakery:strawberry'},
+        {output: 'bakery:strawberry_seeds'},
+        {output: 'bakery:strawberry_crate'},
+        {output: 'candlelight:butter'},
+        {output: 'bakery:dough'},
+        {output: 'bakery:chocolate_truffle'},
         //Replaced Recipes Below
         {output: 'buildinggadgets:gadget_building'},
         {output: 'buildinggadgets:gadget_exchanging'},
