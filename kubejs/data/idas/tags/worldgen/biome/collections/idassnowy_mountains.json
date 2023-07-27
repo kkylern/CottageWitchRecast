@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_slopes",
+    {
+      "id": "terralith:alpine_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:snowy_badlands",
+      "required": false
+    }
+  ]
+}

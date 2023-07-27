@@ -7,29 +7,30 @@
 		command.paintexport.name: true
 		command.paintimport: true
 		command.paintimport.name: true
+		command.ftbranks.add: true
 	}
 	red: {
-		name: "Red"
+		name: "red"
 		power: 2
 		ftbranks.name_format: "&c{name}"
 	}
 	darkgreen: {
-		name: "Dark Green"
+		name: "dark green"
 		power: 2
 		ftbranks.name_format: "&2{name}"
 	}
 	darkaqua: {
-		name: "Dark Aqua"
+		name: "dark aqua"
 		power: 2
 		ftbranks.name_format: "&3{name}"
 	}
 	darkred: {
-		name: "Dark red"
+		name: "dark red"
 		power: 2
 		ftbranks.name_format: "&4{name}"
 	}
 	darkpurple: {
-		name: "Dark purple"
+		name: "dark purple"
 		power: 2
 		ftbranks.name_format: "&5{name}"
 	}
@@ -49,14 +50,13 @@
 		ftbranks.name_format: "&b{name}"
 	}
 	lightpurple: {
-		name: 	light purple"
+		name: "light purple"
 		power: 2
 		ftbranks.name_format: "&d{name}"
 	}
-	admin: {
-		name: "Admin"
-		power: 1000
-		condition: "op"
+	greener: {
+		name: "greener"
+		power: 2
 		ftbranks.name_format: "&6{name}"
 	}
 }

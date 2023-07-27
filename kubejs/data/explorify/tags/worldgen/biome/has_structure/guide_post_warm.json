@@ -1,0 +1,10 @@
+{
+  "replace":true,
+  "values": [
+    "minecraft:stony_peaks",
+    {
+      "id": "#forge:is_mountain",
+      "required": false
+    }
+  ]
+}

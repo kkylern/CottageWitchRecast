@@ -10,7 +10,7 @@
 		click: ""
 		corner: false
 		dev: false
-		height: 15.0d
+		height: 14.0625d
 		hover: [ ]
 		image: "cottagewitch:textures/bgcreate.png"
 		rotation: 0.0d

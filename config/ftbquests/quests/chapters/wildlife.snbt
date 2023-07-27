@@ -260,12 +260,20 @@
 		{
 			description: ["The &bCommand Drum&r is an item which allows you to command multiple tamed creatures at one time."]
 			id: "1661059D340835FC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "592BB1DBA9CED058"
-				table_id: 223398162038636868L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "592BB1DBA9CED058"
+					table_id: 223398162038636868L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24209FAB82F2AEA3"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "09F430BB3D8CD3C1"
@@ -1435,12 +1443,20 @@
 				"Feed them &bgame meat&r such as &brabbit&r or &bchicken&r. They can also be bred with the same items. They will &afollow you once tamed&r even if you're flying through the air!"
 			]
 			id: "697E566F9FF782F0"
-			rewards: [{
-				count: 5
-				id: "478853E191F41ABC"
-				item: "minecraft:chicken"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "478853E191F41ABC"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DAF274364D46AF7"
+					table_id: 7049021818423122779L
+					type: "choice"
+				}
+			]
 			shape: "heart"
 			tasks: [{
 				icon: "biomemakeover:owl_spawn_egg"
@@ -1523,9 +1539,10 @@
 			]
 			id: "7E2641B15D6AF49E"
 			rewards: [{
-				id: "0CA93B79B9D94DF7"
-				item: "minecraft:pig_spawn_egg"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6660D36094752F9E"
+				table_id: 7049021818423122779L
+				type: "choice"
 			}]
 			tasks: [
 				{

@@ -1,0 +1,17 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "meadow:alpine_salt_ore"
+      }
+    ],
+    "tool": {
+      "tag": "forge:hammers"
+    },
+    "result": [
+      {
+        "item": "meadow:alpine_salt",
+        "count": 2
+      }
+    ]
+  }

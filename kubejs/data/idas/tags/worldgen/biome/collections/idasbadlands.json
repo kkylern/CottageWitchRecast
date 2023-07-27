@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_badlands",
+    {
+      "id": "#terralith:shrublands",
+      "required": false
+    },
+    {
+      "id": "#c:mesa",
+      "required": false
+    },
+    {
+      "id": "#c:badlands",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": true,
+
+  "values": [
+    "meadow:meadow_forest",
+    "#minecraft:is_forest",
+    {
+      "id": "#meadow:is_meadow",
+      "required": false
+    }
+  ]
+}

@@ -1535,23 +1535,7 @@ ItemEvents.tooltip(e => {
     'vinery:wine_press'
     ],
     'Job Blocks!')
-
-    e.add('reaping:iron_reaping_tool', 
-    'Base Chance of Failure: 45%'
-    )
-
-    e.add('reaping:gold_reaping_tool', 
-    'Base Chance of Failure: 34%'
-    )
-
-    e.add('reaping:diamond_reaping_tool', 
-    'Base Chance of Failure: 18%'
-    )
-
-    e.add('reaping:netherite_reaping_tool', 
-    'Base Chance of Failure: 9%'
-    )
-
+    
     e.add('biomemakeover:stunt_powder', 
     'Apply this to baby animals to prevent them growing up.'
     )

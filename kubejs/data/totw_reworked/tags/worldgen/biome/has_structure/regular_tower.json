@@ -10,6 +10,10 @@
         "minecraft:desert",
         "minecraft:swamp",
         "#minecraft:is_mountain",
-        "#minecraft:is_hill"
+        "#minecraft:is_hill",
+        {
+          "id": "#forge:is_plains",
+          "required": false
+        }
     ]
 }

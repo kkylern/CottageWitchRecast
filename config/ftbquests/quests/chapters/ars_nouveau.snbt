@@ -14,7 +14,7 @@
 		hover: [ ]
 		image: "cottagewitch:textures/bgarsnouveau.png"
 		rotation: 0.0d
-		width: 25.0d
+		width: 26.666666666666664d
 		x: 0.0d
 		y: 0.0d
 	}]

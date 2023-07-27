@@ -134,186 +134,11 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4609AFE9E0472C33"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"Once you defeat the dragon and gain access to the &couter islands&r, you may be lucky enough to find this &cdilapidated structure&r. There isn’t much loot inside, but at the top of the tower, you can find a &bdragon egg&r. Be careful though, the &eendermen&r inside &aaren’t quite as peaceful&r as the ones outside of the structure.\""]
-			hide: true
-			id: "17D7F6B86B4AAD39"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "676B6110D4979B9D"
-				table_id: 5161092699925703455L
-				type: "random"
-			}]
-			tasks: [{
-				icon: "minecraft:dragon_egg"
-				id: "5A6E47AE26C423B6"
-				structure: "dungeons_plus:end_ruins"
-				type: "structure"
-			}]
-			title: "End Ruins"
-			x: 4.5d
-			y: -13.5d
-		}
-		{
-			description: ["The beginning of your journey should bring you to a &cTower&r, looming over the surrounding lands. Found most often in plains, forests, and mountains, these Towers &ahold countless treasures&r, as well as a &bmap to the next dungeon...&r"]
-			id: "4609AFE9E0472C33"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				icon: "sootychimneys:stone_brick_chimney"
-				id: "11E9F72AB87C443C"
-				structure: "dungeons_plus:tower"
-				type: "structure"
-			}]
-			title: "Find the Tower"
-			x: 6.5d
-			y: -13.5d
-		}
-		{
-			dependencies: ["4609AFE9E0472C33"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"Found in the lava pools of the Nether’s &csoul sand valley&r, you may find this &cprison of souls&r. With the amount of &eghasts&r surrounding it, approaching and reaching the top for your reward may prove to be a no small task. Be wary as the ghasts are not opposed to &adestroying the structure around you&r with their fireballs. Should you survive, you may walk out with a &bSoul Cannon&r.\""]
-			hide: true
-			id: "0531D54C99BEF0A9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4FCB397034F3C806"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "dungeons_plus:soul_cannon"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "73606FC0175B5036"
-				structure: "dungeons_plus:soul_prison"
-				type: "structure"
-			}]
-			title: "Soul Prison"
-			x: 8.5d
-			y: -13.5d
-		}
-		{
-			dependencies: ["2BAEDCFF3F99C4F0"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"This &cancient skeleton&r can be found in &cdeserts&r and hides a secret beneath. Explore the ancient temple and &afind the treasures that rest within&r. Legend has it that this is where the &bLeviathan Blade&r resides. Along with treasure, the &ehusks&r that spawn here are &acapable of dropping &bsand&r with their normal loot.\""]
-			hide: true
-			id: "4E1F4BA7F58DCAC8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D9637E587B850EA"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "dungeons_plus:leviathan_blade"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "71AD2757683D2F7B"
-				structure: "dungeons_plus:leviathan"
-				type: "structure"
-			}]
-			title: "Leviathan"
-			x: 4.5d
-			y: -11.5d
-		}
-		{
-			dependencies: ["4609AFE9E0472C33"]
-			description: ["There are &athree types&r of &cReanimated Ruins&r. Which one you complete will determine which &anew map you unlock&r. You only need to find one to complete this quest, but if you wish to &aobtain all the unique artifacts&r, you'll need to &6seek out more ruins&r!"]
-			hide: true
-			id: "2BAEDCFF3F99C4F0"
-			tasks: [
-				{
-					icon: "minecraft:packed_ice"
-					id: "6086759FD812A744"
-					structure: "dungeons_plus:reanimated_ruins_frozen"
-					type: "structure"
-				}
-				{
-					icon: "minecraft:orange_terracotta"
-					id: "762A05754DC14DD2"
-					structure: "dungeons_plus:reanimated_ruins_mesa"
-					type: "structure"
-				}
-				{
-					icon: "minecraft:mossy_cobblestone"
-					id: "03911AC94BE7F62F"
-					structure: "dungeons_plus:reanimated_ruins_mossy"
-					type: "structure"
-				}
+			description: [
+				"The &aGreen Witch&r is a nature-lover, who spends their time gardening, caring for animals, and nurturing their relationship with the earth."
+				""
+				"They start with a &bTamed Potato Beetle&r, which gives a chance at doubling crops harvested."
 			]
-			title: "Reanimated Ruins"
-			x: 6.5d
-			y: -11.5d
-		}
-		{
-			dependencies: ["2BAEDCFF3F99C4F0"]
-			description: ["The journals from which I discovered these dungeons had this to say: \"This shell of an &cundersea town&r is home to many axe-wielding &edrowned&r and provides a renewable source of &bcoral blocks&r. Weapons from a time forgotten, such as the &bWarped Axe&r, can still be found inside.\""]
-			hide: true
-			id: "24BA87E903CB3B76"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "106473AF417CA37A"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			subtitle: "it's not in the nether"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "dungeons_plus:warped_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "5ADBC4B95F8A71DB"
-				structure: "dungeons_plus:warped_garden"
-				type: "structure"
-			}]
-			title: "Warped Garden"
-			x: 8.5d
-			y: -11.5d
-		}
-		{
-			dependencies: [
-				"2BAEDCFF3F99C4F0"
-				"4E1F4BA7F58DCAC8"
-				"24BA87E903CB3B76"
-			]
-			dependency_requirement: "one_completed"
-			description: ["The journals from which I discovered these dungeons had this to say: \"This &cabandoned temple of old&r has long since been taken over by &eStrays&r. At the top, you’ll find the &bFrosted Cowl&r to aid you in your combat. Strays spawned within this structure &acan drop &bice&r, or rarely &bpacked ice&r, on death, and they’re the only mob allowed to spawn inside.\""]
-			hide: true
-			id: "7185E4EBAB87EBF0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2B0CD5A4F4486412"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
-			subtitle: "not to be confused with shirley temple"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "dungeons_plus:frosted_cowl"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "3B0BEB2BDEFCC616"
-				structure: "dungeons_plus:snowy_temple"
-				type: "structure"
-			}]
-			title: "Snowy Temple"
-			x: 6.5d
-			y: -9.5d
-		}
-		{
 			id: "0166A8E6B39FD8AA"
 			rewards: [{
 				id: "2D9406FDD2B0934E"
@@ -397,6 +222,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "58FD32DA3A70872F"
+					item: {
+						Count: 1b
+						id: "environmental:healer_pouch"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				consume_items: true
@@ -410,17 +246,26 @@
 		}
 		{
 			id: "02D1DBEACCE79BA7"
-			rewards: [{
-				id: "0963F4A0CD8C91DF"
-				item: {
-					Count: 1b
-					id: "reaping:diamond_reaping_tool"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					count: 10
+					id: "0835B757E9B435A6"
+					item: "malum:runewood_log"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 5
+					id: "6208BD50EA866DC7"
+					item: "malum:raw_soulstone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E33A7D43631EECD"
+					table_id: 6054817748364199186L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "4BB1C0E025379E7E"
@@ -433,17 +278,71 @@
 		}
 		{
 			id: "48CBC9CCD6DE3EC5"
-			rewards: [{
-				id: "577404ACDA35E7E4"
-				item: {
-					Count: 1b
-					id: "mermod:sea_necklace"
-					tag: {
-						necklace_modifiers: { }
-					}
+			rewards: [
+				{
+					id: "160031AC849A777A"
+					item: "artifacts:charm_of_sinking"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "258E1D0993AE6B24"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_waterproof_tip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3895EC1EC2455188"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:caster_tome"
+						tag: {
+							"ars_nouveau:caster": {
+								current_slot: 0
+								flavor: ""
+								hidden_recipe: ""
+								is_hidden: 0b
+								spell_count: 1
+								spells: {
+									spell0: {
+										name: ""
+										recipe: {
+											part0: "ars_nouveau:glyph_touch"
+											part1: "ars_nouveau:glyph_conjure_water"
+											part2: "ars_nouveau:glyph_aoe"
+											part3: "ars_nouveau:glyph_delay"
+											part4: "ars_nouveau:glyph_evaporate"
+											part5: "ars_nouveau:glyph_aoe"
+											size: 6
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 255
+											g: 255
+											r: 25
+											type: "ars_nouveau:constant"
+										}
+									}
+								}
+							}
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Conjure and Adjourn\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "32845730C076DDCC"
@@ -456,6 +355,21 @@
 		}
 		{
 			id: "3B29D264111FFAC1"
+			rewards: [{
+				id: "56744AF1A34378DC"
+				item: {
+					Count: 1b
+					id: "farmersdelight:pasta_with_meatballs"
+					tag: {
+						Enchantments: [{
+							id: "uniqueutil:ambrosia"
+							lvl: 4s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				id: "3095A6D6ED193A19"
@@ -470,7 +384,7 @@
 			description: [
 				"The &bCoven Witch&r has no bonuses nor negatives. Instead, they refresh their power from their friends and allies."
 				""
-				"This type of witch starts out with &bRobes&r which make Witches neutral to the player, as well as &bSeed Mixture&r to tame their own &eCrow&r familiar."
+				"This type of witch starts out with a &bWitch Hat&r, as well as &bSeed Mixture&r to tame their own &eCrow&r familiar. Their beginner tome gives them the ability to &aplace a Rune&r on the ground which &auses a splash potion&r from their inventory, which is triggered &6when stepped on&r."
 			]
 			id: "5266DE50FC59F824"
 			rewards: [
@@ -491,6 +405,52 @@
 					item: "hexerei:seed_mixture"
 					type: "item"
 				}
+				{
+					id: "48E4583A0A5F9D4C"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:caster_tome"
+						tag: {
+							"ars_nouveau:caster": {
+								current_slot: 0
+								flavor: ""
+								hidden_recipe: ""
+								is_hidden: 0b
+								spell_count: 1
+								spells: {
+									spell0: {
+										name: "Potion Mine"
+										recipe: {
+											part0: "ars_nouveau:glyph_projectile"
+											part1: "ars_nouveau:glyph_rune"
+											part2: "ars_nouveau:glyph_sensitive"
+											part3: "ars_nouveau:glyph_infuse"
+											part4: "ars_nouveau:glyph_aoe"
+											size: 5
+										}
+										sound: {
+											pitch: 1.0f
+											soundTag: {
+												id: "ars_nouveau:fire_family"
+											}
+											volume: 1.0f
+										}
+										spellColor: {
+											b: 180
+											g: 25
+											r: 255
+											type: "ars_nouveau:constant"
+										}
+									}
+								}
+							}
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Tome of Potion Mine\"}"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "nothing wrong with being basic"
 			tasks: [{
@@ -502,19 +462,6 @@
 			title: "Coven Witchery"
 			x: -8.0d
 			y: -15.5d
-		}
-		{
-			dependencies: ["5266DE50FC59F824"]
-			id: "78D3F2937D5ACAEE"
-			progression_mode: "linear"
-			tasks: [{
-				id: "7B39F3274D74C76A"
-				points: false
-				type: "xp"
-				value: 30L
-			}]
-			x: -8.0d
-			y: -17.5d
 		}
 		{
 			dependencies: ["0166A8E6B39FD8AA"]
@@ -760,6 +707,270 @@
 			}]
 			x: 1.0d
 			y: -19.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["51FE4C0B2EB88DA9"]
+			id: "5786553F08210AA6"
+			invisible: true
+			progression_mode: "linear"
+			rewards: [{
+				auto: "enabled"
+				exclude_from_claim_all: true
+				id: "68F9B22A32E23C71"
+				type: "custom"
+			}]
+			secret: true
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 10L
+				id: "187BCDF0AE781B76"
+				secret: true
+				type: "questsadditions:time"
+			}]
+			title: "Potion Quest Timer"
+			x: -10.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["51FE4C0B2EB88DA9"]
+			description: [
+				"As part of your training, you gain the ability to &6trade in 2 &bNether Wart&r for a potion of your choosing, once per day."
+				""
+				"&dThis quest is repeatable&r."
+				""
+				""
+				""
+				""
+				"&oTip: if this is spamming your server console/logs, try \"/gamerule sendCommandFeedback false\"&r"
+			]
+			id: "491B5AE4AF9A4012"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FE86114AF965455"
+				table_id: 8415512190420352941L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4F527372E4FEC5F6"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "Potion Acquisition"
+			x: -10.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5B838586B76F16CB"]
+			description: ["The Coven Witch is also adept at brewing! Brew any potion to achieve this milestone."]
+			id: "51FE4C0B2EB88DA9"
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "15F16D40DCD11ED7"
+				type: "advancement"
+			}]
+			title: "Brew a Potion"
+			x: -8.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["5266DE50FC59F824"]
+			description: ["The expertise of the &eCoven Witch&r is such that even their &bfirst broom&r is exceptional, capable of &amending itself&r. Of course, in order for such mending to occur, the &bBrush&r must be removed from the &bBroom&r and held in the inventory."]
+			id: "5B838586B76F16CB"
+			rewards: [{
+				id: "7E4BE5E535749C82"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "uniquee:ender_mending"
+							lvl: 3s
+						}]
+						RepairCost: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				id: "0FF39A9B107A04DB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:brooms"
+					}
+				}
+				title: "Any Broom"
+				type: "item"
+			}]
+			title: "Your First Broom"
+			x: -8.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["51FE4C0B2EB88DA9"]
+			id: "1D66FC8F5E61FB6C"
+			rewards: [{
+				id: "322E16D58CC12FEF"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "709B8208F63C1290"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Broom: Waterproofing"
+			x: -8.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["1D66FC8F5E61FB6C"]
+			id: "047A10816CDF0B36"
+			rewards: [{
+				id: "77F48B9504E94916"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_netherite_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				id: "67E1882E25F07B10"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Broom: Lavaproofing"
+			x: -8.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["6580F6C54BA96DBF"]
+			description: [
+				"Although the &eSea Witch&r is accustomed to the world underwater, their guests may not be as comfortable. Additionally, easier building underwater is something that even the Sea Witch would benefit from. Once a &bHeart of the Sea&r is obtained, the path to creating a &bConduit&r is all downhill!"
+				""
+				"...Can you have hills underwater?"
+				""
+				"Anyway, it's easier now."
+			]
+			id: "11038E741ED84711"
+			rewards: [
+				{
+					count: 8
+					id: "0C847CE0A30434D5"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					count: 21
+					id: "781F79519C12E4FF"
+					item: "minecraft:prismarine"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0A3E0EAE5AE45045"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					count: 13
+					id: "759B09A9370F8148"
+					item: "minecraft:dark_prismarine"
+					type: "item"
+				}
+			]
+			subtitle: "you con-do-it!"
+			tasks: [{
+				id: "0EA6622E7062F56E"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "Heart of the Conduit"
+			x: -2.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["11038E741ED84711"]
+			description: [
+				"Although you may be a &eSea Witch&r, you still have your human form. Why not use it to &acatch some delicious seafood&r?"
+				""
+				"This milestone will grant you &ayour choice of Curios&r."
+			]
+			id: "19C395ADF51B6B1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "442525245B0C645E"
+				table_id: 3566333286715386510L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7A3727BE18C441AC"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 100
+			}]
+			title: "Catch Fish the Human Way"
+			x: -2.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["19C395ADF51B6B1A"]
+			description: ["This milestone can be completed by &adefeating an &eElder Guardian&r. Doing so will grant you a &bfully-enchanted Trident&r, with either &aRiptide&r or &aLoyalty&r."]
+			id: "10BA3E24B6517389"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "553090B8EAA81D1F"
+				table_id: 9141428801796353435L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "53A8423B1ED63EC7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Bane of the Seas"
+			x: -2.0d
+			y: -23.5d
+		}
+		{
+			id: "37FB7EC95CAE8FAB"
+			shape: "hexagon"
+			tasks: [{
+				id: "7F82989C20F78DDF"
+				item: {
+					Count: 1b
+					id: "malum:tyrving"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -13.5d
 		}
 	]
 	title: "WIP"

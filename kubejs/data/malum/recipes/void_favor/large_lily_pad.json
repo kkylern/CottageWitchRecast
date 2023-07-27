@@ -1,0 +1,10 @@
+{
+    "type": "malum:favor_of_the_void",
+    "input": {
+      "count": 1,
+      "item": "minecraft:lily_pad"
+    },
+    "output": {
+      "item": "environmental:large_lily_pad"
+    }
+  }

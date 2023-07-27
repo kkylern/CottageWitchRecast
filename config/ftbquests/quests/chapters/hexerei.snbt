@@ -18,7 +18,7 @@
 		hover: [ ]
 		image: "cottagewitch:textures/bghexerei.png"
 		rotation: 0.0d
-		width: 25.0d
+		width: 26.666666666666664d
 		x: 0.0d
 		y: 0.0d
 	}]
@@ -1257,6 +1257,32 @@
 			}]
 			x: 2.5d
 			y: 0.0d
+		}
+		{
+			description: [
+				"So you wanted to get some &bBudding Selenite&r for yourself, eh? And in trying to gain some, you destroyed something beautiful. Shame, really."
+				""
+				"I shouldn't reward this behavior, but that look on your face is killing me. So here. Use it wisely."
+			]
+			id: "0EB84DA9912D1B04"
+			invisible: true
+			rewards: [{
+				id: "3E14EA887CE0DEFE"
+				item: "hexerei:budding_selenite"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				block: "hexerei:budding_selenite"
+				block_type: 0
+				checkItem: false
+				id: "604F860B4DCA56F1"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "Break Something Valuable"
+			x: 5.5d
+			y: -4.0d
 		}
 	]
 	title: "Hexerei"

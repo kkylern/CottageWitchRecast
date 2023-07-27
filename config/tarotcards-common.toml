@@ -35,7 +35,7 @@
 		the_emperpor_heroofvillagebonus = 1
 		#How close animals need to be to set lovemode
 		#Range: 0.0 ~ 256.0
-		the_empress_range = 3.0
+		the_empress_range = 0.0
 		#Amplifier for effect (2 = III)
 		#Range: 0 ~ 100
 		the_fool_jumpboost = 1
@@ -68,7 +68,7 @@
 		the_sun_healthboost = 0.1
 		#How close non-allies need to be to apply slowness
 		#Range: 0.0 ~ 256.0
-		the_world_range = 3.0
+		the_world_range = 0.0
 		#Amplifier for effect (9 = X)
 		#Range: 0 ~ 20
 		the_world_slownessamplifier = 1
@@ -77,4 +77,10 @@
 		wheel_of_fortune_luckbonus = 1.5
 		#Stops upgrading enchantment books when they are at max level
 		the_highpriestess_capenchants = true
+		#Percentage of fall damage negated (0.5 = 50%)
+		#Range: 0.0 ~ 1.0
+		the_tower_damagenegation = 1.0
+		#Percentage of damage returned to the attacker (1.0 = 100%)
+		#Range: 0.0 ~ 100.0
+		justice_damagemultiplier = 0.5
 

@@ -737,6 +737,7 @@ ServerEvents.recipes(event => {
         }
     )
 
+
     // Mushroom Stew
     event.shapeless(
         Item.of('minecraft:mushroom_stew'),
@@ -1154,7 +1155,6 @@ ServerEvents.recipes(event => {
         { input: 'bakery:strawberry' }, // Arg 1: the filter
         'bakery:strawberry',            // Arg 2: the item to replace
         '#forge:fruits/strawberries'         // Arg 3: the item to replace it with
-        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
 
     //Bakery Dough
@@ -1162,7 +1162,6 @@ ServerEvents.recipes(event => {
         { input: 'bakery:dough' }, // Arg 1: the filter
         'bakery:dough',            // Arg 2: the item to replace
         '#forge:dough'         // Arg 3: the item to replace it with
-        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
 
     //Candlelight Butter
@@ -1170,7 +1169,6 @@ ServerEvents.recipes(event => {
         { input: 'candlelight:butter' }, // Arg 1: the filter
         'candlelight:butter',            // Arg 2: the item to replace
         '#forge:butter'         // Arg 3: the item to replace it with
-        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
       )
       
 

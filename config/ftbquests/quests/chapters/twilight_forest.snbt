@@ -77,6 +77,12 @@
 					item: "minecraft:red_mushroom"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "32C8941CFBDD95C3"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
 			]
 			shape: "rsquare"
 			size: 2.0d

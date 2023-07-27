@@ -1,0 +1,22 @@
+{
+  "type": "candlelight:pot_cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "tag": "candlelight:white_effect"
+    },
+    {
+      "item": "candlelight:butter"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:salmon_wine",
+    "count": 2,
+    "experience": 0.25
+  }
+}

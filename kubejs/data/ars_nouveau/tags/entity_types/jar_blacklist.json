@@ -19,6 +19,7 @@
     "minecraft:chest_minecart",
     "luggage:luggage",
     "luggage:ender_luggage",
-    "minecraft:ender_dragon"
+    "minecraft:ender_dragon",
+    "biomemakeover:adjudicator"
   ]
 }

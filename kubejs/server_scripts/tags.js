@@ -291,7 +291,6 @@ ServerEvents.tags('item', event => {
 
     // Golden Things for Tarot
     event.add('tarotcards:golden',
-    'reaping:gold_reaping_tool',
     'nethersdelight:golden_machete',
     'farmersdelight:golden_knife',
     'twilightforest:gold_minotaur_axe'
@@ -360,14 +359,19 @@ ServerEvents.tags('item', event => {
     event.add('forge:fruits/citrus',
     'collectorsreap:lime_slice')
 
+    // Reinforced Deepslate
+    event.add('forge:relocation_not_supported',
+    'minecraft:reinforced_deepslate'
+    )
+
     //===Banning Uncraftables===
-    event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg')
+    event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg', 'culturaldelights:avocado_pit')
     event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes')
 
     //===Tags for FTB Quests===
 
     // Brooms
-    event.add('forge:brooms', 'hexerei:mahogany_broom', 'hexerei:witch_hazel_broom', 'hexerei:willow_broom')
+    event.add('forge:brooms', 'hexerei:mahogany_broom', 'hexerei:witch_hazel_broom', 'hexerei:willow_broom', 'ars_scalaes:archwood_broom')
 
     //Tom's Storage Tags
     //event.add('forge:invcable', 'toms_storage:ts.inventory_cable','toms_storage:ts.inventory_cable_framed')
@@ -480,14 +484,6 @@ ServerEvents.tags('item', event => {
     'cnb:pink_minipad_flower_glow',
     'cnb:light_pink_minipad_flower_glow',
     'cnb:yellow_minipad_flower_glow'
-    )
-
-    // Scythe/Reaping Tool Tagging
-    event.add('forge:scythe', 
-    'reaping:diamond_reaping_tool',
-    'reaping:gold_reaping_tool',
-    'reaping:iron_reaping_tool',
-    'reaping:netherite_reaping_tool'
     )
 
     // Magnum Torch Tagging
@@ -609,6 +605,14 @@ ServerEvents.tags('item', event => {
     'create:copper_door',
     'create:train_door',
     'create:framed_glass_door'
+    )
+
+    //Hammers
+    event.add('forge:hammers',
+    'another_furniture:furniture_hammer',
+    'handcrafted:hammer',
+    'hexerei:warhammer',
+    'framedblocks:framed_hammer'
     )
 
 })

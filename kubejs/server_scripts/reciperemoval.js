@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
         {output: 'charginggadgets:charging_station'},
         {output: 'shoppy:bartering_station'},
         {output: 'candlelight:chocolate_box'},
-        {output: 'candlelight:gold_ring'}
+        {output: 'candlelight:gold_ring'},
     ];
     
       for (const remove of toRemove) {

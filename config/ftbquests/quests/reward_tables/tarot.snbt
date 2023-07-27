@@ -48,20 +48,6 @@
 		{
 			item: {
 				Count: 1b
-				id: "tarotcards:the_empress"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "tarotcards:the_fool"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1b
 				id: "tarotcards:the_fool"
 				tag: { }
 			}

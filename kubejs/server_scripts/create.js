@@ -29,4 +29,14 @@ ServerEvents.recipes(e => {
       'meadow:rennet'
     ]).heated()
 
+    e.recipes.createMilling([
+      '4x minecraft:quartz', //output 1
+      Item.of('minecraft:quartz').withChance(0.5)  //output 2, with chance
+    ], 'minecraft:smooth_quartz')  //input
+
+    e.recipes.createMilling([
+      '2x meadow:alpine_salt', //output 1
+      Item.of('meadow:alpine_salt').withChance(0.5)  //output 2, with chance
+    ], 'meadow:alpine_salt_ore')  //input
+
   })

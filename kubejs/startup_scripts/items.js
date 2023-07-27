@@ -14,7 +14,7 @@ StartupEvents.registry('item', event => {
     event.create('solar_coin').maxStackSize(64).displayName("Solar Coin")
     event.create('arcane_coin').maxStackSize(64).displayName("Arcane Coin")
 
-    event.custom('diamond_shears', new $ShearsItem(new $IProperties().durability(1500).tab($KubeJS.tab))).displayName("Diamond Shears")
+    event.createCustom('diamond_shears', () => new $ShearsItem(new $IProperties().durability(1500).tab($KubeJS.tab))).displayName("Diamond Shears")
 
   })
 
