@@ -16,10 +16,6 @@
 	#If an option is in neither of the configurable option lists, then the value in the default player config is used across the server.
 	#Check the default player config .toml file for the option names.
 	opConfigurablePlayerConfigOptions = ["claims.bonusChunkClaims", "claims.bonusChunkForceloads"]
-	#The permission system to use for everything that requires permission checks (e.g. permission_api, ftb_ranks, luck_perms, prometheus). Non-built-in permission systems can be registered through the API with an addon.
-	permissionSystem = "ftb_ranks"
-	#The player party system to prefer and use for anything that can't support multiple systems (e.g. default, ftb_teams, argonauts). Non-built-in party systems can be registered through the API with an addon.
-	primaryPartySystem = "ftb_teams"
 
 	[serverConfig.parties]
 		#Whether the parties part of this mod is enabled.
@@ -77,6 +73,8 @@
 		#ALL - all claims are synced. OWNED_ONLY - only the claims that the client player owns and server claims are synced. NOT_SYNCED - claims are not synced.
 		#Allowed Values: NOT_SYNCED, OWNED_ONLY, ALL
 		claimsSynchronization = "ALL"
+		#The permission system to use for everything that requires permission checks (e.g. permission_api, ftb_ranks, luck_perms, prometheus). Non-built-in permission systems can be registered through the API with an addon.
+		permissionSystem = "ftb_ranks"
 		#The permission that should override the default "maxPlayerClaims" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
 		maxPlayerClaimsPermission = "xaero.pac_max_claims"
 		#The permission that should override the default "maxPlayerClaimForceloads" value. Set it to an empty string to never check permissions.
@@ -117,12 +115,12 @@
 			#This option will be completely removed on the full release of the mod.
 			entityClaimBarrierList = []
 			#Blocks to partially exclude from chunk protection. Supports block tags.
-			#Just a block/tag ID in the list, e.g. "minecraft:lever" allows block interaction across the server if the item in the used hand isn't blocking it.
+			#Just a block/tag ID in the list, e.g. "minecraft:lever" allows block interaction across the server if the item in the hand isn't blocking it.
 			#Prefix "hand$" is the same as no prefix but enforces an empty hand requirement in protected chunks. Prefix "break$" allows breaking the block(s).
 			#Prefix "anything$" is the same as no prefix but allows interaction with any item held in the hand. Please make sure that no item does anything bad when used at a block with such an exception.
 			#Add the same block/tag multiple times to use multiple prefixes. Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:lever", "minecraft:*_button", "break$minecraft:*_button", "break$minecraft:(*_|)sand"]
-			forcedBlockProtectionExceptionList = ["minecraft:crafting_table", "waystones:*", "lootr:*", "shoppy:*"]
+			forcedBlockProtectionExceptionList = ["minecraft:crafting_table", "waystones:*", "lootr:*", "shoppy:*", "minecraft:lectern"]
 			#Custom groups of blocks that a player/claim config should be able to make protection exceptions for. Each group can consist of multiple blocks and block tags.
 			#A group without a prefix creates a player config option for the right-click interaction with the group blocks. The format for a block group is <group ID>{<blocks/tags/wildcards separated by ,>}.
 			#The group ID should consist of at most 32 characters that are letters A-Z, numbers 0-9 or the - and _ characters, e.g. "ePiC-DIRT35{minecraft:dirt, minecraft:grass_block, minecraft:(oak|spruce)_*}".
@@ -266,9 +264,4 @@
 			completelyDisabledEntityInteractions = []
 			#Whether to completely disable frost walking on the server. Use this if the regular frost walking protection doesn't work, since there is no game rule for it.
 			completelyDisableFrostWalking = false
-			#Whether to ignore most detected entity collisions for boats.
-			#By default, boats detect entity collisions and handle them every tick for every entity that touches them, which is a lot.
-			#This can become very slow on a server if we also add the necessary claim protection checks in the mix.
-			#This option makes it so most collisions with boats are randomly ignored, which helps the performance without affecting gameplay all that much.
-			reducedBoatEntityCollisions = true
 
