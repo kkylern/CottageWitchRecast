@@ -1766,15 +1766,15 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "02DD5D14AF4E58F8"
+				id: "6E421AB16B8FAE63"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "c:seeds"
+						value: "forge:grape_seeds"
 					}
 				}
-				title: "Any #c:seeds"
+				title: "Any Grape Seeds"
 				type: "item"
 			}]
 			title: "Obtain Grape Seeds"
@@ -1843,7 +1843,7 @@
 				type: "item"
 			}]
 			title: "Cherry Good"
-			x: -6.5d
+			x: -6.0d
 			y: 15.5d
 		}
 		{
@@ -1923,48 +1923,6 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["7D770ADEB3905EE0"]
-			description: ["This nomadic fellow can be found leading two pack mules, and will &atrade you items useful to your winemaking journey!&r"]
-			id: "3004DB2D3904A04F"
-			rewards: [
-				{
-					id: "2700A48B56B1B267"
-					item: {
-						Count: 1b
-						id: "vinery:apple_wine"
-						tag: {
-							Year: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "501CFB6EDC4BC262"
-					item: "minecraft:emerald"
-					type: "item"
-				}
-			]
-			shape: "heart"
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "vinery:stal_wine"
-					tag: {
-						Year: 0
-					}
-				}
-				id: "32E27CAB336C8DDC"
-				observe_type: 0
-				timer: 0L
-				to_observe: "vinery:wandering_winemaker"
-				type: "observation"
-			}]
-			title: "Meet the Wandering Winemaker"
-			x: -7.5d
-			y: 15.0d
-		}
-		{
 			dependencies: ["15CAD3A9477E400B"]
 			description: [
 				"Congratulations, you've made a delicious (to some people) bottle of &bdark red wine&r. This should &apair nicely with a steak dinner&r."
@@ -2002,27 +1960,6 @@
 		}
 		{
 			dependencies: ["7D770ADEB3905EE0"]
-			description: ["&bGloves&r are obtained from &aMaster-level&r &eWinemaker Villagers&r, and are used to craft the &bWinemaker's Apron&r."]
-			id: "783796D521CEFC6E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7E5A73CA253C7246"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "they fit like...well..."
-			tasks: [{
-				id: "6AAADA407826EEB2"
-				item: "vinery:gloves"
-				type: "item"
-			}]
-			title: "Obtain Some Gloves"
-			x: -4.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["783796D521CEFC6E"]
 			description: ["Once you've made your &bfull set of rustic winemaking attire&r, you will not only look adorable - but &abonemeal you use won't be consumed&r anymore!"]
 			id: "635254DFB3E0B92D"
 			rewards: [
@@ -2088,8 +2025,8 @@
 				}
 			]
 			title: "Winemaking Drip"
-			x: -3.0d
-			y: 16.0d
+			x: -4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["6C75BE906A574DAE"]
@@ -2647,7 +2584,7 @@
 			]
 			title: "Collect All Grapes"
 			x: -4.0d
-			y: 14.0d
+			y: 13.5d
 		}
 	]
 	title: "Culinary Arts"

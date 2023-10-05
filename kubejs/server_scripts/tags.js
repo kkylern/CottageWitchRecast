@@ -111,6 +111,15 @@ ServerEvents.tags('item', event => {
     'vinery:jungle_grapes_red',
     'vinery:jungle_grapes_white'
     )
+    event.add('forge:grape_seeds',
+    'vinery:red_grape_seeds', 
+    'vinery:white_grape_seeds', 
+    'vinery:savanna_grape_seeds_red', 
+    'vinery:savanna_grape_seeds_white', 
+    'vinery:taiga_grape_seeds_red', 
+    'vinery:taiga_grape_seeds_white', 
+    'vinery:jungle_grape_seeds_red', 
+    'vinery:jungle_grape_seeds_white')
 
     // Jam Tagging
     event.add(

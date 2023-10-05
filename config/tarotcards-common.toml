@@ -35,7 +35,7 @@
 		the_emperpor_heroofvillagebonus = 1
 		#How close animals need to be to set lovemode
 		#Range: 0.0 ~ 256.0
-		the_empress_range = 0.0
+		the_empress_range = 0.1
 		#Amplifier for effect (2 = III)
 		#Range: 0 ~ 100
 		the_fool_jumpboost = 1
