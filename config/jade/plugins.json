@@ -1,7 +1,4 @@
 {
-  "toms_trading_network": {
-    "vending_machine": true
-  },
   "minecraft": {
     "block_inventory.detailed_amount": 54,
     "furnace": true,
@@ -57,6 +54,9 @@
   },
   "enigmaticgraves": {
     "grave": true
+  },
+  "delightful": {
+    "crop_progress": true
   },
   "twilightforest": {
     "quest_ram_wool": true
