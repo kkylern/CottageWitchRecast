@@ -207,6 +207,12 @@ ServerEvents.tags('item', event => {
         'nethersdelight:strider_slice'
     )
 
+    //Tomato Sauce
+    event.add('forge:pizza_sauce',
+    'candlelight:tomato_soup',
+    'farmersdelight:tomato_sauce'
+    )
+
     // Nourishment Tags
     //Fruits
     event.add('nourish:fruit',

@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "candlelight:bolognese"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "tag": "forge:cheese"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:lasagne",
+    "count": 6,
+    "experience": 0.15
+  }
+}

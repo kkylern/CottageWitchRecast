@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "type": "bakery:stove",
   "ingredients": [
     {
@@ -8,7 +9,7 @@
       "tag": "forge:dough"
     },
     {
-      "tag": "bakery:butter"
+      "item": "bakery:yeast"
     }
   ],
   "item": "bakery:baguette",

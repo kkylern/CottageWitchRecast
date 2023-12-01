@@ -1,14 +1,15 @@
 {
+  "replace": true,
   "type": "bakery:stove",
   "ingredients": [
     {
       "item": "bakery:sweet_dough"
     },
     {
-      "tag": "bakery:butter"
+      "item": "bakery:yeast"
     },
     {
-      "item": "minecraft:sugar"
+      "item":"minecraft:sugar"
     }
   ],
   "item": "bakery:croissant",

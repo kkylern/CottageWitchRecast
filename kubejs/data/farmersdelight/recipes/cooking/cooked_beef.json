@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    },
+    {
+      "tag": "candlelight:all_effects"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:cooked_beef",
+    "count": 1
+  }
+}

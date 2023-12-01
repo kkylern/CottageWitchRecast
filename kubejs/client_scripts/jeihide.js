@@ -176,7 +176,7 @@ JEIEvents.hideItems(event => {
         'bakery:strawberry',
         'bakery:strawberry_seeds',
         'bakery:strawberry_crate',
-        'candlelight:butter',
+        //'candlelight:butter',
         'bakery:dough',
         'bakery:chocolate_truffle',
     ];

@@ -1,18 +1,15 @@
 {
-  "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "replace": true,
+  "type": "candlelight:pot_cooking",
   "ingredients": [
     {
-      "tag": "candlelight:mushrooms"
+      "tag": "forge:mushrooms"
     },
     {
       "tag": "candlelight:red_effect"
     },
     {
-      "tag": "bakery:butter"
-    },
-    {
-      "item": "minecraft:milk_bucket"
+      "tag": "forge:milk"
     }
   ],
   "container": {

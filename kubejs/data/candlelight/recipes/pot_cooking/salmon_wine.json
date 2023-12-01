@@ -1,15 +1,12 @@
 {
-  "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "replace": true,
+  "type": "candlelight:pot_cooking",
   "ingredients": [
     {
       "item": "minecraft:salmon"
     },
     {
       "tag": "candlelight:white_effect"
-    },
-    {
-      "tag": "bakery:butter"
     }
   ],
   "container": {

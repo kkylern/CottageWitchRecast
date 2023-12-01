@@ -1,14 +1,13 @@
 {
-  "type": "candlelight:pot_cooking",
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "minecraft:salmon"
     },
     {
       "tag": "candlelight:white_effect"
-    },
-    {
-      "item": "candlelight:butter"
     }
   ],
   "container": {

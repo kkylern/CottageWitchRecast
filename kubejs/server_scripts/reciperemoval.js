@@ -173,7 +173,7 @@ ServerEvents.recipes(event => {
         {output: 'bakery:strawberry'},
         {output: 'bakery:strawberry_seeds'},
         {output: 'bakery:strawberry_crate'},
-        {output: 'candlelight:butter'},
+        //{output: 'candlelight:butter'},
         {output: 'bakery:dough'},
         {output: 'bakery:chocolate_truffle'},
         //Replaced Recipes Below

@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "candlelight:tomato"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:tomato_seeds",
+        "count": 3
+  }
+}

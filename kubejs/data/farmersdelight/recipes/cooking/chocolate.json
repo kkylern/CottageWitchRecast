@@ -1,22 +1,23 @@
 {
   "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredients": [
     {
-      "tag": "candlelight:pasta"
+      "item": "minecraft:sugar"
     },
     {
-      "item": "candlelight:tomato_soup"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "tag": "vinery:wine"
+      "tag": "candlelight:milk"
     }
   ],
   "container": {
     "item": "minecraft:bowl"
   },
   "result": {
-    "item": "candlelight:pasta",
+    "item": "candlelight:chocolate",
     "count": 4
   }
 }

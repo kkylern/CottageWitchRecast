@@ -1,12 +1,12 @@
 {
-  "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "replace": true,
+  "type": "candlelight:pan_cooking",
   "ingredients": [
     {
-      "tag": "candlelight:dough"
+      "tag": "forge:dough"
     },
     {
-      "tag": "bakery:butter"
+      "tag": "forge:milk"
     },
     {
       "item": "minecraft:sugar"

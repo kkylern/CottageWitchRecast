@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "type": "bakery:stove",
   "ingredients": [
     {
@@ -8,7 +9,7 @@
       "tag": "forge:dough"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "forge:milk"
     }
   ],
   "item": "bakery:toast",

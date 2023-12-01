@@ -5,13 +5,13 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "minecraft:egg"
+      "tag": "forge:eggs"
     },
     {
       "tag": "bakery:jam"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "forge:milk"
     }
   ],
   "container": {

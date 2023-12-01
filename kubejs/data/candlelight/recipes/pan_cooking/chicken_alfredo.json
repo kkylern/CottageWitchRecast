@@ -1,9 +1,9 @@
 {
-  "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "replace": true,
+  "type": "candlelight:pan_cooking",
   "ingredients": [
     {
-      "tag": "candlelight:pasta"
+      "tag": "forge:pasta"
     },
     {
       "item": "minecraft:chicken"

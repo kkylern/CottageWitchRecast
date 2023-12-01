@@ -1,0 +1,31 @@
+{
+    "replace": true,
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " U ",
+        "#CV",
+        " B "
+    ],
+    "key": {
+        "#": {
+            "item": "candlelight:broccoli"
+        },
+        "V": {
+            "item": "farmersdelight:tomato"
+        },
+        "B": {
+            "tag": "candlelight:bowls"
+        },
+        "C": {
+            "item": "minecraft:potato"
+        },
+        "U": {
+            "item": "minecraft:carrot"
+        }
+    },
+    "result": {
+        "item": "candlelight:broccoli_tomato",
+        "count": 2
+    }
+}
+

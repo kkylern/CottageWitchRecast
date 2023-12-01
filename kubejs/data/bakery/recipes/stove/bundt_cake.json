@@ -1,14 +1,15 @@
 {
+  "replace": true,
   "type": "bakery:stove",
   "ingredients": [
     {
-      "tag": "bakery:eggs"
+      "tag": "forge:eggs"
     },
     {
-      "item": "bakery:sweet_dough"
+      "item": "minecraft:sugar"
     },
     {
-      "tag": "bakery:butter"
+      "item": "bakery:yeast"
     }
   ],
   "item": "bakery:bundt_cake",

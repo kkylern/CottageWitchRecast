@@ -1,15 +1,15 @@
 {
-  "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "replace": true,
+  "type": "candlelight:pan_cooking",
   "ingredients": [
     {
       "item": "candlelight:bolognese"
     },
     {
-      "tag": "candlelight:pasta"
+      "tag": "forge:pasta"
     },
     {
-      "tag": "candlelight:cheese"
+      "tag": "forge:cheese"
     }
   ],
   "container": {

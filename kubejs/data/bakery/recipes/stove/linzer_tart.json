@@ -1,11 +1,15 @@
 {
+  "replace": true,
   "type": "bakery:stove",
   "ingredients": [
     {
-      "tag": "forge:fruits/strawberries"
+      "tag": "forge:fruit/strawberries"
     },
     {
       "item": "bakery:sweet_dough"
+    },
+    {
+      "item": "minecraft:sugar"
     }
   ],
   "item": "bakery:linzer_tart",

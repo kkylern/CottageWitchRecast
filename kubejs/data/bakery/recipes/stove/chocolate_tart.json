@@ -1,11 +1,15 @@
 {
+  "replace": true,
   "type": "bakery:stove",
   "ingredients": [
     {
-      "tag": "bakery:chocolate"
+      "tag": "forge:chocolate"
     },
     {
       "item": "bakery:sweet_dough"
+    },
+    {
+      "item": "bakery:yeast"
     }
   ],
   "item": "bakery:chocolate_tart",

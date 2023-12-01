@@ -1,6 +1,6 @@
 {
-  "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "replace": true,
+  "type": "candlelight:pan_cooking",
   "ingredients": [
     {
       "item": "minecraft:beef"

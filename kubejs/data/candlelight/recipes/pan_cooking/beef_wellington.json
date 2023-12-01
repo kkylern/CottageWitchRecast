@@ -1,12 +1,12 @@
 {
-  "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "replace": true,
+  "type": "candlelight:pan_cooking",
   "ingredients": [
     {
       "item": "candlelight:bolognese"
     },
     {
-      "tag": "candlelight:dough"
+      "tag": "forge:dough"
     },
     {
       "item": "candlelight:mushroom_soup"

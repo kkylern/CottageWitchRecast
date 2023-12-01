@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:chocolate"
+        }
+    ],
+    "result": {
+        "item": "minecraft:brown_dye",
+        "count": 4
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "B": { "item": "minecraft:water_bucket" },
+    "#": { "tag": "candlelight:wheat" }
+  },
+  "result": {
+    "item": "candlelight:dough",
+    "count": 4
+  }
+}

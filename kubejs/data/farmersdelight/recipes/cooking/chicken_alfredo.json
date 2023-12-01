@@ -1,23 +1,22 @@
 {
   "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredients": [
     {
-      "item": "candlelight:veggie_plate"
+      "tag": "forge:pasta"
     },
     {
       "item": "minecraft:chicken"
     },
     {
-      "tag": "candlelight:crops/cabbage"
+      "tag": "candlelight:all_effects"
     }
   ],
   "container": {
     "item": "minecraft:bowl"
   },
   "result": {
-    "item": "candlelight:chicken_teriyaki",
-    "count": 4,
-    "experience": 0.4
+    "item": "candlelight:chicken_alfredo"
   }
 }

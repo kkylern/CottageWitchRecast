@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "meadow:alpine_salt"
+    }
+  ],
+  "result": {
+    "item": "candlelight:mozzarella",
+    "count": 4
+  }
+}

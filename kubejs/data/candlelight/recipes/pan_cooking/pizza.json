@@ -1,15 +1,15 @@
 {
-  "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "replace": true,
+  "type": "candlelight:pan_cooking",
   "ingredients": [
     {
-      "item": "candlelight:tomato_soup"
+      "tag": "forge:pizza_sauce"
     },
     {
-      "tag": "candlelight:dough"
+      "tag": "forge:dough"
     },
     {
-      "tag": "candlelight:cheese"
+      "tag": "forge:cheese"
     }
   ],
   "container": {

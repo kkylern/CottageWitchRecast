@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#WV",
+        "CB "
+    ],
+    "key": {
+        "#": {
+            "item": "candlelight:broccoli"
+        },
+        "V": {
+            "item": "farmersdelight:tomato"
+        },
+        "B": {
+            "tag": "candlelight:bowls"
+        },
+        "C": {
+            "tag": "forge:cheese"
+        },
+        "W": {
+            "tag": "candlelight:cooked_chicken"
+        }
+    },
+    "result": {
+        "item": "candlelight:broccoli_salad",
+        "count": 3
+    }
+}
+

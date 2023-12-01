@@ -1,11 +1,15 @@
 {
+  "replace": true,
   "type": "bakery:stove",
   "ingredients": [
     {
-      "tag": "forge:dough"
+      "item": "forge:dough"
     },
     {
-      "tag": "bakery:butter"
+      "item": "bakery:yeast"
+    },
+    {
+      "tag": "forge:eggs"
     }
   ],
   "item": "bakery:bun",

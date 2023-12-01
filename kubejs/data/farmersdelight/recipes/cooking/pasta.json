@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "candlelight:pasta"
+    },
+    {
+      "item": "candlelight:tomato_soup"
+    },
+    {
+      "tag": "vinery:wine"
+    }
+  ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "candlelight:pasta",
+    "count": 4
+  }
+}

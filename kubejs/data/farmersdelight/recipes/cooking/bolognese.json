@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "candlelight:tomato_soup"

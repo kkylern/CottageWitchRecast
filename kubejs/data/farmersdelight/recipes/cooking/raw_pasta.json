@@ -1,20 +1,17 @@
 {
   "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredients": [
     {
-      "tag": "forge:grain"
-    },
-    {
-      "tag": "forge:grain"
-    },
-    {
-      "tag": "forge:eggs"
+      "tag": "forge:dough"
     }
   ],
-  "result": {
-    "item": "farmersdelight:raw_pasta"
+  "container": {
+    "item": "minecraft:bowl"
   },
-  "experience": 0.35,
-  "cookingtime": 100
+  "result": {
+    "item": "candlelight:pasta_raw",
+    "count": 4
+  }
 }

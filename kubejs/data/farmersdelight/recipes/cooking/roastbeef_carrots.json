@@ -1,12 +1,13 @@
 {
   "type": "farmersdelight:cooking",
-  "recipe_book_tab": "meals",
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredients": [
     {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:honey_bottle"
+      "item": "minecraft:carrot"
     },
     {
       "tag": "candlelight:red_effect"
@@ -16,8 +17,7 @@
     "item": "minecraft:bowl"
   },
   "result": {
-    "item": "candlelight:pork_ribs",
-    "count": 4,
-    "experience": 0.75
+    "item": "candlelight:roastbeef_carrots",
+    "count": 1
   }
 }
