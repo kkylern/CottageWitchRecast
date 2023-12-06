@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
 
     //Akashic Tome
     event.shapeless(
-        Item.of('akashictome:tome', '{"akashictome:data":{ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},camera:{Count:1b,id:"camera:album"},create:{Count:1b,id:"create:create_manual"},create_central_kitchen:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"},create_central_kitchen_0:{Count:1b,ForgeCaps:{Parent:{NeedWater:0b}},id:"create_central_kitchen:brewing_guide",tag:{"akashictome:definedMod":"create_central_kitchen_0"}},dimdungeons:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"dimdungeons:guide_book"}},extradelight:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"extradelight:cookbook"}},ftbquests:{Count:1b,id:"ftbquests:book"},hexerei:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}},lexicon:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}},twilightdelight:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"twilightdelight:twilight_guide"}}},ingredients:{item0:"block.minecraft.air",item1:"item.akashictome.tome",item2:"item.patchouli.guide_book",length:3}}'),            [ 
+        Item.of('akashictome:tome', '{"akashictome:data":{ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},camera:{Count:1b,id:"camera:album"},create_central_kitchen:{Count:1b,ForgeCaps:{Parent:{}},id:"create_central_kitchen:cooking_guide"},create_central_kitchen_0:{Count:1b,ForgeCaps:{Parent:{NeedWater:0b}},id:"create_central_kitchen:brewing_guide",tag:{"akashictome:definedMod":"create_central_kitchen_0"}},dimdungeons:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"dimdungeons:guide_book"}},ftbquests:{Count:1b,id:"ftbquests:book"},hexerei:{Count:1b,id:"hexerei:book_of_shadows",tag:{bookmarks:{},chapter:0,opened:0b,page:0}},lexicon:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"lexicon:lexicon"}},malum:{Count:1b,id:"malum:encyclopedia_arcana"},mythicmounts:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"mythicmounts:mythical_mounts"}},twilightdelight:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"twilightdelight:twilight_guide"}}}}'),            [ 
                 'minecraft:book',
                 'minecraft:stick'
             ]
@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('delightful:deluxe_cheeseburger'),
         [ 
-            'delightful:deluxe_cheeseburger',
+            'delightful:cheeseburger',
             '#forge:cheese',
             '#forge:cooked_beef',
             'farmersdelight:cooked_bacon'
@@ -1472,6 +1472,16 @@ ServerEvents.recipes(event => {
         Item.of('biomesinjars:empty_biome_jar'),
         [ 
             'biomesinjars:filled_biome_jar'
+        ]
+    )
+
+    //Mythic Mounts Book
+    
+    event.shapeless(
+        Item.of('patchouli:guide_book', '{"patchouli:book":"mythicmounts:mythical_mounts"}'),
+        [ 
+            'minecraft:egg',
+            'minecraft:book'
         ]
     )
 

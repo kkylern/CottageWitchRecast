@@ -1183,21 +1183,6 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "336A1675A41F1E50"
-					item: {
-						Count: 1b
-						id: "delightful:steeleaf_knife"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:smite"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "31BA0F4F90302E34"
 					item: {
 						Count: 1b
@@ -2359,6 +2344,182 @@
 			title: "Collect Spindly Gems"
 			x: 4.0d
 			y: 6.0d
+		}
+		{
+			description: ["Obtain a &bfull set of Fiery Tools&r to complete this quest."]
+			id: "727F500EE0DB69C4"
+			rewards: [
+				{
+					id: "0A8C3FAEA8CB3D43"
+					item: "twilightdelight:plate_of_fiery_snakes"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7594429605978225"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "62C877B0AF50A833"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4230EF42F0925419"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03629812B1888F4E"
+					item: {
+						Count: 1b
+						id: "twilightdelight:fiery_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Fiery Tools"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: ["Obtain a &bfull set of Ironwood Tools&r to complete this quest."]
+			id: "3297F8B177D68579"
+			rewards: [
+				{
+					count: 3
+					id: "3626FBC7781E6386"
+					item: "twilightdelight:ironwood_sapling"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78E07DDBDAD4D8B8"
+					table_id: 2688518876927697228L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "068C92BA76C5E29D"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2378B77CAC2E6900"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "347FA1029DA6999F"
+					item: {
+						Count: 1b
+						id: "twilightdelight:ironwood_knife"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:knockback"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "135E31CAEDAB4184"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:knockback"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25ED988B4D9B71DD"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50404893C0AD4407"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Full Set: Ironwood Tools"
+			x: 4.5d
+			y: -3.0d
 		}
 	]
 	title: "Equipment \\& Gear"

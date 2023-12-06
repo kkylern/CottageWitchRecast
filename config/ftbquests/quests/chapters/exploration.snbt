@@ -111,7 +111,7 @@
 					type: "command"
 				}
 				{
-					id: "3CDBAE399F679AA9"
+					id: "3DCE8086519F0DBB"
 					item: {
 						Count: 1b
 						id: "akashictome:tome"
@@ -124,10 +124,6 @@
 								camera: {
 									Count: 1b
 									id: "camera:album"
-								}
-								create: {
-									Count: 1b
-									id: "create:create_manual"
 								}
 								create_central_kitchen: {
 									Count: 1b
@@ -155,13 +151,6 @@
 										"patchouli:book": "dimdungeons:guide_book"
 									}
 								}
-								extradelight: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "extradelight:cookbook"
-									}
-								}
 								ftbquests: {
 									Count: 1b
 									id: "ftbquests:book"
@@ -183,6 +172,17 @@
 										"patchouli:book": "lexicon:lexicon"
 									}
 								}
+								malum: {
+									Count: 1b
+									id: "malum:encyclopedia_arcana"
+								}
+								mythicmounts: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mythicmounts:mythical_mounts"
+									}
+								}
 								twilightdelight: {
 									Count: 1b
 									id: "patchouli:guide_book"
@@ -190,12 +190,6 @@
 										"patchouli:book": "twilightdelight:twilight_guide"
 									}
 								}
-							}
-							ingredients: {
-								item0: "block.minecraft.air"
-								item1: "item.akashictome.tome"
-								item2: "item.patchouli.guide_book"
-								length: 3
 							}
 						}
 					}

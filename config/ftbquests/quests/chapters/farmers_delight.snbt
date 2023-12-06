@@ -629,7 +629,8 @@
 			can_repeat: true
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"Have you &6automated your farm&r? Then you probably know the pain of excessive crop ownership. &6Submit your crops to this quest&r to earn rewards."
+				"Have you &aautomated your farm&r? Then you probably know the pain of excessive crop ownership. &6Submit your crops to this quest&r to earn rewards."
+				""
 				"[Repeatable Quest]"
 			]
 			id: "6630D27FC9E3F285"
@@ -706,13 +707,6 @@
 					count: 10L
 					id: "52AD3CA306639035"
 					item: "quark:apple_crate"
-					type: "item"
-				}
-				{
-					consume_items: true
-					count: 10L
-					id: "3BBA4F97ADF44CD9"
-					item: "prefab:item_carton_of_eggs"
 					type: "item"
 				}
 				{
