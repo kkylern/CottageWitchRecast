@@ -186,7 +186,7 @@
 187, swamp, minecraft:swamp, AMBIENT, finsandtails:river_pebble_snail, 10, 1, 2
 188, swamp, minecraft:swamp, CREATURE, finsandtails:siderol_whiskered_snail, 10, 1, 1
 189, swamp, minecraft:swamp, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-190, swamp, minecraft:swamp, WATER_CREATURE, minecraft:squid, 5, 1, 2
+190, swamp, minecraft:swamp, WATER_CREATURE, minecraft:squid, 10, 1, 2
 191, swamp, minecraft:swamp, WATER_AMBIENT, finsandtails:swamp_mucker, 10, 2, 4
 192, swamp, minecraft:swamp, WATER_AMBIENT, finsandtails:flatback_sucker, 10, 1, 1
 193, swamp, minecraft:swamp, WATER_AMBIENT, upgrade_aquatic:perch, 5, 1, 6
@@ -886,7 +886,7 @@
 895, river, minecraft:river, CREATURE, meadow:water_buffalo, 5, 1, 3
 896, river, minecraft:river, AMBIENT, minecraft:bat, 10, 8, 8
 897, river, minecraft:river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-898, river, minecraft:river, WATER_CREATURE, minecraft:squid, 2, 1, 4
+898, river, minecraft:river, WATER_CREATURE, minecraft:squid, 10, 1, 4
 899, river, minecraft:river, WATER_CREATURE, crittersandcompanions:otter, 2, 3, 5
 900, river, minecraft:river, WATER_AMBIENT, minecraft:salmon, 5, 1, 5
 902, river, minecraft:river, WATER_AMBIENT, crittersandcompanions:koi_fish, 4, 2, 5
@@ -921,7 +921,7 @@
 931, river, minecraft:frozen_river, CREATURE, upgrade_aquatic:goose, 5, 1, 3
 932, river, minecraft:frozen_river, AMBIENT, minecraft:bat, 10, 8, 8
 933, river, minecraft:frozen_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-934, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 2, 1, 4
+934, river, minecraft:frozen_river, WATER_CREATURE, minecraft:squid, 10, 1, 4
 935, river, minecraft:frozen_river, WATER_AMBIENT, minecraft:salmon, 5, 1, 5
 937, river, minecraft:frozen_river, WATER_CREATURE, finsandtails:papa_wee, 5, 1, 2
 938, river, minecraft:frozen_river, WATER_AMBIENT, finsandtails:wee_wee, 10, 3, 3
@@ -1011,7 +1011,7 @@
 1022, ocean, minecraft:warm_ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1023, ocean, minecraft:warm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1024, ocean, minecraft:warm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1025, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 20, 4, 4
+1025, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:squid, 30, 4, 4
 1026, ocean, minecraft:warm_ocean, WATER_CREATURE, minecraft:dolphin, 2, 1, 2
 1027, ocean, minecraft:warm_ocean, WATER_AMBIENT, minecraft:pufferfish, 15, 1, 3
 1028, ocean, minecraft:warm_ocean, WATER_AMBIENT, minecraft:tropical_fish, 25, 8, 8
@@ -1046,7 +1046,7 @@
 1059, ocean, minecraft:lukewarm_ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1060, ocean, minecraft:lukewarm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1061, ocean, minecraft:lukewarm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1062, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:squid, 20, 1, 2
+1062, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:squid, 30, 1, 2
 1063, ocean, minecraft:lukewarm_ocean, WATER_CREATURE, minecraft:dolphin, 2, 1, 2
 1064, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, minecraft:cod, 15, 3, 6
 1065, ocean, minecraft:lukewarm_ocean, WATER_AMBIENT, minecraft:pufferfish, 5, 1, 3
@@ -1082,7 +1082,7 @@
 1097, ocean, minecraft:deep_lukewarm_ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1098, ocean, minecraft:deep_lukewarm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1099, ocean, minecraft:deep_lukewarm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1100, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, minecraft:squid, 20, 1, 4
+1100, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1101, ocean, minecraft:deep_lukewarm_ocean, WATER_CREATURE, minecraft:dolphin, 2, 1, 2
 1102, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, minecraft:cod, 8, 3, 6
 1103, ocean, minecraft:deep_lukewarm_ocean, WATER_AMBIENT, minecraft:pufferfish, 5, 1, 3
@@ -1120,7 +1120,7 @@
 1137, ocean, minecraft:ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1138, ocean, minecraft:ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1139, ocean, minecraft:ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1140, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 20, 1, 4
+1140, ocean, minecraft:ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1141, ocean, minecraft:ocean, WATER_CREATURE, minecraft:dolphin, 1, 1, 2
 1142, ocean, minecraft:ocean, WATER_AMBIENT, minecraft:cod, 10, 3, 6
 1143, ocean, minecraft:ocean, WATER_AMBIENT, upgrade_aquatic:nautilus, 30, 1, 4
@@ -1150,7 +1150,7 @@
 1169, ocean, minecraft:deep_ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1170, ocean, minecraft:deep_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1171, ocean, minecraft:deep_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1172, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 20, 1, 4
+1172, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1173, ocean, minecraft:deep_ocean, WATER_CREATURE, minecraft:dolphin, 1, 1, 2
 1174, ocean, minecraft:deep_ocean, WATER_AMBIENT, minecraft:cod, 10, 3, 6
 1175, ocean, minecraft:deep_ocean, WATER_AMBIENT, upgrade_aquatic:nautilus, 30, 1, 4
@@ -1188,7 +1188,7 @@
 1208, ocean, minecraft:cold_ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1209, ocean, minecraft:cold_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1210, ocean, minecraft:cold_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1211, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 20, 1, 4
+1211, ocean, minecraft:cold_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1212, ocean, minecraft:cold_ocean, WATER_AMBIENT, minecraft:cod, 15, 3, 6
 1213, ocean, minecraft:cold_ocean, WATER_AMBIENT, minecraft:salmon, 15, 1, 5
 1214, ocean, minecraft:cold_ocean, WATER_AMBIENT, finsandtails:teal_arrowfish, 10, 3, 5
@@ -1225,7 +1225,7 @@
 1247, ocean, minecraft:deep_cold_ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1248, ocean, minecraft:deep_cold_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1249, ocean, minecraft:deep_cold_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1250, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 20, 1, 4
+1250, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 1251, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, minecraft:cod, 15, 3, 6
 1252, ocean, minecraft:deep_cold_ocean, WATER_AMBIENT, minecraft:salmon, 15, 1, 5
 1253, ocean, minecraft:deep_cold_ocean, WATER_CREATURE, finsandtails:gopjet, 10, 1, 2
@@ -1283,7 +1283,7 @@
 1310, ocean, minecraft:frozen_ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1311, ocean, minecraft:frozen_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1312, ocean, minecraft:frozen_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1313, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 20, 1, 4
+1313, ocean, minecraft:frozen_ocean, WATER_CREATURE, minecraft:squid, 30, 1, 4
 1314, ocean, minecraft:frozen_ocean, WATER_AMBIENT, minecraft:salmon, 15, 1, 5
 1315, ocean, minecraft:frozen_ocean, WATER_AMBIENT, finsandtails:teal_arrowfish, 10, 3, 5
 1316, ocean, minecraft:frozen_ocean, WATER_AMBIENT, finsandtails:blu_wee, 10, 3, 3
@@ -1322,7 +1322,7 @@
 1351, ocean, minecraft:deep_frozen_ocean, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 1352, ocean, minecraft:deep_frozen_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 1353, ocean, minecraft:deep_frozen_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-1354, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 20, 1, 4
+1354, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, minecraft:squid, 30, 1, 4
 1355, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, minecraft:salmon, 15, 1, 5
 1356, ocean, minecraft:deep_frozen_ocean, WATER_CREATURE, finsandtails:gopjet, 10, 1, 2
 1357, ocean, minecraft:deep_frozen_ocean, WATER_AMBIENT, finsandtails:teal_arrowfish, 10, 3, 5
@@ -2225,7 +2225,7 @@
 2267, none, minecraft:deep_warm_ocean, MONSTER, quark:stoneling, 30, 1, 1
 2268, none, minecraft:deep_warm_ocean, AMBIENT, minecraft:bat, 10, 8, 8
 2269, none, minecraft:deep_warm_ocean, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-2270, none, minecraft:deep_warm_ocean, WATER_CREATURE, minecraft:squid, 5, 1, 4
+2270, none, minecraft:deep_warm_ocean, WATER_CREATURE, minecraft:squid, 50, 1, 4
 2271, none, minecraft:deep_warm_ocean, WATER_CREATURE, minecraft:dolphin, 2, 1, 2
 2272, none, minecraft:deep_warm_ocean, WATER_AMBIENT, minecraft:tropical_fish, 25, 8, 8
 2273, none, minecraft:deep_warm_ocean, WATER_CREATURE, finsandtails:gopjet, 10, 1, 2
@@ -2300,7 +2300,7 @@
 2342, none, terralith:skylands, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 2343, none, terralith:skylands, AMBIENT, minecraft:bat, 10, 8, 8
 2344, none, terralith:skylands, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-2345, none, terralith:skylands, WATER_CREATURE, minecraft:squid, 1, 1, 4
+2345, none, terralith:skylands, WATER_CREATURE, minecraft:squid, 10, 1, 4
 2346, none, terralith:skylands, WATER_CREATURE, minecraft:dolphin, 1, 1, 2
 2347, none, terralith:skylands, WATER_AMBIENT, minecraft:cod, 10, 3, 6
 2348, none, terralith:hot_shrubland, MONSTER, minecraft:spider, 30, 4, 4
@@ -2392,7 +2392,7 @@
 2434, none, terralith:skylands_autumn, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 2435, none, terralith:skylands_autumn, AMBIENT, minecraft:bat, 10, 8, 8
 2436, none, terralith:skylands_autumn, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-2437, none, terralith:skylands_autumn, WATER_CREATURE, minecraft:squid, 1, 1, 4
+2437, none, terralith:skylands_autumn, WATER_CREATURE, minecraft:squid, 10, 1, 4
 2438, none, terralith:skylands_autumn, WATER_CREATURE, minecraft:dolphin, 1, 1, 2
 2439, none, terralith:skylands_autumn, WATER_AMBIENT, minecraft:cod, 10, 3, 6
 2440, none, terralith:stony_spires, MONSTER, minecraft:spider, 30, 4, 4
@@ -2524,7 +2524,7 @@
 2568, none, terralith:skylands_summer, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 2569, none, terralith:skylands_summer, AMBIENT, minecraft:bat, 10, 8, 8
 2570, none, terralith:skylands_summer, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-2571, none, terralith:skylands_summer, WATER_CREATURE, minecraft:squid, 1, 1, 4
+2571, none, terralith:skylands_summer, WATER_CREATURE, minecraft:squid, 10, 1, 4
 2572, none, terralith:skylands_summer, WATER_CREATURE, minecraft:dolphin, 1, 1, 2
 2573, none, terralith:skylands_summer, WATER_AMBIENT, minecraft:cod, 10, 3, 6
 2574, jungle, terralith:amethyst_canyon, MONSTER, minecraft:spider, 30, 4, 4
@@ -2958,7 +2958,7 @@
 3006, none, terralith:skylands_spring, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 3007, none, terralith:skylands_spring, AMBIENT, minecraft:bat, 10, 8, 8
 3008, none, terralith:skylands_spring, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-3009, none, terralith:skylands_spring, WATER_CREATURE, minecraft:squid, 1, 1, 4
+3009, none, terralith:skylands_spring, WATER_CREATURE, minecraft:squid, 10, 1, 4
 3010, none, terralith:skylands_spring, WATER_CREATURE, minecraft:dolphin, 1, 1, 2
 3011, none, terralith:skylands_spring, WATER_AMBIENT, minecraft:cod, 10, 3, 6
 3012, none, terralith:mirage_isles, MONSTER, quark:toretoise, 30, 2, 4
@@ -3176,7 +3176,7 @@
 3226, none, terralith:skylands_winter, CREATURE, ars_nouveau:whirlisprig, 5, 1, 2
 3227, none, terralith:skylands_winter, AMBIENT, minecraft:bat, 10, 8, 8
 3228, none, terralith:skylands_winter, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-3229, none, terralith:skylands_winter, WATER_CREATURE, minecraft:squid, 1, 1, 4
+3229, none, terralith:skylands_winter, WATER_CREATURE, minecraft:squid, 10, 1, 4
 3230, none, terralith:skylands_winter, WATER_CREATURE, minecraft:dolphin, 1, 1, 2
 3231, none, terralith:skylands_winter, WATER_AMBIENT, minecraft:cod, 10, 3, 6
 3232, none, terralith:brushland, MONSTER, minecraft:spider, 30, 4, 4
@@ -3737,7 +3737,7 @@
 3789, none, terralith:warm_river, CREATURE, meadow:water_buffalo, 5, 1, 3
 3790, none, terralith:warm_river, AMBIENT, minecraft:bat, 10, 8, 8
 3791, none, terralith:warm_river, UNDERGROUND_WATER_CREATURE, minecraft:glow_squid, 10, 4, 6
-3792, none, terralith:warm_river, WATER_CREATURE, minecraft:squid, 2, 1, 4
+3792, none, terralith:warm_river, WATER_CREATURE, minecraft:squid, 20, 1, 4
 3793, none, terralith:warm_river, WATER_AMBIENT, minecraft:tropical_fish, 5, 1, 5
 3794, none, terralith:warm_river, WATER_CREATURE, finsandtails:papa_wee, 5, 1, 2
 3795, none, terralith:warm_river, WATER_AMBIENT, finsandtails:wee_wee, 10, 3, 3

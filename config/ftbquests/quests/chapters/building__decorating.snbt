@@ -621,8 +621,10 @@
 			dependencies: ["32DCF4F0C230C940"]
 			description: [
 				"Love that \"hunting lodge\" look? Want to show off your best hunts? Want to let everyone know you really, really hate &eGoats&r?"
+				""
 				"Well, why not &adecorate your house with these attractive trophies&r."
-				"(only some animals were hurting in the making of this quest)"
+				""
+				"(only some animals were hurt in the making of this quest)"
 			]
 			id: "30C8AAFCE9EB2BA6"
 			rewards: [

@@ -219,6 +219,7 @@ ServerEvents.recipes(event => {
         {output: 'shoppy:bartering_station'},
         {output: 'candlelight:chocolate_box'},
         {output: 'candlelight:gold_ring'},
+        {output: 'incubation:chicken_egg_crate'},
     ];
     
       for (const remove of toRemove) {

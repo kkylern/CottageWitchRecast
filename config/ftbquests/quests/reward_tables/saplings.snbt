@@ -46,6 +46,7 @@
 		{ item: "biomemakeover:blighted_balsa_sapling" }
 		{ item: "upgrade_aquatic:river_sapling" }
 		{ item: "vinery:cherry_sapling" }
+		{ item: "meadow:pine_sapling" }
 	]
 	title: "Saplings"
 }

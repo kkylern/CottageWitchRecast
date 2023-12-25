@@ -952,18 +952,8 @@
 					type: "item"
 				}
 				{
-					id: "56FFC49DC13E368C"
-					item: "neapolitan:strawberry_basket"
-					type: "item"
-				}
-				{
 					id: "4DCE2C44EE55C438"
 					item: "neapolitan:banana_crate"
-					type: "item"
-				}
-				{
-					id: "2C15E9E0BB8B4BB5"
-					item: "neapolitan:mint_basket"
 					type: "item"
 				}
 				{
@@ -1130,18 +1120,11 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "72D2C48BC312799F"
-					item: "neapolitan:white_strawberry_basket"
-					type: "item"
-				}
-				{
-					id: "6120DFBC463438F5"
-					item: "culturaldelights:white_eggplant_crate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6120DFBC463438F5"
+				item: "culturaldelights:white_eggplant_crate"
+				type: "item"
+			}]
 			title: "Compact Your Crops: Shiny Edition"
 			x: 7.5d
 			y: 0.0d

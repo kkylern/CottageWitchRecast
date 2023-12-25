@@ -630,6 +630,10 @@ ServerEvents.tags('item', event => {
     'framedblocks:framed_hammer'
     )
 
+    //Cooked Crab
+    event.add('forge:cooked_crab',
+    'biomemakeover:cooked_crab')
+
 })
 
 

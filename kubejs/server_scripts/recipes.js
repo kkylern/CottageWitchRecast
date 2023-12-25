@@ -1485,6 +1485,22 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    //Egg Crate
+    event.shapeless(
+        Item.of('incubation:chicken_egg_crate'),
+        [ 
+            'minecraft:egg',
+            'minecraft:egg',
+            'minecraft:egg',
+            'minecraft:egg',
+            'minecraft:egg',
+            'minecraft:egg',
+            'minecraft:egg',
+            'minecraft:egg',
+            'minecraft:egg',
+        ]
+    )
+
     // BG Charging Gadget
     event.shaped(
         Item.of('shoppy:bartering_station'),
@@ -1600,6 +1616,9 @@ ServerEvents.recipes(event => {
     event.stonecutting('kubejs:carved_dark_oak_6', 'minecraft:stripped_dark_oak_log')
     event.stonecutting('kubejs:carved_dark_oak_7', 'minecraft:stripped_dark_oak_log')
     event.stonecutting('kubejs:carved_dark_oak_8', 'minecraft:stripped_dark_oak_log')
+
+    // Blast 1 iron ingot into 10 nuggets in a Blast Furnace: 
+    event.blasting('create:zinc_block', 'create:raw_zinc_block')
 
   })
 
