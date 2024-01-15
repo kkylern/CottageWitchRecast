@@ -2,6 +2,7 @@
     "schema_version": 2,
     "failed_reloads_per_session": 5,
     "default_packs": [
+        "builtin/crittersandcompanions",
         "file/3D Dripstones.zip",
         "file/3d-blast-furnace-e1920.zip",
         "file/3d-sweet-berry-bush-1-16.zip",
@@ -64,7 +65,6 @@
         "create_central_kitchen:create_styled",
         "file/Infernal Resources.zip",
         "file/Vintage Camera.zip",
-        "file/Magitech Experience Obelisk.zip",
         "file/VanillaTweaks_r552124.zip",
         "file/Magitech Building Gadgets.zip",
         "file/pocket-money-magicalized-1.1.zip",
@@ -73,7 +73,8 @@
         "file/metal_valve_handles.zip",
         "file/corality-1-0-2.zip",
         "file/stefansarmoranditems.zip",
-        "file/Tarot Cards Colorized 1.19.2.zip"
+        "file/Tarot Cards Colorized 1.19.2.zip",
+        "file/CustomHatsCarvedPumpkins"
     ],
     "default_overrides": {
     "force_compatible": true

@@ -1561,6 +1561,18 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Cluttered's Shelves
+    event.shaped(
+        Item.of('luphieclutteredmod:small_shelf'),
+        [
+            'AAA',
+            'A A'
+        ],
+        {
+            A: 'minecraft:oak_slab'
+        }
+    )
+
     //Stonecutter recipes for Xerca Woods
 
     event.stonecutting('kubejs:carved_warped_1', 'minecraft:stripped_warped_stem')

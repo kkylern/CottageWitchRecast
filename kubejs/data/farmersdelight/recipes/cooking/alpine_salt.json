@@ -1,0 +1,17 @@
+{
+    "type": "farmersdelight:cooking",
+    "cookingtime": 200,
+    "experience": 1.0,
+    "ingredients": [
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "item": "minecraft:calcite"
+      }
+    ],
+    "result": {
+      "item": "meadow:alpine_salt",
+      "count": 4
+    }
+  }

@@ -220,6 +220,7 @@ ServerEvents.recipes(event => {
         {output: 'candlelight:chocolate_box'},
         {output: 'candlelight:gold_ring'},
         {output: 'incubation:chicken_egg_crate'},
+        {output: 'luphieclutteredmod:small_shelf'},
     ];
     
       for (const remove of toRemove) {
