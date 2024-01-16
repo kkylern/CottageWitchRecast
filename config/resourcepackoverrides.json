@@ -45,7 +45,6 @@
         "file/floweryladder.zip",
         "file/liet-custom-armors.zip",
         "file/more-pumpkins-e2900.zip",
-        "file/mushroom-cap-hat.zip",
         "file/mushroom-slimes.zip",
         "file/mushroomwitch-e3600.zip",
         "file/pmc-mob-pack-shulker_white_multicolored-shulker.zip",
@@ -74,7 +73,7 @@
         "file/corality-1-0-2.zip",
         "file/stefansarmoranditems.zip",
         "file/Tarot Cards Colorized 1.19.2.zip",
-        "file/CustomHatsCarvedPumpkins"
+        "file/CustomHatsCarvedPumpkins.zip"
     ],
     "default_overrides": {
     "force_compatible": true

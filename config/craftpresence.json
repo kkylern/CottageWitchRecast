@@ -356,7 +356,8 @@
       "Katubug": "https://crafatar.com/avatars/e5e2b89d388441908b6997863eb95bc6",
       "cottagewitchredux.g.akliz.net": "https://api.mcsrvstat.us/icon/cottagewitchredux.g.akliz.net",
       "cottagewitchcoven.g.akliz.net": "https://api.mcsrvstat.us/icon/cottagewitchcoven.g.akliz.net",
-      "HeyKatu": "https://crafatar.com/avatars/e5e2b89d388441908b6997863eb95bc6"
+      "HeyKatu": "https://crafatar.com/avatars/e5e2b89d388441908b6997863eb95bc6",
+      "testingcoven.g.akliz.net": "https://api.mcsrvstat.us/icon/testingcoven.g.akliz.net"
     },
     "dynamicVariables": {
       "default": "Example Text",
