@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "corpse:corpse",
+      "required": false
+    },
+    {
+      "id": "enigmaticgraves:grave",
+      "required": false
+    }
+  ]
+}
