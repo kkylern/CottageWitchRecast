@@ -22,7 +22,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Your logs folder is located in your base Minecraft directory./nAssuming you're using Curseforge Client - In the Cottage Witch page, find the 3 dots next to the Play button, and click "Open Folder."/nThen go to the "/logs/" folder and take the "latest.log" and/or "debug.log" and drag it into discord chat or upload it to gist.github.com.
+        Your logs folder is located in your base Minecraft directory.
+        Assuming you're using Curseforge Client - In the Cottage Witch page, find the 3 dots next to the Play button, and click "Open Folder."/nThen go to the "/logs/" folder and take the "latest.log" and/or "debug.log" and drag it into discord chat or upload it to gist.github.com.
   - type: textarea
     id: logs
     attributes:
