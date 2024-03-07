@@ -192,6 +192,7 @@
 		{
 			description: [
 				"You can obtain a &bCloud in a Bottle&r by ascending to &acloud height&r and &6right clicking the air with a glass bottle&r."
+				""
 				"You can release the Cloud by right-clicking the bottle in the air. It will shortly disappear. However, if the cloud is &6replaced with another block&r, it returns to the bottle. This allows you to &aplace blocks in midair&r."
 			]
 			id: "24B3EE21C9B6292B"
@@ -985,6 +986,7 @@
 		{
 			description: [
 				"The &bChute&r is a block which draws items from above it and &adrops them&r perfectly in the center of the block below it."
+				""
 				"It can be disabled with a Redstone signal, or by placing a block directly below it."
 			]
 			id: "2E4C149DAE459F03"

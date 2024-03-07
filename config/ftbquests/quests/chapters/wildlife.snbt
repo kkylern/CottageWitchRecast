@@ -1313,7 +1313,9 @@
 		{
 			description: [
 				"&eStonelings&r are very timid creatures! They can be found &cin caves underground&r, and will often be carrying &asomething shiny they found&r."
+				""
 				"Most times, they will &aimmediately flee&r the player and poof into their home dimension. However, if they are killed, they can drop the very valuable &bHeart of Diamond&r, used to make a &bPickarang&r."
+				""
 				"To obtain this, you'll need to &6sneak up on the &eStoneling&r, or &atempt it with a &bGlowshroom&r."
 			]
 			id: "1D8DD63F836302C8"

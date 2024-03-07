@@ -1,6 +1,6 @@
 {
 	member: {
-		name: "Member"
+		name: "Witch"
 		power: 1
 		condition: "always_active"
 		command.paintexport: true
