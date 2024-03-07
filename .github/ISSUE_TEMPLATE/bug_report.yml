@@ -3,16 +3,11 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
     id: version
     attributes:
       label: Modpack Version Used
-      description: Which numerical version of the modpack are you using?
-      placeholder: 1.0.0
+      description: Which numerical version of the modpack are you using? Ex - 1.4.3
     validations:
       required: true
   - type: textarea
@@ -28,8 +23,14 @@ body:
     id: logs
     attributes:
       label: Relevant latest.log
-      description: Please copy and paste your latest.log, or a gist.github.com link to the log contents. This will be automatically formatted into code, so no need for backticks.
       render: shell
+      description: Please copy and paste your latest.log, or a gist.github.com link to the log contents. This will be automatically formatted into code, so no need for backticks.
+    |
+      Your logs folder is located in your base Minecraft directory.
+    |
+      Assuming you're using Curseforge Client - In the Cottage Witch page, find the 3 dots next to the Play button, and click "Open Folder."
+    |
+      Then go to the "/logs/" folder and take the "latest.log" and/or "debug.log" and drag it into discord chat or upload it to gist.github.com.
   - type: textarea
     id: crash
     attributes:
