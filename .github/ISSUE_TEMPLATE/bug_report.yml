@@ -18,6 +18,11 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (if applicable)
+      description: Upload or send links to screenshots of the issue.
   - type: markdown
     attributes:
       value: |
