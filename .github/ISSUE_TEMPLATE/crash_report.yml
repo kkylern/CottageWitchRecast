@@ -1,6 +1,6 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: Your Title Here"
+name: Crash Report
+description: File a crash report
+title: "[Crash]: Your Title Here"
 labels: ["bug"]
 body:
   - type: input

@@ -1,7 +1,6 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: Your Title Here"
-labels: ["bug"]
+name: Other Issue
+description: Get support for something else
+title: "Your Title Here"
 body:
   - type: input
     id: mpversion
@@ -36,10 +35,4 @@ body:
     attributes:
       label: Relevant latest.log
       description: Please copy and paste your latest.log, or a gist.github.com link to the log contents. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: textarea
-    id: crash
-    attributes:
-      label: Relevant crash report
-      description: Please copy and paste your relevant crash report, or a gist.github.com link to the report contents. This will be automatically formatted into code, so no need for backticks.
       render: shell
