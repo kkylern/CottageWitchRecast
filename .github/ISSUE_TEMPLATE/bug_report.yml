@@ -19,12 +19,15 @@ body:
       value: "I was too awesome and it broke the game."
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        /nYour logs folder is located in your base Minecraft directory./nAssuming you're using Curseforge Client - In the Cottage Witch page, find the 3 dots next to the Play button, and click "Open Folder."/nThen go to the "/logs/" folder and take the "latest.log" and/or "debug.log" and drag it into discord chat or upload it to gist.github.com.
   - type: textarea
     id: logs
     attributes:
       label: Relevant latest.log
-      description: | 
-      Please copy and paste your latest.log, or a gist.github.com link to the log contents. This will be automatically formatted into code, so no need for backticks./nYour logs folder is located in your base Minecraft directory./nAssuming you're using Curseforge Client - In the Cottage Witch page, find the 3 dots next to the Play button, and click "Open Folder."/nThen go to the "/logs/" folder and take the "latest.log" and/or "debug.log" and drag it into discord chat or upload it to gist.github.com.
+      description: Please copy and paste your latest.log, or a gist.github.com link to the log contents. This will be automatically formatted into code, so no need for backticks.
   - type: textarea
     id: crash
     attributes:
