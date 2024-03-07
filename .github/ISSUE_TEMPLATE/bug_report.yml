@@ -23,11 +23,12 @@ body:
     id: logs
     attributes:
       label: Relevant latest.log
-      description: Please copy and paste your latest.log, or a gist.github.com link to the log contents. This will be automatically formatted into code, so no need for backticks.
-      description: Your logs folder is located in your base Minecraft directory.
-      description: Assuming you're using Curseforge Client - In the Cottage Witch page, find the 3 dots next to the Play button, and click "Open Folder."
-      description: Then go to the "/logs/" folder and take the "latest.log" and/or "debug.log" and drag it into discord chat or upload it to gist.github.com.
       render: shell
+      description: |
+      Please copy and paste your latest.log, or a gist.github.com link to the log contents. This will be automatically formatted into code, so no need for backticks.
+      Your logs folder is located in your base Minecraft directory.
+      Assuming you're using Curseforge Client - In the Cottage Witch page, find the 3 dots next to the Play button, and click "Open Folder."
+      Then go to the "/logs/" folder and take the "latest.log" and/or "debug.log" and drag it into discord chat or upload it to gist.github.com.
   - type: textarea
     id: crash
     attributes:
