@@ -11,7 +11,7 @@
 		# The multiplier used to speed up Crop growth.
 		#
 		#Range: 1 ~ 10
-		growthMultiplier = 2
+		growthMultiplier = 6
 
 	[Settings."Swamp Gas"]
 		# This can be used to alter how big the Swamp Gas explosions are.
@@ -21,7 +21,7 @@
 		# Whether the Swamp Gas Cloud will give Living Entities negative effects,
 		# when they walk through it (for example Effects like Poison).
 		#
-		givesNegativeEffects = true
+		givesNegativeEffects = false
 		# This can be used to prevent Swamp Gas from being used as Furnace Fuel.
 		#
 		isFurnaceFuel = true
@@ -33,7 +33,7 @@
 	[Settings.Frog]
 		# This can be used to prevent Frogs from becoming "killers" when named Swallow Me Waldo
 		#
-		allowWaldo = true
+		allowWaldo = false
 		# This value is a Damage multiplier for the "Swallow Me Waldo" Frog, meaning 
 		# the value used will be multiplied with the Waldo Frogs base damage. (10 by Default)
 		# This can get out of hand quickly, so be careful with it. Unless you want a
@@ -63,12 +63,18 @@
 		growBaldCypressFromSaplings = 2
 
 	[Settings."Lily Pad"]
+		# This can be used to disable Lily Pad sinking completely.
+		# Values:
+		# true: Lily Pads will sink when a big Entity stands on them
+		# false: Lily Pads wont sink when any Entity stands on them
+		#
+		doLilyPadsSink = false
 		# This is used to determine whether Lily Pads break once they reach their final sink stage.
 		# Values:
 		# true: Lily Pads will break
 		# false: Lily Pads wont break, and instead become collision-less (like dripleafs)
 		#
-		doLilyPadsBreak = true
+		doLilyPadsBreak = false
 		# Whether Lily Pads should grow. To be specific, this makes Small Lily Pads grow into
 		# Lily Pads, which grow into Large Lily Pads. And lastly Large Lily Pads create Small
 		# ones around themselves.
@@ -78,22 +84,16 @@
 		# 2: Enables Lily Pad growth in all biomes
 		#
 		#Range: 0 ~ 2
-		shouldLilyPadsGrow = 1
+		shouldLilyPadsGrow = 0
 		# These values control how long it takes for the Lily Pad to advance/reset its sink stage.
 		# This is measured in ticks.
 		#
 		#Range: 1 ~ 200
-		lilyPadSinkTimeStage1 = 20
+		lilyPadSinkTimeStage1 = 5
 		#Range: 1 ~ 200
-		lilyPadSinkTimeStage2 = 20
+		lilyPadSinkTimeStage2 = 5
 		#Range: 1 ~ 200
-		lilyPadSinkTimeStage3 = 20
+		lilyPadSinkTimeStage3 = 10
 		#Range: 1 ~ 200
-		lilyPadResetTime = 40
-		# This can be used to disable Lily Pad sinking completely.
-		# Values:
-		# true: Lily Pads will sink when a big Entity stands on them
-		# false: Lily Pads wont sink when any Entity stands on them
-		#
-		doLilyPadsSink = false
+		lilyPadResetTime = 20
 

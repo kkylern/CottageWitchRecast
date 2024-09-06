@@ -5,6 +5,6 @@
       "color": "green"
     },
     "tip": {
-      "text": "Dropped items will be highlighted with a colored beam of light, to help you find them."
+      "text": "Dropped items will be highlighted with a colored beam of light, to help you find them. If you want, you can change the config option 'All Items' to false, and it will only apply to items with rarity."
     }
   }

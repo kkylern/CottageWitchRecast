@@ -517,7 +517,7 @@
 		{
 			dependencies: ["5859015DE7AD5512"]
 			description: [
-				"Many &bMixer&r recipes will require &aHeat&r. You can use normal heat sources such as &bCampfires&r for certain recipes, but many will require a &bBlaze Burner&r."
+				"Many &bMixer&r recipes will require &aHeat&r. In order to provide heat, you must make a &bBlaze Burner&r."
 				""
 				"You can craft an &bEmpty Blaze Burner&r, and then you must &6find a &eBlaze&6 and right click it&r with the &bBlaze Burner&r to capture it."
 				""

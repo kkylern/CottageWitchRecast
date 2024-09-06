@@ -1,24 +1,62 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.ConnectScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = connect_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1710696714547
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:99ddb71e-7047-41bb-8e68-10dcd96fda05-1710696714547] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=400382%
-  loopbackgroundanimations = true
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = dcb5f0fa-3aa6-4cfb-869a-30667177ccde-1710696714547
+  [executable_block:dcb5f0fa-3aa6-4cfb-869a-30667177ccde-1710696714547][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/menubutton1.png
+  backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
   restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/cottagewitch/textures/mainmenu/menubutton1pressed.png
-  backgroundnormal = kubejs/assets/cottagewitch/textures/mainmenu/menubutton1.png
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 627d6299-fca7-468b-aefc-035b37c75984-1710696714547
+  [loading_requirement_container_meta:627d6299-fca7-468b-aefc-035b37c75984-1710696714547] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 

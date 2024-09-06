@@ -1,7 +1,7 @@
 {
 	id: "317E293AA1526A8E"
 	loot_size: 1
-	order_index: 35
+	order_index: 36
 	rewards: [
 		{ item: "artifacts:whoopee_cushion" }
 		{ item: "artifacts:steadfast_spikes" }

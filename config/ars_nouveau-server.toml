@@ -16,6 +16,9 @@
 	#Max mana bonus for tier of book
 	#Range: > 0
 	tierMax = 50
+	#Mana regen bonus for tier of book
+	#Range: > 0
+	tierRegen = 1
 	#Mana Boost value per level
 	#Range: > 0
 	manaBoost = 25
@@ -28,9 +31,6 @@
 	#Regen bonus per potion level
 	#Range: > 0
 	potionRegen = 10
-	#Mana regen bonus for tier of book
-	#Range: > 0
-	tierRegen = 1
 
 [spell_casting]
 	#Enforce augment cap on casting? Turn this off if you are a pack maker and want to create more powerful items than players.

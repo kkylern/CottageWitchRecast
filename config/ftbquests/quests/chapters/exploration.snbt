@@ -11,37 +11,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 5.0d
-			hover: [ ]
-			image: "cottagewitch:textures/questsbanner.png"
-			rotation: 0.0d
-			width: 13.0d
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 6.5d
-			hover: [ ]
-			image: "cottagewitch:textures/questkey.png"
-			rotation: 0.0d
-			width: 11.5d
-			x: -3.5d
-			y: 8.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 6.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgdeath.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 3.5d
-			y: 2.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			click: ""
@@ -52,35 +28,11 @@
 			image: "cottagewitch:textures/bgfreebies.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: -3.5d
-			y: 2.0d
-		}
-		{
-			click: "https://www.akliz.net/cottagewitch"
-			corner: false
-			dev: false
-			height: 2.5d
-			hover: [ ]
-			image: "cottagewitch:textures/aklizbanner.png"
-			rotation: 0.0d
-			width: 10.0d
 			x: -3.0d
-			y: 12.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 8.0d
-			hover: [ ]
-			image: "cottagewitch:textures/tutorials.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: 5.0d
-			y: 8.5d
+			y: 0.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -205,8 +157,8 @@
 				type: "dimension"
 			}]
 			title: "Begin your World"
-			x: -3.0d
-			y: 2.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -249,7 +201,7 @@
 			}]
 			title: "Baby's First Death"
 			x: 3.5d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -269,8 +221,8 @@
 				title: "Build Me a House"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -297,8 +249,8 @@
 				type: "checkmark"
 			}]
 			title: "Mushroom Hat"
-			x: -5.0d
-			y: 2.0d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -318,7 +270,7 @@
 				type: "advancement"
 			}]
 			x: 2.0d
-			y: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -338,7 +290,7 @@
 			}]
 			title: "Die 50 Times"
 			x: 2.5d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
@@ -358,7 +310,7 @@
 			}]
 			title: "Survival Skills"
 			x: 4.5d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			description: ["Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release. You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"]
@@ -381,8 +333,8 @@
 				title: "The Only Way to \"Fly\""
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			id: "457F26BFBE27EC1C"
@@ -394,239 +346,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk forceloading&r."
-				""
-				"&6Press the '&r key (apostrophe) to access the &bOpen Parties and Claims&r menu. This will allow you to claim and/or forceload &athe chunk you're in&r. You can also do this from your &dMap&r."
-				""
-				"{image:cottagewitch:textures/openparties.png width:150 height:180 align:1}"
-				""
-				"Forceloading a chunk will &aensure that your base stays loaded when you're away&r. This is very hard on performance though, so do this &dsparingly&r!"
-				""
-				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Party as an Ally&r."
-			]
-			id: "26D8EAD9D892805E"
-			min_width: 350
-			rewards: [{
-				id: "5DF31CEACA7283A2"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "When you're away, your base will play"
-			tasks: [{
-				id: "4FA4B92C6339251C"
-				title: "Claim and Load Chunks"
-				type: "checkmark"
-			}]
-			title: "Chunk Loading"
-			x: 3.75d
-			y: 7.5d
-		}
-		{
-			dependencies: ["26D8EAD9D892805E"]
-			description: [
-				"&lOpen Parties and Claims&r allows you to add other players to your party, which can &aallow access to your claimed chunks&r."
-				""
-				"You can create a party by typing &d/openpac-parties create&r. You can &achange all party settings&r in the main apostrophe menu. There are a ton of options to control griefing, protection, and access."
-				""
-				"You can add a player as an &aAlly&r if you don't want to be on the same team. Type &d/openpac-parties ally add [username]&r."
-				""
-				"{image:cottagewitch:textures/allyadd.png width:200 height:50 align:1}"
-				""
-				"There are TWO Parties mods in this modpack, due to reasons beyond the packmaker's control. :( I apologize for the confusion."
-				""
-				"&lFTB Teams&r parties allow you to &ashare quest progress&r but do not affect claims."
-				""
-				"&lOpen Parties&r parties allow you to &agrant acces to share claims&r, but do not affect quest progress."
-			]
-			id: "20F9C02AF5CBE665"
-			rewards: [
-				{
-					id: "193F56FAD5A4D08C"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-				{
-					id: "3101E5B37D3A9BB3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				id: "5D2FC3F7E82A27A3"
-				title: "Adding Allies"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: 7.0d
-		}
-		{
-			description: [
-				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also incl.udes &aSuper Sound Muffler&r."
-				"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r"
-			]
-			id: "171D4EACF7B9F4D5"
-			shape: "gear"
-			subtitle: "Selective hearing. Literally."
-			tasks: [{
-				id: "4B25469609B1A60C"
-				title: "Extreme Sound Muffler"
-				type: "checkmark"
-			}]
-			title: "Extreme Sound Muffler"
-			x: 3.0d
-			y: 9.0d
-		}
-		{
-			description: [
-				"This modpack has a number of building and decoration mods which are all worth looking into. &dMost of them do not have associated quests&r."
-				""
-				"So how are you supposed to know they're there? Why, &lJEI&r of course. &6Opening your inventory&r will show you a wall of items to your right. You can search through these items at the bottom right. Type &d@&r and the name of a mod to search for only items from that mod."
-				""
-				"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
-				""
-				"This will let you view how to make anything in the game!"
-			]
-			id: "226D1B09B2958EFC"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Take a little look-see"
-			tasks: [{
-				id: "70ED8357EEA2ACA4"
-				title: "Get to know the mods"
-				type: "checkmark"
-			}]
-			x: 3.75d
-			y: 10.5d
-		}
-		{
-			description: [
-				"You might be wondering where all the quests are, when your screen looks like this:"
-				""
-				"{image:cottagewitch:textures/questmenu.png width:100 height:70 align:1 fit:true}"
-				""
-				"See that &aarrow on the left bar&r? &6Hovering over that&r will show you all the categories."
-				""
-				"{image:cottagewitch:textures/questmenu2.png width:100 height:70 align:1 fit:true}"
-				""
-				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
-			]
-			id: "51383D499E0DF0DA"
-			min_width: 350
-			rewards: [{
-				id: "087C803B19537A4C"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "11A03582B84195D4"
-				title: "Pin the Quest Categories"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["51383D499E0DF0DA"]
-			description: [
-				"Did you know you can &apin quests&r so they &ashow on your main screen&r? You can!"
-				""
-				"Just &dbe warned that this overlaps your pinned Notes&r."
-				""
-				"Also, perhaps I should mention that you can &apin notes&r to your screen as well! &6Press N to access your Notes menu&r."
-			]
-			id: "1E43FCEBA416DCFF"
-			rewards: [{
-				id: "5D9376B26A3CE85B"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "65C18F6415665884"
-				title: "Pin a Quest or Note"
-				type: "checkmark"
-			}]
-			title: "Pinning Other Things"
-			x: 7.5d
-			y: 9.0d
-		}
-		{
-			description: [
-				"To read a book in your &bAkashic Tome&r, &6right click&r while holding the book and &6select the book you want&r."
-				""
-				"To &areturn the Akashic Tome&r to its regular form, &6hold it and left click in the air&r."
-				""
-				"To &aremove a book from the tome&r, you need to &6crouch and throw&r the item (default keybind is Q)."
-				""
-				"To &aadd a book&r, you should &6craft the book with the &bTome&r."
-			]
-			id: "5B1C86C4A7C3351F"
-			rewards: [{
-				id: "39EB96715BA2FC9F"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "0D6469F8CB52A79E"
-				title: "Akashic Controls"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: 10.0d
-		}
-		{
-			description: [
-				"&bWaystones&r allow you to quickly traverse your world along a network of invisible &aleylines&r. You can find more information about &athe different kinds of Waystones&r in the &dGlobetrotting&r quest category. But here's some basic info:"
-				""
-				"- It costs xp to travel to Waystones using a &bWarp Stone&r or &bWarp Scroll&r."
-				""
-				"- Traveling &afrom one Waystone to another&r costs no exp."
-				""
-				"- You can use a &abutton in your inventory&r to travel to the nearest &bWaystone&r."
-			]
-			id: "7AD175287E3F0B68"
-			rewards: [{
-				id: "647BD7A181C2E88D"
-				item: "waystones:warp_scroll"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				icon: "waystones:sandy_waystone"
-				id: "0897C669F0BCBDB8"
-				stat: "waystones:waystone_activated"
-				type: "stat"
-				value: 1
-			}]
-			title: "Waystones 101"
-			x: 6.75d
-			y: 10.5d
-		}
-		{
-			description: [
-				"Have you found that your &lSophisticated Storage&r or &lChipped&r textures seem messed up?"
-				""
-				"This is a known bug which is currently unfixed by the mod developers. It occurs most often when &aresourcepacks are changed with the game running&r. It can be fixed by &6restarting Minecraft&r."
-			]
-			id: "32E10222527B1BB1"
-			shape: "gear"
-			tasks: [{
-				id: "2F817755D430EEC8"
-				title: "Screwy Textures?"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 8.5d
 		}
 	]
 	subtitle: ["a very good place to start"]

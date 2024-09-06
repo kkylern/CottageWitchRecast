@@ -13,17 +13,17 @@
 	per_spell_limit = 2147483647
 	#The tier of the glyph
 	#Range: 1 ~ 99
-	glyph_tier = 2
+	glyph_tier = 1
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "glyph_amplify=5"
 	augment_limits = []
+	#Prevents the given glyph from being used in the same spell as the given glyph
+	#Example entry: "glyph_burst"
+	invalid_combos = []
 	#Base amount of harvested blocks
 	#Range: > 0
 	base_harvest = 50
 	#Additional max blocks per AOE
 	#Range: > 0
 	aoe_bonus = 50
-	#Prevents the given glyph from being used in the same spell as the given glyph
-	#Example entry: "glyph_burst"
-	invalid_combos = []
 

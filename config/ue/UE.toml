@@ -50,6 +50,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ameliorated_sharpness]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -96,6 +100,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ameliorated_smite]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -142,6 +150,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ameliorated_bane_of_arthropods]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -192,12 +204,17 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.vitae]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			base_boost = 29.482631
 			#Range: 0.0 ~ 1.7976931348623157E308
 			scale_boost = 1.0
+			alt_formula = false
 
 			[general.base.vitae."General Settings"]
 				#If the Enchantment is Obtainable
@@ -235,12 +252,12 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.swift]
-			#Range: 0.0 ~ 1.7976931348623157E308
-			speed_bonus_base = 0.07
-			#Range: 0.0 ~ 1.7976931348623157E308
-			speed_bonus_level = 0.04
 
 			[general.base.swift."General Settings"]
 				#If the Enchantment is Obtainable
@@ -278,6 +295,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.sages_blessing]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -324,6 +345,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ender_eyes]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -369,6 +394,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.focused_impact]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -415,6 +444,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.bone_crusher]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -461,6 +494,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.range]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -468,9 +505,9 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			mining_fatique_level = 0.3
 			#Range: 0.0 ~ 1.7976931348623157E308
-			reduction_base = 1.0
+			reduction = 0.05
 			#Range: 0.0 ~ 1.7976931348623157E308
-			reduction_level = 2.0
+			mining_fatique = 0.25
 
 			[general.base.range."General Settings"]
 				#If the Enchantment is Obtainable
@@ -508,6 +545,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.treasurers_eyes]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -551,12 +592,17 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 200
 
 		[general.base.swift_blade]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			base_speed = 1.2
-			#Range: 0.0 ~ 1.7976931348623157E308
-			transcended_attack_speed_multiplier = 2.0
+			transcended_attack_speed_cap = 20.0
 
 			[general.base.swift_blade."General Settings"]
 				#If the Enchantment is Obtainable
@@ -597,6 +643,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.spartan_weapon]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -638,18 +688,22 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.perpetual_strike]
-			#Range: 0.0 ~ 1.7976931348623157E308
-			bonus_per_hit = 0.1
 			#Range: 0.0 ~ 1.7976931348623157E308
 			damage_multiplier = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_per_level = 1.0
 			#Range: > 0
 			transcended_mercy_hits = 1
-			#changes damage formual to exponential instead of logarithmic
+			#changes damage formula to exponential instead of logarithmic
 			exponential_scaling = false
+			#Range: > 0
+			hit_cap = 5000
 
 			[general.base.perpetual_strike."General Settings"]
 				#If the Enchantment is Obtainable
@@ -690,6 +744,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.climate_tranquility]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -704,6 +762,8 @@
 			attack_bonus_level = 0.03
 			#Range: > 0
 			burn_time = 1
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_burn_damage = 0.5
 
 			[general.base.climate_tranquility."General Settings"]
 				#If the Enchantment is Obtainable
@@ -741,18 +801,19 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 500
 
 		[general.base.momentum]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			mining_speed_flat = 1.0
+			base_factor = 0.7
 			#Range: 0.0 ~ 1.7976931348623157E308
-			mining_speed_multiplier = 1.0
-			#Range: > 0
-			block_cap = 41
-			#Range: 0.0 ~ 1.7976931348623157E308
-			block_cap_multiplier = 1.0
-			#Range: > 0
-			max_delay = 200
+			effect_factor = 0.3
 
 			[general.base.momentum."General Settings"]
 				#If the Enchantment is Obtainable
@@ -790,6 +851,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ender_mending]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -836,6 +901,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.smart_ass]
 			#Range: > 0
@@ -879,6 +948,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.warriors_grace]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -920,6 +993,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ender_marksmen]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -961,6 +1038,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ares_blessing]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1002,6 +1083,13 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 500
 
 		[general.base.alchemists_grace]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1048,6 +1136,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.cloud_walker]
 			#Range: > 0
@@ -1096,6 +1188,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.fast_food]
 			#Range: > 0
@@ -1146,6 +1242,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.natures_grace]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1191,12 +1291,16 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ecological]
 			#Range: > 0
 			baseDuration = 330
 			#Range: 0.0 ~ 1.7976931348623157E308
-			scalingReduction = 16.0
+			amountScaling = 1.0
 
 			[general.base.ecological."General Settings"]
 				#If the Enchantment is Obtainable
@@ -1234,6 +1338,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.phoenixs_blessing]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1279,12 +1387,17 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.midas_blessing]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			gold_cost_base = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			gold_cost_level = 1.0
+			blacklist = []
 
 			[general.base.midas_blessing."General Settings"]
 				#If the Enchantment is Obtainable
@@ -1322,6 +1435,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ifrits_grace]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1364,6 +1481,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.icarus_aegis]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1405,6 +1526,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.ender_librarian]
 
@@ -1444,6 +1569,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.endest_reap]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1493,15 +1622,16 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.grimoire]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			level_scaling = 0.9
 			#Range: 0.0 ~ 1.7976931348623157E308
-			step_skip = 5.0
-			ignored_enchantments = ["minecraft:fortune", "minecraft:efficiency", "minecraft:looting", "uniquee:midas_blessing", "uniquee:endest_reap", "minecraft:mending", "minecraft:silk_touch"]
-			#Range: > 0
-			start_level = 50
+			flat_scaling = 1.0
 
 			[general.base.grimoire."General Settings"]
 				#If the Enchantment is Obtainable
@@ -1539,6 +1669,13 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 500
 
 		[general.base.pestilences_odium]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1584,6 +1721,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.deaths_odium]
 			#Range: > 0
@@ -1629,6 +1770,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.combo_star]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1668,6 +1813,62 @@
 				#Hard Limit of where the Enchantment will be capped even if the level is higher
 				#Range: > 0
 				hard_cap = 600
+				#Enchantments that are not compatible with this Enchantment
+				incompats = []
+				#Allows to add custom incompatible Items
+				incompatible_items = []
+				#Allows to add custom compatible Items
+				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+
+		[general.base.brittling_blade]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			damage_scaling = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			durability_exponent = 8.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_exponent_scaling = 0.5
+
+			[general.base.brittling_blade."General Settings"]
+				#If the Enchantment is Obtainable
+				enabled = true
+				#If the Enchantment has any effect
+				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
+				#Minimum Enchantment Level
+				#Range: > 0
+				min_level = 1
+				#Maximum Enchantment Level
+				#Range: > 0
+				max_level = 5
+				#Rarity of the Enchantment
+				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+				rarity = "RARE"
+				#If the Enchantment is a Treasure
+				treasure = false
+				#If the Enchantment is Tradeable by Villagers
+				tradeable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Minimum Level for Enchanting
+				#Range: > 0
+				base_cost = 10
+				#Increase of levels per Enchantment Level
+				#Range: > 0
+				per_level_cost = 10
+				#The Additional Upper Range of Required Levels
+				#Range: > 0
+				cost_limit = 50
+				#Hard Limit of where the Enchantment will be capped even if the level is higher
+				#Range: > 0
+				hard_cap = 100
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 500
 				#Enchantments that are not compatible with this Enchantment
 				incompats = []
 				#Allows to add custom incompatible Items

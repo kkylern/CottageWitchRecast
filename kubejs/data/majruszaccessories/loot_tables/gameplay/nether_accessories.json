@@ -1,6 +1,5 @@
 {
   "type": "minecraft:gift",
-  "replace": true,
   "pools": [
     {
       "rolls": 1,
@@ -8,6 +7,14 @@
         {
           "type": "minecraft:item",
           "name": "majruszsaccessories:dice"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:horseshoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:onyx"
         },
         {
           "type": "minecraft:item",

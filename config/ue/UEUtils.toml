@@ -51,6 +51,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.famines_odium]
 			#Range: > 0
@@ -95,6 +99,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.thick_pick]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -139,6 +147,13 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Defines the Required XP level to trigger the Trancendence Effect
+				#Range: > 1
+				trancendence = 500
 
 		[general.utils.rocket_man]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -182,6 +197,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.climber]
 			#Range: > 0
@@ -224,6 +243,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.phanes_regret]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -265,10 +288,12 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.poseidons_soul]
-			#Range: > 0
-			base_consumtion = 16
 
 			[general.utils.poseidons_soul."General Settings"]
 				#If the Enchantment is Obtainable
@@ -306,6 +331,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.mounting_aegis]
 
@@ -345,6 +374,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.demeters_blessing]
 
@@ -384,8 +417,17 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.ambrosia]
+			#Range: > 0
+			base_duration = 600
+			#Range: > 0
+			duration_multiplier = 40
+			healing_enabled = true
 
 			[general.utils.ambrosia."General Settings"]
 				#If the Enchantment is Obtainable
@@ -423,6 +465,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.essence_of_slime]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -466,6 +512,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.adept]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -507,6 +557,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.anemoi_fragment]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -552,6 +606,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.reinforced]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -599,6 +657,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.resonance]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -649,22 +711,22 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.sages_soul]
 			#Range: > 0
 			enchantment_devidor = 4
 			#Range: 0.0 ~ 1.7976931348623157E308
 			mining_speed = 1.0
-			#Range: > 0
-			attack_dividor = 128
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			draw_speed = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			armor_scale = 1.0
-			#Range: > 0
-			armor_dividor = 128
 			#Range: 0.0 ~ 1.7976931348623157E308
 			toughness_scale = 1.0
 
@@ -704,6 +766,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.utils.pegasus_soul]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -736,6 +802,99 @@
 				#The Additional Upper Range of Required Levels
 				#Range: > 0
 				cost_limit = 60
+				#Hard Limit of where the Enchantment will be capped even if the level is higher
+				#Range: > 0
+				hard_cap = 100
+				#Enchantments that are not compatible with this Enchantment
+				incompats = []
+				#Allows to add custom incompatible Items
+				incompatible_items = []
+				#Allows to add custom compatible Items
+				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
+
+		[general.utils.dreams]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			durability_factor = 1.0
+			valid_targets = ["minecraft:phantom"]
+
+			[general.utils.dreams."General Settings"]
+				#If the Enchantment is Obtainable
+				enabled = true
+				#If the Enchantment has any effect
+				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
+				#Minimum Enchantment Level
+				#Range: > 0
+				min_level = 1
+				#Maximum Enchantment Level
+				#Range: > 0
+				max_level = 3
+				#Rarity of the Enchantment
+				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+				rarity = "VERY_RARE"
+				#If the Enchantment is a Treasure
+				treasure = false
+				#If the Enchantment is Tradeable by Villagers
+				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Minimum Level for Enchanting
+				#Range: > 0
+				base_cost = 20
+				#Increase of levels per Enchantment Level
+				#Range: > 0
+				per_level_cost = 5
+				#The Additional Upper Range of Required Levels
+				#Range: > 0
+				cost_limit = 25
+				#Hard Limit of where the Enchantment will be capped even if the level is higher
+				#Range: > 0
+				hard_cap = 100
+				#Enchantments that are not compatible with this Enchantment
+				incompats = []
+				#Allows to add custom incompatible Items
+				incompatible_items = []
+				#Allows to add custom compatible Items
+				compatible_items = []
+
+		[general.utils.alchemists_mending]
+
+			[general.utils.alchemists_mending."General Settings"]
+				#If the Enchantment is Obtainable
+				enabled = true
+				#If the Enchantment has any effect
+				activated = true
+				#If the Enchantment is discoverable
+				discoverable = true
+				#Minimum Enchantment Level
+				#Range: > 0
+				min_level = 1
+				#Maximum Enchantment Level
+				#Range: > 0
+				max_level = 3
+				#Rarity of the Enchantment
+				#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+				rarity = "VERY_RARE"
+				#If the Enchantment is a Treasure
+				treasure = true
+				#If the Enchantment is Tradeable by Villagers
+				tradeable = false
+				#If the Enchantment can be on books
+				canBeOnBook = true
+				#Minimum Level for Enchanting
+				#Range: > 0
+				base_cost = 40
+				#Increase of levels per Enchantment Level
+				#Range: > 0
+				per_level_cost = 30
+				#The Additional Upper Range of Required Levels
+				#Range: > 0
+				cost_limit = 75
 				#Hard Limit of where the Enchantment will be capped even if the level is higher
 				#Range: > 0
 				hard_cap = 100
@@ -792,6 +951,10 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 
 		[general.base.alchemists_blessing]
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -839,4 +1002,8 @@
 				incompatible_items = []
 				#Allows to add custom compatible Items
 				compatible_items = []
+				#If the Enchantment is discoverable
+				discoverable = true
+				#If the Enchantment can be on books
+				canBeOnBook = true
 

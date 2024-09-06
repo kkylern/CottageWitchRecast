@@ -142,6 +142,7 @@
 		{
 			description: [
 				"This delightful item not only &aplays a lovely tune&r when you &6hold right click while holding it&r, but it also &asummons all non-sitting pets nearby&r to your location."
+				""
 				"You can optionally bind your flute to a specific pet by &6shift right clicking&r on the animal with the flute."
 			]
 			id: "20BAF307F1556BC5"
@@ -178,7 +179,9 @@
 		{
 			description: [
 				"Gain this advancement by taming and befriending an animal!"
+				""
 				"Using the reward from this quest, you can right click to place an entity in your inventory so you can easily move them large distances. Simply &6right click the Mob Cage on the animal, and then right click it on a block&r to place the animal down again."
+				""
 				"You can also &6shift right click&r to place it&r! It's totally normal to put your best friends in cages."
 			]
 			id: "52BC8196E858B238"
@@ -324,20 +327,27 @@
 		{
 			description: ["&bCollars&r can be used to name your pets, but they can also be &aenchanted&r to give your pet special abilities."]
 			id: "09827E9E92823643"
-			rewards: [{
-				id: "6802714240042850"
-				item: {
-					Count: 1b
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "domesticationinnovation:herding"
-							lvl: 2s
-						}]
+			rewards: [
+				{
+					id: "6802714240042850"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "domesticationinnovation:herding"
+								lvl: 2s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "07688BDC175DB3BC"
+					item: "plushies:panda"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "50B6AC73D9257351"
@@ -350,11 +360,18 @@
 		{
 			description: ["The &bDeed of Ownership&r is an item used in &amultiplayer&r. You can &6right click it on an animal&r and then give the &bDeed&r to a friend. When they use it, the pet will now be linked to them, &aas if they had tamed it themself&r."]
 			id: "1C37EDEA99A890EF"
-			rewards: [{
-				id: "7D8FC845A86B5AF0"
-				item: "moblassos:golden_lasso"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7D8FC845A86B5AF0"
+					item: "moblassos:golden_lasso"
+					type: "item"
+				}
+				{
+					id: "04FB59490C16134C"
+					item: "plushies:red_fox"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "47B6BA7F65A9904A"
@@ -367,7 +384,9 @@
 		{
 			description: [
 				"The &bWayward Lantern&r will allow any lost pets to &afind their way home&r. Place it near your base, and if you should lose your pet while exploring, watch for them there."
+				""
 				"If you &alose your pet in another dimension&r, you will need to &6place a Lantern in that dimension&r to get them back."
+				""
 				"In &dMultiplayer&r, your pets will respawn at the &aclosest Lantern&r, so be careful in other people's areas."
 			]
 			id: "5DB08A394A7B8122"
@@ -889,6 +908,7 @@
 		{
 			description: [
 				"Prove your mettle by killing...wait, just one &ezombie&r and one &eskeleton&r? That seems pretty easy..."
+				""
 				"Maybe the next quests will be more difficult."
 			]
 			id: "43B3A6804B59565E"
@@ -1046,6 +1066,7 @@
 		{
 			description: [
 				"Axolotls are cute lil guys, but they're also &astrong&r and &avicious&r. If you tame one, it will &afight alongside you&r should you decide to take on an underwater threat."
+				""
 				"They'll also sometimes &agive you Regeneration&r, and once they do so, you'll know that you are &dbest friends 5ever&r."
 			]
 			id: "232A8F9F6388C377"
@@ -1067,6 +1088,7 @@
 		{
 			description: [
 				"&eTadpoles&r, otherwise known as \"the forbidden boba,\" are cute lil wiggly fellas who are particularly susceptible to &eAxolotls&r."
+				""
 				"They're also susceptible to &bBuckets&r, and if you should capture one in such a way, then you've completed this quest."
 			]
 			id: "2FC0EAD96E3C41D4"
@@ -1088,9 +1110,13 @@
 		{
 			description: [
 				"The &eSlabfish&r is a rectangular entity which can be &atamed&r with &bTropical Fish&r."
+				""
 				"Once tamed, you can &6right click&r to &agive them a sweater&r by equipping them with &bWool&r. They can also help you carry items if you &agive them a &bChest&r."
+				""
 				"You can also &adye the chest backpack&r by placing a dye in that slot."
+				""
 				"&eSlabfish&r will toggle sitting or standing if you &6shift right click&r them."
+				""
 				"However, they will &donly follow you when you're holding &bTropical Fish&r."
 			]
 			id: "7A028A2ABDD3D304"
@@ -1116,8 +1142,11 @@
 		{
 			description: [
 				"Looking for a challenge? Why not craft yourself a &bGate Pearl&r? &dYou can craft any one you'd like for this quest&r."
+				""
 				"A &bGate Pearl&r allows you to summon a &eGateway&r by using it on a block.There will need to be &asufficient space&r available, and &aanother Gateway cannot already be open&r."
+				""
 				"An open Gateway will &dfail in a burst of lightning&r if it &acannot spawn a mob&r, any active &amob gets too far away&r, or the &awave timer&r elapses. Rewards will spawn from the Gateway as they are obtained."
+				""
 				"These &eGateway&r provide a challenge for powerful players, and are a great source of &bMob Drops&r."
 			]
 			id: "538D45E5FE8591D6"
@@ -1146,6 +1175,7 @@
 		{
 			description: [
 				"&eGoats&r are ornery things. If you should happen across one, &abeware of their headbutts&r! "
+				""
 				"However, if you can get it to &acharge into a hard block&r such as &bStone&r, it will drop a &bHorn&r."
 			]
 			id: "3556685D896ADA7C"
@@ -1219,6 +1249,7 @@
 		{
 			description: [
 				"&eSnails&r are some of the most delightful creatures."
+				""
 				"They're quite fond of terracotta, so you can easily &ascoop them up&r in a &bFlower Pot&r! Catch one of each to be rewarded with more of the same!"
 			]
 			id: "55CAFBB909F98ED8"
@@ -1261,7 +1292,9 @@
 		{
 			description: [
 				"Ooh look, a nice &ajuicy loot chest&r! Wonder what's inside?"
+				""
 				"&lGOTCHA&r, it's a &eMimic&r! Mimics are creatures which resemble chests, but will turn hostile should you try to open them."
+				""
 				"Once defeated, &athey drop &bArtifacts&r."
 			]
 			id: "7FB79E375B154A0E"
@@ -1287,7 +1320,9 @@
 		{
 			description: [
 				"&eYaks&r are cowlike beasts with long fur. They can be &asheared for their wool&r, which is used in a number of recipes. They can also &abe milked&r!"
+				""
 				"They are bred with &aWheat&r."
+				""
 				"Once &asheared&r, they will go after the player, unless the player is wearing &bYak Pants&r."
 			]
 			id: "382FEE92206B1F49"
@@ -1340,9 +1375,13 @@
 		{
 			description: [
 				"The &eRootling&r is a forest-dwelling sentient plant which comes in multiple colors. It is closely related to the Mandrake."
+				""
 				"They can be &asheared to get petals&r, but they dislike this and will &aflee from you&r! Should you managed to shear some, the &bPetals&r can be used to make &bDyes&r."
+				""
 				"They love &arain and flowers&r, and can be found enjoying both. They're also social and will &agreet one another&r with a little belly bump!"
+				""
 				"When they die, they drop &bRootling Seeds&r which can be used to grow more &eRootlings&r. They also drop &bBulbus root&r, which are edible once cooked."
+				""
 				"They will follow you if you &ahold bonemeal&r."
 			]
 			id: "017910D0153E593E"
@@ -1367,6 +1406,7 @@
 		{
 			description: [
 				"The &bFwin&r is occasionally dropped from &eSwamp Muckers&r. These fish do not swim, but rather &apropel themselves around&r with their fwins."
+				""
 				"You can use these items to &acraft some boots&r which increase speed underwater, and &acan be Enchanted&r to allow players to leap from the water while swimming!"
 			]
 			id: "0856883C8F0C0214"
@@ -1388,6 +1428,7 @@
 		{
 			description: [
 				"It is the duty of every witch to improve the world around them. One such method is &adestroying evil creatures&r such as the &eWilden&r."
+				""
 				"The &eWilden&r are an ancient race of Shapeshifters who &abroke the treaty with nature&r and became forever trapped in their animal states. They now exist &aonly to kill&r. Defeat them and absorb their knowledge and power."
 			]
 			id: "7EF23B68E32568DE"
@@ -1424,7 +1465,9 @@
 		{
 			description: [
 				"&eFerrets&r are adorable obligate carnivores which can be &atamed with raw rabbit&r!"
+				""
 				"Be aware that they will &ahunt &eChickens and Rabbits&r even once tamed, so be sure to keep your livestock separated from them!"
+				""
 				"Tamed &eFerrets&r can also &adig for loot&r once every 5 minutes when &afed raw chicken&r."
 			]
 			id: "17D05EDC67E36F43"
@@ -1456,6 +1499,7 @@
 		{
 			description: [
 				"&eOwls&r are some of the more traditional witch familiars, so you'll be pleased to note that &athey can be tamed&r!"
+				""
 				"Feed them &bgame meat&r such as &brabbit&r or &bchicken&r. They can also be bred with the same items. They will &afollow you once tamed&r even if you're flying through the air!"
 			]
 			id: "697E566F9FF782F0"
@@ -1490,6 +1534,7 @@
 		{
 			description: [
 				"Above the canopy of the &cDark Forest&r, you can find giant hostile &eMoths&r, which cluster around &bMoth Blossoms&r and &alights&r. These pests seem to serve to prevent people from traversing the canopy."
+				""
 				"Use their &bScales&r to create a &bPotion of the Nocturnal&r, an exceptionally long-lasting brew which prevents &ePhantoms&r from spawning."
 			]
 			id: "5E86B948F3FA0264"

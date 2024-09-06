@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Modded Tips",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Vanilla style mob farm not working correctly? Make sure you claim the chunks it's in!"
+    }
+  }

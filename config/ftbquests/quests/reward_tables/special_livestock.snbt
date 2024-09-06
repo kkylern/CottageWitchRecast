@@ -1,7 +1,7 @@
 {
 	id: "232BC82EEB69EF30"
 	loot_size: 3
-	order_index: 31
+	order_index: 32
 	rewards: [
 		{ item: "meadow:water_buffalo_spawn_egg" }
 		{ item: "meadow:umbra_cow_spawn_egg" }

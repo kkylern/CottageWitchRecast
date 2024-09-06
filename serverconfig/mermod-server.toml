@@ -8,5 +8,5 @@
 	#Water breathing
 	waterBreathing = true
 	#Night vision
-	nightVision = false
+	nightVision = true
 

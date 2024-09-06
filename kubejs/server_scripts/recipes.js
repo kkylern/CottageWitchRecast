@@ -1573,6 +1573,156 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Cluttered's Muffin and Pancakes Overlap
+    event.shaped(
+        Item.of('luphieclutteredmod:luphie_plated_blueberry_muffin'),
+        [
+            'A',
+            'B',
+            "C"
+        ],
+        {
+            A: 'ars_nouveau:source_berry',
+            B: 'minecraft:bread',
+            C: 'luphieclutteredmod:luphie_empty_plate'
+        }
+    )
+
+    //Rose Quartz Uncraftable
+    event.shapeless(
+        Item.of('create:rose_quartz'),
+        [ 
+            'create:rose_quartz_block',
+            'create:rose_quartz_block'
+        ]
+    )
+
+    //Selenite Craftable
+    event.shaped(
+        Item.of('hexerei:selenite_block', 4),
+        [
+            'AAA',
+            'ABA',
+            "AAA"
+        ],
+        {
+            A: 'minecraft:quartz',
+            B: 'minecraft:amethyst_block'
+        }
+    )
+
+    event.shapeless(
+        Item.of('hexerei:selenite_shard', 4),
+        [ 
+            'hexerei:selenite_block'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('hexerei:selenite_cluster'),
+        [ 
+            'hexerei:selenite_shard',
+            'hexerei:selenite_shard',
+            'hexerei:selenite_shard',
+            'hexerei:selenite_shard'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('hexerei:large_selenite_bud'),
+        [ 
+            'hexerei:selenite_shard',
+            'hexerei:selenite_shard',
+            'hexerei:selenite_shard'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('hexerei:medium_selenite_bud'),
+        [ 
+            'hexerei:selenite_shard',
+            'hexerei:selenite_shard'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('hexerei:small_selenite_bud'),
+        [ 
+            'hexerei:selenite_shard'
+        ]
+    )
+
+    event.shapeless(
+        Item.of('supplementaries:sack'),
+        [
+            'farmersdelight:canvas',
+            'farmersdelight:canvas', 
+            'minecraft:string'
+        ]
+    )
+
+    //Venison exchange
+    //Env to TF Raw
+    event.shapeless(
+        Item.of('twilightforest:raw_venison'),
+        [ 
+            'environmental:venison'
+        ]
+    )
+
+    //Env to TF Cooked
+    event.shapeless(
+        Item.of('twilightforest:cooked_venison'),
+        [ 
+            'environmental:cooked_venison'
+        ]
+    )
+
+    /*
+    //Azalea Crafting
+        let dyeColors = [
+        "red",
+        "yellow",
+        "orange",
+        "pink",
+        "purple",
+        "blue",
+        "white",
+
+
+        ];
+
+        for (const color of dyeColors) {
+        event.shaped(
+        Item.of('colorfulazaleas:'+color+'_azalea_sapling'),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ], {
+            A: '#forge:azalea_saplings',
+            B: 'minecraft:'+color+'_dye'
+        }
+        )}
+        */
+
+    //smithing
+    event.smithing('experienceobelisk:precision_dispeller',
+        'minecraft:grindstone',
+        'experienceobelisk:cognitive_crystal_block')
+
+    //Stonecutter recipes for Handcrafted Boards
+    event.stonecutting('4x handcrafted:acacia_board', 'minecraft:acacia_planks')
+    event.stonecutting('4x handcrafted:birch_board', 'minecraft:birch_planks')
+    event.stonecutting('4x handcrafted:dark_oak_board', 'minecraft:dark_oak_planks')
+    event.stonecutting('4x handcrafted:jungle_board', 'minecraft:jungle_planks')
+    event.stonecutting('4x handcrafted:mangrove_board', 'minecraft:mangrove_planks')
+    event.stonecutting('4x handcrafted:oak_board', 'minecraft:oak_planks')
+    event.stonecutting('4x handcrafted:spruce_board', 'minecraft:spruce_planks')
+    event.stonecutting('4x handcrafted:crimson_board', 'minecraft:crimson_planks')
+    event.stonecutting('4x handcrafted:warped_board', 'minecraft:warped_planks')
+    
+
     //Stonecutter recipes for Xerca Woods
 
     event.stonecutting('kubejs:carved_warped_1', 'minecraft:stripped_warped_stem')

@@ -90,6 +90,74 @@ ServerEvents.tags('item', event => {
     'culturaldelights:corn_dough'
     )
 
+    // Silk Tag
+    event.add('forge:string',
+    'crittersandcompanions:silk'
+    )
+
+    // Majrusz Tagging
+    // Majrusz's Accessories
+
+    event.add('forge:maj_acs',
+    'majruszsaccessories:certificate_of_taming',
+    'majruszsaccessories:idol_of_fertility',
+    'majruszsaccessories:lucky_rock',
+    'majruszsaccessories:tamed_potato_beetle',
+    'majruszsaccessories:angler_trophy',
+    'majruszsaccessories:discount_voucher',
+    'majruszsaccessories:dream_catcher',
+    'majruszsaccessories:metal_lure',
+    'majruszsaccessories:miner_guide',
+    'majruszsaccessories:adventurer_kit',
+    'majruszsaccessories:tool_scraps',
+    'majruszsaccessories:unbreakable_fishing_line',
+    'majruszsaccessories:adventurer_rune',
+    'majruszsaccessories:angler_rune',
+    'majruszsaccessories:household_rune',
+    'majruszsaccessories:miner_rune',
+    'majruszsaccessories:nature_rune',
+    'majruszsaccessories:soul_of_minecraft',
+    'majruszsaccessories:secret_ingredient',
+    'majruszsaccessories:swimmer_guide'
+    )
+
+    // Majruzs's Boosters
+    event.add('forge:maj_boosters',
+    'majruszsaccessories:onyx',
+    'majruszsaccessories:dice',
+    'majruszsaccessories:owl_feather',
+    'majruszsaccessories:golden_dice',
+    'majruszsaccessories:golden_horseshoe',
+    'majruszsaccessories:horseshoe'
+    )
+
+    //Wind Chimes
+    event.add('forge:wind_chimes',
+        'chimes:bamboo_chimes',
+        'chimes:iron_chimes', 
+        'chimes:carved_bamboo_chimes', 
+        'chimes:copper_chimes', 
+        'chimes:amethyst_chimes'
+    )
+    
+    //Azalea Saplings
+    event.add('forge:saplings',
+        'colorfulazaleas:orange_azalea_sapling',
+        'colorfulazaleas:yellow_azalea_sapling',
+        'colorfulazaleas:red_azalea_sapling',
+        'colorfulazaleas:blue_azalea_sapling',
+        'colorfulazaleas:pink_azalea_sapling',
+        'colorfulazaleas:purple_azalea_sapling',
+        'colorfulazaleas:white_azalea_sapling'
+    )
+
+    // Majruzs's Cards
+    event.add('forge:maj_cards',
+    'majruszsaccessories:gambling_card',
+    'majruszsaccessories:removal_card',
+    'majruszsaccessories:reverse_card'
+    )
+
     // Grape Tagging
     event.add('forge:grapes',
     'vinery:red_grape',
@@ -374,19 +442,34 @@ ServerEvents.tags('item', event => {
     event.add('forge:fruits/citrus',
     'collectorsreap:lime_slice')
 
+    //azaleas
+    event.add('forge:azalea_saplings',
+        'minecraft:azalea',
+        'minecraft:flowering_azalea'
+    )
+
     // Reinforced Deepslate
     event.add('forge:relocation_not_supported',
     'minecraft:reinforced_deepslate'
     )
 
     //===Banning Uncraftables===
-    event.add('twilightforest:banned_uncraftables', 'plushies:dragon', '#forge:eyes', 'ends_delight:non_hatchable_dragon_egg', 'culturaldelights:avocado_pit')
-    event.add('twilightforest:banned_uncrafting_ingredients', '#forge:eyes')
+    event.add('twilightforest:banned_uncraftables',
+        'plushies:dragon',
+        '#forge:eyes',
+        'ends_delight:non_hatchable_dragon_egg',
+        'culturaldelights:avocado_pit')
+    event.add('twilightforest:banned_uncrafting_ingredients',
+        '#forge:eyes')
 
     //===Tags for FTB Quests===
 
     // Brooms
-    event.add('forge:brooms', 'hexerei:mahogany_broom', 'hexerei:witch_hazel_broom', 'hexerei:willow_broom', 'ars_scalaes:archwood_broom')
+    event.add('forge:brooms',
+        'hexerei:mahogany_broom',
+        'hexerei:witch_hazel_broom',
+        'hexerei:willow_broom',
+        'ars_scalaes:archwood_broom')
 
     //Tom's Storage Tags
     //event.add('forge:invcable', 'toms_storage:ts.inventory_cable','toms_storage:ts.inventory_cable_framed')

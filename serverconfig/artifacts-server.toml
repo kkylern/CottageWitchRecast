@@ -3,7 +3,7 @@
 	#List of cosmetic-only items. All items in this list will have their effects disabled
 	#To blacklist all items, use "artifacts:*"
 	#Note: blacklisting an item while it is equipped may have unintended side effects
-	cosmetics = ["artifacts:flippers", "artifacts:golden_hook", "artifacts:feral_claws", "artifacts:helium_flamingo", "artifacts:everlasting_beef", "artifacts:eternal_steak", "artifacts:snorkel", "artifacts:umbrella"]
+	cosmetics = [""]
 
 	[items.antidote_vessel]
 		#Affects how many times a negative effect can be shortened before breaking

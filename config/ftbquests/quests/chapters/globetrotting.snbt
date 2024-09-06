@@ -1222,6 +1222,34 @@
 			x: 1.5d
 			y: -4.5d
 		}
+		{
+			description: [
+				"&bWaystones&r allow you to quickly traverse your world along a network of invisible &aleylines&r. You can find more information about &athe different kinds of Waystones&r in the &dGlobetrotting&r quest category. But here's some basic info:"
+				""
+				"- It costs xp to travel to Waystones using a &bWarp Stone&r or &bWarp Scroll&r."
+				""
+				"- Traveling &afrom one Waystone to another&r costs no exp."
+				""
+				"- You can use a &abutton in your inventory&r to travel to the nearest &bWaystone&r."
+			]
+			id: "7AD175287E3F0B68"
+			rewards: [{
+				id: "647BD7A181C2E88D"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: "waystones:sandy_waystone"
+				id: "0897C669F0BCBDB8"
+				stat: "waystones:waystone_activated"
+				type: "stat"
+				value: 1
+			}]
+			title: "Waystones 101"
+			x: 9.5d
+			y: -7.0d
+		}
 	]
 	title: "Globetrotting"
 }

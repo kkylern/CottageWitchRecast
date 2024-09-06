@@ -62,13 +62,14 @@
 			y: -5.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["0AF3D2A62E51E5B2"]
 			description: [
 				"It's frustrating to have to switch from your &bNetherite Armor&r to Gold simply to appease the &ePiglins&r. Well, no more!"
+				""
 				"Now you can &agild your Netherite armor&r in a &bSmithing Station&r to enhance it with enough gold to pacify the &ePiglins&r."
 			]
 			id: "33EAE02ACC6CCA8B"
@@ -173,6 +174,7 @@
 		{
 			description: [
 				"Made from fallen &eCindershells&r, a passive mob in the Nether, this sword has a strong affinity for &bLava&r!"
+				""
 				"&6Right click the blade on Lava&r to recharge it, providing it with a damage boost and the Flame effect!"
 			]
 			id: "492E8ECEC74A1C20"
@@ -394,6 +396,7 @@
 		{
 			description: [
 				"&bSpawners&r can now be collected with Silk Touch! The &bSpawner Key&r will allow you to right click a &bSpawner&r and alter its functionality to &aincrease range or spawns&r, etc."
+				""
 				"By default, any &bSpawners&r you pick up &awill be empty&r. You'll need to &6right click them with a spawn egg&r to assign them a mob. However, spawners collected via the &lCreate&r &bCart Assembler&r will keep their target."
 			]
 			id: "5D7F2F7250CB2ECB"
@@ -684,342 +687,6 @@
 			title: "Build a Trident"
 			x: 5.0d
 			y: -6.0d
-		}
-		{
-			description: [
-				"Reduces both &aincoming and &doutgoing&a damage&r."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "47FD547C85F350BB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5BE9A0356326EF9D"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "08A4ECE4AC4E37BB"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:white_flag"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:white_flag"
-				criterion: ""
-				id: "5A4778CD78BCEF2C"
-				type: "advancement"
-			}]
-			title: "White Flag"
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"This Curio &agrants you additional loot&r from chests, the further you are from spawn."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "20B71AB01AD6CDE6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "34FD7AD6B6E9FC2F"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "18FE49BCB7956324"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:adventurers_guide"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:adventurers_guide"
-				criterion: ""
-				id: "54FC2ECD0C25897E"
-				type: "advancement"
-			}]
-			title: "Adventurer's Guide"
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"Increases your &aluck while fishing&r."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "28402A0A69E7B8AA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4BC2AE12BE671E2F"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "1CCBBEEBAF8AEC38"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:anglers_trophy"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:anglers_trophy"
-				criterion: ""
-				id: "139A3A2EED7DBF24"
-				type: "advancement"
-			}]
-			title: "Angler's Trophy"
-			x: 4.0d
-			y: 1.5d
-		}
-		{
-			description: [
-				"Improves the stats of &amounts and pets&r."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "2A8267EAD14040DB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5801DE974396B99A"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "689C8455157132A7"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:certificate_of_taming"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:certificate_of_taming"
-				criterion: ""
-				id: "0F3385E13DAB381A"
-				type: "advancement"
-			}]
-			title: "Certificate of Taming"
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"The &bOverworld Rune&r is crafted from &aall other trinkets&r."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "0C3C0190EB3C6A5F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3B90E65FF28AC781"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:overworld_rune"
-				criterion: ""
-				id: "79D1E0824D9890A4"
-				type: "advancement"
-			}]
-			title: "Overworld Rune"
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"Bred animals &asometimes produce twins&r."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "5D7AFC213FB3DCF8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2542795296DFBBF8"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "6DE448538B4F9E94"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:idol_of_fertility"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:idol_of_fertility"
-				criterion: ""
-				id: "39C33F1607CC6BAB"
-				type: "advancement"
-			}]
-			title: "Idol of Fertility"
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			description: [
-				"Occasionally grants &abetter loot while mining&r."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "76559362F9123020"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4713BC72D79D6310"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "0DCF79EDC94D384F"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:lucky_rock"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:lucky_rock"
-				criterion: ""
-				id: "1E8642D6E089F24A"
-				type: "advancement"
-			}]
-			title: "Lucky Rock"
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"Increases &aPotion Level&r, but &ddecreases Potion Duration&r."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "17670074E6ECFB57"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "192038D70B752CFA"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "7B846A8506266249"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:secret_ingredient"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:secret_ingredient"
-				criterion: ""
-				id: "096A41A47D35EBA4"
-				type: "advancement"
-			}]
-			title: "Secret Ingredient"
-			x: 5.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"Occasionally grants &adouble crops&r when harvesting."
-				""
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
-			]
-			id: "44FE4CEFBB14CB63"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "02D0FBD2E1820A3E"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "7BC8323F360678B6"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:tamed_potato_beetle"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:tamed_potato_beetle"
-				criterion: ""
-				id: "2E11BE21BD1C4CC8"
-				type: "advancement"
-			}]
-			title: "Tamed Potato Beetle"
-			x: 4.0d
-			y: 3.5d
 		}
 		{
 			description: ["Full Iron tools! Feels good to make progress, huh? Congrats!"]
@@ -2218,37 +1885,6 @@
 		}
 		{
 			description: [
-				"&bAccessory Boosters&r are items which you can &acombine with certain &bPocket Accessories&r to make them more powerful."
-				""
-				"Each booster describes its effect in the tooltip, so you'll know what you're getting."
-				""
-				"&dBe aware that an Accessory can only accept one Booster&r at a time."
-			]
-			id: "48385747B9F27B10"
-			rewards: [{
-				id: "0FB99508E9078240"
-				item: "majruszsaccessories:owl_feather"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "1DC5B698846A3FC5"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:accessory_boosters"
-					}
-				}
-				title: "Any Accessory Booster"
-				type: "item"
-			}]
-			title: "Acquire an Accessory Booster"
-			x: 6.5d
-			y: 2.5d
-		}
-		{
-			description: [
 				"Although an unconventional tool, &bBugfish Mandibles&r can actually be &aused as Shears&r!"
 				""
 				"Or, craft them into a &bunique Banner Pattern&r."
@@ -2520,6 +2156,407 @@
 			title: "The Full Set: Ironwood Tools"
 			x: 4.5d
 			y: -3.0d
+		}
+		{
+			description: [
+				"The &bAdventurer Rune&r can be crafted by combining an &bAdventurer Kit&r and a &bSwimmer Guide&r. Gain the power of both in a single curio!"
+				""
+				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bAdventurer Rune&r. Runes can also be &acombined with each other&r to increase their power."
+			]
+			id: "715C2E00945EB21F"
+			rewards: [
+				{
+					id: "29E50B834E769ECD"
+					item: "majruszsaccessories:adventurer_rune"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "338CA9A1EC535AD2"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "adventure is out there"
+			tasks: [
+				{
+					id: "0F9773CFCFDB1DED"
+					item: "majruszsaccessories:adventurer_kit"
+					type: "item"
+				}
+				{
+					id: "781DAA365486B31E"
+					item: "majruszsaccessories:swimmer_guide"
+					type: "item"
+				}
+			]
+			title: "Adventurer Rune"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"To obtain an &bAngler Rune&r, combine an &bAngler Trophy, Metal Lure&r, and &bUnbreakable Fishing Line&r. The power of all three in a single curio!"
+				""
+				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bAngler Rune&r. Runes can also be &acombined with each other&r to increase their power."
+			]
+			id: "38F251FA45EE013F"
+			rewards: [
+				{
+					id: "09E5AD6197A73F67"
+					item: "majruszsaccessories:angler_rune"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AFE3BF730A8178A"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "reel big bonuses"
+			tasks: [
+				{
+					id: "55A9C0690D848C1B"
+					item: "majruszsaccessories:angler_trophy"
+					type: "item"
+				}
+				{
+					id: "63986F1A40D665AD"
+					item: "majruszsaccessories:unbreakable_fishing_line"
+					type: "item"
+				}
+				{
+					id: "3D0C819E0E413AA0"
+					item: "majruszsaccessories:metal_lure"
+					type: "item"
+				}
+			]
+			title: "Angler Rune"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Combine a &bDiscount Voucher&r, &bDream Catcher&r, and &bSecret Ingredient&r to get a &bHousehold Rune&r. The power of all three in a single curio!"
+				""
+				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bHousehold Rune&r. Runes can also be &acombined with each other&r to increase their power."
+			]
+			id: "7B0CAD41D18A523B"
+			rewards: [
+				{
+					id: "49ADA2CEF426F672"
+					item: "majruszsaccessories:household_rune"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "095C152ACA7C775B"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "home is where the rune is"
+			tasks: [
+				{
+					id: "003973647FF535A8"
+					item: "majruszsaccessories:discount_voucher"
+					type: "item"
+				}
+				{
+					id: "009B6DD3C4F0862A"
+					item: "majruszsaccessories:dream_catcher"
+					type: "item"
+				}
+				{
+					id: "7348DA0358437195"
+					item: "majruszsaccessories:secret_ingredient"
+					type: "item"
+				}
+				{
+					id: "6703CC57ABD573A4"
+					item: "majruszsaccessories:household_rune"
+					type: "item"
+				}
+			]
+			title: "Household Rune"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"To obtain the &bMiner Rune&r, craft together a &bLucky Rock&r, &bMiner Guide, and &bTool Scraps&r. The power of all three in a single curio!"
+				""
+				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bMiner Rune&r. Runes can also be &acombined with each other&r to increase their power."
+			]
+			id: "445F4F289EF6B5B6"
+			rewards: [
+				{
+					id: "7EE944240FA0C957"
+					item: "majruszsaccessories:miner_rune"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D84AD8964319485"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "it's no miner feat"
+			tasks: [
+				{
+					id: "6BB2F8EE2F3A5B57"
+					item: "majruszsaccessories:lucky_rock"
+					type: "item"
+				}
+				{
+					id: "0A358DCF9C4E38C7"
+					item: "majruszsaccessories:miner_guide"
+					type: "item"
+				}
+				{
+					id: "6B3ADC908F3E0AD5"
+					item: "majruszsaccessories:tool_scraps"
+					type: "item"
+				}
+			]
+			title: "Miner Rune"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"To obtain the &bNature Rune&r, craft together a &bCertificate of Taming&r, &bIdol of Fertility, and &bTamed Potato Beetle&r. The power of all three in a single curio!"
+				""
+				"You can &acraft duplicate accessories together&r to get a chance at an accessory with &ahigher stats&r! For maximum benefit, we recommend &alevelling up your separate accessories first&r for a more powerful &bNature Rune&r. Runes can also be &acombined with each other&r to increase their power."
+			]
+			id: "2F8DE4FAD8A7B7C0"
+			rewards: [
+				{
+					id: "78A6EE5A026B9371"
+					item: "majruszsaccessories:nature_rune"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66DF5B1AF4C763CC"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "lets get super natural"
+			tasks: [
+				{
+					id: "50E6741748C54573"
+					item: "majruszsaccessories:certificate_of_taming"
+					type: "item"
+				}
+				{
+					id: "7627FBEDBAB7CA75"
+					item: "majruszsaccessories:idol_of_fertility"
+					type: "item"
+				}
+				{
+					id: "7A7D599179698F2F"
+					item: "majruszsaccessories:tamed_potato_beetle"
+					type: "item"
+				}
+			]
+			title: "Nature Rune"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2F8DE4FAD8A7B7C0"
+				"445F4F289EF6B5B6"
+				"38F251FA45EE013F"
+				"6CB0168CA2624267"
+				"1C4818496883BACB"
+				"7B0CAD41D18A523B"
+				"715C2E00945EB21F"
+				"5E55FC83CF580233"
+			]
+			description: [
+				"You did it! You got all the Runes! Shame you can't &aequip them all&r... or can you?"
+				""
+				"In a &bcrafting table&r, combine all five runes: &bAdventurer Rune&r, &bAngler Rune&r, &bHousehold Rune&r, &bMiner Rune&r, and &bNature Rune&r."
+				""
+				"The &bSoul of Minecraft&r can be equipped in your pocket."
+			]
+			id: "26FAA1B0C90DE5A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "521C65C8446F267F"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "704543E3EC552375"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			subtitle: "PHENOMENAL COSMIC POWER"
+			tasks: [
+				{
+					id: "68B92CC6BC9D8623"
+					item: "majruszsaccessories:adventurer_rune"
+					type: "item"
+				}
+				{
+					id: "3119394CAF1A1C4A"
+					item: "majruszsaccessories:angler_rune"
+					type: "item"
+				}
+				{
+					id: "15914F72D0ADD6AA"
+					item: "majruszsaccessories:household_rune"
+					type: "item"
+				}
+				{
+					id: "5C8902EF23D23FB6"
+					item: "majruszsaccessories:miner_rune"
+					type: "item"
+				}
+				{
+					id: "7851CAFD23473C56"
+					item: "majruszsaccessories:nature_rune"
+					type: "item"
+				}
+			]
+			title: "Soul of Minecraft"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&bBoosters&r allow you to add additional bonuses to your &1Majrusz's Accessories&r! Standard accessories will only allow you to attach a single booster- but &bRunes&r and the &bSoul Of Minecraft&r will allow to you to attach 2 or even 3! The effects of multiple boosters can stack."
+				""
+				"To attach a booster, simply &6combine the accessory and booster together in a crafting table&r. To remove the booster, you will need a &bRemoval Card&r."
+			]
+			id: "6CB0168CA2624267"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "101BAC03359A9EBE"
+				table_id: 8588988388222696349L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "boosty collins"
+			tasks: [{
+				id: "4170DF3B643F2340"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:maj_boosters"
+					}
+				}
+				title: "Any #forge:maj_boosters"
+				type: "item"
+			}]
+			title: "Majrusz' Boosters"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Purchased from &eWandering Traders&r, these cards can be used to modify your &1Majrusz's Accessories&r &6by crafting them together&r."
+				""
+				"The &bReverse Card&r is a Card that negates the efficiency bonus of any accessory. "
+				""
+				"The &bGambling Card&r is a Card that redraws efficiency bonus of any accessory based on the last efficiency range."
+				""
+				"The &bRemoval Card&r is a Card that returns all &bBoosters&r applied to any accessory."
+			]
+			id: "1C4818496883BACB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55347D0FFF40807D"
+				table_id: 8588988388222696349L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0677BDFCC9514FCC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:maj_cards"
+					}
+				}
+				title: "Any #forge:maj_cards"
+				type: "item"
+			}]
+			title: "Majrusz' Cards"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Welcome to the world of &1Majruzs's Accessories&r. Although at first glance, they may seem inconsequential or unhelpful, their true power lies in their &aability to be combined&r."
+				""
+				"&6Combine two or more accessories of the same type in a crafting table&r to increase its power. You can further improve or modify them by adding &bboosters&r or &bcards&r."
+			]
+			id: "5E55FC83CF580233"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2923B9BF35DCB8A1"
+				table_id: 8588988388222696349L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0FDD127011C70DAA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:maj_acs"
+					}
+				}
+				title: "Any #forge:maj_acs"
+				type: "item"
+			}]
+			title: "Majrusz Accessories"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			description: ["&bWind Chimes&r are not only a delightful visual and audible decoration, they are also useful! They have a &ePhantom&r &arepelling effect&r for up to 25 blocks!"]
+			id: "415CDFCF11DF1F52"
+			rewards: [{
+				count: 2
+				id: "0B303E5AE166CF24"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E21A1911715690C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "chimes:bamboo_chimes"
+					}
+				}
+				title: "Any #chimes:bamboo_chimes"
+				type: "item"
+			}]
+			title: "Obtain Wind Chimes"
+			x: -4.5d
+			y: -3.5d
 		}
 	]
 	title: "Equipment \\& Gear"

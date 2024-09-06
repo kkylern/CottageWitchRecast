@@ -1552,4 +1552,7 @@ ItemEvents.tooltip(e => {
     'Decorative only. Recipes use Cooking Pot.'
     )
 
+    e.add('#hexerei:infused_fabric_block',
+        'To dye, place on the ground and click with dye.'
+        )
 })

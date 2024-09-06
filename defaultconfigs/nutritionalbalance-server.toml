@@ -107,7 +107,7 @@
 
 	#Nutrient for modded foods: Add foods or tags here to add nutrients to the foods.
 	#This is usually only needed for raw ingredients. Crafted and cooked foods will get nutrients from recipe ingredients.
-	#This can be done with data packs by adding foods to item tags under forge:nutrients/<nutrientName>, but this config is here for convenience.
+	#This can be done with data packs by adding foods to item tags under forge:nutrient/<nutrientName>, but this config is here for convenience.
 	#Data packs are required to define new nutrient categories.
 	#These configs are additive on top of data packs.
 	#Run the command /nutritionalbalance get_unassigned_foods to find any foods that do not have nutrients.
@@ -122,4 +122,10 @@
 		protein_item_list = ["#forge:protein", "#forge:milk", "#forge:yogurt", "#forge:nuts", "#nourish:protein"]
 		#List of fruits.
 		fruits_item_list = ["#forge:fruits", "#forge:fruits/berry", "#nourish:fruit"]
+
+	#Lunch Box
+	[general.lunchbox]
+		#Number of inventory slots the lunchbox contains. (default: 5)
+		#Range: 1 ~ 9
+		lunchbox_slot_count = 5
 

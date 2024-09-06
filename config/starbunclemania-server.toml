@@ -2,7 +2,10 @@
 ["General Configs"]
 	#Value of milli-bucket of fluid converted in source by the sourcelink
 	#Example entry: "minecraft:lava=1.6"
-	fluid_to_source = ["starbunclemania:source_fluid=0.9", "minecraft:lava=1.6", "minecraft:milk=0.2", "create:chocolate=0.5", "create:honey=0.2"]
+	fluid_to_source = []
+	#Source cost to make a bucket of liquid source.
+	#Range: > 1
+	source_condense_cost = 1000
 	#Transfer rate of the fluid starbuncles
 	#Range: > 1
 	starbucket_ratio = 1000
@@ -21,9 +24,6 @@
 	#Threshold rate of the gas starbuncles, lower this if you need them to check and fill more often.
 	#Range: > 1
 	starballoon_threshold = 250
-	#Source cost to make a bucket of liquid source.
-	#Range: > 1
-	source_condense_cost = 1000
 
 ["Mekanism Compat"]
 	#How much energy is produced per mB of Gaseous Source

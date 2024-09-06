@@ -19,11 +19,11 @@
 	#Range: 0.1 ~ 1.0
 	compression = 0.5
 	#If it is allowed to upload custom images
-	allow_upload = false
+	allow_upload = true
 
 [image_frame]
 	#If only the owner can modify or break the image frame
-	only_owner_modify = true
+	only_owner_modify = false
 
 [advanced_data]
 	#If the image items should store additional data

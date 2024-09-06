@@ -9,6 +9,10 @@
 	hardcoreMode = false
 	#If set to TRUE then the permissions on the personal build dimension are ignored.
 	disablePersonalDimSecurity = false
+	#If set to TRUE then portals leading to the dungeon dimension will never open.
+	disableAllDungeons = false
+	#If set to TRUE then portals leading to the personal build dimension will never open.
+	disablePersonalBuildDimension = false
 	#If set to TRUE some cheats are available.
 	enableDebugCheats = false
 	#How many ticks the portal blocks cooldown for.
@@ -27,10 +31,6 @@
 	chanceForThemeKeys = 4
 	#The speed at which to build a dungeon. Value corresponds to the number of ticks skipped between chunks, to avoid lag spikes.
 	dungeonBuildSpeed = 5
-	#If set to TRUE then portals leading to the dungeon dimension will never open.
-	disableAllDungeons = false
-	#If set to TRUE then portals leading to the personal build dimension will never open.
-	disablePersonalBuildDimension = false
 
 #Options for block behavior in the dungeon dimension.
 [blocks]

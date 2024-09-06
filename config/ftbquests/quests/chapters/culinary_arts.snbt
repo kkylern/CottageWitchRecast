@@ -596,6 +596,7 @@
 			dependencies: ["76BB908C21246B36"]
 			description: [
 				"&bPropelcane&r is obtained from &bPropelplants&r, but must be &6harvested with a Knife&r. It can be chopped into &bGunpowder&r at a Cutting Board, or used to &acreate special &bPropelplant Torches&r."
+				""
 				"The &bCane&r can also be &aplanted on &bRich Soul Soil&r."
 			]
 			id: "3975B8BC61249AF4"
@@ -617,6 +618,7 @@
 			dependencies: ["236484A484723F55"]
 			description: [
 				"Before you can chow down on your &bStuffed Hoglin&r, you must first &6carve off the finest delicacy&r - the &bears&r. Delicious!"
+				""
 				"Then, you can &aobtain dishes&r from the remainder of the meal by &6clicking on the Hoglin with a bowl&r. Don't waste any!"
 			]
 			id: "4FEE0688A44D8421"
@@ -1078,6 +1080,7 @@
 			dependencies: ["6EFFB8ED37DC8A47"]
 			description: [
 				"Step one on your journey to the ultimate burger is this: the humble &bHamburger&r."
+				""
 				"The humbleburger, if you will. Hambumble? I don't know."
 			]
 			id: "717B733896BBB2AA"
@@ -1221,11 +1224,17 @@
 				type: "item"
 			}]
 			shape: "octagon"
+			subtitle: "not the band"
 			tasks: [{
-				advancement: "farmersdelight:main/use_skillet"
-				criterion: ""
-				id: "0E783661822CB045"
-				type: "advancement"
+				id: "3572E071C5CF9B13"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
 			x: -7.5d
 			y: 5.0d
@@ -1317,11 +1326,6 @@
 				{
 					id: "01D7BC66C57C941E"
 					item: "nethersdelight:raw_stuffed_hoglin"
-					type: "item"
-				}
-				{
-					id: "34EABD954322AE03"
-					item: "environmental:truffle_pie"
 					type: "item"
 				}
 			]

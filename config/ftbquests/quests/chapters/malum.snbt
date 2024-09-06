@@ -415,28 +415,16 @@
 					type: "loot"
 				}
 			]
-			tasks: [
-				{
-					hasCustomPicture: false
-					icon: "malum:runewood_totem_base"
-					id: "05848037D3E48FFA"
-					ignoreState: false
-					layer: true
-					name: "runewood_totem"
-					rightclick: false
-					type: "questsadditions:structure"
-				}
-				{
-					block: "malum:runewood_log"
-					block_type: 0
-					checkItem: true
-					id: "30F7F8D68281568B"
-					isItemInteraction: false
-					item: "malum:arcane_spirit"
-					type: "questsadditions:use"
-					value: 5L
-				}
-			]
+			tasks: [{
+				block: "malum:runewood_log"
+				block_type: 0
+				checkItem: true
+				id: "30F7F8D68281568B"
+				isItemInteraction: false
+				item: "malum:arcane_spirit"
+				type: "questsadditions:use"
+				value: 5L
+			}]
 			title: "Unchaining the Rites"
 			x: 1.5d
 			y: 2.0d

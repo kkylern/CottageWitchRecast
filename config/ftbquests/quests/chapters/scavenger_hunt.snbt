@@ -203,6 +203,11 @@
 		}
 		{
 			id: "78FB1E1156B8A23C"
+			rewards: [{
+				id: "05CA7722F9BC19F5"
+				item: "plushies:magma_cube"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "463361D76A636956"

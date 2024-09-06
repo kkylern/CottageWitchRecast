@@ -24,6 +24,7 @@
 		{
 			description: [
 				"Normally, to get to &dThe End&r requires regular old &bEnder Eyes&r, for both seeking and filling the portal frames. However, magic has warped this world, making it more difficult to face the final dimension."
+				""
 				"There are, instead, 16 other eyes (of which you need 12), which can be found in various ways. &6See the following quests&r for more information on them."
 			]
 			id: "19ED6330FD3E968C"
@@ -86,7 +87,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["The &bNether Eye&r once belonged to a demon, who lost it in a might battle between the Aether and Nether. It can be found in chests inside - you guessed it - &dNether Fortresses&r."]
+			description: ["The &bNether Eye&r once belonged to a demon, who lost it in a mighty battle between the Aether and Nether. It can be found in chests inside - you guessed it - &dNether Fortresses&r."]
 			id: "2C24C18C174AD842"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -466,11 +467,18 @@
 			dependencies: ["2499CAE3934539A8"]
 			description: ["You killed the Dragon twice? Well, my goodness."]
 			id: "73EAABCF703B9DC9"
-			rewards: [{
-				id: "531F56AEE724EECA"
-				item: "minecraft:dragon_egg"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "531F56AEE724EECA"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "0D656C5065D53344"
+					item: "plushies:dragon"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Well that's just excessive"
 			tasks: [{
@@ -632,6 +640,28 @@
 			}]
 			x: 3.5d
 			y: -1.5d
+		}
+		{
+			description: [
+				"The &bEye of Ender&r was once used to find the &cStrongholds&r of old. However, these no longer function the way they once did."
+				""
+				"To locate the &cStronghold&r, the modern witch uses an &bExplorer's Compass&r! You can also throw &bEyes&r from &lEnd Remastered&r, but as they are harder to come by, this is not advised."
+			]
+			id: "5DD607B9370D81A5"
+			rewards: [{
+				count: 4
+				id: "2C0D6895556D2BE9"
+				item: "minecraft:cobweb"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3677FDA10CF32625"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: "The End"

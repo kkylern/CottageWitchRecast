@@ -221,6 +221,9 @@ ServerEvents.recipes(event => {
         {output: 'candlelight:gold_ring'},
         {output: 'incubation:chicken_egg_crate'},
         {output: 'luphieclutteredmod:small_shelf'},
+        {id: 'netherdepthsupgrade:eyeball'},
+        {id: 'netherdepthsupgrade:fortress_grouper_plate'},
+        {output: 'luphieclutteredmod:luphie_plated_blueberry_muffin'}
     ];
     
       for (const remove of toRemove) {
