@@ -1,10 +1,11 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "translate": "cottagewitch.tip.text",
       "bold": true,
-      "color": "green"
+      "underlined": true,
+      "color": "white"
     },
     "tip": {
-      "text": "You can mute any sound in the game with Extreme Sound Muffler. By default, press F6 to access its menu."
+      "translate": "cottagewitch.tip.soundmuffler"
     }
   }

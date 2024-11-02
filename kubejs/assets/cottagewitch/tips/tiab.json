@@ -1,10 +1,11 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "translate": "cottagewitch.tip.text",
       "bold": true,
-      "color": "green"
+      "underlined": true,
+      "color": "white"
     },
     "tip": {
-      "text": "Time in a Bottle is an item used to speed up progress on things like Furnaces, Compost, and even Cheese wheels! It accumulates time while held in your inventory or placed in a Curio slot."
+      "translate": "cottagewitch.tip.tiab"
     }
 }

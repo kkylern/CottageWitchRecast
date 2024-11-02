@@ -1,10 +1,11 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "translate": "cottagewitch.tip.text",
       "bold": true,
-      "color": "green"
+      "underlined": true,
+      "color": "white"
     },
     "tip": {
-      "text": "Villagers will follow you if you are holding an emerald block."
+      "translate": "cottagewitch.tip.villagers"
     }
   }

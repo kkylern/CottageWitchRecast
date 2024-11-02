@@ -1,10 +1,11 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "translate": "cottagewitch.tip.text",
       "bold": true,
-      "color": "green"
+      "underlined": true,
+      "color": "white"
     },
     "tip": {
-      "text": "Totems of Undying can be equipped as Curios (worn accessories, separate from armor). Your curios inventory is accessed via the button to the upper left of your character portrait in inventory."
+      "translate": "cottagewitch.tip.curios"
     }
   }

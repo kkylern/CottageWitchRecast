@@ -1,10 +1,11 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "translate": "cottagewitch.tip.text",
       "bold": true,
-      "color": "green"
+      "underlined": true,
+      "color": "white"
     },
     "tip": {
-      "text": "Press - to access your Quests without using the Quest Book. These are designed to guide you through the mods in the pack, and reward you while doing so!"
+      "translate": "cottagewitch.tip.quests"
     }
   }

@@ -1,10 +1,11 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "translate": "cottagewitch.tip.text",
       "bold": true,
-      "color": "green"
+      "underlined": true,
+      "color": "white"
     },
     "tip": {
-      "text": "Using Shears on a Hay Bale will make a Thatch block."
+      "translate": "cottagewitch.tip.thatch"
     }
   }
